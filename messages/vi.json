@@ -1,0 +1,432 @@
+{
+  "Common": {
+    "loading": "Đang tải...",
+    "style": "Phong cách",
+    "copy": "Sao chép",
+    "back": "Quay lại",
+    "more": "Xem thêm",
+    "less": "Thu gọn",
+    "prompt": "Gợi ý",
+    "model": "Mô hình",
+    "share": {
+      "linkSharing": "hoặc chia sẻ bằng liên kết",
+      "plzLogin": "Vui lòng đăng nhập trước.",
+      "download": "Tải xuống",
+      "twitter": "Twitter",
+      "facebook": "Facebook"
+    }
+  },
+  "Navigation": {
+    "title": "Trình tạo ảnh Grok 2 AI",
+    "tools": "Công cụ AI",
+    "flux-ai-image-generator": "Trình tạo ảnh Grok 2 AI",
+    "flux-ai-image-generator-content": "Văn bản thành hình ảnh bởi Grok 2 AI",
+    "flux-ai-medal-generator": "Trình tạo huy hiệu Grok 2 AI",
+    "flux-ai-medal-generator-content": "Văn bản thành hình ảnh huy hiệu bởi Grok 2 AI",
+    "flux-ai-sticker-generator": "Trình tạo sticker Grok 2 AI",
+    "flux-ai-sticker-generator-content": "Văn bản thành sticker bởi Grok 2 AI",
+    "flux-ai-anime-generator": "Trình tạo anime Grok 2 AI",
+    "flux-ai-anime-generator-content": "Văn bản thành hình ảnh anime bởi Grok 2 AI",
+    "dream-ai-video": "Ảnh thành Video",
+    "prompt-market": "Gợi ý hình ảnh",
+    "pricing": "Định giá",
+    "blog": "Blog",
+    "freeTry": "Dùng thử miễn phí",
+    "menu": "menu",
+    "close": "đóng",
+    "logout": "Đăng xuất",
+    "logoutSuccessful": "Đăng xuất thành công",
+    "profile": {
+      "credits": "Tín dụng",
+      "top-up": "Nạp tiền",
+      "user-info": "Thông tin người dùng",
+      "history": "lịch sử",
+      "order": "Hồ sơ đơn hàng",
+      "logout": "Đăng xuất"
+    }
+  },
+  "Footer": {
+    "title": "Trình tạo hình ảnh Grok 2 AI",
+    "subTitle": "Trải nghiệm bước tiến mới trong tạo hình ảnh AI với grokimagegenerator.net!",
+    "support": "Hỗ trợ",
+    "manageSubscribe": "Quản lý đăng ký",
+    "privacy": "Chính sách bảo mật",
+    "termsConditions": "Điều khoản & Điều kiện",
+    "contactUs": "Liên hệ chúng tôi",
+    "feature-link": "Tính năng",
+    "feature": {
+      "flux-ai-image-generator": "Trình tạo hình ảnh Grok 2 AI",
+      "pricing": "Quản lý đăng ký",
+      "blog": "Blog",
+      "profile": "Lịch sử tạo"
+    }
+  },
+  "Faq": {
+    "title": "Câu hỏi thường gặp về Trình tạo hình ảnh Grok 2 AI",
+    "1": {
+      "question": "Grok 2 AI là gì?",
+      "answer": "Grok 2 AI là trình tạo hình ảnh AI siêu nhanh, tạo ra hình ảnh chất lượng cao trong vài giây, vượt trội hơn các đối thủ như Stable Diffusion 3 và Midjourney."
+    },
+    "2": {
+      "question": "Các tính năng chính của Grok 2 AI là gì?",
+      "answer": "Grok 2 AI cung cấp chất lượng hình ảnh vượt trội, giao diện thân thiện với người dùng, và các tính năng nâng cao như Flux.1 Pro để kiểm soát tốt hơn và Flux.1 Schnell để lặp lại nhanh chóng."
+    },
+    "3": {
+      "question": "Làm thế nào để sử dụng Grok 2 AI?",
+      "answer": "Chỉ cần truy cập grokimagegenerator.net, nhập gợi ý của bạn, và xem Grok 2 AI tạo ra hình ảnh tuyệt đẹp trong vài giây."
+    },
+    "4": {
+      "question": "Grok 2 AI cung cấp những gói giá nào?",
+      "answer": "Grok 2 AI cung cấp gói Miễn phí (60 tín dụng), Cơ bản ($9.99 cho 5000 tín dụng), Thông thường ($9.99/tháng cho 5000 tín dụng), và Phổ biến ($14.99/tháng cho 8000 tín dụng)."
+    },
+    "5": {
+      "question": "Có gói miễn phí cho Grok 2 AI không?",
+      "answer": "Có, Grok 2 AI cung cấp gói miễn phí với 60 tín dụng, hình ảnh chất lượng cao, và truy cập vào tính năng Flux.1 Schnell."
+    },
+    "6": {
+      "question": "Grok 2 AI so sánh như thế nào với các trình tạo hình ảnh AI khác?",
+      "answer": "Grok 2 AI nhanh hơn Midjourney, thân thiện với người dùng hơn ComfyUI, và tạo ra hình ảnh chất lượng cao hơn nhiều đối thủ cạnh tranh bằng cách sử dụng mô hình Flux.1 pro tiên tiến."
+    },
+    "7": {
+      "question": "Tôi có thể sử dụng Grok 2 AI cho các dự án thương mại không?",
+      "answer": "Có, Grok 2 AI cho phép sử dụng hình ảnh được tạo ra cho mục đích thương mại."
+    },
+    "8": {
+      "question": "Grok 2 AI có mã nguồn mở không?",
+      "answer": "Có, Grok 2 AI là mã nguồn mở và có sẵn trên cả GitHub và Hugging Face."
+    },
+    "9": {
+      "question": "Grok 2 AI được cập nhật thường xuyên như thế nào?",
+      "answer": "Để biết thông tin cập nhật mới nhất về Grok 2 AI, vui lòng kiểm tra https://github.com/black-forest-labs/flux."
+    },
+    "10": {
+      "question": "Có ứng dụng di động cho Grok 2 AI không?",
+      "answer": "Hiện tại, Grok 2 AI là ứng dụng web tại grokimagegenerator.net. Các tùy chọn di động đang được xem xét cho các phiên bản tương lai."
+    },
+    "11": {
+      "question": "Làm thế nào để tôi nhận được hỗ trợ cho Grok 2 AI?",
+      "answer": "Để được hỗ trợ, bạn có thể liên hệ với contact@grokimagegenerator.net."
+    }
+  },
+  "NotFound": {
+    "title": "404 Không tìm thấy trang",
+    "goHome": "VỀ TRANG CHỦ"
+  },
+  "Error": {
+    "title": "Đã xảy ra lỗi!",
+    "retry": "Thử lại"
+  },
+  "Home": {
+    "vortex": {
+      "title": "Trình tạo hình ảnh Grok 2 AI",
+      "content": "Cách mạng hóa mô hình mở Văn bản thành Hình ảnh Tiên tiến Thế hệ Mới, hỗ trợ các mô hình flux.1 pro và flux.1 schnell."
+    },
+    "coreFeatures": {
+      "title": "Tính năng nâng cao của Grok 2 AI",
+      "subTitle": "Grok 2 AI là công cụ tạo hình ảnh AI tiên tiến, chuyển đổi văn bản thành hình ảnh chất lượng cao.",
+      "1": {
+        "title": "Tạo hình nhanh như chớp",
+        "subTitle": "Tạo hình ảnh chất lượng cao trong vài giây, vượt trội hơn Stable Diffusion 3 và Midjourney."
+      },
+      "2": {
+        "title": "Chất lượng hình ảnh vô song",
+        "subTitle": "Trải nghiệm chi tiết và sự nhất quán vượt trội với mô hình Flux.1 tiên tiến."
+      },
+      "3": {
+        "title": "Giao diện thân thiện",
+        "subTitle": "Tận hưởng nền tảng trực quan, dễ sử dụng hơn ComfyUI, phù hợp cho cả người mới và chuyên gia."
+      },
+      "4": {
+        "title": "Chuyển đổi văn bản thành hình ảnh đơn giản",
+        "subTitle": "Chỉ cần nhập yêu cầu tại grokimagegenerator.net và xem Grok 2 AI tạo ra hình ảnh tuyệt đẹp ngay lập tức."
+      },
+      "5": {
+        "title": "Tùy chọn kiểm soát nâng cao",
+        "subTitle": "Khám phá Flux.1 Pro để kiểm soát tốt hơn và Flux.1 Schnell để lặp lại nhanh, đáp ứng nhu cầu sáng tạo đa dạng."
+      }
+    },
+    "tools": {
+      "title": "Khơi Dậy Sáng Tạo của Bạn với Công Cụ Grok 2 AI",
+      "content": "Khám phá bộ sưu tập công cụ thú vị và dễ sử dụng của chúng tôi được hỗ trợ bởi Grok 2 AI. Biến ý tưởng của bạn thành hình ảnh tuyệt đẹp trong vài giây, không cần chuyên môn. Sẵn sàng tạo ra một số phép thuật AI chưa?",
+      "flux-ai-image-generator": {
+        "title": "Trình Tạo Hình Ảnh Grok 2 AI",
+        "content": "Khám phá Trình Tạo Hình Ảnh Grok 2 AI, một công cụ mạnh mẽ biến văn bản thành hình ảnh tuyệt đẹp bằng cách sử dụng AI. Với Grok 2 AI, tạo hình ảnh độc đáo một cách dễ dàng. Các tính năng chính bao gồm chuyển đổi văn bản thành hình ảnh, tùy chỉnh phong cách cho các kiểu dáng và màu sắc cá nhân hóa, và tạo kết quả tức thì. Nâng cao nội dung hình ảnh của bạn với Grok 2 AI."
+      },
+      "flux-ai-anime-generator": {
+        "title": "Trình Tạo Anime Grok 2 AI",
+        "content": "Khám phá Trình Tạo Anime Grok 2 AI, một công cụ tiên tiến sử dụng AI để biến văn bản và hình ảnh thành tác phẩm nghệ thuật phong cách anime độc đáo. Với các tính năng như chuyển đổi văn bản thành anime, đầu ra chất lượng cao và giao diện thân thiện với người dùng, Grok 2 AI cung cấp vô số khả năng sáng tạo cho cả người mới bắt đầu và nghệ sĩ có kinh nghiệm. Tùy chỉnh phong cách dễ dàng và khám phá thế giới sống động của Anime AI với Grok 2 AI."
+      },
+      "flux-ai-medal-generator": {
+        "title": "Trình Tạo Huy Chương Grok 2 AI",
+        "content": "Khám phá Trình Tạo Huy Chương Grok 2 AI, một công cụ cách mạng sử dụng AI để tạo ra các thiết kế huy chương độc đáo và cá nhân hóa. Với Grok 2 AI, tận hưởng các giải pháp thiết kế hiệu quả và tiết kiệm chi phí đảm bảo mỗi huy chương là duy nhất. Chọn từ nhiều kiểu dáng phù hợp với mọi dịp mà không cần kỹ năng thiết kế nâng cao. Tạo ra những huy chương ấn tượng một cách thuận tiện từ nhà hoặc văn phòng của bạn, và làm cho giải thưởng của bạn thực sự nổi bật. Trải nghiệm sự kết hợp giữa đổi mới và sáng tạo với Trình Tạo Huy Chương AI của Grok 2 AI ngay hôm nay."
+      }
+    }
+  },
+  "prompt-market": {
+    "title": "Hình ảnh Grok 2 AI",
+    "content": "Khám phá hình ảnh AI từ Grok 2 AI.",
+    "placeholder": "Tìm kiếm hình ảnh",
+    "tabs": {
+      "all": "TẤT CẢ",
+      "Wallpaper": "Hình nền",
+      "Anime": "Anime",
+      "Medal": "Huy chương",
+      "DailyBible": "Kinh thánh hàng ngày"
+    },
+    "category": {
+      "all": "ALL",
+      "1821564383445254146": "Hình nền",
+      "1821564438273196033": "Anime",
+      "1821564498067193857": "Huy chương",
+      "1821564562948882433": "Kinh thánh hàng ngày"
+    }
+  },
+  "flux-ai": {
+    "form": {
+      "promptPlaceholder": "Nhập lời nhắc ở đây",
+      "noPromptInput": "Nhập lời nhắc ở đây",
+      "generate": "tạo",
+      "optimizePrompt": "Tối ưu hóa lời nhắc",
+      "public": "công khai",
+      "resolution": "độ phân giải",
+      "style": "Mô hình",
+      "material": "Chất liệu huy chương",
+      "shape": "Hình dạng huy chương",
+      "anime type": "Loại anime",
+      "imageHere": "Kết quả hình ảnh",
+      "checkDetail": "Kiểm tra chi tiết",
+      "medal": {
+        "material": {
+          "Pure Gold": "Vàng nguyên chất",
+          "Pure Silver": "Bạc nguyên chất",
+          "Bronze": "Đồng",
+          "Gold-Plated Copper": "Đồng mạ vàng",
+          "Platinum-Plated": "Mạ bạch kim",
+          "Palladium-Plated": "Mạ paladi",
+          "Rose Gold": "Vàng hồng",
+          "Titanium Alloy-Plated": "Mạ hợp kim titan",
+          "Nickel-Plated": "Mạ niken",
+          "Stainless Steel": "Thép không gỉ"
+        },
+        "shape": {
+          "Round": "Tròn",
+          "Oval": "Oval",
+          "Star-Shaped": "Hình ngôi sao",
+          "Square": "Vuông",
+          "Hexagon": "Lục giác",
+          "Octagon": "Bát giác",
+          "Teardrop": "Hình giọt nước mắt",
+          "Heart-Shaped": "Hình trái tim",
+          "Triangle": "Tam giác",
+          "Parallelogram": "Hình bình hành"
+        }
+      },
+      "anime": {
+        "type": {
+          "anime girl": "cô gái anime",
+          "anime boy": "cậu bé anime",
+          "anime landscape": "phong cảnh anime"
+        }
+      }
+    },
+    "discover": {
+      "title": "khám phá",
+      "more": "Thêm"
+    },
+    "image": {
+      "title": "Trình tạo ảnh Grok 2 AI",
+      "content": "Biến văn bản thành hình ảnh đẹp mắt với các mô hình Flux.1 Pro và Flux.1 Schnell."
+    },
+    "medal": {
+      "title": "Trình tạo huy chương Grok 2 AI",
+      "content": "Tạo huy chương AI độc đáo với trình tạo ảnh sáng tạo của Grok 2 AI."
+    },
+    "anime": {
+      "title": "Trình tạo anime Grok 2 AI",
+      "content": "Biến văn bản thành nghệ thuật anime AI độc đáo với trình tạo mạnh mẽ của Grok 2 AI."
+    }
+  },
+  "Pricing": {
+    "title": "Gói và Giá",
+    "subTitle": "Nhận Credits để tận hưởng dịch vụ chuyên nghiệp của Grok 2 AI",
+    "off": "GIẢM GIÁ",
+    "tokens": "CREDITS",
+    "purchase": "Bắt đầu",
+    "subscribed": "Đã đăng ký",
+    "discount": "GIẢM GIÁ",
+    "type": {
+      "monthly": "Hàng tháng",
+      "yearly": "Hàng năm",
+      "one-time": "Một lần"
+    },
+    "package_type": {
+      "POPULAR": "PHỔ BIẾN",
+      "COMMON": "THÔNG THƯỜNG",
+      "BASIC": "CƠ BẢN"
+    },
+    "insufficientDialog": {
+      "title": "Không đủ Credits",
+      "cancel": "Hủy",
+      "pricing": "Nhận Credits"
+    },
+    "content": {
+      "POPULAR": "Giảm 25%\nMô hình không giới hạn\nTối đa 80 hình ảnh Flux.1 Pro\nTối đa 800 hình ảnh Flux.1 Schnell\nLựa chọn không công khai\nGiấy phép thương mại",
+      "COMMON": "Giảm 20%\nMô hình không giới hạn\nTối đa 50 hình ảnh Flux.1 Pro\nTối đa 500 hình ảnh Flux.1 Schnell\nLựa chọn không công khai\nGiấy phép thương mại",
+      "BASIC": "Mô hình không giới hạn\nTối đa 40 hình ảnh Flux.1 Pro\nTối đa 400 hình ảnh Flux.1 Schnell\nLựa chọn không công khai\nGiấy phép thương mại"
+    },
+    "pricingImageDialog": {
+      "title": "Nâng cấp để Tạo",
+      "close": "Đóng",
+      "tokens": "Credits",
+      "upgrade": "Nâng cấp Ngay",
+      "more": "Chi tiết"
+    },
+    "payment": {
+      "success": "Thanh toán thành công",
+      "Home": "Trang chủ",
+      "redirect": "Chuyển hướng về trang chủ trong"
+    }
+  },
+  "Signup": {
+    "welcome": "Đăng ký grokimagegenerator.net",
+    "haveAccount": "Đã có tài khoản?",
+    "goTologin": "Đăng nhập",
+    "email": "Email",
+    "emailPlaceholder": "Nhập email của bạn",
+    "userName": "Biệt danh",
+    "userNamePlaceholder": "Nhập tên của bạn",
+    "password": "Mật khẩu",
+    "passwordPlaceholder": "Nhập mật khẩu của bạn",
+    "Signup": "Đăng ký",
+    "confirm": "Xác nhận",
+    "siginGoogle": "Đăng ký bằng Google",
+    "signupSuccessful": "Đăng ký thành công",
+    "networkError": "Lỗi mạng",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "confirmPasswordPlaceholder": "Xác nhận mật khẩu của bạn",
+    "pinCode": "Mã xác minh",
+    "enterCode": "Nhập mã xác minh gồm sáu chữ số",
+    "passwordNotMatch": "Hai mật khẩu không khớp"
+  },
+  "Login": {
+    "welcome": "Chào mừng đến grokimagegenerator.net",
+    "noAccount": "Chưa có tài khoản?",
+    "createOne": "Tạo ngay!",
+    "email": "Địa chỉ email",
+    "emailPlaceholder": "Nhập email của bạn",
+    "password": "Mật khẩu",
+    "passwordPlaceholder": "Nhập mật khẩu của bạn",
+    "login": "Đăng nhập",
+    "confirm": "Xác nhận",
+    "siginGoogle": "Đăng nhập bằng Google",
+    "loginSuccessful": "Đăng nhập thành công",
+    "networkError": "Lỗi mạng",
+    "plzLogin": "Vui lòng đăng nhập trước",
+    "cancel": "hủy",
+    "goToLogin": "Đi đến đăng nhập",
+    "tryAgain": "Đăng nhập thất bại, vui lòng thử lại",
+    "forgotPassword": "Quên mật khẩu?",
+    "forgotPasswordTitle": "Đổi mật khẩu",
+    "rememberPassword": "Nhớ mật khẩu của bạn?",
+    "changePasswordTitle": "Đổi mật khẩu",
+    "changePasswordSubTitle": "Đổi mật khẩu",
+    "pinCode": "Mã xác minh",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "confirmPasswordPlaceholder": "Xác nhận mật khẩu của bạn",
+    "loginExpireDialog": {
+      "loginExpireDialogTitle": "Đăng nhập hết hạn, vui lòng đăng nhập lại.",
+      "loginExpireDialogDialogCancel": "Hủy",
+      "loginExpireDialogOk": "Đi đến đăng nhập"
+    }
+  },
+  "Logout": {
+    "title": "Xác nhận thoát?",
+    "cancel": "hủy",
+    "logout": "Đăng xuất",
+    "logoutSuccessful": "Đăng xuất thành công"
+  },
+  "Profile": {
+    "common": {
+      "latest": "Mới nhất",
+      "oldest": "Cũ nhất"
+    },
+    "user-info": {
+      "email": "Địa chỉ email",
+      "creditExplanation": "Credits: Dùng cho dịch vụ tạo Grok 2 AI.",
+      "support": "Có câu hỏi? Liên hệ chúng tôi tại:"
+    },
+    "order": {
+      "number": "Mã đơn hàng",
+      "packageType": "Gói",
+      "amount": "Số tiền",
+      "tokens": "Credits",
+      "no-data": "Không tìm thấy đơn hàng",
+      "price": "Giá",
+      "type": {
+        "monthly": "Hàng tháng",
+        "yearly": "Hàng năm",
+        "oneTime": "Một lần"
+      },
+      "unsubscribe": {
+        "btn": "Hủy đăng ký",
+        "subscribedExpireTime": "Hết hạn vào:",
+        "dialog-title": "Xác nhận hủy",
+        "confirmMessage": "Bạn có chắc chắn muốn hủy đăng ký không?",
+        "cancel": "Hủy",
+        "ok": "Có, hủy đăng ký"
+      }
+    }
+  },
+  "Metadata": {
+    "common": {
+      "siteName": "grokimagegenerator.net",
+      "creator": "grokimagegenerator.net"
+    },
+    "home": {
+      "title": "Trình tạo hình ảnh Grok 2 AI",
+      "description": "Cách mạng hóa mô hình mở Văn bản thành Hình ảnh Tiên tiến Thế hệ Mới, hỗ trợ các mô hình flux.1 pro và flux.1 schnell.",
+      "keywords": "Grok 2 AI, Trình tạo hình ảnh AI",
+      "openGraph": {
+        "title": "grokimagegenerator.net",
+        "description": "Cách mạng hóa mô hình mở Văn bản thành Hình ảnh Tiên tiến Thế hệ Mới, hỗ trợ các mô hình flux.1 pro và flux.1 schnell.",
+        "siteName": "grokimagegenerator.net"
+      },
+      "twitter": {
+        "title": "Trình tạo hình ảnh Grok 2 AI",
+        "description": "Cách mạng hóa mô hình mở Văn bản thành Hình ảnh Tiên tiến Thế hệ Mới, hỗ trợ các mô hình flux.1 pro và flux.1 schnell.",
+        "site": "grokimagegenerator.net",
+        "creator": "Trình tạo hình ảnh Grok 2 AI"
+      }
+    },
+    "flux-ai": {
+      "image": {
+        "title": "Trình Tạo Hình Ảnh Grok 2 AI | grokimagegenerator.net",
+        "description": "Biến từ ngữ thành hình ảnh tuyệt đẹp với các mô hình Flux.1 Pro và Flux.1 Schnell. Nhanh chóng, dễ dàng và chất lượng cao – hiện thực hóa ý tưởng của bạn ngay lập tức!"
+      },
+      "medal": {
+        "title": "Trình Tạo Huy Chương Grok 2 AI | grokimagegenerator.net",
+        "description": "Thiết kế huy chương AI độc đáo một cách dễ dàng với trình tạo sáng tạo và cá nhân hóa của Grok 2 AI."
+      },
+      "anime": {
+        "title": "Trình Tạo Anime Grok 2 AI | grokimagegenerator.net",
+        "description": "Tạo nghệ thuật anime AI tuyệt đẹp với trình tạo mạnh mẽ và thân thiện với người dùng của Grok 2 AI."
+      }
+    },
+    "generation": {
+      "title": "Trình Tạo Hình Ảnh Grok 2 AI | grokimagegenerator.net",
+      "description": "Biến từ ngữ thành hình ảnh tuyệt đẹp với các mô hình Flux.1 Pro và Flux.1 Schnell."
+    },
+    "prompt-market": {
+      "title": "Gợi ý hình ảnh Grok 2 AI",
+      "description": "Khám phá các gợi ý được tạo bởi AI cho Grok 2 AI. Khám phá và tạo ra hình ảnh tuyệt đẹp từ các nghệ sĩ toàn cầu. Khơi dậy sự sáng tạo của bạn!"
+    },
+    "pricing": {
+      "title": "Giá cả | grokimagegenerator.net",
+      "description": "Giá cả | grokimagegenerator.net"
+    },
+    "blog": {
+      "title": "Blog của grokimagegenerator.net",
+      "titleSuffix": "grokimagegenerator.net"
+    }
+  }
+}

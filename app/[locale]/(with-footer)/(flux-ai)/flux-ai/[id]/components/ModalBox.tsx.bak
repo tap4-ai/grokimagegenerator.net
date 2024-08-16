@@ -1,0 +1,109 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
+import useLocalModalStore from '@/store/useLocalModalStore';
+import usePricingDialogStore from '@/store/usePricingDialogStore';
+import useUserInfoStore from '@/store/useUserInfoStore';
+import { Minus } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+
+import { ModalObject } from '@/lib/constants';
+import { cn } from '@/lib/utils';
+import BaseImage from '@/components/image/BaseImage';
+
+type Props = {
+  modalList: ModalObject[];
+};
+
+function ImageCpn({
+  styleName,
+  modelName,
+  isPaidUser,
+  isNow,
+  nowString,
+  isPaid,
+  handleNotPaidUser,
+  goToHome,
+  setLocalModal,
+}: ModalObject & {
+  isNow: boolean;
+  nowString: string;
+  isPaidUser: boolean;
+  handleNotPaidUser: () => void;
+  setLocalModal: (modal: string) => void;
+  goToHome: () => void;
+}) {
+  const onClick = () => {
+    if (!isPaidUser && isPaid) {
+      handleNotPaidUser();
+      return;
+    }
+    setLocalModal(modelName);
+    goToHome();
+  };
+
+  return (
+    <button type='button' onClick={onClick}>
+      <div className='flex-y-center group overflow-hidden'>
+        <div className='relative'>
+          <BaseImage
+            src={`/images/modals/${styleName}.png`}
+            title={styleName}
+            alt={styleName}
+            width={56}
+            height={56}
+            className='rounded-[14px] border border-transparent group-hover:border-white'
+          />
+          <div
+            className={cn(
+              isNow
+                ? 'flex-xy-center absolute bottom-0 w-full rounded-b-[13px] bg-[#FF5E875E] text-center text-[10px] uppercase'
+                : 'hidden',
+            )}
+          >
+            {nowString}
+          </div>
+        </div>
+        <span className='w-[56px] truncate group-hover:text-white'>{styleName}</span>
+      </div>
+    </button>
+  );
+}
+
+export default function ModalBox({ modalList }: Props) {
+  const t = useTranslations('Anime.modal');
+  const router = useRouter();
+  const userInfo = useUserInfoStore((state) => state.userInfo);
+  const isPaidUser = !!userInfo?.isValidity;
+  const setLocalModal = useLocalModalStore((state) => state.setLocalModal);
+  const setOpenPricingDialogStore = usePricingDialogStore((state) => state.setOpen);
+
+  const goToHome = () => {
+    router.push('/');
+  };
+
+  return (
+    <div className='font-roboto flex flex-col gap-2'>
+      <div className='flex gap-3'>
+        <h3 className='flex items-center gap-1 capitalize'>
+          <Minus /> {t('detail')}
+        </h3>
+      </div>
+      <div className='flex gap-[18px] rounded-[21px] border-[0.5px] border-[#2F2A37] !bg-dark-bg p-4 text-xs font-normal tracking-wide text-white/70'>
+        {modalList.map((item, idx) => (
+          <ImageCpn
+            key={item.styleName}
+            // eslint-disable-next-line react/jsx-props-no-spreading
+            {...item}
+            isNow={idx === 0}
+            nowString={t('now')}
+            isPaidUser={isPaidUser}
+            handleNotPaidUser={() => setOpenPricingDialogStore(true)}
+            goToHome={goToHome}
+            setLocalModal={setLocalModal}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}

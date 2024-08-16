@@ -1,0 +1,63 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
+import { ImageResponseVo } from '@/network/image';
+import useDefaultModalStore from '@/store/useDefaultModalStore';
+import usePricingDialofgStore from '@/store/usePricingDialogStore';
+import useUserInfoStore from '@/store/useUserInfoStore';
+
+import {
+  MODAL_LIST,
+  RESOLUTION_LIST,
+  TATTOO_HINT_FIRST,
+  TATTOO_HINT_SECOND,
+  TATTOO_HINT_SPLITOR,
+} from '@/lib/constants';
+import { filterString } from '@/lib/utils/stringUtils';
+
+export default function SameModalBtn({ children, detail }: { children: React.ReactNode; detail: ImageResponseVo }) {
+  const router = useRouter();
+
+  const userInfo = useUserInfoStore((state) => state.userInfo);
+  const setOpenPricingDialogStore = usePricingDialofgStore((state) => state.setOpen);
+  const updateDefaultStore = useDefaultModalStore((state) => state.updateDefaultStore);
+
+  const modal = MODAL_LIST.find((item) => item.modelName === detail.modelName);
+
+  const splitedContent = detail.prompt.split(TATTOO_HINT_SPLITOR);
+  const styleContent = filterString(splitedContent[0], TATTOO_HINT_FIRST).trim();
+  const promptContent = filterString(splitedContent[1], TATTOO_HINT_SECOND).trim();
+
+  const onClick = () => {
+    if (modal?.isPaid && !userInfo) {
+      setOpenPricingDialogStore(true);
+      return;
+    }
+
+    if (modal?.isPaid && !userInfo?.isValidity) {
+      setOpenPricingDialogStore(true);
+      return;
+    }
+    const matchResolution = RESOLUTION_LIST.some((item) => item.value === detail.resolution);
+
+    updateDefaultStore({
+      prompt: promptContent,
+      style: styleContent,
+      nagativePrompt: detail.negativePrompt,
+      modal: detail.modelName,
+      resolution: matchResolution ? detail.resolution : RESOLUTION_LIST[0].value,
+    });
+
+    router.push('/');
+  };
+
+  return (
+    <button
+      type='button'
+      onClick={onClick}
+      className='rounded-[14px] bg-white px-8 py-3 capitalize text-[#402D5E] hover:opacity-80'
+    >
+      {children}
+    </button>
+  );
+}

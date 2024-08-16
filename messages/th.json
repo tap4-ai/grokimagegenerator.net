@@ -1,0 +1,433 @@
+{
+  "Common": {
+    "loading": "กำลังโหลด...",
+    "style": "สไตล์",
+    "copy": "คัดลอก",
+    "back": "กลับ",
+    "more": "เพิ่มเติม",
+    "less": "น้อยลง",
+    "prompt": "พรอมต์",
+    "model": "โมเดล",
+    "share": {
+      "linkSharing": "หรือแชร์ด้วยลิงก์",
+      "plzLogin": "กรุณาเข้าสู่ระบบก่อน",
+      "download": "ดาวน์โหลด",
+      "twitter": "ทวิตเตอร์",
+      "facebook": "เฟซบุ๊ก"
+    }
+  },
+  "Navigation": {
+    "title": "Grok 2 AI ตัวสร้างภาพ",
+    "tools": "เครื่องมือ AI",
+    "flux-ai-image-generator": "Grok 2 AI ตัวสร้างภาพ",
+    "flux-ai-image-generator-content": "ข้อความเป็นภาพโดย Grok 2 AI",
+    "flux-ai-medal-generator": "Grok 2 AI ตัวสร้างเหรียญ",
+    "flux-ai-medal-generator-content": "ข้อความเป็นภาพเหรียญโดย Grok 2 AI",
+    "flux-ai-sticker-generator": "Grok 2 AI ตัวสร้างสติ๊กเกอร์",
+    "flux-ai-sticker-generator-content": "ข้อความเป็นสติ๊กเกอร์โดย Grok 2 AI",
+    "flux-ai-anime-generator": "Grok 2 AI ตัวสร้างอนิเมะ",
+    "flux-ai-anime-generator-content": "ข้อความเป็นภาพอนิเมะโดย Grok 2 AI",
+    "dream-ai-video": "ภาพถ่ายเป็นวิดีโอ",
+    "prompt-market": "ข้อความสำหรับภาพ",
+    "pricing": "ราคา",
+    "blog": "บล็อก",
+    "freeTry": "ลองใช้ฟรี",
+    "menu": "เมนู",
+    "close": "ปิด",
+    "logout": "ออกจากระบบ",
+    "logoutSuccessful": "ออกจากระบบสำเร็จ",
+    "profile": {
+      "credits": "เครดิต",
+      "top-up": "เติมเงิน",
+      "user-info": "ข้อมูลผู้ใช้",
+      "history": "ประวัติ",
+      "order": "ประวัติการสั่งซื้อ",
+      "logout": "ออกจากระบบ"
+    }
+  },
+  "Footer": {
+    "title": "Grok 2 AI สร้างภาพ",
+    "subTitle": "สัมผัสนวัตกรรมใหม่ในการสร้างภาพด้วย AI ที่ grokimagegenerator.net!",
+    "support": "ช่วยเหลือ",
+    "manageSubscribe": "จัดการการสมัคร",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "termsConditions": "ข้อกำหนดและเงื่อนไข",
+    "contactUs": "ติดต่อเรา",
+    "feature-link": "คุณสมบัติ",
+    "feature": {
+      "flux-ai-image-generator": "Grok 2 AI สร้างภาพ",
+      "pricing": "จัดการการสมัคร",
+      "blog": "บล็อก",
+      "profile": "ประวัติการสร้าง"
+    }
+  },
+
+  "Faq": {
+    "title": "คำถามที่พบบ่อยเกี่ยวกับเครื่องมือสร้างภาพ Grok 2 AI",
+    "1": {
+      "question": "Grok 2 AI คืออะไร?",
+      "answer": "Grok 2 AI เป็นเครื่องมือสร้างภาพด้วยปัญญาประดิษฐ์ที่รวดเร็วเหมือนพายุฟ้าแลบ สามารถสร้างภาพคุณภาพสูงได้ในเวลาเพียงไม่กี่วินาที โดยมีประสิทธิภาพเหนือกว่าคู่แข่งอย่าง Stable Diffusion 3 และ Midjourney"
+    },
+    "2": {
+      "question": "คุณสมบัติหลักของ Grok 2 AI คืออะไร?",
+      "answer": "Grok 2 AI มอบคุณภาพภาพที่ไม่มีใครเทียบได้ พร้อมด้วยหน้าจอการใช้งานที่เป็นมิตรต่อผู้ใช้ และฟีเจอร์ขั้นสูงอย่าง Flux.1 Pro สำหรับการควบคุมที่ดียิ่งขึ้น และ Flux.1 Schnell สำหรับการสร้างภาพอย่างรวดเร็ว"
+    },
+    "3": {
+      "question": "ฉันจะใช้ Grok 2 AI ได้อย่างไร?",
+      "answer": "เพียงเข้าไปที่ grokimagegenerator.net พิมพ์คำสั่งของคุณ และรอดูการสร้างสรรค์ภาพวิจิตรงดงามด้วย Grok 2 AI ในเวลาเพียงไม่กี่วินาที"
+    },
+    "4": {
+      "question": "Grok 2 AI มีแผนการชำระเงินแบบใดบ้าง?",
+      "answer": "Grok 2 AI มีแผนฟรี (60 เครดิต), แผนพื้นฐาน ($9.99 สำหรับ 5000 เครดิต), แผนทั่วไป ($9.99/เดือน สำหรับ 5000 เครดิต) และแผนยอดนิยม ($14.99/เดือน สำหรับ 8000 เครดิต)"
+    },
+    "5": {
+      "question": "มีแผนฟรีสำหรับ Grok 2 AI หรือไม่?",
+      "answer": "ใช่ Grok 2 AI มีแผนฟรีที่ให้ 60 เครดิต ภาพคุณภาพสูง และการเข้าถึงฟีเจอร์ Flux.1 Schnell"
+    },
+    "6": {
+      "question": "Grok 2 AI เปรียบเทียบกับเครื่องมือสร้างภาพด้วยปัญญาประดิษฐ์อื่นๆ อย่างไร?",
+      "answer": "Grok 2 AI เร็วกว่า Midjourney ใช้งานง่ายกว่า ComfyUI และสร้างภาพคุณภาพสูงกว่าคู่แข่งรายอื่นๆ มากมาย โดยใช้โมเดล Flux.1 pro ขั้นสูง"
+    },
+    "7": {
+      "question": "ฉันสามารถใช้ Grok 2 AI สำหรับโครงการเชิงพาณิชย์ได้หรือไม่?",
+      "answer": "ได้ Grok 2 AI อนุญาตให้ใช้ภาพที่สร้างขึ้นเพื่อการพาณิชย์"
+    },
+    "8": {
+      "question": "Grok 2 AI เป็นโอเพนซอร์สหรือไม่?",
+      "answer": "ใช่ Grok 2 AI เป็นโอเพนซอร์สและมีให้ใช้งานทั้งบน GitHub และ Hugging Face"
+    },
+    "9": {
+      "question": "Grok 2 AI มีการอัปเดตบ่อยแค่ไหน?",
+      "answer": "สำหรับการอัปเดตล่าสุดของ Grok 2 AI โปรดเข้าไปที่ https://github.com/black-forest-labs/flux"
+    },
+    "10": {
+      "question": "มีแอพมือถือสำหรับ Grok 2 AI หรือไม่?",
+      "answer": "ปัจจุบัน Grok 2 AI เป็นเว็บแอปพลิเคชันที่ grokimagegenerator.net ทางทีมงานกำลังพิจารณาตัวเลือกสำหรับมือถือในการออกแบบต่อไป"
+    },
+    "11": {
+      "question": "ฉันจะขอรับการสนับสนุนสำหรับ Grok 2 AI ได้อย่างไร?",
+      "answer": "สำหรับการสนับสนุน คุณสามารถติดต่อมาที่ contact@grokimagegenerator.net"
+    }
+  },
+  "NotFound": {
+    "title": "404 ไม่พบหน้า",
+    "goHome": "กลับสู่หน้าหลัก"
+  },
+  "Error": {
+    "title": "เกิดข้อผิดพลาด!",
+    "retry": "ลองอีกครั้ง"
+  },
+  "Home": {
+    "vortex": {
+      "title": "Grok 2 AI สร้างภาพ",
+      "content": "ปฏิวัติโมเดลเปิดแปลงข้อความเป็นภาพขั้นสูงรุ่นใหม่ รองรับโมเดล flux.1 pro และ flux.1 schnell"
+    },
+    "coreFeatures": {
+      "title": "คุณสมบัติขั้นสูงของ Grok 2 AI",
+      "subTitle": "Grok 2 AI คือเครื่องมือสร้างภาพ AI ล้ำสมัยที่แปลงข้อความเป็นภาพคุณภาพสูง",
+      "1": {
+        "title": "สร้างภาพเร็วดั่งสายฟ้า",
+        "subTitle": "สร้างภาพคุณภาพสูงในไม่กี่วินาที เหนือกว่า Stable Diffusion 3 และ Midjourney"
+      },
+      "2": {
+        "title": "คุณภาพภาพไร้คู่แข่ง",
+        "subTitle": "สัมผัสรายละเอียดและความสอดคล้องที่เหนือชั้นด้วยโมเดล Flux.1 ขั้นสูง"
+      },
+      "3": {
+        "title": "อินเตอร์เฟซใช้งานง่าย",
+        "subTitle": "เพลิดเพลินกับแพลตฟอร์มที่ใช้งานง่ายกว่า ComfyUI เหมาะสำหรับทั้งมือใหม่และมืออาชีพ"
+      },
+      "4": {
+        "title": "แปลงข้อความเป็นภาพอย่างง่ายดาย",
+        "subTitle": "เพียงพิมพ์คำสั่งที่ grokimagegenerator.net และดู Grok 2 AI สร้างภาพสวยงามทันที"
+      },
+      "5": {
+        "title": "ตัวเลือกควบคุมขั้นสูง",
+        "subTitle": "ค้นพบ Flux.1 Pro สำหรับการควบคุมที่ดีขึ้น และ Flux.1 Schnell สำหรับการทำซ้ำอย่างรวดเร็ว ตอบสนองความต้องการสร้างสรรค์ที่หลากหลาย"
+      }
+    },
+    "tools": {
+      "title": "จุดประกายความคิดสร้างสรรค์ของคุณด้วยเครื่องมือ Grok 2 AI",
+      "content": "สำรวจคอลเล็กชันเครื่องมือที่สนุกและใช้งานง่ายของเราที่ขับเคลื่อนโดย Grok 2 AI แปลงความคิดของคุณให้เป็นภาพที่น่าทึ่งในไม่กี่วินาทีโดยไม่ต้องมีความเชี่ยวชาญ พร้อมที่จะสร้างเวทมนตร์ AI แล้วหรือยัง?",
+      "flux-ai-image-generator": {
+        "title": "ตัวสร้างภาพ Grok 2 AI",
+        "content": "ค้นพบตัวสร้างภาพ Grok 2 AI ซึ่งเป็นเครื่องมือที่ทรงพลังที่เปลี่ยนข้อความเป็นภาพที่น่าทึ่งโดยใช้ AI ด้วย Grok 2 AI สร้างภาพที่ไม่ซ้ำกันได้อย่างง่ายดาย คุณสมบัติหลักรวมถึงการแปลงข้อความเป็นภาพ การปรับแต่งสไตล์สำหรับสไตล์และสีที่เป็นส่วนตัว และการสร้างผลลัพธ์แบบทันที ยกระดับเนื้อหาภาพของคุณด้วย Grok 2 AI"
+      },
+      "flux-ai-anime-generator": {
+        "title": "ตัวสร้างอนิเมะ Grok 2 AI",
+        "content": "ค้นพบตัวสร้างอนิเมะ Grok 2 AI ซึ่งเป็นเครื่องมือที่ล้ำสมัยที่ใช้ AI ในการเปลี่ยนข้อความและภาพเป็นงานศิลปะแบบอนิเมะที่ไม่ซ้ำใคร ด้วยคุณสมบัติการแปลงข้อความเป็นอนิเมะ ผลลัพธ์คุณภาพสูง และอินเทอร์เฟซที่ใช้งานง่าย Grok 2 AI มอบความเป็นไปได้ที่สร้างสรรค์ไม่รู้จบสำหรับทั้งผู้เริ่มต้นและศิลปินที่มีประสบการณ์ ปรับแต่งสไตล์ได้อย่างง่ายดายและสำรวจโลกที่มีชีวิตชีวาของ AI Anime กับ Grok 2 AI"
+      },
+      "flux-ai-medal-generator": {
+        "title": "ตัวสร้างเหรียญ Grok 2 AI",
+        "content": "ค้นพบตัวสร้างเหรียญ Grok 2 AI ซึ่งเป็นเครื่องมือปฏิวัติที่ใช้ AI ในการสร้างการออกแบบเหรียญที่ไม่ซ้ำใครและเป็นส่วนตัว ด้วย Grok 2 AI เพลิดเพลินกับโซลูชันการออกแบบที่มีประสิทธิภาพและคุ้มค่าที่รับประกันว่าเหรียญแต่ละเหรียญจะมีเอกลักษณ์ เลือกจากสไตล์ที่หลากหลายเพื่อให้เหมาะกับทุกโอกาสโดยไม่จำเป็นต้องมีทักษะการออกแบบขั้นสูง สร้างเหรียญที่น่าประทับใจได้อย่างสะดวกสบายจากที่บ้านหรือที่ทำงานของคุณ และทำให้รางวัลของคุณโดดเด่นอย่างแท้จริง สัมผัสกับการผสมผสานระหว่างนวัตกรรมและความคิดสร้างสรรค์ด้วยตัวสร้างเหรียญ AI ของ Grok 2 AI วันนี้"
+      }
+    }
+  },
+  "prompt-market": {
+    "title": "ภาพ Grok 2 AI",
+    "content": "สำรวจภาพที่สร้างโดย AI ของ Grok 2 AI",
+    "placeholder": "ค้นหาภาพ",
+    "tabs": {
+      "all": "ทั้งหมด",
+      "Wallpaper": "วอลเปเปอร์",
+      "Anime": "อนิเมะ",
+      "Medal": "เหรียญรางวัล",
+      "DailyBible": "พระคัมภีร์ประจำวัน"
+    },
+    "category": {
+      "all": "ALL",
+      "1821564383445254146": "วอลเปเปอร์",
+      "1821564438273196033": "อนิเมะ",
+      "1821564498067193857": "เหรียญรางวัล",
+      "1821564562948882433": "พระคัมภีร์ประจำวัน"
+    }
+  },
+  "flux-ai": {
+    "form": {
+      "promptPlaceholder": "ป้อนคำสั่งที่นี่",
+      "noPromptInput": "ป้อนคำสั่งที่นี่",
+      "generate": "สร้าง",
+      "optimizePrompt": "ปรับปรุงคำสั่ง",
+      "public": "สาธารณะ",
+      "resolution": "ความละเอียด",
+      "style": "รูปแบบ",
+      "material": "วัสดุเหรียญ",
+      "shape": "รูปร่างเหรียญ",
+      "anime type": "ประเภทอนิเมะ",
+      "imageHere": "ผลลัพธ์ภาพ",
+      "checkDetail": "ตรวจสอบรายละเอียด",
+      "medal": {
+        "material": {
+          "Pure Gold": "ทองคำบริสุทธิ์",
+          "Pure Silver": "เงินบริสุทธิ์",
+          "Bronze": "ทองแดง",
+          "Gold-Plated Copper": "ทองแดงเคลือบทองคำ",
+          "Platinum-Plated": "เคลือบแพลตินัม",
+          "Palladium-Plated": "เคลือบพาลาเดียม",
+          "Rose Gold": "ทองคำรัสเซีย",
+          "Titanium Alloy-Plated": "เคลือบทิทาเนียมอลลอย",
+          "Nickel-Plated": "เคลือบนิกเกิล",
+          "Stainless Steel": "สแตนเลส"
+        },
+        "shape": {
+          "Round": "กลม",
+          "Oval": "รูปไข่",
+          "Star-Shaped": "รูปดาว",
+          "Square": "สี่เหลี่ยม",
+          "Hexagon": "หกเหลี่ยม",
+          "Octagon": "แปดเหลี่ยม",
+          "Teardrop": "รูปหยดน้ำ",
+          "Heart-Shaped": "รูปหัวใจ",
+          "Triangle": "สามเหลี่ยม",
+          "Parallelogram": "รูปสี่เหลี่ยมคางหมู"
+        }
+      },
+      "anime": {
+        "type": {
+          "anime girl": "สาวอนิเมะ",
+          "anime boy": "หนุ่มอนิเมะ",
+          "anime landscape": "ภูมิทัศน์อนิเมะ"
+        }
+      }
+    },
+    "discover": {
+      "title": "ค้นพบ",
+      "more": "เพิ่มเติม"
+    },
+    "image": {
+      "title": "ตัวสร้างภาพ Grok 2 AI",
+      "content": "แปลงคำเป็นภาพที่งดงามด้วยรูปแบบ Flux.1 Pro และ Flux.1 Schnell"
+    },
+    "medal": {
+      "title": "ตัวสร้างเหรียญ Grok 2 AI",
+      "content": "สร้างเหรียญ AI ที่ไม่ซ้ำใครด้วยตัวสร้างภาพนวัตกรรมของ Grok 2 AI"
+    },
+    "anime": {
+      "title": "ตัวสร้างอนิเมะ Grok 2 AI",
+      "content": "แปลงข้อความเป็นศิลปะอนิเมะ AI ที่ไม่ซ้ำใครด้วยตัวสร้างที่ทรงพลังของ Grok 2 AI"
+    }
+  },
+  "Pricing": {
+    "title": "แผนและราคา",
+    "subTitle": "รับเครดิตเพื่อเพลิดเพลินกับบริการระดับมืออาชีพของ Grok 2 AI",
+    "off": "ส่วนลด",
+    "tokens": "เครดิต",
+    "purchase": "เริ่มต้นใช้งาน",
+    "subscribed": "สมัครสมาชิกแล้ว",
+    "discount": "ส่วนลด",
+    "type": {
+      "monthly": "รายเดือน",
+      "yearly": "รายปี",
+      "one-time": "ครั้งเดียว"
+    },
+    "package_type": {
+      "POPULAR": "ยอดนิยม",
+      "COMMON": "ทั่วไป",
+      "BASIC": "พื้นฐาน"
+    },
+    "insufficientDialog": {
+      "title": "เครดิตไม่เพียงพอ",
+      "cancel": "ยกเลิก",
+      "pricing": "รับเครดิต"
+    },
+    "content": {
+      "POPULAR": "ส่วนลด 25%\nโมเดลไม่จำกัด\nสูงสุด 80 ภาพ Flux.1 Pro\nสูงสุด 800 ภาพ Flux.1 Schnell\nเลือกใช้แบบไม่เปิดเผย\nใบอนุญาตเชิงพาณิชย์",
+      "COMMON": "ส่วนลด 20%\nโมเดลไม่จำกัด\nสูงสุด 50 ภาพ Flux.1 Pro\nสูงสุด 500 ภาพ Flux.1 Schnell\nเลือกใช้แบบไม่เปิดเผย\nใบอนุญาตเชิงพาณิชย์",
+      "BASIC": "โมเดลไม่จำกัด\nสูงสุด 40 ภาพ Flux.1 Pro\nสูงสุด 400 ภาพ Flux.1 Schnell\nเลือกใช้แบบไม่เปิดเผย\nใบอนุญาตเชิงพาณิชย์"
+    },
+    "pricingImageDialog": {
+      "title": "อัพเกรดเพื่อการสร้าง",
+      "close": "ปิด",
+      "tokens": "เครดิต",
+      "upgrade": "อัพเกรดเดี๋ยวนี้",
+      "more": "รายละเอียด"
+    },
+    "payment": {
+      "success": "ชำระเงินสำเร็จ",
+      "Home": "หน้าหลัก",
+      "redirect": "กำลังนำกลับไปยังหน้าหลักใน"
+    }
+  },
+  "Signup": {
+    "welcome": "สมัครสมาชิก grokimagegenerator.net",
+    "haveAccount": "มีบัญชีอยู่แล้ว?",
+    "goTologin": "เข้าสู่ระบบ",
+    "email": "อีเมล",
+    "emailPlaceholder": "ป้อนอีเมลของคุณ",
+    "userName": "ชื่อเล่น",
+    "userNamePlaceholder": "ป้อนชื่อของคุณ",
+    "password": "รหัสผ่าน",
+    "passwordPlaceholder": "ป้อนรหัสผ่านของคุณ",
+    "Signup": "สมัครสมาชิก",
+    "confirm": "ยืนยัน",
+    "siginGoogle": "สมัครด้วย Google",
+    "signupSuccessful": "สมัครสมาชิกสำเร็จ",
+    "networkError": "ข้อผิดพลาดเครือข่าย",
+    "confirmPassword": "ยืนยันรหัสผ่าน",
+    "confirmPasswordPlaceholder": "ยืนยันรหัสผ่านของคุณ",
+    "pinCode": "รหัสยืนยัน",
+    "enterCode": "ป้อนรหัสยืนยัน 6 หลัก",
+    "passwordNotMatch": "รหัสผ่านสองครั้งไม่ตรงกัน"
+  },
+  "Login": {
+    "welcome": "ยินดีต้อนรับสู่ grokimagegenerator.net",
+    "noAccount": "ยังไม่มีบัญชี?",
+    "createOne": "สร้างเลย!",
+    "email": "ที่อยู่อีเมล",
+    "emailPlaceholder": "ป้อนอีเมลของคุณ",
+    "password": "รหัสผ่าน",
+    "passwordPlaceholder": "ป้อนรหัสผ่านของคุณ",
+    "login": "เข้าสู่ระบบ",
+    "confirm": "ยืนยัน",
+    "siginGoogle": "เข้าสู่ระบบด้วย Google",
+    "loginSuccessful": "เข้าสู่ระบบสำเร็จ",
+    "networkError": "ข้อผิดพลาดเครือข่าย",
+    "plzLogin": "กรุณาเข้าสู่ระบบก่อน",
+    "cancel": "ยกเลิก",
+    "goToLogin": "ไปหน้าเข้าสู่ระบบ",
+    "tryAgain": "เข้าสู่ระบบล้มเหลว โปรดลองอีกครั้ง",
+    "forgotPassword": "ลืมรหัสผ่าน?",
+    "forgotPasswordTitle": "เปลี่ยนรหัสผ่าน",
+    "rememberPassword": "จำรหัสผ่านได้แล้ว?",
+    "changePasswordTitle": "เปลี่ยนรหัสผ่าน",
+    "changePasswordSubTitle": "เปลี่ยนรหัสผ่าน",
+    "pinCode": "รหัสยืนยัน",
+    "confirmPassword": "ยืนยันรหัสผ่าน",
+    "confirmPasswordPlaceholder": "ยืนยันรหัสผ่านของคุณ",
+    "loginExpireDialog": {
+      "loginExpireDialogTitle": "การเข้าสู่ระบบหมดอายุ กรุณาเข้าสู่ระบบอีกครั้ง",
+      "loginExpireDialogDialogCancel": "ยกเลิก",
+      "loginExpireDialogOk": "ไปหน้าเข้าสู่ระบบ"
+    }
+  },
+  "Logout": {
+    "title": "ยืนยันการออกจากระบบ?",
+    "cancel": "ยกเลิก",
+    "logout": "ออกจากระบบ",
+    "logoutSuccessful": "ออกจากระบบสำเร็จ"
+  },
+  "Profile": {
+    "common": {
+      "latest": "ล่าสุด",
+      "oldest": "เก่าที่สุด"
+    },
+    "user-info": {
+      "email": "ที่อยู่อีเมล",
+      "creditExplanation": "เครดิต: ใช้สำหรับบริการสร้าง Grok 2 AI",
+      "support": "มีคำถาม? ติดต่อเราที่:"
+    },
+    "order": {
+      "number": "รหัสคำสั่งซื้อ",
+      "packageType": "แผน",
+      "amount": "จำนวนเงิน",
+      "tokens": "เครดิต",
+      "no-data": "ไม่พบคำสั่งซื้อ",
+      "price": "ราคา",
+      "type": {
+        "monthly": "รายเดือน",
+        "yearly": "รายปี",
+        "oneTime": "ครั้งเดียว"
+      },
+      "unsubscribe": {
+        "btn": "ยกเลิกการสมัครสมาชิก",
+        "subscribedExpireTime": "หมดอายุเมื่อ:",
+        "dialog-title": "ยืนยันการยกเลิก",
+        "confirmMessage": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการสมัครสมาชิก?",
+        "cancel": "ยกเลิก",
+        "ok": "ใช่ ยกเลิกการสมัครสมาชิก"
+      }
+    }
+  },
+  "Metadata": {
+    "common": {
+      "siteName": "grokimagegenerator.net",
+      "creator": "grokimagegenerator.net"
+    },
+    "home": {
+      "title": "Grok 2 AI สร้างภาพ",
+      "description": "ปฏิวัติโมเดลเปิดแปลงข้อความเป็นภาพขั้นสูงรุ่นใหม่ รองรับโมเดล flux.1 pro และ flux.1 schnell",
+      "keywords": "Grok 2 AI, เครื่องมือสร้างภาพ AI",
+      "openGraph": {
+        "title": "grokimagegenerator.net",
+        "description": "ปฏิวัติโมเดลเปิดแปลงข้อความเป็นภาพขั้นสูงรุ่นใหม่ รองรับโมเดล flux.1 pro และ flux.1 schnell",
+        "siteName": "grokimagegenerator.net"
+      },
+      "twitter": {
+        "title": "Grok 2 AI สร้างภาพ",
+        "description": "ปฏิวัติโมเดลเปิดแปลงข้อความเป็นภาพขั้นสูงรุ่นใหม่ รองรับโมเดล flux.1 pro และ flux.1 schnell",
+        "site": "grokimagegenerator.net",
+        "creator": "Grok 2 AI สร้างภาพ"
+      }
+    },
+    "flux-ai": {
+      "image": {
+        "title": "ตัวสร้างภาพ Grok 2 AI | grokimagegenerator.net",
+        "description": "เปลี่ยนคำพูดให้เป็นภาพที่น่าทึ่งด้วยโมเดล Flux.1 Pro และ Flux.1 Schnell เร็ว ง่าย และคุณภาพสูง – ทำให้ไอเดียของคุณมีชีวิตชีวาทันที!"
+      },
+      "medal": {
+        "title": "ตัวสร้างเหรียญ Grok 2 AI | grokimagegenerator.net",
+        "description": "ออกแบบเหรียญ AI ที่ไม่เหมือนใครอย่างง่ายดายด้วยตัวสร้างที่เป็นนวัตกรรมและปรับแต่งได้ของ Grok 2 AI"
+      },
+      "anime": {
+        "title": "ตัวสร้างอนิเมะ Grok 2 AI | grokimagegenerator.net",
+        "description": "สร้างงานศิลปะอนิเมะ AI ที่น่าทึ่งด้วยตัวสร้างที่ทรงพลังและใช้งานง่ายของ Grok 2 AI"
+      }
+    },
+    "generation": {
+      "title": "ตัวสร้างภาพ Grok 2 AI | grokimagegenerator.net",
+      "description": "เปลี่ยนคำให้เป็นภาพที่สวยงามด้วยโมเดล Flux.1 Pro และ Flux.1 Schnell."
+    },
+    "prompt-market": {
+      "title": "คำสั่งสร้างภาพ Grok 2 AI",
+      "description": "สำรวจคำสั่งที่สร้างโดย AI สำหรับ Grok 2 AI ค้นพบและสร้างภาพที่สวยงามจากศิลปินทั่วโลก จุดประกายความคิดสร้างสรรค์ของคุณ!"
+    },
+    "pricing": {
+      "title": "การกำหนดราคา | grokimagegenerator.net",
+      "description": "การกำหนดราคา | grokimagegenerator.net"
+    },
+    "blog": {
+      "title": "บล็อกของ grokimagegenerator.net",
+      "titleSuffix": "grokimagegenerator.net"
+    }
+  }
+}

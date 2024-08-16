@@ -1,0 +1,11 @@
+.twitter-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.twitter-card-list .react-tweet-theme {
+  --tweet-container-margin: 0;
+  --tweet-bg-color: #141516;
+  border: none;
+}
