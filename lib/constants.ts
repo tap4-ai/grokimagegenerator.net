@@ -276,4 +276,6 @@ export const HOME_OUTER_LINKS = [
   { name: 'Woy AI', href: 'https://woy.ai/' },
   { name: 'Tap4 AI', href: 'https://tap4.ai/' },
   { name: 'AI WITH.Me', href: 'https://aiwith.me/' },
+  { name: 'BAI.tools', href: 'https://bai.tools/' },
+  { name: 'Dokey AI', href: 'https://dokeyai.com/' },
 ];
