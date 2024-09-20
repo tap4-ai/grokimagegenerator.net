@@ -10,32 +10,32 @@
     "model": "モデル",
     "share": {
       "linkSharing": "またはリンクで共有",
-      "plzLogin": "先にログインしてください。",
+      "plzLogin": "まずログインしてください。",
       "download": "ダウンロード",
       "twitter": "Twitter",
       "facebook": "Facebook"
     }
   },
   "Navigation": {
-    "title": "Grok 2 AI 画像ジェネレーター",
-    "tools": "AI ツール",
-    "flux-ai-image-generator": "Grok 2 AI 画像ジェネレーター",
-    "flux-ai-image-generator-content": "Grok 2 AI によるテキストから画像",
-    "flux-ai-medal-generator": "Grok 2 AI メダルジェネレーター",
-    "flux-ai-medal-generator-content": "Grok 2 AI によるテキストからメダル画像",
-    "flux-ai-sticker-generator": "Grok 2 AI ステッカージェネレーター",
-    "flux-ai-sticker-generator-content": "Grok 2 AI によるテキストからステッカー",
-    "flux-ai-anime-generator": "Grok 2 AI アニメジェネレーター",
-    "flux-ai-anime-generator-content": "Grok 2 AI によるテキストからアニメ画像",
-    "dream-ai-video": "写真から動画へ",
+    "title": "Grok AI画像生成",
+    "tools": "AIツール",
+    "flux-ai-image-generator": "Grok AI画像生成",
+    "flux-ai-image-generator-content": "Grok AI画像生成によるテキストから画像へ",
+    "flux-ai-medal-generator": "AIメダル生成",
+    "flux-ai-medal-generator-content": "Grok AI画像生成によるテキストからメダル画像へ",
+    "flux-ai-sticker-generator": "Grok AI画像生成ステッカー生成",
+    "flux-ai-sticker-generator-content": "Grok AI画像生成によるテキストからステッカーへ",
+    "flux-ai-anime-generator": "Grokアニメ生成",
+    "flux-ai-anime-generator-content": "Grok AI画像生成によるテキストからアニメ画像へ",
+    "dream-ai-video": "写真からビデオへ",
     "prompt-market": "画像プロンプト",
-    "pricing": "価格設定",
+    "pricing": "価格",
     "blog": "ブログ",
     "freeTry": "無料トライアル",
     "menu": "メニュー",
     "close": "閉じる",
     "logout": "ログアウト",
-    "logoutSuccessful": "ログアウトに成功しました",
+    "logoutSuccessful": "ログアウト成功",
     "profile": {
       "credits": "クレジット",
       "top-up": "チャージ",
@@ -46,8 +46,8 @@
     }
   },
   "Footer": {
-    "title": "Grok 2 AI画像生成ツール",
-    "subTitle": "grokimagegenerator.netで次世代AI画像生成を体験しよう！",
+    "title": "Grok AI画像生成",
+    "subTitle": "grokimagegenerator.netで次世代のAI画像生成を体験しましょう！",
     "support": "サポート",
     "manageSubscribe": "サブスクリプション管理",
     "privacy": "プライバシーポリシー",
@@ -55,67 +55,94 @@
     "contactUs": "お問い合わせ",
     "feature-link": "機能",
     "feature": {
-      "flux-ai-image-generator": "Grok 2 AI画像生成ツール",
+      "flux-ai-image-generator": "Grok AI画像生成",
       "pricing": "サブスクリプション管理",
       "blog": "ブログ",
       "profile": "生成履歴"
     }
   },
   "Faq": {
-    "title": "Grok 2 AI 画像生成器のよくある質問",
+    "title": "Grok AI画像生成のFAQ",
     "1": {
-      "question": "Grok 2 AIとは何ですか？",
-      "answer": "Grok 2 AIは、Stable Diffusion 3やMidjourneyを凌ぐ高品質な画像を数秒で生成する超高速AI画像生成ツールです。"
+      "question": "Grok AI画像生成とは何ですか？",
+      "answer": "Grok AI画像生成は、数秒で高品質の画像を生成する、競合他社よりも高速なAI画像生成ツールです。Stable Diffusion 3やMidjourneyなどの競合他社を凌ぐ性能を持っています。"
     },
     "2": {
-      "question": "Grok 2 AIの主な特徴は何ですか？",
-      "answer": "Grok 2 AIは、比類のない画質、ユーザーフレンドリーなインターフェース、Flux.1 Proによる高度な制御、Flux.1 Schnellによる高速反復などの先進機能を提供します。"
+      "question": "Grok AI画像生成の主な特徴は何ですか？",
+      "answer": "Grok AI画像生成は、高品質の画像、ユーザーフレンドリーなインターフェース、そしてFlux.1 ProやFlux.1 Schnellなどの高度な機能を提供します。"
     },
     "3": {
-      "question": "Grok 2 AIの使い方を教えてください。",
-      "answer": "grokimagegenerator.netにアクセスし、プロンプトを入力するだけで、数秒で素晴らしい画像が生成されます。"
+      "question": "Grok AI画像生成の使い方は？",
+      "answer": "grokimagegenerator.netにアクセスし、プロンプトを入力するだけで、Grok AI画像生成が数秒で美しいビジュアルを作成します。"
     },
     "4": {
-      "question": "Grok 2 AIの料金プランを教えてください。",
-      "answer": "無料プラン（60クレジット）、ベーシックプラン（$9.99で5000クレジット）、コモンプラン（月額$9.99で5000クレジット）、人気プラン（月額$14.99で8000クレジット）があります。"
+      "question": "Grok AI画像生成の価格プランは？",
+      "answer": "Grok AI画像生成は、無料（60クレジット）、ベーシック（5000クレジットで9.99ドル）、コモン（月額9.99ドルで5000クレジット）、ポピュラー（月額14.99ドルで8000クレジット）のプランを提供しています。"
     },
     "5": {
-      "question": "Grok 2 AIに無料プランはありますか？",
-      "answer": "はい、60クレジット、高品質画像生成、Flux.1 Schnell機能へのアクセスを含む無料プランがあります。"
+      "question": "Grok AI画像生成には無料プランがありますか？",
+      "answer": "はい、Grok AI画像生成は60クレジット、高品質の画像、そしてFlux.1 Schnell機能へのアクセスを含む無料プランを提供しています。"
     },
     "6": {
-      "question": "Grok 2 AIは他のAI画像生成ツールと比べてどうですか？",
-      "answer": "Grok 2 AIはMidjourneyより高速で、ComfyUIより使いやすく、先進的なFlux.1 proモデルを使用して多くの競合他社より高品質な画像を生成します。"
+      "question": "Grok AI画像生成は他のAI画像生成ツールとどう違いますか？",
+      "answer": "Grok AI画像生成はMidjourneyよりも高速で、ComfyUIよりも使いやすく、高度なFlux.1 Proモデルを使用して多くの競合他社よりも高品質の画像を生成します。"
     },
     "7": {
-      "question": "Grok 2 AIで生成した画像を商用利用できますか？",
-      "answer": "はい、Grok 2 AIで生成した画像の商用利用が可能です。"
+      "question": "Grok AI画像生成は商用プロジェクトに使用できますか？",
+      "answer": "はい、Grok AI画像生成で生成された画像は商用利用が可能です。"
     },
     "8": {
-      "question": "Grok 2 AIはオープンソースですか？",
-      "answer": "はい、Grok 2 AIはオープンソースで、GitHubとHugging Faceで利用可能です。"
+      "question": "Grok AI画像生成はオープンソースですか？",
+      "answer": "はい、Grok AI画像生成はオープンソースで、GitHubとHugging Faceで利用可能です。"
     },
     "9": {
-      "question": "Grok 2 AIの更新頻度はどのくらいですか？",
-      "answer": "Grok 2 AIの最新の更新については、https://github.com/black-forest-labs/flux をご確認ください。"
+      "question": "Grok AI画像生成はどのくらいの頻度で更新されますか？",
+      "answer": "Grok AI画像生成の最新の更新については、https://github.com/black-forest-labs/fluxを確認してください。"
     },
     "10": {
-      "question": "Grok 2 AIのモバイルアプリはありますか？",
-      "answer": "現在、Grok 2 AIはgrokimagegenerator.netのウェブベースです。将来のリリースでモバイルオプションを検討中です。"
+      "question": "Grok AI画像生成にモバイルアプリはありますか？",
+      "answer": "現在、Grok AI画像生成はgrokimagegenerator.netでウェブベースです。モバイルオプションは将来のリリースで検討されています。"
     },
     "11": {
-      "question": "Grok 2 AIのサポートを受けるにはどうすればいいですか？",
-      "answer": "サポートが必要な場合は、contact@grokimagegenerator.netまでお問い合わせください。"
+      "question": "Grok AI画像生成のサポートはどうすれば受けられますか？",
+      "answer": "サポートについては、contact@grokimagegenerator.netに連絡してください。"
     }
   },
   "FooterNavigation": {
     "privacyPolicy": {
       "1-h1": "grokimagegenerator.netのプライバシーポリシー",
-      "1-p": "このプライバシーポリシーは、grokimagegenerator.netでのサービス利用時におけるGrok 2 AIの個人情報の収集、使用、保護方法を説明しています。Grok 2 AIを使用することで、このポリシーの条件に同意したものとみなされます。"
+      "1-p": "このプライバシーポリシーは、Grok AI画像生成がgrokimagegenerator.netでサービスを利用する際に、どのように個人情報を収集、使用、保護するかを説明しています。Grok AI画像生成を使用することで、このポリシーに記載された条件に同意したものとみなされます。",
+      "2-h2": "1. 情報の収集と使用",
+      "2-p": "Grok AI画像生成は、サービスの改善のために個人を特定できる情報を収集する場合があります。第三者サービスを使用して、あなたを特定するための情報を収集する場合もあります。",
+      "3-h2": "2. ログデータ",
+      "3-p": "エラーが発生した場合、IPアドレス、デバイス情報、アプリの設定、使用統計などのログデータを収集します。",
+      "4-h2": "3. クッキー",
+      "4-p": "Grok AI画像生成は、第三者のコードやライブラリを使用してクッキーを使用する場合があります。これらのクッキーを受け入れるか拒否するかを選択できますが、拒否すると一部の機能が制限される場合があります。",
+      "5-h2": "4. サービスプロバイダー",
+      "5-p": "サービスの提供、関連タスクの実行、Grok AI画像生成の使用状況の分析などのために、第三者企業を雇用する場合があります。これらの当事者はあなたの個人情報にアクセスできますが、機密性を維持する義務があります。",
+      "6-h2": "5. セキュリティ",
+      "6-p": "商業的に受け入れられる手段を使用して、あなたの個人情報を保護するよう努めていますが、絶対的なセキュリティを保証することはできません。",
+      "7-h2": "6. 外部サイトへのリンク",
+      "7-p": "Grok AI画像生成には外部サイトへのリンクが含まれる場合があります。これらのサイトのコンテンツやプライバシー慣行については責任を負いません。",
+      "8-h2": "7. プライバシーポリシーの変更",
+      "8-p": "プライバシーポリシーは定期的に更新される場合があります。変更についてはこのページを確認してください。更新は投稿された時点で即時に有効となります。"
     },
     "termsConditions": {
       "1-h1": "grokimagegenerator.netの利用規約",
-      "1-p": "grokimagegenerator.netへようこそ！当ウェブサイトはAI画像生成サービスを提供しています。当ウェブサイトを利用することで、これらの利用規約に同意したものとみなされます。同意できない部分がある場合は、ウェブサイトの利用をお控えください。"
+      "1-p": "grokimagegenerator.netへようこそ！当ウェブサイトはAIを利用した画像生成サービスを提供しています。当ウェブサイトを使用することで、これらの利用規約に同意したものとみなされます。一部に同意できない場合は、ウェブサイトの使用を控えてください。",
+      "2-h2": "1. 使用許諾",
+      "2-p": "Grok AI画像生成を個人および商用目的で使用するための制限付きライセンスが付与されます。このライセンスには、当ウェブサイトのコンテンツを改変または配布する権利は含まれません。事前の書面による同意なしには行えません。",
+      "3-h2": "2. 所有権",
+      "3-p": "Grok AI画像生成を使用して生成された画像は、それを作成したユーザーに帰属します。Grok AI画像生成はユーザーが生成した画像に対して所有権を主張しません。",
+      "4-h2": "3. ユーザーデータの収集",
+      "4-p": "サービスの改善のために個人および非個人データを収集します。データの使用は、grokimagegenerator.net/privacy-policyで利用可能なプライバシーポリシーによって管理されます。",
+      "5-h2": "4. 準拠法",
+      "5-p": "これらの利用規約は、法律の抵触規定を考慮せず、アメリカ合衆国の法律に準拠します。",
+      "6-h2": "5. 利用規約の変更",
+      "6-p": "Grok AI画像生成は、これらの利用規約をいつでも変更する権利を留保します。変更はメールで通知されます。ウェブサイトの継続使用は、変更された利用規約の受諾を意味します。",
+      "7-h2": "6. 連絡先情報",
+      "7-p": "これらの利用規約に関する質問がある場合は、contact@grokimagegenerator.netにお問い合わせください。",
+      "last-p": "grokimagegenerator.netを使用することで、これらの利用規約に同意したものとみなされます。"
     }
   },
   "NotFound": {
@@ -123,267 +150,52 @@
     "goHome": "ホームに戻る"
   },
   "Error": {
-    "title": "エラーが発生しました！",
+    "title": "何かがうまくいきませんでした！",
     "retry": "再試行"
   },
   "Home": {
     "vortex": {
-      "title": "Grok 2 AI画像生成ツール",
-      "content": "次世代の高度なテキストから画像への変換オープンモデルを革新。flux.1 proとflux.1 schnellモデルに対応。"
+      "title": "Grok AI画像生成",
+      "content": "Grok AI画像生成の次世代の進化を体験し、flux.1 pro、flux.1 dev、flux.1 schnellモデルをサポートします。"
     },
     "coreFeatures": {
-      "title": "Grok 2 AIの先進機能",
-      "subTitle": "Grok 2 AIは、テキストを高品質な画像に変換する最先端のAI画像生成ツールです。",
+      "title": "Grok AI画像生成の高度な機能",
+      "subTitle": "Grok AI画像生成は、テキストを高品質のビジュアルに変換する最先端のAI画像生成ツールです。",
       "1": {
-        "title": "超高速生成",
-        "subTitle": "Stable Diffusion 3やMidjourneyを凌ぐ速さで、数秒で高品質な画像を作成。"
+        "title": "高速生成",
+        "subTitle": "数秒で高品質の画像を作成し、Stable Diffusion 3やMidjourneyなどの競合他社を凌駕します。"
       },
       "2": {
-        "title": "比類なき画質",
-        "subTitle": "先進的なFlux.1モデルにより、生成画像の詳細度と一貫性が向上。"
+        "title": "無類の画像品質",
+        "subTitle": "高度なFlux.1モデルで生成された画像の詳細と一貫性を体験しましょう。"
       },
       "3": {
-        "title": "使いやすいインターフェース",
-        "subTitle": "ComfyUIより簡単に操作できる直感的なプラットフォームで、初心者からプロまで対応。"
+        "title": "ユーザーフレンドリーなインターフェース",
+        "subTitle": "ComfyUIよりも使いやすい直感的なプラットフォームで、初心者からプロフェッショナルまで対応します。"
       },
       "4": {
         "title": "簡単なテキストから画像への変換",
-        "subTitle": "grokimagegenerator.netでプロンプトを入力するだけで、Grok 2 AIが瞬時に美しい画像を生成。"
+        "subTitle": "grokimagegenerator.netでプロンプトを入力するだけで、Grok AI画像生成が即座に美しいビジュアルを作成します。"
       },
       "5": {
         "title": "高度な制御オプション",
-        "subTitle": "Flux.1 Proで詳細な制御、Flux.1 Schnellで高速反復が可能。多様なクリエイティブニーズに対応。"
+        "subTitle": "Flux.1 Proで高度な制御を、Flux.1 Schnellで迅速なイテレーションを探索し、多様なクリエイティブニーズに対応します。"
       }
     },
     "tools": {
-      "title": "Grok 2 AI ツールで創造力を刺激",
-      "content": "Grok 2 AI によって提供される楽しく使いやすいツールのコレクションを探索しましょう。専門知識不要で、数秒であなたのアイデアを見事なビジュアルに変換します。AI マジックを作り出す準備はできましたか？",
+      "title": "Grok AI画像生成でクリエイティビティを刺激",
+      "content": "Grok AI画像生成が提供する楽しく使いやすいツールを探索しましょう。アイデアを数秒で美しいビジュアルに変換し、専門知識は必要ありません。AIの魔法を作成する準備はできていますか？",
       "flux-ai-image-generator": {
-        "title": "Grok 2 AI 画像ジェネレーター",
-        "content": "Grok 2 AI 画像ジェネレーターを発見しましょう。これは、AI を使用してテキストを驚くべき画像に変換する強力なツールです。Grok 2 AI を使用すると、ユニークなビジュアルを簡単に作成できます。主な機能には、テキストから画像への変換、個別のスタイルと色のスタイルカスタマイズ、即時結果のためのリアルタイム生成が含まれます。Grok 2 AI でビジュアルコンテンツを向上させましょう。"
+        "title": "Grok AI画像生成",
+        "content": "Grok AI画像生成を発見し、AIを使用してテキストを美しい画像に変換する強力なツールを体験しましょう。Grok AI画像生成で、ユニークなビジュアルを簡単に作成できます。主な機能には、テキストから画像への変換、パーソナライズされたスタイルと色のカスタマイズ、リアルタイム生成による即時結果が含まれます。Grok AI画像生成でビジュアルコンテンツを向上させましょう。"
       },
       "flux-ai-anime-generator": {
-        "title": "Grok 2 AI アニメジェネレーター",
-        "content": "Grok 2 AI アニメジェネレーターを発見しましょう。これは、AI を使用してテキストや画像をユニークなアニメスタイルのアートワークに変換する最先端のツールです。テキストからアニメへの変換、高品質の出力、ユーザーフレンドリーなインターフェースなどの機能を備え、Grok 2 AI は初心者と経験豊富なアーティストの両方に無限の創造的可能性を提供します。スタイルを簡単にカスタマイズし、Grok 2 AI で AI アニメの活気ある世界を探検しましょう。"
+        "title": "Grokアニメ生成",
+        "content": "Grokアニメ生成を発見し、AIを使用してテキストと画像をユニークなアニメスタイルのアートワークに変換する最先端のツールを体験しましょう。テキストからアニメへの変換、高品質の出力、ユーザーフレンドリーなインターフェースなどの機能を備えたGrok AI画像生成は、初心者から経験豊富なアーティストまで無限のクリエイティブな可能性を提供します。スタイルを簡単にカスタマイズし、Grok AI画像生成でAIアニメの鮮やかな世界を探索しましょう。"
       },
       "flux-ai-medal-generator": {
-        "title": "Grok 2 AI メダルジェネレーター",
-        "content": "Grok 2 AI メダルジェネレーターを発見しましょう。これは、AI を使用してユニークでパーソナライズされたメダルデザインを作成する革命的なツールです。Grok 2 AI を使用すると、効率的でコスト効果の高いデザインソリューションを楽しむことができ、各メダルがユニークであることを保証します。あらゆる機会に合った多様なスタイルから選択でき、高度なデザインスキルは必要ありません。自宅やオフィスから便利に印象的なメダルを作成し、あなたの賞を本当に際立たせましょう。今日、Grok 2 AI の AI メダルジェネレーターで革新と創造性の融合を体験してください。"
-      }
-    }
-  },
-  "prompt-market": {
-    "title": "Grok 2 AI 画像生成",
-    "content": "Grok 2 AIのAI生成画像を探索。",
-    "placeholder": "画像を検索",
-    "tabs": {
-      "all": "すべて",
-      "Wallpaper": "壁紙",
-      "Anime": "アニメ",
-      "Medal": "メダル",
-      "DailyBible": "日々の聖書"
-    },
-    "category": {
-      "all": "ALL",
-      "1821564383445254146": "壁紙",
-      "1821564438273196033": "アニメ",
-      "1821564498067193857": "メダル",
-      "1821564562948882433": "日々の聖書"
-    }
-  },
-  "flux-ai": {
-    "form": {
-      "promptPlaceholder": "ここにプロンプトを入力してください",
-      "noPromptInput": "ここにプロンプトを入力してください",
-      "generate": "生成",
-      "optimizePrompt": "プロンプトを最適化",
-      "public": "公開",
-      "resolution": "解像度",
-      "style": "モデル",
-      "material": "メダルの素材",
-      "shape": "メダルの形状",
-      "anime type": "アニメのタイプ",
-      "imageHere": "画像の結果",
-      "checkDetail": "詳細を確認",
-      "medal": {
-        "material": {
-          "Pure Gold": "純金",
-          "Pure Silver": "純銀",
-          "Bronze": "青銅",
-          "Gold-Plated Copper": "金めっき銅",
-          "Platinum-Plated": "プラチナめっき",
-          "Palladium-Plated": "パラジウムめっき",
-          "Rose Gold": "ローズゴールド",
-          "Titanium Alloy-Plated": "チタン合金めっき",
-          "Nickel-Plated": "ニッケルめっき",
-          "Stainless Steel": "ステンレス鋼"
-        },
-        "shape": {
-          "Round": "円形",
-          "Oval": "楕円形",
-          "Star-Shaped": "星型",
-          "Square": "四角形",
-          "Hexagon": "六角形",
-          "Octagon": "八角形",
-          "Teardrop": "涙型",
-          "Heart-Shaped": "ハート型",
-          "Triangle": "三角形",
-          "Parallelogram": "平行四辺形"
-        }
-      },
-      "anime": {
-        "type": {
-          "anime girl": "アニメ少女",
-          "anime boy": "アニメ少年",
-          "anime landscape": "アニメ風景"
-        }
-      }
-    },
-    "discover": {
-      "title": "発見",
-      "more": "さらに表示"
-    },
-    "image": {
-      "title": "Grok 2 AI 画像ジェネレーター",
-      "content": "Flux.1 ProとFlux.1 Schnellモデルで言葉を素晴らしい画像に変換します。"
-    },
-    "medal": {
-      "title": "Grok 2 AI メダルジェネレーター",
-      "content": "Grok 2 AIの革新的な画像ジェネレーターで独自のAIメダルを作成します。"
-    },
-    "anime": {
-      "title": "Grok 2 AI アニメジェネレーター",
-      "content": "Grok 2 AIの強力なジェネレーターでテキストを独自のAIアニメアートに変換します。"
-    }
-  },
-  "Pricing": {
-    "title": "プランと料金",
-    "subTitle": "Grok 2 AIのプロサービスを楽しむためのクレジットを取得",
-    "off": "割引",
-    "tokens": "クレジット",
-    "purchase": "始める",
-    "subscribed": "購読中",
-    "discount": "割引",
-    "type": {
-      "monthly": "月額",
-      "yearly": "年額",
-      "one-time": "1回限り"
-    },
-    "package_type": {
-      "POPULAR": "人気",
-      "COMMON": "一般",
-      "BASIC": "ベーシック"
-    },
-    "insufficientDialog": {
-      "title": "クレジット不足",
-      "cancel": "キャンセル",
-      "pricing": "クレジットを取得"
-    },
-    "content": {
-      "POPULAR": "25%割引\n無制限のモデル\n最大80枚のFlux.1 Pro画像\n最大800枚のFlux.1 Schnell画像\n非公開オプション\n商用ライセンス",
-      "COMMON": "20%割引\n無制限のモデル\n最大50枚のFlux.1 Pro画像\n最大500枚のFlux.1 Schnell画像\n非公開オプション\n商用ライセンス",
-      "BASIC": "無制限のモデル\n最大40枚のFlux.1 Pro画像\n最大400枚のFlux.1 Schnell画像\n非公開オプション\n商用ライセンス"
-    },
-    "pricingImageDialog": {
-      "title": "生成のためのアップグレード",
-      "close": "閉じる",
-      "tokens": "クレジット",
-      "upgrade": "今すぐアップグレード",
-      "more": "詳細"
-    },
-    "payment": {
-      "success": "支払い成功",
-      "Home": "ホーム",
-      "redirect": "ホームにリダイレクトします"
-    }
-  },
-  "Signup": {
-    "welcome": "grokimagegenerator.netに登録",
-    "haveAccount": "すでにアカウントをお持ちですか？",
-    "goTologin": "ログイン",
-    "email": "メールアドレス",
-    "emailPlaceholder": "メールアドレスを入力",
-    "userName": "ニックネーム",
-    "userNamePlaceholder": "名前を入力",
-    "password": "パスワード",
-    "passwordPlaceholder": "パスワードを入力",
-    "Signup": "登録",
-    "confirm": "確認",
-    "siginGoogle": "Googleで登録",
-    "signupSuccessful": "登録成功",
-    "networkError": "ネットワークエラー",
-    "confirmPassword": "パスワード確認",
-    "confirmPasswordPlaceholder": "パスワードを確認",
-    "pinCode": "認証コード",
-    "enterCode": "6桁の認証コードを入力",
-    "passwordNotMatch": "パスワードが一致しません"
-  },
-  "Login": {
-    "welcome": "grokimagegenerator.netへようこそ",
-    "noAccount": "アカウントをお持ちでないですか？",
-    "createOne": "今すぐ作成！",
-    "email": "メールアドレス",
-    "emailPlaceholder": "メールアドレスを入力",
-    "password": "パスワード",
-    "passwordPlaceholder": "パスワードを入力",
-    "login": "ログイン",
-    "confirm": "確認",
-    "siginGoogle": "Googleでログイン",
-    "loginSuccessful": "ログイン成功",
-    "networkError": "ネットワークエラー",
-    "plzLogin": "先にログインしてください",
-    "cancel": "キャンセル",
-    "goToLogin": "ログインへ",
-    "tryAgain": "ログイン失敗、再試行してください",
-    "forgotPassword": "パスワードをお忘れですか？",
-    "forgotPasswordTitle": "パスワード変更",
-    "rememberPassword": "パスワードを覚えていますか？",
-    "changePasswordTitle": "パスワード変更",
-    "changePasswordSubTitle": "パスワード変更",
-    "pinCode": "認証コード",
-    "confirmPassword": "パスワード確認",
-    "confirmPasswordPlaceholder": "パスワードを確認",
-    "loginExpireDialog": {
-      "loginExpireDialogTitle": "ログインの有効期限が切れました。再度ログインしてください。",
-      "loginExpireDialogDialogCancel": "キャンセル",
-      "loginExpireDialogOk": "ログインへ"
-    }
-  },
-  "Logout": {
-    "title": "ログアウトしますか？",
-    "cancel": "キャンセル",
-    "logout": "ログアウト",
-    "logoutSuccessful": "ログアウト成功"
-  },
-  "Profile": {
-    "common": {
-      "latest": "最新",
-      "oldest": "最古"
-    },
-    "user-info": {
-      "email": "メールアドレス",
-      "creditExplanation": "クレジット：Grok 2 AI生成サービスに使用されます。",
-      "support": "ご質問がありますか？お問い合わせ先："
-    },
-    "order": {
-      "number": "注文ID",
-      "packageType": "プラン",
-      "amount": "金額",
-      "tokens": "クレジット",
-      "no-data": "注文が見つかりません",
-      "price": "価格",
-      "type": {
-        "monthly": "月額",
-        "yearly": "年額",
-        "oneTime": "1回限り"
-      },
-      "unsubscribe": {
-        "btn": "サブスクリプションをキャンセル",
-        "subscribedExpireTime": "有効期限：",
-        "dialog-title": "キャンセルの確認",
-        "confirmMessage": "サブスクリプションをキャンセルしてもよろしいですか？",
-        "cancel": "キャンセル",
-        "ok": "はい、解約します"
+        "title": "AIメダル生成",
+        "content": "AIメダル生成を発見し、AIを使用してユニークでパーソナライズされたメダルデザインを作成する革命的なツールを体験しましょう。Grok AI画像生成で、効率的でコスト効果の高いデザインソリューションを享受し、各メダルが一つしかないものになることを保証します。あらゆる場面に合う幅広いスタイルから選択し、高度なデザインスキルは必要ありません。自宅やオフィスから便利に印象的なメダルを作成し、賞を本当に際立たせましょう。Grok AI画像生成のAIメダル生成でイノベーションとクリエイティビティの融合を体験しましょう。"
       }
     }
   },
@@ -393,49 +205,23 @@
       "creator": "grokimagegenerator.net"
     },
     "home": {
-      "title": "Grok 2 AI画像生成ツール",
-      "description": "次世代の高度なテキストから画像への変換オープンモデルを革新。flux.1 proとflux.1 schnellモデルに対応。",
-      "keywords": "Grok 2 AI, AI画像生成ツール",
+      "title": "Grok AI画像生成無料オンライン - Grok 2画像生成 by Flux.1 AI",
+      "description": "Flux.1 AIによるテキストから画像への変換、flux.1 pro、flux.1 dev、flux.1 schnellモデルをサポート。",
+      "keywords": "Grok AI画像生成, AIImage生成",
       "openGraph": {
         "title": "grokimagegenerator.net",
-        "description": "次世代の高度なテキストから画像への変換オープンモデルを革新。flux.1 proとflux.1 schnellモデルに対応。",
+        "description": "Flux.1 AIによるテキストから画像への変換、flux.1 pro、flux.1 dev、flux.1 schnellモデルをサポート。",
         "siteName": "grokimagegenerator.net"
       },
       "twitter": {
-        "title": "Grok 2 AI画像生成ツール",
-        "description": "次世代の高度なテキストから画像への変換オープンモデルを革新。flux.1 proとflux.1 schnellモデルに対応。",
+        "title": "Grok AI画像生成",
+        "description": "Flux.1 AIによるテキストから画像への変換、flux.1 pro、flux.1 dev、flux.1 schnellモデルをサポート。",
         "site": "grokimagegenerator.net",
-        "creator": "Grok 2 AI画像生成ツール"
+        "creator": "Grok AI画像生成"
       }
-    },
-    "flux-ai": {
-      "image": {
-        "title": "Grok 2 AI 画像ジェネレーター | grokimagegenerator.net",
-        "description": "Flux.1 Pro と Flux.1 Schnell モデルを使用して、言葉を驚くべき画像に変換します。高速、簡単、高品質 – あなたのアイデアを瞬時に実現！"
-      },
-      "medal": {
-        "title": "Grok 2 AI メダルジェネレーター | grokimagegenerator.net",
-        "description": "Grok 2 AI の革新的でパーソナライズされたジェネレーターで、ユニークな AI メダルを簡単にデザイン。"
-      },
-      "anime": {
-        "title": "Grok 2 AI アニメジェネレーター | grokimagegenerator.net",
-        "description": "Grok 2 AI の強力で使いやすいジェネレーターで、驚くべき AI アニメアートを作成。"
-      }
-    },
-    "generation": {
-      "title": "Grok 2 AI 画像生成器 | grokimagegenerator.net",
-      "description": "Flux.1 Pro および Flux.1 Schnell モデルを使用して、言葉を見事な画像に変換します。"
-    },
-    "prompt-market": {
-      "title": "Grok 2 AI画像プロンプト",
-      "description": "Grok 2 AI用のAI生成プロンプトを探索。世界中のアーティストによる素晴らしい視覚的コンテンツを発見し、創造しましょう。創造力を刺激しよう！"
-    },
-    "pricing": {
-      "title": "価格設定 | grokimagegenerator.net",
-      "description": "価格設定 | grokimagegenerator.net"
     },
     "blog": {
-      "title": "grokimagegenerator.netのブログ",
+      "title": "Grok AI画像生成のブログ | grokimagegenerator.net",
       "titleSuffix": "grokimagegenerator.net"
     }
   }

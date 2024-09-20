@@ -10,14 +10,14 @@ export const NAV_LINKS = [
       //   code: 'flux-ai-sticker-generator',
       //   href: '/flux-ai-sticker-generator',
       // },
-      {
-        code: 'flux-ai-medal-generator',
-        href: 'https://flux-ai.io/flux-ai-medal-generator/',
-      },
-      {
-        code: 'flux-ai-anime-generator',
-        href: 'https://flux-ai.io/flux-ai-anime-generator/',
-      },
+      // {
+      //   code: 'flux-ai-medal-generator',
+      //   href: 'https://flux-ai.io/flux-ai-medal-generator/',
+      // },
+      // {
+      //   code: 'flux-ai-anime-generator',
+      //   href: 'https://flux-ai.io/flux-ai-anime-generator/',
+      // },
       // {
       //   code: 'flux-ai-image-generator',
       //   href: '/flux-ai-image-generator',

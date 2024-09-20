@@ -5,8 +5,8 @@
     "copy": "複製",
     "back": "返回",
     "more": "更多",
-    "less": "收起",
-    "prompt": "提示詞",
+    "less": "較少",
+    "prompt": "提示",
     "model": "模型",
     "share": {
       "linkSharing": "或透過連結分享",
@@ -17,99 +17,136 @@
     }
   },
   "Navigation": {
-    "title": "Grok 2 AI 圖像生成器",
+    "title": "Grok AI 圖像生成器",
     "tools": "AI 工具",
-    "flux-ai-image-generator": "Grok 2 AI 圖像生成器",
-    "flux-ai-image-generator-content": "Grok 2 AI 文字轉圖像",
-    "flux-ai-medal-generator": "Grok 2 AI 勳章生成器",
-    "flux-ai-medal-generator-content": "Grok 2 AI 文字轉勳章圖像",
-    "flux-ai-sticker-generator": "Grok 2 AI 貼紙生成器",
-    "flux-ai-sticker-generator-content": "Grok 2 AI 文字轉貼紙",
-    "flux-ai-anime-generator": "Grok 2 AI 動漫生成器",
-    "flux-ai-anime-generator-content": "Grok 2 AI 文字轉動漫圖像",
-    "dream-ai-video": "照片轉影片",
+    "flux-ai-image-generator": "Grok AI 圖像生成器",
+    "flux-ai-image-generator-content": "Grok AI 圖像生成器文字轉圖像",
+    "flux-ai-medal-generator": "AI 獎章生成器",
+    "flux-ai-medal-generator-content": "Grok AI 圖像生成器文字轉獎章圖像",
+    "flux-ai-sticker-generator": "Grok AI 圖像生成器貼紙生成器",
+    "flux-ai-sticker-generator-content": "Grok AI 圖像生成器文字轉貼紙",
+    "flux-ai-anime-generator": "Grok 動漫生成器",
+    "flux-ai-anime-generator-content": "Grok AI 圖像生成器文字轉動漫圖像",
+    "dream-ai-video": "照片轉視頻",
     "prompt-market": "圖像提示",
     "pricing": "定價",
     "blog": "部落格",
     "freeTry": "免費試用",
-    "menu": "菜單",
+    "menu": "選單",
     "close": "關閉",
     "logout": "登出",
     "logoutSuccessful": "登出成功",
     "profile": {
-      "credits": "積分",
-      "top-up": "充值",
+      "credits": "點數",
+      "top-up": "加值",
       "user-info": "用戶資訊",
-      "history": "歷史記錄",
+      "history": "歷史紀錄",
       "order": "訂單記錄",
       "logout": "登出"
     }
   },
   "Footer": {
-    "title": "Grok 2 AI 圖像生成器",
-    "subTitle": "體驗 grokimagegenerator.net 的下一代 AI 圖像生成技術！",
+    "title": "Grok AI 圖像生成器",
+    "subTitle": "體驗 Grok AI 圖像生成器的下一個進化，立即造訪 grokimagegenerator.net！",
     "support": "支援",
     "manageSubscribe": "管理訂閱",
     "privacy": "隱私政策",
-    "termsConditions": "使用條款",
+    "termsConditions": "條款與條件",
     "contactUs": "聯絡我們",
     "feature-link": "功能",
     "feature": {
-      "flux-ai-image-generator": "Grok 2 AI 圖像生成器",
+      "flux-ai-image-generator": "Grok AI 圖像生成器",
       "pricing": "管理訂閱",
       "blog": "部落格",
-      "profile": "生成記錄"
+      "profile": "生成歷史"
     }
   },
   "Faq": {
-    "title": "Grok 2 AI 圖像生成器常見問題",
+    "title": "Grok AI 圖像生成器常見問題",
     "1": {
-      "question": "什麼是 Grok 2 AI?",
-      "answer": "Grok 2 AI 是一款閃電般快速的 AI 圖像生成器,可在幾秒鐘內產生高品質圖像,性能優於 Stable Diffusion 3 和 Midjourney 等競爭對手。"
+      "question": "什麼是 Grok AI 圖像生成器？",
+      "answer": "Grok AI 圖像生成器是一款快速生成高品質圖像的 AI 工具，能在幾秒內產出圖像，超越 Stable Diffusion 3 和 Midjourney 等競爭對手。"
     },
     "2": {
-      "question": "Grok 2 AI 的主要功能是什麼?",
-      "answer": "Grok 2 AI 提供無與倫比的圖像質量、用戶友好的界面,以及 Flux.1 Pro 增強控制和 Flux.1 Schnell 快速迭代等高級功能。"
+      "question": "Grok AI 圖像生成器的主要功能有哪些？",
+      "answer": "Grok AI 圖像生成器提供無與倫比的圖像品質、友好的用戶界面，以及進階功能如 Flux.1 Pro 以增強控制和 Flux.1 Schnell 以快速迭代。"
     },
     "3": {
-      "question": "如何使用 Grok 2 AI?",
-      "answer": "只需訪問 grokimagegenerator.net,輸入提示,就能看到 Grok 2 AI 在幾秒鐘內創建出驚艷視覺效果。"
+      "question": "如何使用 Grok AI 圖像生成器？",
+      "answer": "只需造訪 grokimagegenerator.net，輸入您的提示，並觀看 Grok AI 圖像生成器在幾秒內創建出令人驚嘆的視覺效果。"
     },
     "4": {
-      "question": "Grok 2 AI 提供哪些定價方案?",
-      "answer": "Grok 2 AI 提供免費(60 積分)、基本($9.99 購買 5000 積分)、常規($9.99/月 5000 積分)和熱門($14.99/月 8000 積分)等方案。"
+      "question": "Grok AI 圖像生成器提供哪些定價方案？",
+      "answer": "Grok AI 圖像生成器提供免費（60 點數）、基本（$9.99 美元 5000 點數）、普通（$9.99 美元/月 5000 點數）和熱門（$14.99 美元/月 8000 點數）方案。"
     },
     "5": {
-      "question": "Grok 2 AI 有免費方案嗎?",
-      "answer": "是的,Grok 2 AI 提供免費方案,包含 60 積分、高品質圖像和 Flux.1 Schnell 功能。"
+      "question": "Grok AI 圖像生成器有免費方案嗎？",
+      "answer": "是的，Grok AI 圖像生成器提供免費方案，包含 60 點數、高品質圖像和 Flux.1 Schnell 功能。"
     },
     "6": {
-      "question": "Grok 2 AI 與其他 AI 圖像生成器相比如何?",
-      "answer": "Grok 2 AI 比 Midjourney 更快,比 ComfyUI 更加用戶友好,並通過其先進的 Flux.1 pro 模型產生比許多競爭對手更高質量的圖像。"
+      "question": "Grok AI 圖像生成器與其他 AI 圖像生成器相比如何？",
+      "answer": "Grok AI 圖像生成器比 Midjourney 更快，比 ComfyUI 更易於使用，並使用其進階的 Flux.1 Pro 模型生成更高品質的圖像。"
     },
     "7": {
-      "question": "我可以將 Grok 2 AI 用於商業項目嗎?",
-      "answer": "是的,Grok 2 AI 允許商業使用生成的圖像。"
+      "question": "我可以將 Grok AI 圖像生成器用於商業項目嗎？",
+      "answer": "是的，Grok AI 圖像生成器允許商業使用生成的圖像。"
     },
     "8": {
-      "question": "Grok 2 AI 是開源的嗎?",
-      "answer": "是的,Grok 2 AI 在 GitHub 和 Hugging Face 上都是開源的。"
+      "question": "Grok AI 圖像生成器是開源的嗎？",
+      "answer": "是的，Grok AI 圖像生成器是開源的，可在 GitHub 和 Hugging Face 上獲取。"
     },
     "9": {
-      "question": "Grok 2 AI 的更新頻率如何?",
-      "answer": "有關 Grok 2 AI 的最新更新,請查看 https://github.com/black-forest-labs/flux。"
+      "question": "Grok AI 圖像生成器多久更新一次？",
+      "answer": "如需 Grok AI 圖像生成器的最新更新，請查看 https://github.com/black-forest-labs/flux。"
     },
     "10": {
-      "question": "有 Grok 2 AI 移動應用程序嗎?",
-      "answer": "目前 Grok 2 AI 是基於網絡的,網址為 grokimagegenerator.net。移動選項將在未來版本中探索。"
+      "question": "Grok AI 圖像生成器有移動應用程式嗎？",
+      "answer": "目前，Grok AI 圖像生成器僅為網頁版，位於 grokimagegenerator.net。未來版本正在考慮移動選項。"
     },
     "11": {
-      "question": "如何獲得 Grok 2 AI 的支持?",
-      "answer": "如需支持,可聯繫 contact@grokimagegenerator.net。"
+      "question": "如何獲得 Grok AI 圖像生成器的支援？",
+      "answer": "如需支援，請聯繫 contact@grokimagegenerator.net。"
+    }
+  },
+  "FooterNavigation": {
+    "privacyPolicy": {
+      "1-h1": "grokimagegenerator.net 隱私政策",
+      "1-p": "本隱私政策概述了 Grok AI 圖像生成器如何收集、使用和保護您在使用 grokimagegenerator.net 服務時的個人信息。使用 Grok AI 圖像生成器即表示您同意本政策中描述的條款。",
+      "2-h2": "1. 信息收集和使用",
+      "2-p": "Grok AI 圖像生成器可能收集個人身份信息以改進我們的服務。我們使用第三方服務，這些服務可能收集用於識別您的信息。",
+      "3-h2": "2. 日誌數據",
+      "3-p": "在發生錯誤時，我們會收集日誌數據，這可能包括您的 IP 地址、設備信息、應用配置和使用統計。",
+      "4-h2": "3. 餅乾",
+      "4-p": "Grok AI 圖像生成器可能使用第三方代碼和庫，這些代碼和庫使用餅乾。您可以選擇接受或拒絕這些餅乾，但拒絕可能會限制您使用某些功能。",
+      "5-h2": "4. 服務提供商",
+      "5-p": "我們可能僱用第三方公司來促進我們的服務、執行相關任務或分析 Grok AI 圖像生成器的使用情況。這些方可以訪問您的個人信息，但有義務保持其機密性。",
+      "6-h2": "5. 安全",
+      "6-p": "我們致力於使用商業上可接受的方式保護您的個人信息，但不能保證絕對安全。",
+      "7-h2": "6. 鏈接到其他網站",
+      "7-p": "Grok AI 圖像生成器可能包含指向外部網站的鏈接。我們不對這些網站的內容或隱私實踐負責。",
+      "8-h2": "7. 隱私政策的變更",
+      "8-p": "我們可能會定期更新我們的隱私政策。請定期查看此頁面以了解任何變更。更新將在發布後立即生效。"
+    },
+    "termsConditions": {
+      "1-h1": "grokimagegenerator.net 服務條款",
+      "1-p": "歡迎來到 grokimagegenerator.net！我們的網站提供 AI 驅動的圖像生成服務。使用我們的網站即表示您同意這些服務條款。如果您不同意任何部分，請避免使用該網站。",
+      "2-h2": "1. 使用許可",
+      "2-p": "您被授予有限許可，以個人和商業目的使用 Grok AI 圖像生成器。此許可不包括修改或分發網站內容的權利，除非事先獲得我們的書面同意。",
+      "3-h2": "2. 所有權",
+      "3-p": "使用 Grok AI 圖像生成器生成的圖像屬於創建它們的用戶。Grok AI 圖像生成器不對用戶生成的圖像主張所有權。",
+      "4-h2": "3. 用戶數據收集",
+      "4-p": "我們收集個人和非個人數據以改進我們的服務。數據使用受我們的隱私政策約束，可在 grokimagegenerator.net/privacy-policy 獲取。",
+      "5-h2": "4. 管轄法律",
+      "5-p": "這些條款應受美國法律管轄，不考慮法律衝突條款。",
+      "6-h2": "5. 條款的變更",
+      "6-p": "Grok AI 圖像生成器保留隨時修改這些條款的權利。用戶將通過電子郵件通知變更。繼續使用網站即表示接受修改後的條款。",
+      "7-h2": "6. 聯繫信息",
+      "7-p": "如有關於這些條款的問題，請聯繫我們 contact@grokimagegenerator.net。",
+      "last-p": "使用 grokimagegenerator.net 即表示您接受這些服務條款。"
     }
   },
   "NotFound": {
-    "title": "404 找不到頁面",
+    "title": "404 未找到",
     "goHome": "返回首頁"
   },
   "Error": {
@@ -118,262 +155,47 @@
   },
   "Home": {
     "vortex": {
-      "title": "Grok 2 AI 圖像生成器",
-      "content": "革新下一代先進文字轉圖像開放模型，支援 flux.1 pro 和 flux.1 schnell 模型。"
+      "title": "Grok AI 圖像生成器",
+      "content": "體驗 Grok AI 圖像生成的下一個進化，支援 flux.1 pro、flux.1 dev 和 flux.1 schnell 模型。"
     },
     "coreFeatures": {
-      "title": "Grok 2 AI的進階功能",
-      "subTitle": "Grok 2 AI是一款尖端AI圖像生成器，能將文字轉化為高品質視覺效果。",
+      "title": "Grok AI 圖像生成器的進階功能",
+      "subTitle": "Grok AI 圖像生成器是一款尖端的 AI 圖像生成器，將文字轉換為高品質視覺效果。",
       "1": {
-        "title": "閃電般的生成速度",
-        "subTitle": "秒級創建高品質圖像，性能超越Stable Diffusion 3和Midjourney等競爭對手。"
+        "title": "快速生成",
+        "subTitle": "在幾秒內創建高品質圖像，超越 Stable Diffusion 3 和 Midjourney 等競爭對手。"
       },
       "2": {
         "title": "無與倫比的圖像品質",
-        "subTitle": "體驗先進的Flux.1模型，生成細節豐富、連貫性強的優質圖像。"
+        "subTitle": "使用進階的 Flux.1 模型，體驗生成圖像中的卓越細節和一致性。"
       },
       "3": {
-        "title": "使用者友善介面",
-        "subTitle": "享受直觀易用的平台，比ComfyUI更簡單，適合新手和專業人士。"
+        "title": "友好的用戶界面",
+        "subTitle": "享受比 ComfyUI 更直觀的平台，適合初學者和專業人士。"
       },
       "4": {
-        "title": "簡單的文字到圖像轉換",
-        "subTitle": "只需在grokimagegenerator.net輸入提示，即可觀看Grok 2 AI瞬間創建驚艷視覺效果。"
+        "title": "簡單的文字轉圖像轉換",
+        "subTitle": "只需在 grokimagegenerator.net 輸入您的提示，並觀看 Grok AI 圖像生成器立即創建出令人驚嘆的視覺效果。"
       },
       "5": {
         "title": "進階控制選項",
-        "subTitle": "探索Flux.1 Pro獲得增強控制，使用Flux.1 Schnell實現快速迭代，滿足多樣創意需求。"
+        "subTitle": "探索 Flux.1 Pro 以增強控制和 Flux.1 Schnell 以快速迭代，滿足多樣的創意需求。"
       }
     },
     "tools": {
-      "title": "用 Grok 2 AI 工具激發您的創造力",
-      "content": "探索我們由 Grok 2 AI 提供支持的有趣且易於使用的工具集合。無需專業知識，幾秒鐘內將您的想法轉化為驚豔的視覺效果。準備好創造一些 AI 魔法了嗎？",
+      "title": "用 Grok AI 圖像生成器激發您的創意",
+      "content": "探索我們由 Grok AI 圖像生成器驅動的有趣且易於使用的工具集合。將您的想法在幾秒內轉化為令人驚嘆的視覺效果，無需專業知識。準備好創造一些 AI 魔法了嗎？",
       "flux-ai-image-generator": {
-        "title": "Grok 2 AI 圖像生成器",
-        "content": "發現 Grok 2 AI 圖像生成器，這是一種強大的工具，使用 AI 將文本轉化為驚豔的圖像。借助 Grok 2 AI，輕鬆創建獨特的視覺效果。主要功能包括文本到圖像轉換、個性化樣式和顏色的樣式定制，以及實時生成以獲得即時結果。使用 Grok 2 AI 提升您的視覺內容。"
+        "title": "Grok AI 圖像生成器",
+        "content": "探索 Grok AI 圖像生成器，這是一款強大的工具，使用 AI 將文字轉化為令人驚嘆的圖像。使用 Grok AI 圖像生成器，輕鬆創建獨特的視覺效果。主要功能包括文字轉圖像轉換、風格定制以實現個性化風格和顏色，以及實時生成以獲得即時結果。使用 Grok AI 圖像生成器提升您的視覺內容。"
       },
       "flux-ai-anime-generator": {
-        "title": "Grok 2 AI 動漫生成器",
-        "content": "發現 Grok 2 AI 動漫生成器，這是一種尖端工具，使用 AI 將文本和圖像轉換為獨特的動漫風格藝術作品。憑藉文本到動漫轉換、高質量輸出和用戶友好的界面，Grok 2 AI 為初學者和經驗豐富的藝術家提供了無盡的創作可能性。輕鬆定制樣式，探索 Grok 2 AI 的 AI 動漫多彩世界。"
+        "title": "Grok 動漫生成器",
+        "content": "探索 Grok 動漫生成器，這是一款尖端的工具，使用 AI 將文字和圖像轉化為獨特的動漫風格藝術作品。憑藉文字轉動漫轉換、高品質輸出和用戶友好的界面等功能，Grok AI 圖像生成器為初學者和經驗豐富的藝術家提供了無限的創意可能性。輕鬆定制風格，並使用 Grok AI 圖像生成器探索充滿活力的 AI 動漫世界。"
       },
       "flux-ai-medal-generator": {
-        "title": "Grok 2 AI 獎牌生成器",
-        "content": "發現 Grok 2 AI 獎牌生成器，這是一種革命性工具，使用 AI 創建獨特且個性化的獎牌設計。借助 Grok 2 AI，享受高效且具成本效益的設計解決方案，確保每枚獎牌都是獨一無二的。從各種風格中選擇以適合任何場合，無需高級設計技能。輕鬆在家中或辦公室創建令人印象深刻的獎牌，讓您的獎項真正脫穎而出。今天就體驗 Grok 2 AI 的 AI 獎牌生成器的創新與創造力結合。"
-      }
-    }
-  },
-  "prompt-market": {
-    "title": "Grok 2 AI 智慧圖像",
-    "content": "探索 Grok 2 AI 生成的智慧圖像。",
-    "placeholder": "搜尋圖像",
-    "tabs": {
-      "all": "全部",
-      "Wallpaper": "桌布",
-      "Anime": "動漫",
-      "Medal": "獎章",
-      "DailyBible": "每日聖經"
-    },
-    "category": {
-      "all": "ALL",
-      "1821564383445254146": "桌布",
-      "1821564438273196033": "動漫",
-      "1821564498067193857": "獎章",
-      "1821564562948882433": "每日聖經"
-    }
-  },
-  "flux-ai": {
-    "form": {
-      "promptPlaceholder": "在此輸入提示",
-      "noPromptInput": "在此輸入提示",
-      "generate": "生成",
-      "optimizePrompt": "優化提示",
-      "public": "公開",
-      "resolution": "解析度",
-      "style": "模型",
-      "material": "獎牌材質",
-      "shape": "獎牌形狀",
-      "anime type": "動漫類型",
-      "imageHere": "圖像結果",
-      "checkDetail": "查看詳情",
-      "medal": {
-        "material": {
-          "Pure Gold": "純金",
-          "Pure Silver": "純銀",
-          "Bronze": "青銅",
-          "Gold-Plated Copper": "鍍金銅",
-          "Platinum-Plated": "鍍鉑金",
-          "Palladium-Plated": "鍍鈀金",
-          "Rose Gold": "玫瑰金",
-          "Titanium Alloy-Plated": "鍍鈦合金",
-          "Nickel-Plated": "鍍鎳",
-          "Stainless Steel": "不鏽鋼"
-        },
-        "shape": {
-          "Round": "圓形",
-          "Oval": "橢圓形",
-          "Star-Shaped": "星形",
-          "Square": "方形",
-          "Hexagon": "六邊形",
-          "Octagon": "八邊形",
-          "Teardrop": "淚珠形",
-          "Heart-Shaped": "心形",
-          "Triangle": "三角形",
-          "Parallelogram": "平行四邊形"
-        }
-      },
-      "anime": {
-        "type": {
-          "anime girl": "動漫女孩",
-          "anime boy": "動漫男孩",
-          "anime landscape": "動漫風景"
-        }
-      }
-    },
-    "discover": {
-      "title": "發現",
-      "more": "更多"
-    },
-    "image": {
-      "title": "Grok 2 AI 圖像生成器",
-      "content": "使用 Flux.1 Pro 和 Flux.1 Schnell 模型將文字轉化為精美圖像。"
-    },
-    "medal": {
-      "title": "Grok 2 AI 獎牌生成器",
-      "content": "使用 Grok 2 AI 的創新圖像生成器創建獨一無二的 AI 獎牌。"
-    },
-    "anime": {
-      "title": "Grok 2 AI 動漫生成器",
-      "content": "使用 Grok 2 AI 強大的生成器將文本轉化為獨特的 AI 動漫藝術品。"
-    }
-  },
-  "Pricing": {
-    "title": "方案與價格",
-    "subTitle": "獲取積分以享受 Grok 2 AI 的專業服務",
-    "off": "優惠",
-    "tokens": "積分",
-    "purchase": "立即開始",
-    "subscribed": "已訂閱",
-    "discount": "優惠",
-    "type": {
-      "monthly": "月付",
-      "yearly": "年付",
-      "one-time": "一次性"
-    },
-    "package_type": {
-      "POPULAR": "熱門",
-      "COMMON": "常用",
-      "BASIC": "基礎"
-    },
-    "insufficientDialog": {
-      "title": "積分不足",
-      "cancel": "取消",
-      "pricing": "獲取積分"
-    },
-    "content": {
-      "POPULAR": "25% 優惠\n無限模型\n最多 80 張 Flux.1 Pro 圖片\n最多 800 張 Flux.1 Schnell 圖片\n可選擇非公開\n商業授權",
-      "COMMON": "20% 優惠\n無限模型\n最多 50 張 Flux.1 Pro 圖片\n最多 500 張 Flux.1 Schnell 圖片\n可選擇非公開\n商業授權",
-      "BASIC": "無限模型\n最多 40 張 Flux.1 Pro 圖片\n最多 400 張 Flux.1 Schnell 圖片\n可選擇非公開\n商業授權"
-    },
-    "pricingImageDialog": {
-      "title": "升級以生成",
-      "close": "關閉",
-      "tokens": "積分",
-      "upgrade": "立即升級",
-      "more": "詳情"
-    },
-    "payment": {
-      "success": "支付成功",
-      "Home": "首頁",
-      "redirect": "將在以下時間內重定向到首頁"
-    }
-  },
-  "Signup": {
-    "welcome": "註冊 grokimagegenerator.net",
-    "haveAccount": "已有帳戶？",
-    "goTologin": "登入",
-    "email": "電子郵件",
-    "emailPlaceholder": "輸入您的電子郵件",
-    "userName": "暱稱",
-    "userNamePlaceholder": "輸入您的名字",
-    "password": "密碼",
-    "passwordPlaceholder": "輸入您的密碼",
-    "Signup": "註冊",
-    "confirm": "確認",
-    "siginGoogle": "使用 Google 註冊",
-    "signupSuccessful": "註冊成功",
-    "networkError": "網絡錯誤",
-    "confirmPassword": "確認密碼",
-    "confirmPasswordPlaceholder": "確認您的密碼",
-    "pinCode": "驗證碼",
-    "enterCode": "輸入六位數驗證碼",
-    "passwordNotMatch": "兩次密碼不匹配"
-  },
-  "Login": {
-    "welcome": "歡迎來到 grokimagegenerator.net",
-    "noAccount": "還沒有帳戶？",
-    "createOne": "立即創建！",
-    "email": "電子郵件地址",
-    "emailPlaceholder": "輸入您的電子郵件",
-    "password": "密碼",
-    "passwordPlaceholder": "輸入您的密碼",
-    "login": "登入",
-    "confirm": "確認",
-    "siginGoogle": "使用 Google 登入",
-    "loginSuccessful": "登入成功",
-    "networkError": "網絡錯誤",
-    "plzLogin": "請先登入",
-    "cancel": "取消",
-    "goToLogin": "前往登入",
-    "tryAgain": "登入失敗，請重試",
-    "forgotPassword": "忘記密碼？",
-    "forgotPasswordTitle": "更改密碼",
-    "rememberPassword": "記得密碼？",
-    "changePasswordTitle": "更改密碼",
-    "changePasswordSubTitle": "更改密碼",
-    "pinCode": "驗證碼",
-    "confirmPassword": "確認密碼",
-    "confirmPasswordPlaceholder": "確認您的密碼",
-    "loginExpireDialog": {
-      "loginExpireDialogTitle": "登入過期，請重新登入。",
-      "loginExpireDialogDialogCancel": "取消",
-      "loginExpireDialogOk": "前往登入"
-    }
-  },
-  "Logout": {
-    "title": "確認退出？",
-    "cancel": "取消",
-    "logout": "登出",
-    "logoutSuccessful": "登出成功"
-  },
-  "Profile": {
-    "common": {
-      "latest": "最新",
-      "oldest": "最舊"
-    },
-    "user-info": {
-      "email": "電子郵件地址",
-      "creditExplanation": "點數：用於 Grok 2 AI 生成服務。",
-      "support": "有疑問？聯絡我們："
-    },
-    "order": {
-      "number": "訂單編號",
-      "packageType": "方案",
-      "amount": "金額",
-      "tokens": "點數",
-      "no-data": "未找到訂單",
-      "price": "價格",
-      "type": {
-        "monthly": "月付",
-        "yearly": "年付",
-        "oneTime": "一次性"
-      },
-      "unsubscribe": {
-        "btn": "取消訂閱",
-        "subscribedExpireTime": "到期日：",
-        "dialog-title": "確認取消",
-        "confirmMessage": "您確定要取消訂閱嗎？",
-        "cancel": "取消",
-        "ok": "是的，取消訂閱"
+        "title": "AI 獎章生成器",
+        "content": "探索 AI 獎章生成器，這是一款革命性的工具，使用 AI 創建獨特且個性化的獎章設計。使用 Grok AI 圖像生成器，享受高效且經濟的設計解決方案，確保每個獎章都是獨一無二的。從各種風格中選擇，適合任何場合，無需高級設計技能。從家中或辦公室方便地創建令人印象深刻的獎章，使您的獎項真正脫穎而出。立即體驗 Grok AI 圖像生成器的 AI 獎章生成器帶來的創新與創意融合。"
       }
     }
   },
@@ -383,49 +205,23 @@
       "creator": "grokimagegenerator.net"
     },
     "home": {
-      "title": "Grok 2 AI 圖像生成器",
-      "description": "革新下一代先進文字轉圖像開放模型，支援 flux.1 pro 和 flux.1 schnell 模型。",
-      "keywords": "Grok 2 AI, AI 圖像生成器",
+      "title": "Grok AI 圖像生成器免費在線 - 基於 Flux.1 AI 的 Grok 2 圖像生成",
+      "description": "使用 Flux.1 AI 將文字轉化為圖像，支援 flux.1 pro、flux.1 dev 和 flux.1 schnell 模型。",
+      "keywords": "Grok AI 圖像生成器, AIImage 生成器",
       "openGraph": {
         "title": "grokimagegenerator.net",
-        "description": "革新下一代先進文字轉圖像開放模型，支援 flux.1 pro 和 flux.1 schnell 模型。",
+        "description": "使用 Flux.1 AI 將文字轉化為圖像，支援 flux.1 pro、flux.1 dev 和 flux.1 schnell 模型。",
         "siteName": "grokimagegenerator.net"
       },
       "twitter": {
-        "title": "Grok 2 AI 圖像生成器",
-        "description": "革新下一代先進文字轉圖像開放模型，支援 flux.1 pro 和 flux.1 schnell 模型。",
+        "title": "Grok AI 圖像生成器",
+        "description": "使用 Flux.1 AI 將文字轉化為圖像，支援 flux.1 pro、flux.1 dev 和 flux.1 schnell 模型。",
         "site": "grokimagegenerator.net",
-        "creator": "Grok 2 AI 圖像生成器"
+        "creator": "Grok AI 圖像生成器"
       }
-    },
-    "flux-ai": {
-      "image": {
-        "title": "Grok 2 AI 圖像生成器 | grokimagegenerator.net",
-        "description": "使用 Flux.1 Pro 和 Flux.1 Schnell 模型將文字轉化為驚豔圖像。快速、簡便、高質量——讓您的創意瞬間成真！"
-      },
-      "medal": {
-        "title": "Grok 2 AI 獎牌生成器 | grokimagegenerator.net",
-        "description": "使用 Grok 2 AI 創新且個性化的生成器輕鬆設計獨特的 AI 獎牌。"
-      },
-      "anime": {
-        "title": "Grok 2 AI 動漫生成器 | grokimagegenerator.net",
-        "description": "使用 Grok 2 AI 強大且用戶友好的生成器創建驚豔的 AI 動漫藝術。"
-      }
-    },
-    "generation": {
-      "title": "Grok 2 AI 圖像生成器 | grokimagegenerator.net",
-      "description": "使用 Flux.1 Pro 和 Flux.1 Schnell 模型將文字轉化為驚豔的圖像。"
-    },
-    "prompt-market": {
-      "title": "Grok 2 AI 圖像提示詞",
-      "description": "探索為 Grok 2 AI 生成的 AI 提示詞。發現並創建來自全球藝術家的令人驚嘆的視覺效果。激發您的創意！"
-    },
-    "pricing": {
-      "title": "定價 | grokimagegenerator.net",
-      "description": "定價 | grokimagegenerator.net"
     },
     "blog": {
-      "title": "grokimagegenerator.net 部落格",
+      "title": "Grok AI 圖像生成器部落格 | grokimagegenerator.net",
       "titleSuffix": "grokimagegenerator.net"
     }
   }
