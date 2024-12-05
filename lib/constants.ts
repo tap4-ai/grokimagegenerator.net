@@ -35,7 +35,7 @@ export const NAV_LINKS = [
   },
   {
     code: 'prompt-market',
-    href: 'https://flux-ai.io/prompt-market/',
+    href: 'https://fluxproweb.com/image-to-prompt/',
   },
   {
     code: 'pricing',
@@ -47,7 +47,7 @@ export const NAV_LINKS = [
   },
 ];
 
-export const UTM_SOURCE = 'flux-ai';
+export const UTM_SOURCE = 'grok-ai';
 
 export const PROFILE_NAV_LINKS = [
   {
@@ -273,9 +273,22 @@ export const PAYMENT_INFO_TYPE = 'success';
 export const SHARED_CONTENT_SUBFIX = 'via grokimagegenerator.net';
 
 export const HOME_OUTER_LINKS = [
-  { name: 'Woy AI', href: 'https://woy.ai/' },
-  { name: 'Tap4 AI', href: 'https://tap4.ai/' },
-  { name: 'AI WITH.Me', href: 'https://aiwith.me/' },
+  { name: 'Free Image to Prompt AI', href: 'https://fluxproweb.com/image-to-prompt/' },
+  { name: 'Image to Video AI', href: 'https://videoweb.ai/' },
+  { name: 'Face Swap Video AI Free', href: 'https://aifacefy.com/ai-video-face-swap/' },
+  { name: 'Dream Machine AI', href: 'https://dreammachineai.online/' },
+  { name: 'Stable Diffusion 3.5 AI', href: 'https://bestimage.ai/ai-tools/sd-image-generator/' },
+  { name: 'Best NSFW AI', href: 'https://bestnsfw.io/' },
+  { name: 'Runway Gen3 AI', href: 'https://artiverse.app/ai/runwayml-com/' },
+  { name: 'Undress Baby AI', href: 'https://tap4.ai/ai/undressbaby-com/' },
+  { name: 'AI Tattoo Generator', href: 'https://tattooai.design/' },
+  { name: 'Anime Girlfriend', href: 'https://animegirl.studio/' },
+  { name: 'Artiverse Hub AI', href: 'https://artiversehub.ai/' },
+  { name: 'Pika AI', href: 'https://pikaai.org/' },
+  { name: 'Hailuo AI', href: 'https://hailuoai.app/' },
+  { name: 'Artiverse Hub AI', href: 'https://artiversehub.ai/' },
+  { name: 'Pixel Dance AI', href: 'https://pixeldance.pro/' },
+  { name: 'Flux Pro AI', href: 'https://flux-pro.net/' },
   { name: 'BAI.tools', href: 'https://bai.tools/' },
   { name: 'Dokey AI', href: 'https://dokeyai.com/' },
 ];
