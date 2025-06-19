@@ -183,7 +183,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         }))}
         className='py-[60px] lg:py-[120px]'
       />
-      <BlogRecommend title={t('blog.title')} path='home' />
+      <BlogRecommend title={t('blog.title')} path='homepage' />
 
       {/* <RecommendSectionContainer code='Home' blogData={homeBlogData} /> */}
       <StartNowSection title={t('start-now.title')} href='/' hrefTitle={t('start-now.try-now')} />

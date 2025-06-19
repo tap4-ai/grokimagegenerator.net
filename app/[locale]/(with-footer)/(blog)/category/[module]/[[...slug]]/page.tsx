@@ -65,7 +65,7 @@ export default async function Page(props: {
   } = resData;
 
   return (
-    <>
+    <div className='mx-auto flex w-full flex-col'>
       <SectionWrapper>
         <Heading title={t('heading.title')} description={t('heading.description')} />
       </SectionWrapper>
@@ -104,6 +104,6 @@ export default async function Page(props: {
           />
         )}
       </div>
-    </>
+    </div>
   );
 }
