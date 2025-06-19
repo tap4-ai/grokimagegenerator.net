@@ -1,227 +1,401 @@
 {
   "Common": {
-    "loading": "đang tải...",
-    "style": "kiểu dáng",
+    "loading": "Đang tải...",
+    "style": "phong cách",
     "copy": "sao chép",
     "back": "quay lại",
-    "more": "thêm",
-    "less": "ít hơn",
-    "prompt": "nhắc nhở",
+    "more": "xem thêm",
+    "less": "thu gọn",
+    "prompt": "gợi ý",
     "model": "Mô hình",
+    "step": "Bước",
+    "advantage": "Ưu điểm",
     "share": {
       "linkSharing": "hoặc chia sẻ bằng liên kết",
       "plzLogin": "Vui lòng đăng nhập trước.",
       "download": "tải xuống",
       "twitter": "twitter",
       "facebook": "facebook"
+    },
+    "copy-right": {
+      "title": "Bản quyền:",
+      "content": "Người dùng trả phí sở hữu bản quyền hình ảnh của mình."
+    }
+  },
+  "cookie": {
+    "content": "Chúng tôi sử dụng cookie để cải thiện trải nghiệm của bạn. Tìm hiểu thêm trong Chính sách quyền riêng tư.",
+    "confirm": "Chấp nhận"
+  },
+  "error-page": {
+    "not-found": {
+      "title": "404 Không tìm thấy",
+      "goHome": "QUAY VỀ TRANG CHỦ"
+    }
+  },
+  "components": {
+    "form-EnhanceBtn": {
+      "optimizePrompt": "Tối ưu gợi ý"
+    },
+    "image-form": {
+      "input-label": "Nhập gợi ý để tạo hình ảnh tại đây",
+      "high-quality-generation": "Tạo hình ảnh chất lượng cao hơn",
+      "generate": "Tạo ảnh",
+      "turnstile-error": "Vui lòng xác minh bạn không phải là robot",
+      "generate-error": "Tạo hình ảnh thất bại, vui lòng thử lại sau",
+      "generate-success": "Yêu cầu tạo hình ảnh đã được gửi",
+      "generate-wait": "Đang xử lý yêu cầu tạo ảnh. Vui lòng chờ vài giây."
+    },
+    "image-history": {
+      "free-plan-title": "Dùng thử miễn phí tạo ảnh chất lượng cao",
+      "free-plan-description": "Trải nghiệm tạo ảnh nhanh hơn, chất lượng cao hơn, không quảng cáo trên website chuyên nghiệp của chúng tôi",
+      "try-now": "Dùng thử miễn phí",
+      "generate-label": "Tạo ảnh:",
+      "tips-label": "Mẹo:",
+      "tips-message": "Hình ảnh đã tạo chỉ được lưu trên trình duyệt của bạn",
+      "estimated-time": "Thời gian ước tính: 20 giây",
+      "generate-faster": "Tạo ảnh nhanh hơn 5 lần",
+      "image-alt": "Hình ảnh đã tạo",
+      "no-data": "Hình ảnh đã tạo sẽ hiển thị tại đây.",
+      "get-higher-quality": "Tạo ảnh chất lượng cao hơn"
+    },
+    "check-in": {
+      "title": "Điểm danh hàng ngày nhận credit",
+      "go-check-in": "Điểm danh ngay",
+      "finish-check-in": "Đã điểm danh"
+    },
+    "confirmDialog": {
+      "title": "Bạn có chắc chắn không?",
+      "cancel": "Hủy",
+      "confirm": "Xác nhận"
+    },
+    "compress-dialog": {
+      "title": "Nén hình ảnh",
+      "content": "Kích thước hình ảnh vượt quá 10MB và không phù hợp để tạo video AI. Bạn có muốn nén lại không?",
+      "reupload": "Tải lại",
+      "compress": "Nén"
     }
   },
   "Navigation": {
-    "title": "Trình tạo ảnh AI Grok",
-    "tools": "Công cụ AI",
-    "flux-ai-image-generator": "Trình tạo ảnh AI Grok",
-    "flux-ai-image-generator-content": "Chuyển văn bản thành ảnh bằng Trình tạo ảnh AI Grok",
-    "flux-ai-medal-generator": "Trình tạo huy chương AI",
-    "flux-ai-medal-generator-content": "Chuyển văn bản thành ảnh huy chương bằng Trình tạo ảnh AI Grok",
-    "flux-ai-sticker-generator": "Trình tạo ảnh dán AI Grok",
-    "flux-ai-sticker-generator-content": "Chuyển văn bản thành ảnh dán bằng Trình tạo ảnh AI Grok",
-    "flux-ai-anime-generator": "Trình tạo anime Grok",
-    "flux-ai-anime-generator-content": "Chuyển văn bản thành ảnh anime bằng Trình tạo ảnh AI Grok",
-    "dream-ai-video": "Chuyển ảnh thành video",
-    "prompt-market": "Nhắc nhở ảnh",
-    "pricing": "Giá cả",
-    "blog": "Blog",
+    "new": "Mới",
+    "title": "Grok 3 AI Image Generator",
+    "flux-ai-image-generator": "Flux AI Image Generator",
+    "dream-ai-video": "Chuyển ảnh thành video AI",
+    "prompt-market": "Chợ gợi ý Grok",
+    "videoweb": "Chuyển ảnh thành video AI",
+    "pricing": "Bảng giá",
+    "blog": "Bài viết",
+    "blog-content": "Bài viết & Tin tức về Grok 3 AI Image Generator.",
+    "privacy": "Chính sách quyền riêng tư",
+    "privacy-content": "Chính sách quyền riêng tư của Grok 3 AI Image Generator.",
+    "resource": "Tài nguyên",
     "freeTry": "Dùng thử miễn phí",
     "menu": "menu",
     "close": "đóng",
     "logout": "Đăng xuất",
     "logoutSuccessful": "Đăng xuất thành công",
     "profile": {
-      "credits": "Tín dụng",
-      "top-up": "Nạp thêm",
+      "credits": "Credit",
+      "top-up": "Nạp credit",
       "user-info": "Thông tin người dùng",
-      "history": "lịch sử",
-      "order": "Hồ sơ đơn hàng",
+      "history": "Lịch sử",
+      "order": "Lịch sử đơn hàng",
       "logout": "Đăng xuất"
+    },
+    "language-dialog": {
+      "title": "Tùy chọn ngôn ngữ",
+      "content": "Chuyển sang ngôn ngữ trình duyệt của bạn?",
+      "cancel": "Giữ nguyên",
+      "confirm": "Chuyển đổi"
     }
   },
   "Footer": {
-    "title": "Trình tạo ảnh AI Grok",
-    "subTitle": "Trải nghiệm sự tiến hóa tiếp theo trong tạo ảnh AI với grokimagegenerator.net!",
+    "title": "Grok 3 AI Image Generator miễn phí",
+    "subTitle": "Grok 3 AI Image Generator tạo hình ảnh ấn tượng, 100% miễn phí, không cần đăng nhập",
     "support": "Hỗ trợ",
-    "manageSubscribe": "Quản lý đăng ký",
-    "privacy": "Chính sách bảo mật",
+    "privacy": "Chính sách quyền riêng tư",
     "termsConditions": "Điều khoản & Điều kiện",
-    "contactUs": "Liên hệ chúng tôi",
+    "contactUs": "Liên hệ",
     "feature-link": "Tính năng",
     "feature": {
-      "flux-ai-image-generator": "Trình tạo ảnh AI Grok",
-      "pricing": "Quản lý đăng ký",
-      "blog": "Blog",
-      "profile": "Lịch sử tạo"
-    }
-  },
-  "Faq": {
-    "title": "Câu hỏi thường gặp về Trình tạo ảnh AI Grok",
-    "1": {
-      "question": "Trình tạo ảnh AI Grok là gì?",
-      "answer": "Trình tạo ảnh AI Grok là một trình tạo ảnh AI siêu nhanh tạo ra các ảnh chất lượng cao trong vài giây, vượt trội hơn các đối thủ như Stable Diffusion 3 và Midjourney."
-    },
-    "2": {
-      "question": "Các tính năng chính của Trình tạo ảnh AI Grok là gì?",
-      "answer": "Trình tạo ảnh AI Grok cung cấp chất lượng ảnh vô song, giao diện người dùng thân thiện, và các tính năng nâng cao như Flux.1 Pro để kiểm soát tăng cường và Flux.1 Schnell để lặp lại nhanh chóng."
-    },
-    "3": {
-      "question": "Làm thế nào để sử dụng Trình tạo ảnh AI Grok?",
-      "answer": "Chỉ cần truy cập grokimagegenerator.net, nhập nhắc nhở của bạn, và xem Trình tạo ảnh AI Grok tạo ra các hình ảnh tuyệt đẹp trong vài giây."
-    },
-    "4": {
-      "question": "Trình tạo ảnh AI Grok cung cấp các gói giá nào?",
-      "answer": "Trình tạo ảnh AI Grok cung cấp gói Miễn phí (60 tín dụng), Cơ bản ($9.99 cho 5000 tín dụng), Thông thường ($9.99/tháng cho 5000 tín dụng), và Phổ biến ($14.99/tháng cho 8000 tín dụng)."
-    },
-    "5": {
-      "question": "Có gói miễn phí cho Trình tạo ảnh AI Grok không?",
-      "answer": "Có, Trình tạo ảnh AI Grok cung cấp gói miễn phí với 60 tín dụng, ảnh chất lượng cao, và truy cập vào các tính năng Flux.1 Schnell."
-    },
-    "6": {
-      "question": "Trình tạo ảnh AI Grok so với các trình tạo ảnh AI khác như thế nào?",
-      "answer": "Trình tạo ảnh AI Grok nhanh hơn Midjourney, dễ sử dụng hơn ComfyUI, và tạo ra chất lượng ảnh cao hơn nhiều đối thủ nhờ mô hình Flux.1 pro nâng cao."
-    },
-    "7": {
-      "question": "Tôi có thể sử dụng Trình tạo ảnh AI Grok cho các dự án thương mại không?",
-      "answer": "Có, Trình tạo ảnh AI Grok cho phép sử dụng thương mại các ảnh được tạo ra."
-    },
-    "8": {
-      "question": "Trình tạo ảnh AI Grok có mã nguồn mở không?",
-      "answer": "Có, Trình tạo ảnh AI Grok là mã nguồn mở và có sẵn trên cả GitHub và Hugging Face."
-    },
-    "9": {
-      "question": "Trình tạo ảnh AI Grok được cập nhật thường xuyên như thế nào?",
-      "answer": "Để biết các bản cập nhật mới nhất về Trình tạo ảnh AI Grok, vui lòng kiểm tra https://github.com/black-forest-labs/flux."
-    },
-    "10": {
-      "question": "Có ứng dụng di động cho Trình tạo ảnh AI Grok không?",
-      "answer": "Hiện tại, Trình tạo ảnh AI Grok là dựa trên web tại grokimagegenerator.net. Các tùy chọn di động đang được xem xét cho các bản phát hành trong tương lai."
-    },
-    "11": {
-      "question": "Làm thế nào để tôi nhận được hỗ trợ cho Trình tạo ảnh AI Grok?",
-      "answer": "Để được hỗ trợ, bạn có thể liên hệ với contact@grokimagegenerator.net."
+      "blog": "Bài viết"
     }
   },
   "FooterNavigation": {
     "privacyPolicy": {
-      "1-h1": "Chính sách bảo mật cho grokimagegenerator.net",
-      "1-p": "Chính sách bảo mật này mô tả cách Trình tạo ảnh AI Grok thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn khi bạn sử dụng dịch vụ của chúng tôi tại grokimagegenerator.net. Bằng việc sử dụng Trình tạo ảnh AI Grok, bạn đồng ý với các điều khoản được mô tả trong chính sách này.",
-      "2-h2": "1. Thu thập và Sử dụng Thông tin",
-      "2-p": "Trình tạo ảnh AI Grok có thể thu thập thông tin cá nhân để cải thiện dịch vụ của chúng tôi. Chúng tôi sử dụng các dịch vụ của bên thứ ba có thể thu thập thông tin được sử dụng để xác định bạn.",
-      "3-h2": "2. Dữ liệu Nhật ký",
-      "3-p": "Trong trường hợp lỗi, chúng tôi thu thập Dữ liệu Nhật ký, có thể bao gồm địa chỉ IP của bạn, thông tin thiết bị, cấu hình ứng dụng và số liệu thống kê sử dụng.",
+      "1-h1": "Chính sách quyền riêng tư cho grokimagegenerator.net",
+      "1-p": "Chính sách quyền riêng tư này giải thích cách Grok AI Image Generator thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn khi bạn sử dụng dịch vụ tại grokimagegenerator.net. Bằng việc sử dụng Grok AI Image Generator, bạn đồng ý với các điều khoản trong chính sách này.",
+      "2-h2": "1. Thu thập và sử dụng thông tin",
+      "2-p": "Grok AI Image Generator có thể thu thập thông tin nhận dạng cá nhân để cải thiện dịch vụ. Chúng tôi sử dụng các dịch vụ bên thứ ba có thể thu thập thông tin nhận dạng bạn.",
+      "3-h2": "2. Dữ liệu nhật ký",
+      "3-p": "Khi có lỗi xảy ra, chúng tôi thu thập dữ liệu nhật ký, bao gồm địa chỉ IP, thông tin thiết bị, cấu hình ứng dụng và thống kê sử dụng.",
       "4-h2": "3. Cookie",
-      "4-p": "Trình tạo ảnh AI Grok có thể sử dụng mã và thư viện của bên thứ ba sử dụng cookie. Bạn có thể chọn chấp nhận hoặc từ chối các cookie này, nhưng từ chối có thể hạn chế việc sử dụng một số tính năng.",
-      "5-h2": "4. Nhà cung cấp Dịch vụ",
-      "5-p": "Chúng tôi có thể thuê các công ty bên thứ ba để thúc đẩy dịch vụ của chúng tôi, thực hiện các nhiệm vụ liên quan, hoặc phân tích cách Trình tạo ảnh AI Grok được sử dụng. Các bên này có quyền truy cập vào thông tin cá nhân của bạn nhưng bị ràng buộc phải duy trì tính bảo mật.",
+      "4-p": "Grok AI có thể sử dụng mã và thư viện bên thứ ba sử dụng cookie. Bạn có thể chấp nhận hoặc từ chối cookie, nhưng từ chối có thể giới hạn một số tính năng.",
+      "5-h2": "4. Nhà cung cấp dịch vụ",
+      "5-p": "Chúng tôi có thể thuê các công ty bên ngoài hỗ trợ dịch vụ, thực hiện các tác vụ liên quan hoặc phân tích cách Grok AI được sử dụng. Các bên này có thể truy cập thông tin cá nhân của bạn nhưng phải giữ bí mật.",
       "6-h2": "5. Bảo mật",
-      "6-p": "Chúng tôi nỗ lực bảo vệ thông tin cá nhân của bạn bằng các phương tiện thương mại có thể chấp nhận được, nhưng không thể đảm bảo tuyệt đối an toàn.",
-      "7-h2": "6. Liên kết đến Các Trang Khác",
-      "7-p": "Trình tạo ảnh AI Grok có thể chứa các liên kết đến các trang bên ngoài. Chúng tôi không chịu trách nhiệm về nội dung hoặc thực tiễn bảo mật của các trang này.",
-      "8-h2": "7. Thay đổi Chính sách Bảo mật",
-      "8-p": "Chúng tôi có thể cập nhật Chính sách Bảo mật của mình theo thời gian. Vui lòng xem lại trang này để biết bất kỳ thay đổi nào. Các bản cập nhật có hiệu lực ngay khi được đăng."
+      "6-p": "Chúng tôi nỗ lực bảo vệ thông tin cá nhân của bạn bằng các biện pháp thương mại hợp lý, nhưng không thể đảm bảo an toàn tuyệt đối.",
+      "7-h2": "6. Liên kết đến trang khác",
+      "7-p": "Grok AI có thể chứa liên kết đến các trang ngoài. Chúng tôi không chịu trách nhiệm về nội dung hoặc chính sách quyền riêng tư của các trang đó.",
+      "8-h2": "7. Thay đổi chính sách quyền riêng tư",
+      "8-p": "Chúng tôi có thể cập nhật chính sách quyền riêng tư theo định kỳ. Vui lòng kiểm tra lại trang này để biết thay đổi. Các cập nhật có hiệu lực ngay khi được đăng."
     },
     "termsConditions": {
-      "1-h1": "Điều khoản Dịch vụ cho grokimagegenerator.net",
-      "1-p": "Chào mừng đến với grokimagegenerator.net! Trang web của chúng tôi cung cấp các dịch vụ tạo ảnh dựa trên AI. Bằng việc sử dụng Trang web của chúng tôi, bạn đồng ý với các Điều khoản Dịch vụ này. Nếu bạn không đồng ý với bất kỳ phần nào, vui lòng không sử dụng Trang web.",
-      "2-h2": "1. Giấy phép Sử dụng",
-      "2-p": "Bạn được cấp giấy phép hạn chế để sử dụng Trình tạo ảnh AI Grok cho mục đích cá nhân và thương mại. Giấy phép này không bao gồm quyền sửa đổi hoặc phân phối nội dung của Trang web mà không có sự đồng ý bằng văn bản trước của chúng tôi.",
+      "1-h1": "Điều khoản dịch vụ cho grokimagegenerator.net",
+      "1-p": "Chào mừng bạn đến với grokimagegenerator.net! Trang web của chúng tôi cung cấp dịch vụ tạo hình ảnh bằng AI. Khi sử dụng website, bạn đồng ý với các điều khoản dịch vụ này. Nếu không đồng ý, vui lòng không sử dụng website.",
+      "2-h2": "1. Giấy phép sử dụng",
+      "2-p": "Bạn được cấp phép sử dụng Grok AI cho mục đích cá nhân và thương mại. Giấy phép này không cho phép bạn chỉnh sửa hoặc phân phối nội dung website khi chưa có sự đồng ý bằng văn bản của chúng tôi.",
       "3-h2": "2. Quyền sở hữu",
-      "3-p": "Các ảnh được tạo bằng Trình tạo ảnh AI Grok thuộc về người dùng đã tạo chúng. Trình tạo ảnh AI Grok không khai báo quyền sở hữu đối với các ảnh do người dùng tạo.",
-      "4-h2": "3. Thu thập Dữ liệu Người dùng",
-      "4-p": "Chúng tôi thu thập dữ liệu cá nhân và không cá nhân để cải thiện dịch vụ của chúng tôi. Việc sử dụng dữ liệu được quy định bởi Chính sách Bảo mật của chúng tôi, có sẵn tại grokimagegenerator.net/privacy-policy.",
-      "5-h2": "4. Luật Áp dụng",
-      "5-p": "Các Điều khoản này sẽ được điều chỉnh theo luật pháp của Hoa Kỳ, không xét đến các quy định xung đột pháp luật.",
-      "6-h2": "5. Thay đổi Điều khoản",
-      "6-p": "Trình tạo ảnh AI Grok có quyền sửa đổi các Điều khoản này bất cứ lúc nào. Người dùng sẽ được thông báo về các thay đổi qua email. Việc tiếp tục sử dụng Trang web đồng nghĩa với việc chấp nhận các Điều khoản đã sửa đổi.",
-      "7-h2": "6. Thông tin Liên hệ",
-      "7-p": "Đối với các câu hỏi về các Điều khoản này, vui lòng liên hệ với chúng tôi tại contact@grokimagegenerator.net.",
-      "last-p": "Bằng việc sử dụng grokimagegenerator.net, bạn xác nhận sự chấp nhận của mình với các Điều khoản Dịch vụ này."
+      "3-p": "Hình ảnh tạo ra bằng Grok AI thuộc về người dùng tạo ra chúng. Grok AI không giữ quyền sở hữu đối với hình ảnh do người dùng tạo.",
+      "4-h2": "3. Thu thập dữ liệu người dùng",
+      "4-p": "Chúng tôi thu thập dữ liệu cá nhân và phi cá nhân để cải thiện dịch vụ. Việc sử dụng dữ liệu tuân theo Chính sách quyền riêng tư tại grokimagegenerator.net/privacy-policy.",
+      "5-h2": "4. Luật áp dụng",
+      "5-p": "Các điều khoản này được điều chỉnh bởi luật pháp Hoa Kỳ, không xét đến xung đột pháp luật.",
+      "6-h2": "5. Thay đổi điều khoản",
+      "6-p": "Grok AI có quyền thay đổi các điều khoản này bất cứ lúc nào. Người dùng sẽ được thông báo qua email. Tiếp tục sử dụng website đồng nghĩa với việc chấp nhận các điều khoản đã sửa đổi.",
+      "7-h2": "6. Thông tin liên hệ",
+      "7-p": "Nếu có thắc mắc về các điều khoản này, vui lòng liên hệ contact@grokimagegenerator.net.",
+      "last-p": "Bằng việc sử dụng grokimagegenerator.net, bạn xác nhận đã chấp nhận các điều khoản dịch vụ này."
     }
   },
   "NotFound": {
-    "title": "404 Không Tìm Thấy",
-    "goHome": "QUAY LẠI TRANG CHỦ"
+    "title": "404 Không tìm thấy",
+    "goHome": "QUAY VỀ TRANG CHỦ"
   },
   "Error": {
-    "title": "Có gì đó đã sai!",
+    "title": "Đã xảy ra lỗi!",
     "retry": "Thử lại"
   },
   "Home": {
-    "vortex": {
-      "title": "Trình tạo ảnh AI Grok",
-      "content": "Trải nghiệm sự tiến hóa tiếp theo trong tạo ảnh AI Grok, hỗ trợ các mô hình flux.1 pro, flux.1 dev và flux.1 schnell."
+    "heading": {
+      "title": "Grok 3 AI Image Generator",
+      "description": "Grok 3 AI Image Generator miễn phí 100%. Tạo hình ảnh ấn tượng chỉ trong vài giây với Grok 3 AI - không cần đăng ký, không cần thẻ tín dụng",
+      "try-now": "Thử tạo ảnh chất lượng cao",
+      "try-now-2": "Thử AI chuyển ảnh thành video",
+      "tags": {
+        "free": "Miễn phí 100%",
+        "powered": "Vận hành bởi Grok 3 AI",
+        "no-login": "Không cần đăng ký",
+        "unlimited": "Tạo ảnh không giới hạn"
+      }
     },
-    "coreFeatures": {
-      "title": "Các Tính năng Nâng cao của Trình tạo ảnh AI Grok",
-      "subTitle": "Trình tạo ảnh AI Grok là một trình tạo ảnh AI tiên tiến chuyển văn bản thành hình ảnh chất lượng cao.",
+    "blog": {
+      "title": "Bài viết & Tin tức về Grok 3 AI Image Generator"
+    },
+    "example": {
+      "title": "Ví dụ: Ai có thể hưởng lợi từ Grok 3 AI Image Generator",
+      "description": "Grok 3 AI có thể ứng dụng rộng rãi trong nhiều lĩnh vực, truyền cảm hứng sáng tạo không giới hạn cho người dùng.",
+      "promptTitle": "Gợi ý",
+      "btnText": "Dùng thử ngay",
+      "texts": {
+        "1": {
+          "title": "Nhà thiết kế sản phẩm & Chuyên gia UX/UI",
+          "description": "Tận dụng Grok AI để tạo phác thảo giao diện, nguyên mẫu trực quan và sơ đồ tương tác chỉ trong tích tắc. Khám phá nhiều phong cách thiết kế, tối ưu quy trình và tăng tốc độ thử nghiệm ý tưởng với chất lượng sáng tạo vượt trội."
+        },
+        "2": {
+          "title": "Thương mại điện tử & Chủ thương hiệu",
+          "description": "Không tốn chi phí chụp ảnh: Tạo hình ảnh sản phẩm chất lượng cao, hình ảnh bối cảnh và đồ họa quảng cáo sáng tạo. Tăng hiệu quả marketing, nâng cao nhận diện thương hiệu và giảm đáng kể chi phí quảng cáo."
+        },
+        "3": {
+          "title": "Giáo viên & Nhà nghiên cứu",
+          "description": "Tạo nhanh hình minh họa cho lớp học, sách giáo khoa và sơ đồ nghiên cứu. Nâng cao khả năng truyền đạt trực quan, truyền tải kiến thức và kết quả nghiên cứu một cách hiệu quả."
+        },
+        "4": {
+          "title": "Nhà phát triển game",
+          "description": "Tạo nhân vật, bối cảnh và concept art cho game một cách nhanh chóng. Làm phong phú nội dung hình ảnh và tối ưu quy trình sáng tạo với sức mạnh tạo ảnh của Grok AI."
+        }
+      }
+    },
+    "features": {
+      "title": "Tính năng nổi bật của Grok 3 AI Image Generator",
       "1": {
-        "title": "Tạo ảnh Siêu Nhanh",
-        "subTitle": "Tạo ra các ảnh chất lượng cao trong vài giây, vượt trội hơn các đối thủ như Stable Diffusion 3 và Midjourney."
+        "title": "Tạo ảnh siêu tốc",
+        "description": "Tạo hình ảnh chất lượng cao chỉ trong vài giây, vượt trội về tốc độ và độ chính xác so với Stable Diffusion 3 và Midjourney."
       },
       "2": {
-        "title": "Chất lượng Ảnh Vô Song",
-        "subTitle": "Trải nghiệm chi tiết và sự nhất quán vượt trội trong các ảnh được tạo ra với mô hình Flux.1 nâng cao."
+        "title": "Chất lượng hình ảnh vượt trội",
+        "description": "Trải nghiệm chi tiết sắc nét và nhất quán nhờ mô hình Flux.1 tiên tiến, mang lại chất lượng hình ảnh đẳng cấp mới."
       },
       "3": {
-        "title": "Giao diện Người dùng Thân thiện",
-        "subTitle": "Thưởng thức một nền tảng trực quan dễ sử dụng hơn ComfyUI, hoàn hảo cho cả người mới bắt đầu và chuyên gia."
+        "title": "Giao diện thân thiện",
+        "description": "Chuyển đổi văn bản thành hình ảnh đơn giản, giúp mọi người dễ dàng tiếp cận AI tạo ảnh, từ chuyên gia đến người yêu sáng tạo."
       },
       "4": {
-        "title": "Chuyển đổi Văn bản thành Ảnh Đơn giản",
-        "subTitle": "Chỉ cần nhập nhắc nhở của bạn tại grokimagegenerator.net và xem Trình tạo ảnh AI Grok tạo ra các hình ảnh tuyệt đẹp ngay lập tức."
-      },
-      "5": {
-        "title": "Tùy chọn Kiểm soát Nâng cao",
-        "subTitle": "Khám phá Flux.1 Pro để kiểm soát tăng cường và Flux.1 Schnell để lặp lại nhanh chóng, phục vụ nhiều nhu cầu sáng tạo khác nhau."
+        "title": "Khơi nguồn sáng tạo tức thì",
+        "description": "Chỉ cần nhập gợi ý tại grokimagegenerator.net, Grok AI sẽ biến ý tưởng của bạn thành kiệt tác hình ảnh ngay lập tức."
       }
     },
-    "tools": {
-      "title": "Kích hoạt Sáng tạo của Bạn với Trình tạo ảnh AI Grok",
-      "content": "Khám phá bộ sưu tập các công cụ thú vị, dễ sử dụng được hỗ trợ bởi Trình tạo ảnh AI Grok. Biến ý tưởng của bạn thành hình ảnh tuyệt đẹp trong vài giây, không cần chuyên môn. Sẵn sàng tạo ra một số phép thuật AI?",
-      "flux-ai-image-generator": {
-        "title": "Trình tạo ảnh AI Grok",
-        "content": "Khám phá Trình tạo ảnh AI Grok, một công cụ mạnh mẽ biến văn bản thành hình ảnh tuyệt đẹp bằng AI. Với Trình tạo ảnh AI Grok, tạo ra các hình ảnh độc đáo một cách dễ dàng. Các tính năng chính bao gồm chuyển đổi văn bản thành ảnh, tùy chỉnh kiểu dáng cho các kiểu và màu sắc cá nhân hóa, và tạo ảnh thời gian thực để có kết quả ngay lập tức. Nâng cao nội dung hình ảnh của bạn với Trình tạo ảnh AI Grok."
+    "advantage": {
+      "title": "Ưu điểm của Grok 3 AI Image Generator",
+      "description": "Grok 3 AI Image Generator kết hợp công nghệ AI tiên tiến với kiến trúc hiệu suất cao, mang đến trải nghiệm tạo ảnh siêu nhanh, chất lượng cao và đa năng, đáp ứng nhu cầu chuyên nghiệp cho thiết kế, sáng tạo nội dung và ứng dụng hình ảnh thương mại.",
+      "try-now": "Dùng thử ngay",
+      "1": {
+        "title": "Ứng dụng công nghệ AI tiên tiến",
+        "description": "Dựa trên trí tuệ nhân tạo hiện đại, Grok AI tạo ra hình ảnh chất lượng vượt trội, hiểu chính xác gợi ý văn bản và chuyển hóa ý tưởng sáng tạo thành hình ảnh thực tế."
       },
-      "flux-ai-anime-generator": {
-        "title": "Trình tạo Anime Grok",
-        "content": "Khám phá Trình tạo Anime Grok, một công cụ tiên tiến sử dụng AI để biến văn bản và hình ảnh thành tác phẩm nghệ thuật kiểu anime độc đáo. Với các tính năng như chuyển đổi văn bản thành anime, đầu ra chất lượng cao, và giao diện người dùng thân thiện, Trình tạo ảnh AI Grok cung cấp vô số khả năng sáng tạo cho cả người mới bắt đầu và nghệ sĩ có kinh nghiệm. Tùy chỉnh các kiểu dáng một cách dễ dàng và khám phá thế giới anime AI sống động với Trình tạo ảnh AI Grok."
+      "2": {
+        "title": "Chất lượng chuyên nghiệp, tốc độ siêu nhanh",
+        "description": "Nhờ kiến trúc hướng dẫn hiệu suất cao, Grok AI tạo ảnh nhanh mà vẫn đảm bảo độ chính xác và thẩm mỹ, đáp ứng mọi deadline sáng tạo."
       },
-      "flux-ai-medal-generator": {
-        "title": "Trình tạo Huy chương AI",
-        "content": "Khám phá Trình tạo Huy chương AI, một công cụ cách mạng sử dụng AI để tạo ra các thiết kế huy chương độc đáo và cá nhân hóa. Với Trình tạo ảnh AI Grok, tận hưởng các giải pháp thiết kế hiệu quả và tiết kiệm chi phí đảm bảo mỗi huy chương là duy nhất. Chọn từ một loạt các kiểu dáng phù hợp với bất kỳ dịp nào, tất cả mà không cần kỹ năng thiết kế nâng cao. Tạo ra các huy chương ấn tượng một cách thuận tiện từ nhà hoặc văn phòng của bạn, và làm cho các giải thưởng của bạn thực sự nổi bật. Trải nghiệm sự kết hợp giữa sự技術革新và sáng tạo với Trình tạo Huy chương AI của Trình tạo ảnh AI Grok ngay hôm nay."
+      "3": {
+        "title": "Tạo ảnh đa phong cách",
+        "description": "Từ ảnh chân thực đến minh họa nghệ thuật và thiết kế trừu tượng, Grok AI xử lý mọi phong cách hình ảnh, phục vụ đa dạng nhu cầu sáng tạo cá nhân và thương hiệu."
+      },
+      "4": {
+        "title": "Không cần cài đặt phần mềm",
+        "description": "Nền tảng web thuần túy, không cần Photoshop hay phần mềm chỉnh sửa chuyên dụng. Chỉ cần mở trình duyệt để tạo ảnh mọi lúc, mọi nơi."
       }
+    },
+    "twitter": {
+      "title": "Đánh giá & Case Study về Grok AI Image Generator trên X",
+      "description": "Xem đánh giá và case study của người dùng trên X để tạo nội dung ấn tượng hơn"
+    },
+    "models": {
+      "title": "Khám phá các mô hình AI tiên tiến của Grok AI",
+      "description": "Chọn mô hình phù hợp để tăng hiệu suất và phát huy tối đa sức sáng tạo.",
+      "1": {
+        "title": "Grok 2.0",
+        "description": "Grok 2.0 kết hợp Flux.1 và mô hình Aurora độc quyền, tạo nên mô hình AI đa phương thức tích hợp hiểu ngôn ngữ nâng cao và tạo ảnh tự do."
+      },
+      "2": {
+        "title": "Grok 3.0",
+        "description": "Grok 3.0 là mô hình tạo ảnh mới nhất từ xAI, mạnh mẽ gấp 10 lần, hỗ trợ tư duy cấp cao 'Think/Big Brain' và tạo ảnh Aurora với khả năng chuyển đổi văn bản thành hình ảnh vượt trội."
+      }
+    },
+    "manual": {
+      "title": "Cách sử dụng Grok AI Image Generator",
+      "content": "Tạo ảnh AI mong muốn chỉ với vài bước đơn giản",
+      "1": {
+        "title": "Nhập văn bản (có thể tối ưu gợi ý bất cứ lúc nào để kết quả tốt hơn), hoặc tải lên hình ảnh nếu muốn."
+      },
+      "2": {
+        "title": "Chọn tỷ lệ khung hình cho ảnh"
+      },
+      "3": {
+        "title": "Nhấn nút tạo ảnh và chờ vài giây để xem kết quả"
+      },
+      "4": {
+        "title": "Xem các ảnh đã tạo, chọn ảnh bạn thích và tải về để sử dụng cho website, mạng xã hội, quảng cáo, in ấn và nhiều mục đích thương mại khác"
+      }
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về Grok 3 AI Image Generator",
+      "1": {
+        "question": "Grok 3 AI Image Generator là gì?",
+        "answer": "Grok 3 AI Image Generator là công cụ tạo ảnh AI siêu tốc, tạo ra hình ảnh chất lượng cao chỉ trong vài giây, vượt trội hơn các đối thủ như Stable Diffusion 3 và Midjourney."
+      },
+      "2": {
+        "question": "Những tính năng chính của Grok 3 AI Image Generator là gì?",
+        "answer": "Grok 3 AI Image Generator mang đến chất lượng hình ảnh vượt trội, giao diện thân thiện và các tính năng nâng cao như kiểm soát Flux.1 Pro và lặp nhanh Flux.1 Schnell."
+      },
+      "3": {
+        "question": "Cách sử dụng Grok 3 AI Image Generator?",
+        "answer": "Chỉ cần truy cập grokimagegenerator.net, nhập gợi ý và Grok 3 AI Image Generator sẽ tạo ra hình ảnh ấn tượng trong vài giây."
+      },
+      "4": {
+        "question": "Grok AI Image Generator có những gói giá nào?",
+        "answer": "Grok AI Image Generator có các gói: miễn phí (60 credit), Cơ bản ($9.99 cho 5000 credit), Tiêu chuẩn ($9.99/tháng cho 5000 credit), và Pro ($14.99/tháng cho 8000 credit)."
+      },
+      "5": {
+        "question": "Grok AI Image Generator có gói miễn phí không?",
+        "answer": "Có, Grok 3 AI Image Generator cung cấp truy cập miễn phí 100% với chất lượng cao và đầy đủ tính năng cốt lõi."
+      },
+      "6": {
+        "question": "Grok 3 AI Image Generator so với các công cụ AI khác như thế nào?",
+        "answer": "Grok 3 AI Image Generator nhanh hơn Midjourney, thân thiện hơn ComfyUI và tạo ảnh chất lượng cao hơn nhờ mô hình Flux.1 Pro tiên tiến."
+      },
+      "7": {
+        "question": "Tôi có thể dùng Grok 3 AI Image Generator cho dự án thương mại không?",
+        "answer": "Có, bạn có thể sử dụng hình ảnh tạo ra từ Grok 3 AI Image Generator cho mục đích thương mại."
+      },
+      "8": {
+        "question": "Grok 3 AI Image Generator có mã nguồn mở không?",
+        "answer": "Có, Grok 3 AI Image Generator là mã nguồn mở và có trên GitHub cũng như Hugging Face."
+      },
+      "9": {
+        "question": "Grok AI Image Generator được cập nhật thường xuyên không?",
+        "answer": "Để cập nhật mới nhất về Grok AI Image Generator, vui lòng truy cập https://x.ai/grok."
+      },
+      "10": {
+        "question": "Grok AI Image Generator có ứng dụng di động không?",
+        "answer": "Hiện tại, Grok AI Image Generator chỉ có trên web tại grokimagegenerator.net. Phiên bản di động đang được xem xét phát triển."
+      },
+      "11": {
+        "question": "Làm sao để nhận hỗ trợ về Grok AI Image Generator?",
+        "answer": "Để được hỗ trợ, vui lòng liên hệ contact@grokimagegenerator.net."
+      }
+    },
+    "start-now": {
+      "title": "Dùng thử Grok AI Image Generator ngay - 100% miễn phí!",
+      "try-now": "Dùng thử Grok AI miễn phí"
+    }
+  },
+  "blog": {
+    "heading": {
+      "title": "Bài viết & Tin tức nổi bật về Grok 3 AI Image Generator",
+      "description": "Khám phá các bài viết, tin tức và cập nhật mới nhất từ Grok AI Image Generator. Nhận thông tin chuyên sâu, hướng dẫn và cập nhật về công nghệ AI tiên tiến cùng phát triển nền tảng."
+    },
+    "media-tools": {
+      "title": "Công cụ AI tạo ảnh & video tiên tiến của Grok AI",
+      "description": "Tạo hình ảnh và video ấn tượng với các công cụ mạnh mẽ của Grok AI. Khơi nguồn sáng tạo với công nghệ AI hiện đại.",
+      "image": {
+        "title": "Công cụ tạo ảnh Grok AI",
+        "description": "Tạo ảnh ấn tượng ngay lập tức với công nghệ chuyển văn bản thành ảnh và ảnh thành ảnh của Grok AI.",
+        "try-now": "Grok AI Image Generator",
+        "check-more": "Tìm hiểu thêm"
+      },
+      "video": {
+        "title": "Công cụ tạo video AI",
+        "description": "Tạo video hoạt hình hấp dẫn với công nghệ chuyển văn bản thành video và ảnh thành video của Grok AI.",
+        "try-now": "Grok AI Video Generator",
+        "check-more": "Tìm hiểu thêm"
+      },
+      "tools": {
+        "title": "Công cụ AI miễn phí",
+        "description": "Bắt đầu hành trình sáng tạo với các công cụ AI miễn phí của Grok AI.",
+        "try-now": "Chuyển ảnh thành gợi ý miễn phí",
+        "check-more": "Tìm hiểu thêm"
+      }
+    },
+    "links": {
+      "title": "Khám phá thêm công cụ AI liên quan đến Grok AI",
+      "content": "Khám phá các công cụ Grok AI nâng cao để tối ưu quy trình sáng tạo của bạn."
+    },
+    "card": {
+      "author": "Tác giả",
+      "time": "Ngày"
+    },
+    "recommend": {
+      "title": "Thêm bài viết về Grok AI",
+      "description": "Khám phá thêm bài viết & tin tức về Grok AI."
+    },
+    "like": {
+      "success": "Cảm ơn bạn đã ủng hộ!",
+      "error": "Lỗi"
     }
   },
   "Metadata": {
     "common": {
       "siteName": "grokimagegenerator.net",
-      "creator": "grokimagegenerator.net"
+      "creator": "Grok AI Image Generator tốt nhất"
     },
     "home": {
-      "title": "Trình tạo ảnh AI Grok Miễn phí Trực tuyến - Tạo ảnh Grok 2 dựa trên AI Flux.1",
-      "description": "Chuyển văn bản thành ảnh bằng AI Flux.1, hỗ trợ các mô hình flux.1 pro, flux.1 dev và flux.1 schnell.",
-      "keywords": "Trình tạo ảnh AI Grok, Trình tạo ảnh AI",
+      "title": "Grok 3 AI Image Generator - 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng",
+      "description": "Grok 3 AI Image Generator, vận hành bởi Grok 3 AI. 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng, không giới hạn. Tạo hình ảnh tuyệt vời cho mọi nhu cầu sáng tạo.",
+      "keywords": "Grok 3 AI Image Generator, Trình tạo ảnh AI",
       "openGraph": {
-        "title": "grokimagegenerator.net",
-        "description": "Chuyển văn bản thành ảnh bằng AI Flux.1, hỗ trợ các mô hình flux.1 pro, flux.1 dev và flux.1 schnell.",
+        "title": "Grok 3 AI Image Generator - 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng",
+        "description": "Grok 3 AI Image Generator, vận hành bởi Grok 3 AI. 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng, không giới hạn. Tạo hình ảnh tuyệt vời cho mọi nhu cầu sáng tạo.",
         "siteName": "grokimagegenerator.net"
       },
       "twitter": {
-        "title": "Trình tạo ảnh AI Grok",
-        "description": "Chuyển văn bản thành ảnh bằng AI Flux.1, hỗ trợ các mô hình flux.1 pro, flux.1 dev và flux.1 schnell.",
+        "title": "Grok 3 AI Image Generator - 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng",
+        "description": "Grok 3 AI Image Generator, vận hành bởi Grok 3 AI. 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng, không giới hạn. Tạo hình ảnh tuyệt vời cho mọi nhu cầu sáng tạo.",
         "site": "grokimagegenerator.net",
-        "creator": "Trình tạo ảnh AI Grok"
+        "creator": "Grok 3 AI Image Generator"
       }
     },
     "blog": {
-      "title": "Blog của Trình tạo ảnh AI Grok | grokimagegenerator.net",
+      "title": "Bài viết & Tin tức về Grok 3 AI Image Generator",
       "titleSuffix": "grokimagegenerator.net"
     }
   }

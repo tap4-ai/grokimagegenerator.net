@@ -1,0 +1,402 @@
+{
+  "Common": {
+    "loading": "加载中...",
+    "style": "风格",
+    "copy": "复制",
+    "back": "返回",
+    "more": "更多",
+    "less": "收起",
+    "prompt": "提示词",
+    "model": "模型",
+    "step": "步骤",
+    "advantage": "优势",
+    "share": {
+      "linkSharing": "或通过链接分享",
+      "plzLogin": "请先登录。",
+      "download": "下载",
+      "twitter": "推特",
+      "facebook": "脸书"
+    },
+    "copy-right": {
+      "title": "版权：",
+      "content": "付费用户拥有其图片的版权。"
+    }
+  },
+  "cookie": {
+    "content": "我们使用Cookie来提升您的体验。详情请参阅我们的隐私政策。",
+    "confirm": "接受"
+  },
+  "error-page": {
+    "not-found": {
+      "title": "404 未找到",
+      "goHome": "返回首页"
+    }
+  },
+  "components": {
+    "form-EnhanceBtn": {
+      "optimizePrompt": "优化提示词"
+    },
+    "image-form": {
+      "input-label": "请输入图片生成提示词",
+      "high-quality-generation": "获取更高质量生成",
+      "generate": "生成",
+      "turnstile-error": "请完成真人验证",
+      "generate-error": "图片生成失败，请稍后重试",
+      "generate-success": "图片生成请求已提交",
+      "generate-wait": "正在生成图片，请稍等片刻。"
+    },
+    "image-history": {
+      "free-plan-title": "免费试用高质量图片生成",
+      "free-plan-description": "通过我们的专业网站体验更快、更高质量、无广告的图片生成",
+      "try-now": "立即免费试用",
+      "generate-label": "生成：",
+      "tips-label": "提示：",
+      "tips-message": "生成的图片仅保存在您的浏览器中",
+      "estimated-time": "预计时间：20秒",
+      "generate-faster": "生成速度提升5倍",
+      "image-alt": "已生成图片",
+      "no-data": "生成的图片会显示在这里。",
+      "get-higher-quality": "获取更高质量生成"
+    },
+    "check-in": {
+      "title": "每日签到领取积分",
+      "go-check-in": "立即签到",
+      "finish-check-in": "已签到"
+    },
+    "confirmDialog": {
+      "title": "确定要执行此操作吗？",
+      "cancel": "取消",
+      "confirm": "确定"
+    },
+    "compress-dialog": {
+      "title": "压缩图片",
+      "content": "图片大小超过10MB，不适合用于AI视频生成。是否需要压缩？",
+      "reupload": "重新上传",
+      "compress": "压缩"
+    }
+  },
+  "Navigation": {
+    "new": "新建",
+    "title": "Grok 3 AI图片生成器",
+    "flux-ai-image-generator": "Flux AI图片生成器",
+    "dream-ai-video": "照片转视频AI",
+    "prompt-market": "Grok提示词市场",
+    "videoweb": "照片转视频AI",
+    "pricing": "价格",
+    "blog": "文章",
+    "blog-content": "Grok 3 AI图片生成器相关文章与新闻。",
+    "privacy": "隐私政策",
+    "privacy-content": "Grok 3 AI图片生成器的隐私政策。",
+    "resource": "资源",
+    "freeTry": "免费试用",
+    "menu": "菜单",
+    "close": "关闭",
+    "logout": "退出登录",
+    "logoutSuccessful": "退出成功",
+    "profile": {
+      "credits": "积分",
+      "top-up": "充值",
+      "user-info": "用户信息",
+      "history": "历史记录",
+      "order": "订单记录",
+      "logout": "退出登录"
+    },
+    "language-dialog": {
+      "title": "语言偏好",
+      "content": "是否切换为浏览器语言？",
+      "cancel": "保持当前",
+      "confirm": "切换"
+    }
+  },
+  "Footer": {
+    "title": "免费Grok 3 AI图片生成器",
+    "subTitle": "Grok 3 AI图片生成器，轻松生成精美图片，100%免费，无需登录",
+    "support": "支持",
+    "privacy": "隐私政策",
+    "termsConditions": "条款与条件",
+    "contactUs": "联系我们",
+    "feature-link": "功能",
+    "feature": {
+      "blog": "文章"
+    }
+  },
+  "FooterNavigation": {
+    "privacyPolicy": {
+      "1-h1": "grokimagegenerator.net隐私政策",
+      "1-p": "本隐私政策说明了Grok AI图片生成器在grokimagegenerator.net收集、使用和保护您的个人信息的方式。使用本服务即表示您同意本政策中的条款。",
+      "2-h2": "1. 信息收集与使用",
+      "2-p": "Grok AI图片生成器可能会收集可识别个人身份的信息，以提升我们的服务。我们会使用第三方服务，这些服务可能会收集用于识别您的信息。",
+      "3-h2": "2. 日志数据",
+      "3-p": "如遇错误，我们会收集日志数据，包括您的IP地址、设备信息、应用配置和使用统计等。",
+      "4-h2": "3. Cookie",
+      "4-p": "Grok AI可能会使用第三方代码和库，这些代码和库会使用Cookie。您可以选择接受或拒绝Cookie，但拒绝后部分功能可能无法使用。",
+      "5-h2": "4. 服务提供商",
+      "5-p": "我们可能会聘请第三方公司协助服务、执行相关任务或分析Grok AI的使用情况。这些公司可访问您的个人信息，但必须对信息保密。",
+      "6-h2": "5. 安全",
+      "6-p": "我们会采用业界认可的方式保护您的个人信息，但无法保证绝对安全。",
+      "7-h2": "6. 外部链接",
+      "7-p": "Grok AI可能包含外部网站链接。我们不对这些网站的内容或隐私政策负责。",
+      "8-h2": "7. 隐私政策变更",
+      "8-p": "我们可能会不定期更新隐私政策。请定期查看本页面，更新内容自发布之时起生效。"
+    },
+    "termsConditions": {
+      "1-h1": "grokimagegenerator.net服务条款",
+      "1-p": "欢迎访问grokimagegenerator.net！本网站为您提供AI图片生成服务。使用本网站即表示您同意本服务条款。如不同意，请勿使用本网站。",
+      "2-h2": "1. 使用许可",
+      "2-p": "您获得了Grok AI的有限使用许可，可用于个人和商业用途。未经书面许可，不得修改或分发本网站内容。",
+      "3-h2": "2. 所有权",
+      "3-p": "使用Grok AI生成的图片归创建者所有。Grok AI不对用户生成的图片主张所有权。",
+      "4-h2": "3. 用户数据收集",
+      "4-p": "我们会收集个人和非个人数据以改进服务。数据使用遵循我们的隐私政策，详见grokimagegenerator.net/privacy-policy。",
+      "5-h2": "4. 适用法律",
+      "5-p": "本条款受美国法律管辖，不考虑法律冲突条款。",
+      "6-h2": "5. 条款变更",
+      "6-p": "Grok AI有权随时修改本条款。用户将通过邮件收到变更通知。继续使用本网站即视为接受修改后的条款。",
+      "7-h2": "6. 联系方式",
+      "7-p": "如有条款相关问题，请联系contact@grokimagegenerator.net。",
+      "last-p": "使用grokimagegenerator.net即表示您同意本服务条款。"
+    }
+  },
+  "NotFound": {
+    "title": "404 未找到",
+    "goHome": "返回首页"
+  },
+  "Error": {
+    "title": "出错了！",
+    "retry": "重试"
+  },
+  "Home": {
+    "heading": {
+      "title": "Grok 3 AI图片生成器",
+      "description": "100%免费Grok 3 AI图片生成器。无需注册，无需信用卡，几秒钟即可生成精美图片",
+      "try-now": "体验高质量生成",
+      "try-now-2": "体验图片转视频AI",
+      "tags": {
+        "free": "100%免费",
+        "powered": "Grok 3 AI驱动",
+        "no-login": "无需注册",
+        "unlimited": "无限生成"
+      }
+    },
+    "blog": {
+      "title": "更多Grok 3 AI图片生成器相关文章与新闻"
+    },
+    "example": {
+      "title": "应用场景：谁适合使用Grok 3 AI图片生成器",
+      "description": "Grok 3 AI可广泛应用于多个领域，激发创作者无限潜能。",
+      "promptTitle": "提示词",
+      "btnText": "立即体验",
+      "texts": {
+        "1": {
+          "title": "产品设计师 & UX/UI专业人士",
+          "description": "利用Grok AI快速生成界面草图、视觉原型和交互图。探索多种设计风格，优化工作流程，加速原型迭代，提升创意质量。"
+        },
+        "2": {
+          "title": "电商 & 品牌商家",
+          "description": "零拍摄成本：生成高质量产品图、场景图和创意广告图。提升视觉营销效果，加强品牌传播，大幅降低营销费用。"
+        },
+        "3": {
+          "title": "教育工作者 & 研究人员",
+          "description": "快速生成课堂演示、教材插图和科研图表。提升视觉表达，清晰高效地传递知识和研究成果。"
+        },
+        "4": {
+          "title": "游戏开发者",
+          "description": "快速生成游戏角色、场景和概念图。丰富游戏视觉内容，借助Grok AI强大的生成能力提升创作效率。"
+        }
+      }
+    },
+    "features": {
+      "title": "Grok 3 AI图片生成器独特功能",
+      "1": {
+        "title": "极速图片生成",
+        "description": "几秒钟即可生成高质量图片，速度和精度超越Stable Diffusion 3和Midjourney。"
+      },
+      "2": {
+        "title": "卓越画质",
+        "description": "基于先进的Flux.1模型，细节丰富、画面连贯，树立行业新标杆。"
+      },
+      "3": {
+        "title": "极简易用",
+        "description": "文本转图片操作简单，人人可用，无论是专业人士还是创意爱好者都能轻松上手。"
+      },
+      "4": {
+        "title": "创意即刻实现",
+        "description": "只需在grokimagegenerator.net输入提示词，Grok AI即可瞬间将您的想法变为精美图片。"
+      }
+    },
+    "advantage": {
+      "title": "Grok 3 AI图片生成器优势",
+      "description": "Grok 3 AI图片生成器融合先进AI技术与高性能架构，带来极速、高质量、多样化的图片创作体验，为设计、内容创作及商业视觉应用提供专业级解决方案。",
+      "try-now": "立即体验",
+      "1": {
+        "title": "先进AI技术驱动",
+        "description": "基于前沿人工智能，Grok AI高质量还原文本提示，精准实现创意视觉。"
+      },
+      "2": {
+        "title": "专业品质 极速生成",
+        "description": "采用高性能引导蒸馏架构，Grok AI兼顾生成速度与画面精度美感，满足高要求创作需求。"
+      },
+      "3": {
+        "title": "多风格多场景生成",
+        "description": "无论是写实渲染、艺术插画还是抽象设计，Grok AI都能轻松驾驭，覆盖品牌传播到个人创作等多种场景。"
+      },
+      "4": {
+        "title": "无需安装",
+        "description": "纯网页平台，无需Photoshop或专业编辑软件，随时随地打开浏览器即可创作。"
+      }
+    },
+    "twitter": {
+      "title": "Grok AI图片生成器X平台用户评价与案例",
+      "description": "在X平台查看用户评价和案例，助力生成更出色的内容"
+    },
+    "models": {
+      "title": "探索Grok AI的先进模型",
+      "description": "选择最适合的模型，提升效率，释放创意。",
+      "1": {
+        "title": "Grok 2.0",
+        "description": "Grok 2.0融合Flux.1与自研Aurora模型，打造多模态AI图片生成，兼具强大语言理解与高自由度图片生成能力。"
+      },
+      "2": {
+        "title": "Grok 3.0",
+        "description": "Grok 3.0是xAI最新图片生成模型，算力提升10倍，支持“Think/大脑”高级推理与Aurora图片生成，文本转图能力大幅增强。"
+      }
+    },
+    "manual": {
+      "title": "Grok AI图片生成器使用指南",
+      "content": "只需几步，轻松获得理想AI图片",
+      "1": {
+        "title": "输入文本（可随时优化提示词以获得更好效果），或上传图片。"
+      },
+      "2": {
+        "title": "选择图片的宽高比例"
+      },
+      "3": {
+        "title": "点击生成按钮，等待几秒即可看到图片"
+      },
+      "4": {
+        "title": "浏览生成结果，选择喜欢的图片，下载用于网站、社交媒体、广告、印刷等多种场景"
+      }
+    },
+    "faq": {
+      "title": "Grok 3 AI图片生成器常见问题",
+      "1": {
+        "question": "什么是Grok 3 AI图片生成器？",
+        "answer": "Grok 3 AI图片生成器是一款极速AI图片生成工具，几秒钟即可生成高质量图片，超越Stable Diffusion 3和Midjourney等竞品。"
+      },
+      "2": {
+        "question": "Grok 3 AI图片生成器有哪些主要功能？",
+        "answer": "Grok 3 AI图片生成器拥有卓越画质、极简界面，并支持Flux.1 Pro增强控制和Flux.1 Schnell极速迭代等高级功能。"
+      },
+      "3": {
+        "question": "如何使用Grok 3 AI图片生成器？",
+        "answer": "只需访问grokimagegenerator.net，输入提示词，Grok 3 AI图片生成器即可为您生成精美图片。"
+      },
+      "4": {
+        "question": "Grok AI图片生成器有哪些套餐？",
+        "answer": "Grok AI图片生成器提供免费（60积分）、基础版（$9.99/5000积分）、标准版（$9.99/月/5000积分）、专业版（$14.99/月/8000积分）等套餐。"
+      },
+      "5": {
+        "question": "Grok AI图片生成器有免费版吗？",
+        "answer": "有，Grok 3 AI图片生成器100%免费，支持高质量图片生成及核心功能。"
+      },
+      "6": {
+        "question": "Grok 3 AI图片生成器与其他AI图片生成器相比有何优势？",
+        "answer": "Grok 3 AI图片生成器比Midjourney更快，比ComfyUI更易用，且通过先进的Flux.1 Pro模型生成更高质量图片。"
+      },
+      "7": {
+        "question": "Grok 3 AI图片生成器生成的图片可以商用吗？",
+        "answer": "可以，Grok 3 AI图片生成器生成的图片可用于商业用途。"
+      },
+      "8": {
+        "question": "Grok 3 AI图片生成器是开源的吗？",
+        "answer": "是的，Grok 3 AI图片生成器是开源的，可在GitHub和Hugging Face获取。"
+      },
+      "9": {
+        "question": "Grok AI图片生成器多久更新一次？",
+        "answer": "最新动态请访问https://x.ai/grok。"
+      },
+      "10": {
+        "question": "Grok AI图片生成器有移动端App吗？",
+        "answer": "目前Grok AI图片生成器为网页版，移动端版本正在规划中。"
+      },
+      "11": {
+        "question": "如何获取Grok AI图片生成器的支持？",
+        "answer": "如需支持，请联系contact@grokimagegenerator.net。"
+      }
+    },
+    "start-now": {
+      "title": "立即体验Grok AI图片生成器 - 100%免费！",
+      "try-now": "免费体验Grok AI"
+    }
+  },
+  "blog": {
+    "heading": {
+      "title": "Grok 3 AI图片生成器推荐文章与新闻",
+      "description": "探索Grok AI图片生成器的最新文章、新闻与动态。获取专家见解、教程，了解前沿AI技术与平台进展。"
+    },
+    "media-tools": {
+      "title": "Grok AI高级图片与视频AI工具",
+      "description": "使用Grok AI强大工具，轻松创作精美图片和精彩视频。释放您的创意，体验最前沿的AI技术。",
+      "image": {
+        "title": "Grok AI图片工具",
+        "description": "通过Grok AI的文本生成图片、图生图技术，瞬间生成精美图片。",
+        "try-now": "Grok AI图片生成器",
+        "check-more": "了解更多"
+      },
+      "video": {
+        "title": "视频AI工具",
+        "description": "使用Grok AI的文生视频、图生视频技术，创作精彩动画视频。",
+        "try-now": "Grok AI视频生成器",
+        "check-more": "了解更多"
+      },
+      "tools": {
+        "title": "免费AI工具",
+        "description": "开启您的创意之旅，体验Grok AI免费AI工具。",
+        "try-now": "免费图片转提示词",
+        "check-more": "了解更多"
+      }
+    },
+    "links": {
+      "title": "探索更多Grok AI相关工具",
+      "content": "发现更多Grok AI高级工具，提升您的创作效率。"
+    },
+    "card": {
+      "author": "作者",
+      "time": "日期"
+    },
+    "recommend": {
+      "title": "更多Grok AI相关文章",
+      "description": "发现更多Grok AI相关文章与新闻。"
+    },
+    "like": {
+      "success": "感谢您的支持！",
+      "error": "出错了"
+    }
+  },
+  "Metadata": {
+    "common": {
+      "siteName": "grokimagegenerator.net",
+      "creator": "最佳Grok AI图片生成器"
+    },
+    "home": {
+      "title": "Grok 3 AI图片生成器 - 100%免费，无需注册，无需信用卡",
+      "description": "Grok 3 AI图片生成器，由Grok 3 AI驱动。100%免费，无需注册，无需信用卡，无任何限制，满足您所有创意图片需求。",
+      "keywords": "Grok 3 AI图片生成器, 图片生成器",
+      "openGraph": {
+        "title": "Grok 3 AI图片生成器 - 100%免费，无需注册，无需信用卡",
+        "description": "Grok 3 AI图片生成器，由Grok 3 AI驱动。100%免费，无需注册，无需信用卡，无任何限制，满足您所有创意图片需求。",
+        "siteName": "grokimagegenerator.net"
+      },
+      "twitter": {
+        "title": "Grok 3 AI图片生成器 - 100%免费，无需注册，无需信用卡",
+        "description": "Grok 3 AI图片生成器，由Grok 3 AI驱动。100%免费，无需注册，无需信用卡，无任何限制，满足您所有创意图片需求。",
+        "site": "grokimagegenerator.net",
+        "creator": "Grok 3 AI图片生成器"
+      }
+    },
+    "blog": {
+      "title": "Grok 3 AI图片生成器相关文章与新闻",
+      "titleSuffix": "grokimagegenerator.net"
+    }
+  }
+}

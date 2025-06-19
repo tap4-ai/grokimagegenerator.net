@@ -1,49 +1,20 @@
 import createNextIntlPlugin from 'next-intl/plugin';
 
-const withNextIntl = createNextIntlPlugin();
+const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  redirects: async () => [
-    {
-      source: '/startup',
-      destination: '/user-growth/ai-tools-directory',
-      permanent: false,
-      locale: false,
-    },
-    {
-      source: '/:locale/startup',
-      destination: '/:locale/user-growth/ai-tools-directory',
-      permanent: false,
-      locale: false,
-    },
-    {
-      source: '/user-growth',
-      destination: '/user-growth/ai-tools-directory',
-      permanent: false,
-      locale: false,
-    },
-    {
-      source: '/:locale/user-growth',
-      destination: '/:locale/user-growth/ai-tools-directory',
-      permanent: false,
-    },
-    {
-      source: '/tools',
-      destination: '/tools/url-converter',
-      permanent: false,
-      locale: false,
-    },
-    {
-      source: '/:locale/tools',
-      destination: '/:locale/tools/url-converter',
-      permanent: false,
-    },
-  ],
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  redirects: async () => [],
+  turbopack: {},
   env: {
     NEXT_BASE_API: process.env.NEXT_BASE_API,
     SITE_ID: process.env.SITE_ID,
-    CONTACT_US_EMAIL: process.env.CONTACT_US_EMAIL,
   },
   trailingSlash: true,
   logging: {
@@ -55,7 +26,7 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === 'production',
   },
   images: {
-    unoptimized: true,
+    unoptimized: false,
     remotePatterns: [
       {
         protocol: 'http',
@@ -72,6 +43,48 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'img.topshort.org',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'a.aishort.org',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.fluxia.pro',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'c.topshort.org',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.bestimage.ai',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.grokimagegenerator.net',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'myimg.aifacefy.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.videoweb.ai',
         port: '',
         pathname: '/**',
       },

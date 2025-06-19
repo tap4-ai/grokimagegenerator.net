@@ -11,5 +11,4 @@ export const {
   NEXT_PUBLIC_GOOGLE_ADSENSE_URL,
   NEXT_PUBLIC_CLARITY_ID,
   SITE_ID,
-  CONTACT_US_EMAIL,
 } = process.env as Record<string, string>;

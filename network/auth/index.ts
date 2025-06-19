@@ -5,7 +5,8 @@ import { cookies } from 'next/headers';
 import { AUTHORIZATION } from '@/lib/constants';
 import { generateBearerToken } from '@/lib/utils/stringUtils';
 
-import serverFetch, { ResponseData } from '../serverFetch';
+import serverFetch from '../serverFetch';
+import { ResponseData } from '../type';
 
 export type LoginVo = {
   access_token: string;
@@ -90,6 +91,9 @@ export type UserInfo = {
    */
   userType: number;
   subscribedExpireTime: number | null;
+  isShare: boolean;
+  hasPassword: boolean;
+  paymentSource?: 'web' | 'app';
 };
 
 export async function getUserInfo(authorization: string) {
@@ -137,9 +141,9 @@ export async function loginSystem({
   }
 
   const result = await getUserInfo(generateBearerToken(res.data.access_token as string));
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   cookieStore.set(AUTHORIZATION, res.data.access_token);
-  const expireDate = res.data.expire_in + new Date().getTime();
+  const expireDate = res.data.expire_in + Date.now();
 
   return {
     code: result.code,
@@ -155,7 +159,7 @@ export async function loginSystem({
 }
 
 export async function logout() {
-  cookies().delete(AUTHORIZATION);
+  (await cookies()).delete(AUTHORIZATION);
   const res = await serverFetch<ResponseData>({
     endpoint: '/auth/logout?userType=0',
     options: {

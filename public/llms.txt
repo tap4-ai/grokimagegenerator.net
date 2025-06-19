@@ -1,0 +1,15 @@
+# Grok AI Image Generator
+
+> Grok AI Image Generator for image generation, 100% free, no login required. Create stunning images with advanced Grok AI technology and AI models.
+
+Grok AI Image Generator is a lightning-fast AI image generator that produces high-quality images in seconds, outperforming competitors like Stable Diffusion 3 and Midjourney. The platform offers unparalleled image quality, a user-friendly interface, and advanced features like Grok 2.0 and Grok 3.0 models for enhanced control and rapid iterations.
+
+## Core Features
+
+- [Home](https://grokimagegenerator.net/) - Main landing page with image generation tools and features overview
+- [Blog](https://grokimagegenerator.net/blog) - Articles and news about Grok AI image generation, tutorials, and updates
+
+## Optional
+
+- [Privacy Policy](https://grokimagegenerator.net/privacy-policy) - Our privacy policy and data handling practices
+- [Terms of Service](https://grokimagegenerator.net/terms-of-service) - Terms and conditions for using our service 

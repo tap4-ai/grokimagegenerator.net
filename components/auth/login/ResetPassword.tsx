@@ -95,9 +95,9 @@ export default function ResetPassword({ className }: { className?: string }) {
           render={({ field }) => (
             <FormItem>
               <div className='flex items-center gap-5 overflow-hidden'>
-                <Separator className='h-[1px] flex-1 bg-[#2C2B35]' />
+                <Separator className='h-px flex-1 bg-[#2C2B35]' />
                 <FormLabel className='text-nowrap text-[13px] font-bold'>{t('pinCode')}</FormLabel>
-                <Separator className='h-[1px] flex-1 bg-[#2C2B35]' />
+                <Separator className='h-px flex-1 bg-[#2C2B35]' />
               </div>
               <FormControl>
                 <InputOTP maxLength={MAX_LENGTH} {...field}>
@@ -106,7 +106,7 @@ export default function ResetPassword({ className }: { className?: string }) {
                       <InputOTPSlot
                         key={num}
                         index={num}
-                        className='flex-xy-center size-11 !rounded-lg !border-none bg-[#2C2B35] p-5'
+                        className='flex-xy-center size-11 rounded-lg! border-none! bg-[#2C2B35] p-5'
                       />
                     ))}
                   </InputOTPGroup>

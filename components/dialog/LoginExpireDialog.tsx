@@ -4,7 +4,7 @@
 import useloginExpireDialogStore from '@/store/useloginExpireDialogStore';
 import { useTranslations } from 'next-intl';
 
-import { useRouter } from '@/app/navigation';
+import { useRouter } from '@/i18n/navigation';
 
 import BaseDialog from './BaseDialog';
 

@@ -1,94 +1,79 @@
-import { HTMLAttributeAnchorTarget } from 'react';
+import { Link } from '@/i18n/navigation';
+import { languages } from '@/i18n/routing';
+import { SquareArrowOutUpRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
-import { CONTACT_US_EMAIL } from '@/lib/env';
-// import Link from 'next/link';
-import { Link } from '@/app/navigation';
+import { SITE_ID } from '@/lib/env';
 
-// import BaseImage from '../image/BaseImage';
+import FacebookIcon from '../svg/footer/facebook-icon';
+import Linkedin from '../svg/footer/Linkedin';
+import Reddit from '../svg/footer/Reddit';
+import Twitter from '../svg/footer/Twitter';
 
-// const LOGO_LIST = [
-//   {
-//     title: 'twitter',
-//     href: TWITTER_LINK,
-//   },
-//   {
-//     title: 'youtube',
-//     href: YOUTUBE_LINK,
-//   },
-//   {
-//     title: 'ins',
-//     href: INS_LINK,
-//   },
-// ];
+const LOGO_LIST = [
+  {
+    title: 'facebook',
+    href: process.env.NEXT_PUBLIC_FACEBOOK_LINK || '',
+    icon: <FacebookIcon />,
+  },
+  {
+    title: 'twitter',
+    href: process.env.NEXT_PUBLIC_TWITTER_LINK || '',
+    icon: <Twitter />,
+  },
+  {
+    title: 'linkedin',
+    href: process.env.NEXT_PUBLIC_LINKEDIN_LINK || '',
+    icon: <Linkedin />,
+  },
+  {
+    title: 'reddit',
+    href: process.env.NEXT_PUBLIC_REDDIT_LINK || '',
+    icon: <Reddit />,
+  },
+];
 
-function InfoLink({
-  href,
+function InfoList({
   title,
-  target,
-  type,
+  dataList,
+  prefetch = true,
 }: {
-  href: string;
   title: string;
-  target?: HTMLAttributeAnchorTarget;
-  type?: string;
+  dataList: { title: string; href: string; target?: React.HTMLAttributeAnchorTarget; type?: string }[];
+  prefetch?: boolean;
 }) {
   return (
-    <Link
-      href={href}
-      title={title}
-      className='text-nowrap text-xs hover:opacity-70 lg:text-sm'
-      target={target}
-      type={type}
-    >
-      {title}
-    </Link>
+    <div className='flex flex-col items-center gap-3 lg:items-start'>
+      <p className='text-white/40'>{title}</p>
+      <ul className='flex flex-col items-center gap-3 lg:items-start'>
+        {dataList.map((el) => (
+          <li key={el.href}>
+            <Link
+              href={el.href}
+              title={el.title}
+              className='flex items-center gap-1 text-xs text-nowrap hover:underline lg:text-sm'
+              target={el.target}
+              type={el.type}
+              prefetch={prefetch}
+            >
+              {el.title}
+              {el.target === '_blank' && <SquareArrowOutUpRight className='size-4' />}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
 
-// function Logo({ src, title }: { src: string; title: string }) {
-//   return (
-//     <BaseImage
-//       src={src}
-//       title={title}
-//       alt={title}
-//       width={52}
-//       height={52}
-//       className='h-[32px] w-[32px] hover:cursor-pointer hover:opacity-70 lg:h-[42px] lg:w-[42px]'
-//     />
-//   );
-// }
-
 export default function Footer() {
   const t = useTranslations('Footer');
-
-  // const WebsiteLinkList = [
-  //   // {
-  //   //   title: t('artiverseHub'),
-  //   //   href: 'https://artiversehub.ai',
-  //   //   target: '_blank',
-  //   // },
-  //   // {
-  //   //   title: t('animegirl'),
-  //   //   href: 'https://www.tattooai.design/',
-  //   //   target: '_blank',
-  //   // },
-  //   {
-  //     title: t('tattooai'),
-  //     href: 'https://www.tattooai.design/',
-  //     target: '_blank',
-  //   },
-  // ];
 
   const FEATURE_LINK = [
     {
       title: t('feature.blog'),
       href: '/blog',
     },
-    // {
-    //   title: t('feature.flux-ai-image-generator'),
-    //   href: '/flux-ai-image-generator',
-    // },
   ];
 
   const INFO_LIST = [
@@ -105,63 +90,68 @@ export default function Footer() {
   return (
     // <footer className='w-full bg-[#15141A]'>
     <footer className='w-full bg-black'>
-      <div className='mx-auto flex min-h-[251px] max-w-pc flex-col items-center justify-between p-10 pb-5 lg:h-[180px] lg:flex-row lg:px-0 lg:pb-10'>
-        <div className='flex flex-col items-center lg:items-stretch'>
-          <p className='text-xl font-bold text-white lg:h-8 lg:text-[32px]'>{t('title')}</p>
-          <p className='text-xs'>{t('subTitle')}</p>
-          {/* <div className='mt-5 flex gap-6'>
-            {LOGO_LIST.map((item) => (
-              <Link key={item.title} href={item.href} target='_blank'>
-                <Logo src={`/images/home/${item.title}.png`} title={item.title} />
-              </Link>
-            ))}
-          </div> */}
+      <div className='max-w-pc mx-auto flex min-h-[252px] flex-col items-center justify-between p-10 pb-5 lg:flex-row lg:px-0 lg:pb-10'>
+        <div className='flex flex-col items-center gap-2 lg:items-start'>
+          <p className='text-[24px] font-bold text-white lg:text-[32px]'>{t('title')}</p>
+          <p className='text-sm lg:text-base'>{t('subTitle')}</p>
         </div>
         <div className='mt-5 flex flex-col items-center gap-y-5 lg:mt-0 lg:flex-row lg:items-stretch lg:gap-x-10'>
-          {/* <div className='flex flex-col items-center gap-3 lg:items-start'>
-            <h2 className='text-white/40'>{t('support')}</h2>
-            <ul className='flex flex-col items-center gap-5 lg:items-start'>
-              {WebsiteLinkList.map((item) => (
-                <li key={item.href}>
-                  <InfoLink href={item.href} title={item.title} target={item.target} />
-                </li>
-              ))}
-            </ul>
-          </div> */}
-          <div className='flex flex-col items-center gap-3 lg:items-start'>
-            <p className='text-white/40'>{t('feature-link')}</p>
-            {FEATURE_LINK.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                title={item.title}
-                className='flex items-center gap-1.5 text-xs hover:opacity-70 lg:text-sm'
-              >
-                {item.title}
-              </Link>
-            ))}
-          </div>
-          <div className='flex flex-col items-center gap-3 lg:items-start'>
-            <p className='text-white/40'>{t('support')}</p>
-            <ul className='flex flex-col items-center gap-5 lg:items-start'>
-              {INFO_LIST.map((item) => (
-                <li key={item.href}>
-                  <InfoLink href={item.href} title={item.title} />
-                </li>
-              ))}
-              <li>
-                <a
-                  href={`mailto:${CONTACT_US_EMAIL}`}
-                  className='hover:opacity-70e text-nowrap text-sm'
-                  title={t('contactUs')}
-                  type='email'
-                >
-                  {t('contactUs')}
-                </a>
-              </li>
-            </ul>
+          {/* <InfoList
+            title={t('models')}
+            dataList={LANDING_PAGE_MODELS.map((model) => ({
+              title: model.name,
+              href: model.href,
+            }))}
+          /> */}
+          <InfoList title={t('feature-link')} dataList={FEATURE_LINK} />
+          <InfoList
+            title={t('support')}
+            dataList={[
+              ...INFO_LIST,
+              {
+                title: t('contactUs'),
+                href: `mailto:${process.env.NEXT_PUBLIC_CONTACT_US_EMAIL}`,
+                type: 'email',
+              },
+            ]}
+          />
+        </div>
+      </div>
+      <div className='h-px w-full bg-white/20' />
+      <div className='max-w-pc mx-auto flex w-full flex-col items-center justify-between gap-5 py-10 lg:h-16 lg:flex-row lg:py-0'>
+        <div className='flex flex-col items-center gap-3 lg:flex-row'>
+          <img
+            src='/images/logo.svg'
+            alt='logo'
+            className='size-10'
+            fetchPriority='low'
+            loading='lazy'
+            decoding='async'
+          />
+          <div className='flex flex-col items-center lg:flex-row'>
+            ©️ 2024 {SITE_ID}
           </div>
         </div>
+        {/* <div className='flex items-center gap-3'>
+          {LOGO_LIST.map((item) => (
+            <Link key={item.title} title={item.title} href={item.href} target='_blank' className='hover:opacity-70'>
+              {item.icon}
+            </Link>
+          ))}
+        </div> */}
+      </div>
+      <div className='h-px w-full bg-white/20' />
+      <div className='max-w-pc mx-auto grid w-full grid-cols-3 items-center justify-center gap-5 p-5 lg:flex lg:h-16 lg:p-0'>
+        {languages.map((language) => (
+          <Link
+            href={`${process.env.NEXT_PUBLIC_SITE_URL}/${language.lang}/`}
+            key={language.code}
+            className='hover:underline'
+            prefetch={false}
+          >
+            {language.label}
+          </Link>
+        ))}
       </div>
     </footer>
   );

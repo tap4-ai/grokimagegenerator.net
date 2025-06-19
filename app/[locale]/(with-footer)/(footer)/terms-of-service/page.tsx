@@ -1,7 +1,7 @@
 // import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import { Link } from '@/app/navigation';
+import { Link } from '@/i18n/navigation';
 
 export const metadata = {
   robots: {

@@ -8,220 +8,394 @@
     "less": "menos",
     "prompt": "prompt",
     "model": "Modelo",
+    "step": "Etapa",
+    "advantage": "Vantagem",
     "share": {
-      "linkSharing": "ou compartilhar com link",
+      "linkSharing": "ou compartilhe com link",
       "plzLogin": "Por favor, faça login primeiro.",
       "download": "baixar",
       "twitter": "twitter",
       "facebook": "facebook"
+    },
+    "copy-right": {
+      "title": "Direitos autorais:",
+      "content": "Usuários pagos possuem os direitos das suas imagens."
+    }
+  },
+  "cookie": {
+    "content": "Utilizamos cookies para melhorar sua experiência. Saiba mais em nossa Política de Privacidade.",
+    "confirm": "Aceitar"
+  },
+  "error-page": {
+    "not-found": {
+      "title": "404 Não Encontrado",
+      "goHome": "VOLTAR PARA INÍCIO"
+    }
+  },
+  "components": {
+    "form-EnhanceBtn": {
+      "optimizePrompt": "Otimizar Prompt"
+    },
+    "image-form": {
+      "input-label": "Digite o prompt para geração de imagem aqui",
+      "high-quality-generation": "Obter geração de alta qualidade",
+      "generate": "Gerar",
+      "turnstile-error": "Por favor, conclua a verificação humana",
+      "generate-error": "Falha na geração da imagem, tente novamente mais tarde",
+      "generate-success": "Solicitação de geração de imagem enviada",
+      "generate-wait": "Uma solicitação de geração está em andamento. Aguarde alguns segundos."
+    },
+    "image-history": {
+      "free-plan-title": "Teste gratuito para geração de imagens de alta qualidade",
+      "free-plan-description": "Experimente geração de imagens mais rápida, de alta qualidade e sem anúncios em nosso site profissional",
+      "try-now": "Iniciar teste gratuito",
+      "generate-label": "Gerar:",
+      "tips-label": "Dicas:",
+      "tips-message": "As imagens geradas são armazenadas apenas no seu navegador",
+      "estimated-time": "Tempo estimado: 20s",
+      "generate-faster": "Gerar 5× mais rápido",
+      "image-alt": "Imagem gerada",
+      "no-data": "As imagens geradas aparecerão aqui.",
+      "get-higher-quality": "Obter geração de maior qualidade"
+    },
+    "check-in": {
+      "title": "Check-in diário para créditos",
+      "go-check-in": "Fazer check-in agora",
+      "finish-check-in": "Check-in realizado"
+    },
+    "confirmDialog": {
+      "title": "Tem certeza?",
+      "cancel": "Cancelar",
+      "confirm": "Confirmar"
+    },
+    "compress-dialog": {
+      "title": "Comprimir imagem",
+      "content": "O tamanho da imagem excede 10MB e não é adequado para geração de vídeo por IA. Deseja comprimir?",
+      "reupload": "Reenviar",
+      "compress": "Comprimir"
     }
   },
   "Navigation": {
-    "title": "Gerador de Imagens Grok AI",
-    "tools": "Ferramentas AI",
-    "flux-ai-image-generator": "Gerador de Imagens Grok AI",
-    "flux-ai-image-generator-content": "Texto para Imagem pelo Gerador de Imagens Grok AI",
-    "flux-ai-medal-generator": "Gerador de Medalhas AI",
-    "flux-ai-medal-generator-content": "Texto para Imagem de Medalha pelo Gerador de Imagens Grok AI",
-    "flux-ai-sticker-generator": "Gerador de Adesivos do Gerador de Imagens Grok AI",
-    "flux-ai-sticker-generator-content": "Texto para Adesivo pelo Gerador de Imagens Grok AI",
-    "flux-ai-anime-generator": "Gerador de Animes Grok",
-    "flux-ai-anime-generator-content": "Texto para Imagem de Anime pelo Gerador de Imagens Grok AI",
-    "dream-ai-video": "Foto para Vídeo",
-    "prompt-market": "Prompt de Imagem",
+    "new": "Novo",
+    "title": "Grok 3 Gerador de Imagens IA",
+    "flux-ai-image-generator": "Flux Gerador de Imagens IA",
+    "dream-ai-video": "IA Foto para Vídeo",
+    "prompt-market": "Mercado de Prompts Grok",
+    "videoweb": "IA Foto para Vídeo",
     "pricing": "Preços",
-    "blog": "Blog",
-    "freeTry": "Teste Gratuito",
+    "blog": "Artigos",
+    "blog-content": "Artigos e notícias sobre o Grok 3 Gerador de Imagens IA.",
+    "privacy": "Política de Privacidade",
+    "privacy-content": "A Política de Privacidade do Grok 3 Gerador de Imagens IA.",
+    "resource": "Recursos",
+    "freeTry": "Comece grátis",
     "menu": "menu",
     "close": "fechar",
     "logout": "Sair",
-    "logoutSuccessful": "Saiu com sucesso",
+    "logoutSuccessful": "Logout realizado com sucesso",
     "profile": {
       "credits": "Créditos",
-      "top-up": "Recarregar",
-      "user-info": "Informações do Usuário",
-      "history": "histórico",
-      "order": "Registros de Pedidos",
+      "top-up": "Adicionar créditos",
+      "user-info": "Informações do usuário",
+      "history": "Histórico",
+      "order": "Pedidos",
       "logout": "Sair"
+    },
+    "language-dialog": {
+      "title": "Preferência de idioma",
+      "content": "Deseja mudar para o idioma do seu navegador?",
+      "cancel": "Manter atual",
+      "confirm": "Mudar"
     }
   },
   "Footer": {
-    "title": "Gerador de Imagens Grok AI",
-    "subTitle": "Experimente a próxima evolução na geração de imagens AI com grokimagegenerator.net!",
+    "title": "Grok 3 Gerador de Imagens IA Gratuito",
+    "subTitle": "Grok 3 Gerador de Imagens IA para visuais impressionantes, 100% gratuito, sem necessidade de login",
     "support": "Suporte",
-    "manageSubscribe": "Gerenciar Assinatura",
     "privacy": "Política de Privacidade",
-    "termsConditions": "Termos & Condições",
-    "contactUs": "Contate-nos",
-    "feature-link": "Funcionalidade",
+    "termsConditions": "Termos e Condições",
+    "contactUs": "Fale Conosco",
+    "feature-link": "Funcionalidades",
     "feature": {
-      "flux-ai-image-generator": "Gerador de Imagens Grok AI",
-      "pricing": "Gerenciar Assinatura",
-      "blog": "Blog",
-      "profile": "Histórico de Geração"
-    }
-  },
-  "Faq": {
-    "title": "FAQ do Gerador de Imagens Grok AI",
-    "1": {
-      "question": "O que é o Gerador de Imagens Grok AI?",
-      "answer": "O Gerador de Imagens Grok AI é um gerador de imagens AI ultrarrápido que produz imagens de alta qualidade em segundos, superando concorrentes como Stable Diffusion 3 e Midjourney."
-    },
-    "2": {
-      "question": "Quais são as principais características do Gerador de Imagens Grok AI?",
-      "answer": "O Gerador de Imagens Grok AI oferece qualidade de imagem incomparável, uma interface amigável e recursos avançados como Flux.1 Pro para controle aprimorado e Flux.1 Schnell para iterações rápidas."
-    },
-    "3": {
-      "question": "Como uso o Gerador de Imagens Grok AI?",
-      "answer": "Basta visitar grokimagegenerator.net, digitar seu prompt e assistir enquanto o Gerador de Imagens Grok AI cria visuais deslumbrantes em segundos."
-    },
-    "4": {
-      "question": "Quais planos de preços o Gerador de Imagens Grok AI oferece?",
-      "answer": "O Gerador de Imagens Grok AI oferece planos Gratuito (60 créditos), Básico ($9,99 por 5000 créditos), Comum ($9,99/mês por 5000 créditos) e Popular ($14,99/mês por 8000 créditos)."
-    },
-    "5": {
-      "question": "Existe um plano gratuito para o Gerador de Imagens Grok AI?",
-      "answer": "Sim, o Gerador de Imagens Grok AI oferece um plano gratuito com 60 créditos, imagens de alta qualidade e acesso a recursos como Flux.1 Schnell."
-    },
-    "6": {
-      "question": "Como o Gerador de Imagens Grok AI se compara a outros geradores de imagens AI?",
-      "answer": "O Gerador de Imagens Grok AI é mais rápido que o Midjourney, mais amigável que o ComfyUI e produz imagens de maior qualidade que muitos concorrentes usando seu modelo avançado Flux.1 pro."
-    },
-    "7": {
-      "question": "Posso usar o Gerador de Imagens Grok AI para projetos comerciais?",
-      "answer": "Sim, o Gerador de Imagens Grok AI permite o uso comercial de imagens geradas."
-    },
-    "8": {
-      "question": "O Gerador de Imagens Grok AI é de código aberto?",
-      "answer": "Sim, o Gerador de Imagens Grok AI é de código aberto e disponível no GitHub e Hugging Face."
-    },
-    "9": {
-      "question": "Com que frequência o Gerador de Imagens Grok AI é atualizado?",
-      "answer": "Para as últimas atualizações do Gerador de Imagens Grok AI, por favor, verifique https://github.com/black-forest-labs/flux."
-    },
-    "10": {
-      "question": "Existe um aplicativo móvel do Gerador de Imagens Grok AI?",
-      "answer": "Atualmente, o Gerador de Imagens Grok AI é baseado na web em grokimagegenerator.net. Opções móveis estão sendo exploradas para futuras versões."
-    },
-    "11": {
-      "question": "Como posso obter suporte para o Gerador de Imagens Grok AI?",
-      "answer": "Para suporte, você pode entrar em contato com contact@grokimagegenerator.net."
+      "blog": "Artigos"
     }
   },
   "FooterNavigation": {
     "privacyPolicy": {
       "1-h1": "Política de Privacidade para grokimagegenerator.net",
-      "1-p": "Esta Política de Privacidade descreve como o Gerador de Imagens Grok AI coleta, usa e protege suas informações pessoais ao usar nosso serviço em grokimagegenerator.net. Ao usar o Gerador de Imagens Grok AI, você concorda com os termos descritos nesta política.",
+      "1-p": "Esta Política de Privacidade descreve como o Grok AI Gerador de Imagens coleta, usa e protege suas informações pessoais ao utilizar nosso serviço em grokimagegenerator.net. Ao usar o Grok AI Gerador de Imagens, você concorda com os termos descritos nesta política.",
       "2-h2": "1. Coleta e Uso de Informações",
-      "2-p": "O Gerador de Imagens Grok AI pode coletar informações pessoais identificáveis para melhorar nosso serviço. Usamos serviços de terceiros que podem coletar informações usadas para identificá-lo.",
+      "2-p": "O Grok AI Gerador de Imagens pode coletar informações pessoais para melhorar nosso serviço. Utilizamos serviços de terceiros que podem coletar informações para identificar você.",
       "3-h2": "2. Dados de Registro",
       "3-p": "Em caso de erros, coletamos Dados de Registro, que podem incluir seu endereço IP, informações do dispositivo, configuração do aplicativo e estatísticas de uso.",
       "4-h2": "3. Cookies",
-      "4-p": "O Gerador de Imagens Grok AI pode usar código e bibliotecas de terceiros que usam cookies. Você pode optar por aceitar ou recusar esses cookies, mas a recusa pode limitar o uso de alguns recursos.",
-      "5-h2": "4. Provedores de Serviços",
-      "5-p": "Podemos empregar empresas terceirizadas para facilitar nosso serviço, realizar tarefas relacionadas ou analisar como o Gerador de Imagens Grok AI é usado. Essas partes têm acesso às suas informações pessoais, mas são obrigadas a manter a confidencialidade.",
+      "4-p": "O Grok AI pode usar códigos e bibliotecas de terceiros que utilizam cookies. Você pode aceitar ou recusar esses cookies, mas recusar pode limitar o uso de alguns recursos.",
+      "5-h2": "4. Fornecedores de Serviço",
+      "5-p": "Podemos contratar empresas terceirizadas para facilitar nosso serviço, realizar tarefas relacionadas ou analisar como o Grok AI é utilizado. Essas partes têm acesso às suas informações pessoais, mas são obrigadas a manter a confidencialidade.",
       "6-h2": "5. Segurança",
       "6-p": "Nos esforçamos para proteger suas informações pessoais usando meios comercialmente aceitáveis, mas não podemos garantir segurança absoluta.",
       "7-h2": "6. Links para Outros Sites",
-      "7-p": "O Gerador de Imagens Grok AI pode conter links para sites externos. Não somos responsáveis pelo conteúdo ou práticas de privacidade desses sites.",
+      "7-p": "O Grok AI pode conter links para sites externos. Não somos responsáveis pelo conteúdo ou práticas de privacidade desses sites.",
       "8-h2": "7. Alterações nesta Política de Privacidade",
       "8-p": "Podemos atualizar nossa Política de Privacidade periodicamente. Por favor, revise esta página para quaisquer alterações. As atualizações entram em vigor imediatamente após a publicação."
     },
     "termsConditions": {
       "1-h1": "Termos de Serviço para grokimagegenerator.net",
-      "1-p": "Bem-vindo a grokimagegenerator.net! Nosso site fornece serviços de geração de imagens com tecnologia AI. Ao usar nosso site, você concorda com estes Termos de Serviço. Se você discordar de qualquer parte, por favor, não use o site.",
+      "1-p": "Bem-vindo ao grokimagegenerator.net! Nosso site oferece serviços de geração de imagens com IA. Ao utilizar nosso site, você concorda com estes Termos de Serviço. Se não concordar com algum termo, por favor, não utilize o site.",
       "2-h2": "1. Licença de Uso",
-      "2-p": "Você recebe uma licença limitada para usar o Gerador de Imagens Grok AI para fins pessoais e comerciais. Esta licença não inclui direitos para modificar ou distribuir o conteúdo do site sem nosso consentimento prévio por escrito.",
+      "2-p": "Você recebe uma licença limitada para usar o Grok AI para fins pessoais e comerciais. Esta licença não inclui direitos para modificar ou distribuir o conteúdo do site sem nosso consentimento prévio por escrito.",
       "3-h2": "2. Propriedade",
-      "3-p": "Imagens geradas usando o Gerador de Imagens Grok AI pertencem ao usuário que as criou. O Gerador de Imagens Grok AI não reivindica a propriedade sobre imagens geradas pelo usuário.",
+      "3-p": "As imagens geradas usando o Grok AI pertencem ao usuário que as criou. O Grok AI não reivindica propriedade sobre imagens geradas pelos usuários.",
       "4-h2": "3. Coleta de Dados do Usuário",
-      "4-p": "Coletamos dados pessoais e não pessoais para melhorar nossos serviços. O uso de dados é regido por nossa Política de Privacidade, disponível em grokimagegenerator.net/privacy-policy.",
-      "5-h2": "4. Lei Aplicável",
-      "5-p": "Estes Termos serão regidos pelas leis dos Estados Unidos da América, sem considerar as disposições de conflito de leis.",
+      "4-p": "Coletamos dados pessoais e não pessoais para melhorar nossos serviços. O uso dos dados é regido por nossa Política de Privacidade, disponível em grokimagegenerator.net/privacy-policy.",
+      "5-h2": "4. Legislação Aplicável",
+      "5-p": "Estes Termos são regidos pelas leis dos Estados Unidos da América, sem considerar conflitos de disposições legais.",
       "6-h2": "5. Alterações nos Termos",
-      "6-p": "O Gerador de Imagens Grok AI reserva o direito de modificar estes Termos a qualquer momento. Os usuários serão notificados sobre alterações por e-mail. O uso contínuo do site constitui aceitação dos Termos modificados.",
+      "6-p": "O Grok AI reserva-se o direito de modificar estes Termos a qualquer momento. Os usuários serão notificados por e-mail sobre alterações. O uso contínuo do site constitui aceitação dos Termos modificados.",
       "7-h2": "6. Informações de Contato",
-      "7-p": "Para dúvidas sobre estes Termos, entre em contato conosco em contact@grokimagegenerator.net.",
-      "last-p": "Ao usar grokimagegenerator.net, você indica sua aceitação destes Termos de Serviço."
+      "7-p": "Para dúvidas sobre estes Termos, entre em contato pelo e-mail contact@grokimagegenerator.net.",
+      "last-p": "Ao usar o grokimagegenerator.net, você indica sua aceitação destes Termos de Serviço."
     }
   },
   "NotFound": {
     "title": "404 Não Encontrado",
-    "goHome": "VOLTAR PARA A PÁGINA INICIAL"
+    "goHome": "VOLTAR PARA INÍCIO"
   },
   "Error": {
     "title": "Algo deu errado!",
-    "retry": "Tente novamente"
+    "retry": "Tentar novamente"
   },
   "Home": {
-    "vortex": {
-      "title": "Gerador de Imagens Grok AI",
-      "content": "Experimente a próxima evolução na geração de imagens Grok AI, suportando modelos flux.1 pro, flux.1 dev e flux.1 schnell."
+    "heading": {
+      "title": "Grok 3 Gerador de Imagens IA",
+      "description": "Grok 3 Gerador de Imagens IA 100% gratuito. Crie imagens incríveis em segundos com Grok 3 IA - sem cadastro, sem cartão de crédito",
+      "try-now": "Experimente geração de maior qualidade",
+      "try-now-2": "Experimente IA de Imagem para Vídeo",
+      "tags": {
+        "free": "100% gratuito",
+        "powered": "Desenvolvido por Grok 3 IA",
+        "no-login": "Sem cadastro",
+        "unlimited": "Gerações ilimitadas"
+      }
     },
-    "coreFeatures": {
-      "title": "Recursos Avançados do Gerador de Imagens Grok AI",
-      "subTitle": "O Gerador de Imagens Grok AI é um gerador de imagens AI de ponta que transforma texto em visuais de alta qualidade.",
+    "blog": {
+      "title": "Mais artigos e notícias sobre o Grok 3 Gerador de Imagens IA"
+    },
+    "example": {
+      "title": "Exemplos: Quem pode se beneficiar do Grok 3 Gerador de Imagens IA",
+      "description": "O Grok 3 IA pode ser amplamente aplicado em diversos setores, inspirando o potencial ilimitado dos criadores.",
+      "promptTitle": "Prompt",
+      "btnText": "Experimente agora",
+      "texts": {
+        "1": {
+          "title": "Designers de Produto & Profissionais de UX/UI",
+          "description": "Aproveite o Grok IA para gerar instantaneamente esboços de interface, protótipos visuais e diagramas de interação. Explore múltiplos estilos de design, otimize fluxos de trabalho e acelere a iteração de protótipos com mais criatividade."
+        },
+        "2": {
+          "title": "E-commerce & Lojistas de Marca",
+          "description": "Zero custo com fotografia: gere imagens de produtos de alta qualidade, visuais de cenários e gráficos publicitários criativos. Amplifique o impacto do marketing visual, fortaleça a comunicação da marca e reduza significativamente os custos de marketing."
+        },
+        "3": {
+          "title": "Educadores & Pesquisadores",
+          "description": "Gere rapidamente demonstrações para sala de aula, ilustrações para livros didáticos e diagramas de pesquisa. Melhore a comunicação visual e transmita conhecimento e resultados de pesquisa com clareza sem precedentes."
+        },
+        "4": {
+          "title": "Desenvolvedores de Jogos",
+          "description": "Produza rapidamente personagens, cenários e artes conceituais para jogos. Enriqueça o conteúdo visual do seu jogo e otimize o processo criativo com o poderoso Grok IA."
+        }
+      }
+    },
+    "features": {
+      "title": "Recursos exclusivos do Grok 3 Gerador de Imagens IA",
       "1": {
-        "title": "Geração Ultrarrápida",
-        "subTitle": "Crie imagens de alta qualidade em segundos, superando concorrentes como Stable Diffusion 3 e Midjourney."
+        "title": "Geração de imagens ultrarrápida",
+        "description": "Crie imagens de alta qualidade em segundos, superando o Stable Diffusion 3 e o Midjourney com velocidade e precisão impressionantes."
       },
       "2": {
-        "title": "Qualidade de Imagem Incomparável",
-        "subTitle": "Experimente detalhes e coerência superiores em imagens geradas com o modelo avançado Flux.1."
+        "title": "Qualidade de imagem incomparável",
+        "description": "Desfrute de detalhes excepcionais e coerência com o avançado modelo Flux.1, elevando o padrão de excelência visual do setor."
       },
       "3": {
-        "title": "Interface Amigável",
-        "subTitle": "Desfrute de uma plataforma intuitiva que é mais fácil de usar que o ComfyUI, perfeita para iniciantes e profissionais."
+        "title": "Interface fácil de usar",
+        "description": "Conversão simples de texto em imagem, tornando a geração de imagens por IA acessível a todos, de profissionais a entusiastas criativos."
       },
       "4": {
-        "title": "Conversão Simples de Texto para Imagem",
-        "subTitle": "Basta digitar seu prompt em grokimagegenerator.net e assistir enquanto o Gerador de Imagens Grok AI cria visuais deslumbrantes instantaneamente."
-      },
-      "5": {
-        "title": "Opções de Controle Avançado",
-        "subTitle": "Explore o Flux.1 Pro para controle aprimorado e o Flux.1 Schnell para iterações rápidas, atendendo às diversas necessidades criativas."
+        "title": "Potencial criativo instantâneo",
+        "description": "Basta inserir seu prompt em grokimagegenerator.net e ver o Grok IA transformar instantaneamente suas ideias em obras visuais impressionantes."
       }
     },
-    "tools": {
-      "title": "Desperte sua Criatividade com o Gerador de Imagens Grok AI",
-      "content": "Explore nossa coleção de ferramentas divertidas e fáceis de usar alimentadas pelo Gerador de Imagens Grok AI. Transforme suas ideias em visuais deslumbrantes em segundos, sem necessidade de experiência. Pronto para criar um pouco de mágica com IA?",
-      "flux-ai-image-generator": {
-        "title": "Gerador de Imagens Grok AI",
-        "content": "Descubra o Gerador de Imagens Grok AI, uma ferramenta poderosa que transforma texto em imagens deslumbrantes usando IA. Com o Gerador de Imagens Grok AI, crie visuais únicos sem esforço. Recursos-chave incluem conversão de texto para imagem, personalização de estilo para estilos e cores personalizados, e geração em tempo real para resultados instantâneos. Eleve seu conteúdo visual com o Gerador de Imagens Grok AI."
+    "advantage": {
+      "title": "Vantagens do Grok 3 Gerador de Imagens IA",
+      "description": "O Grok 3 Gerador de Imagens IA combina tecnologia de IA avançada com arquitetura de alto desempenho, proporcionando uma experiência de criação de imagens ultrarrápida, de alta qualidade e versátil, oferecendo soluções profissionais para design, criação de conteúdo e aplicações visuais comerciais.",
+      "try-now": "Experimente agora",
+      "1": {
+        "title": "Impulsionado por tecnologia de IA avançada",
+        "description": "Baseado em inteligência artificial de ponta, o Grok IA oferece qualidade excepcional na geração de imagens, interpretando prompts de texto com precisão e transformando visões criativas em realidade visual."
       },
-      "flux-ai-anime-generator": {
-        "title": "Gerador de Animes Grok",
-        "content": "Descubra o Gerador de Animes Grok, uma ferramenta de ponta que usa IA para transformar texto e imagens em arte única no estilo anime. Com recursos como conversão de texto para anime, saída de alta qualidade e uma interface amigável, o Gerador de Imagens Grok AI oferece possibilidades criativas infinitas para iniciantes e artistas experientes. Personalize estilos sem esforço e explore o vibrante mundo do Anime com IA com o Gerador de Imagens Grok AI."
+      "2": {
+        "title": "Qualidade profissional em velocidade relâmpago",
+        "description": "Utilizando arquitetura de destilação guiada de alto desempenho, o Grok IA gera imagens rapidamente sem perder precisão e apelo estético, atendendo prazos criativos exigentes."
       },
-      "flux-ai-medal-generator": {
-        "title": "Gerador de Medalhas AI",
-        "content": "Descubra o Gerador de Medalhas AI, uma ferramenta revolucionária que usa IA para criar designs de medalhas únicos e personalizados. Com o Gerador de Imagens Grok AI, desfrute de soluções de design eficientes e econômicas que garantem que cada medalha seja única. Escolha entre uma ampla variedade de estilos para qualquer ocasião, tudo sem a necessidade de habilidades avançadas de design. Crie medalhas impressionantes convenientemente de sua casa ou escritório, e faça seus prêmios realmente se destacarem. Experimente a fusão de inovação e criatividade com o Gerador de Medalhas AI do Gerador de Imagens Grok AI hoje."
+      "3": {
+        "title": "Geração de imagens multiestilo versátil",
+        "description": "De renderizações fotorrealistas a ilustrações artísticas e designs abstratos, o Grok IA lida com todos os estilos visuais, abrangendo desde comunicação de marca até expressão artística pessoal."
+      },
+      "4": {
+        "title": "Sem necessidade de instalação",
+        "description": "Uma plataforma totalmente online que dispensa Photoshop ou softwares especializados. Basta abrir o navegador e criar imagens a qualquer hora, em qualquer lugar, com máxima praticidade."
       }
+    },
+    "twitter": {
+      "title": "Avaliações de usuários e estudos de caso sobre o Grok IA no X",
+      "description": "Veja avaliações de usuários e estudos de caso no X para gerar conteúdos ainda mais impressionantes"
+    },
+    "models": {
+      "title": "Descubra os modelos avançados de IA do Grok",
+      "description": "Escolha o modelo ideal para aumentar sua produtividade e liberar sua criatividade.",
+      "1": {
+        "title": "Grok 2.0",
+        "description": "O Grok 2.0 combina os modelos Flux.1 e Aurora proprietários, criando um modelo multimodal de geração de imagens por IA que integra compreensão avançada de linguagem e geração de imagens com alta liberdade."
+      },
+      "2": {
+        "title": "Grok 3.0",
+        "description": "O Grok 3.0 é o modelo mais recente de geração de imagens da xAI, com 10× mais capacidade computacional, suportando raciocínio avançado 'Think/Big Brain' e geração de imagens Aurora com capacidades de texto para imagem significativamente aprimoradas."
+      }
+    },
+    "manual": {
+      "title": "Como usar o Grok IA Gerador de Imagens",
+      "content": "Obtenha suas imagens de IA desejadas em apenas alguns passos simples",
+      "1": {
+        "title": "Digite seu texto (otimize seu prompt a qualquer momento para melhores resultados) ou envie uma imagem, se preferir."
+      },
+      "2": {
+        "title": "Selecione a proporção da sua imagem"
+      },
+      "3": {
+        "title": "Clique no botão gerar e aguarde alguns segundos para ver sua imagem"
+      },
+      "4": {
+        "title": "Navegue pelos resultados gerados, escolha sua imagem favorita e faça o download para usar em sites, redes sociais, publicidade, impressão e diversos cenários comerciais"
+      }
+    },
+    "faq": {
+      "title": "Perguntas frequentes sobre o Grok 3 Gerador de Imagens IA",
+      "1": {
+        "question": "O que é o Grok 3 Gerador de Imagens IA?",
+        "answer": "O Grok 3 Gerador de Imagens IA é um gerador de imagens por IA ultrarrápido, capaz de criar imagens de alta qualidade em segundos, superando concorrentes como Stable Diffusion 3 e Midjourney."
+      },
+      "2": {
+        "question": "Quais são os principais recursos do Grok 3 Gerador de Imagens IA?",
+        "answer": "O Grok 3 Gerador de Imagens IA oferece qualidade de imagem incomparável, interface amigável e recursos avançados como controle aprimorado Flux.1 Pro e iteração rápida Flux.1 Schnell."
+      },
+      "3": {
+        "question": "Como usar o Grok 3 Gerador de Imagens IA?",
+        "answer": "Basta acessar grokimagegenerator.net, inserir seu prompt e ver o Grok 3 Gerador de Imagens IA criar visuais incríveis em segundos."
+      },
+      "4": {
+        "question": "Quais planos de preços o Grok IA Gerador de Imagens oferece?",
+        "answer": "O Grok IA Gerador de Imagens oferece planos gratuitos (60 créditos), Básico (US$9,99 por 5000 créditos), Standard (US$9,99/mês por 5000 créditos) e Pro (US$14,99/mês por 8000 créditos)."
+      },
+      "5": {
+        "question": "O Grok IA Gerador de Imagens tem plano gratuito?",
+        "answer": "Sim, o Grok 3 Gerador de Imagens IA oferece acesso 100% gratuito à geração de imagens de alta qualidade e aos principais recursos do Grok 3 IA."
+      },
+      "6": {
+        "question": "Como o Grok 3 Gerador de Imagens IA se compara a outros geradores de imagens por IA?",
+        "answer": "O Grok 3 Gerador de Imagens IA é mais rápido que o Midjourney, mais fácil de usar que o ComfyUI e gera imagens de qualidade superior com seu modelo avançado Flux.1 Pro."
+      },
+      "7": {
+        "question": "Posso usar o Grok 3 Gerador de Imagens IA para projetos comerciais?",
+        "answer": "Sim, as imagens geradas com o Grok 3 Gerador de Imagens IA podem ser usadas para fins comerciais."
+      },
+      "8": {
+        "question": "O Grok 3 Gerador de Imagens IA é open-source?",
+        "answer": "Sim, o Grok 3 Gerador de Imagens IA é open-source e está disponível no GitHub e Hugging Face."
+      },
+      "9": {
+        "question": "Com que frequência o Grok IA Gerador de Imagens é atualizado?",
+        "answer": "Para as últimas atualizações do Grok IA Gerador de Imagens, visite https://x.ai/grok."
+      },
+      "10": {
+        "question": "O Grok IA Gerador de Imagens tem aplicativo para celular?",
+        "answer": "Atualmente, o Grok IA Gerador de Imagens é baseado na web em grokimagegenerator.net. Versões para dispositivos móveis estão sendo consideradas para o futuro."
+      },
+      "11": {
+        "question": "Como posso obter suporte para o Grok IA Gerador de Imagens?",
+        "answer": "Para suporte, entre em contato pelo e-mail contact@grokimagegenerator.net."
+      }
+    },
+    "start-now": {
+      "title": "Experimente agora o Grok IA Gerador de Imagens - 100% gratuito!",
+      "try-now": "Experimente Grok IA grátis"
+    }
+  },
+  "blog": {
+    "heading": {
+      "title": "Artigos e notícias recomendados sobre o Grok 3 Gerador de Imagens IA",
+      "description": "Explore os artigos, notícias e atualizações mais recentes do Grok IA Gerador de Imagens. Obtenha insights de especialistas, tutoriais e fique por dentro das novidades da nossa tecnologia de IA de ponta e desenvolvimentos da plataforma."
+    },
+    "media-tools": {
+      "title": "Ferramentas avançadas de IA para Imagem e Vídeo do Grok IA",
+      "description": "Crie imagens incríveis e vídeos envolventes com as poderosas ferramentas do Grok IA. Libere sua criatividade com nossa tecnologia de IA de última geração.",
+      "image": {
+        "title": "Ferramentas de Imagem Grok IA",
+        "description": "Gere imagens impressionantes instantaneamente com a tecnologia de geração de texto para imagem e imagem para imagem do Grok IA.",
+        "try-now": "Grok IA Gerador de Imagens",
+        "check-more": "Saiba mais"
+      },
+      "video": {
+        "title": "Ferramentas de Vídeo IA",
+        "description": "Crie vídeos animados envolventes com a tecnologia de texto para vídeo e imagem para vídeo do Grok IA.",
+        "try-now": "Grok IA Gerador de Vídeos",
+        "check-more": "Saiba mais"
+      },
+      "tools": {
+        "title": "Ferramentas de IA Gratuitas",
+        "description": "Comece sua jornada criativa com as ferramentas de IA gratuitas do Grok IA.",
+        "try-now": "Imagem para Prompt Grátis",
+        "check-more": "Saiba mais"
+      }
+    },
+    "links": {
+      "title": "Explore mais ferramentas de IA relacionadas ao Grok IA",
+      "content": "Descubra ferramentas avançadas do Grok IA para aprimorar seu fluxo criativo."
+    },
+    "card": {
+      "author": "Autor",
+      "time": "Data"
+    },
+    "recommend": {
+      "title": "Mais artigos sobre o Grok IA",
+      "description": "Descubra mais artigos e notícias sobre o Grok IA."
+    },
+    "like": {
+      "success": "Obrigado pelo seu apoio!",
+      "error": "Erro"
     }
   },
   "Metadata": {
     "common": {
       "siteName": "grokimagegenerator.net",
-      "creator": "grokimagegenerator.net"
+      "creator": "Melhor Gerador de Imagens Grok IA"
     },
     "home": {
-      "title": "Gerador de Imagens Grok AI Online Gratuito - Geração de Imagens Grok 2 baseada em Flux.1 AI",
-      "description": "Transforme texto em imagem pela Flux.1 AI, suportando modelos flux.1 pro, flux.1 dev e flux.1 schnell.",
-      "keywords": "Gerador de Imagens Grok AI, Gerador de Imagens AI",
+      "title": "Grok 3 Gerador de Imagens IA - 100% gratuito, sem cadastro, sem cartão de crédito",
+      "description": "Grok 3 Gerador de Imagens IA, desenvolvido pelo Grok 3 IA. 100% gratuito, sem necessidade de cadastro, sem cartão de crédito e sem limitações. Gere imagens incríveis para todas as suas necessidades criativas.",
+      "keywords": "Grok 3 Gerador de Imagens IA, Gerador de Imagens",
       "openGraph": {
-        "title": "grokimagegenerator.net",
-        "description": "Transforme texto em imagem pela Flux.1 AI, suportando modelos flux.1 pro, flux.1 dev e flux.1 schnell.",
+        "title": "Grok 3 Gerador de Imagens IA - 100% gratuito, sem cadastro, sem cartão de crédito",
+        "description": "Grok 3 Gerador de Imagens IA, desenvolvido pelo Grok 3 IA. 100% gratuito, sem necessidade de cadastro, sem cartão de crédito e sem limitações. Gere imagens incríveis para todas as suas necessidades criativas.",
         "siteName": "grokimagegenerator.net"
       },
       "twitter": {
-        "title": "Gerador de Imagens Grok AI",
-        "description": "Transforme texto em imagem pela Flux.1 AI, suportando modelos flux.1 pro, flux.1 dev e flux.1 schnell.",
+        "title": "Grok 3 Gerador de Imagens IA - 100% gratuito, sem cadastro, sem cartão de crédito",
+        "description": "Grok 3 Gerador de Imagens IA, desenvolvido pelo Grok 3 IA. 100% gratuito, sem necessidade de cadastro, sem cartão de crédito e sem limitações. Gere imagens incríveis para todas as suas necessidades criativas.",
         "site": "grokimagegenerator.net",
-        "creator": "Gerador de Imagens Grok AI"
+        "creator": "Grok 3 Gerador de Imagens IA"
       }
     },
     "blog": {
-      "title": "Blog do Gerador de Imagens Grok AI | grokimagegenerator.net",
+      "title": "Artigos e notícias sobre o Grok 3 Gerador de Imagens IA",
       "titleSuffix": "grokimagegenerator.net"
     }
   }

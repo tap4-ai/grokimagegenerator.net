@@ -7,7 +7,7 @@ import { cn } from '@/lib/utils';
 
 export default function MarkdownProse({ markdown, className }: { markdown: string; className?: string }) {
   return (
-    <article className={cn('prose prose-invert !max-w-none', className)}>
+    <article className={cn('prose prose-invert max-w-none!', className)}>
       <Markdown
         remarkPlugins={[remarkGfm]}
         // components={{

@@ -1,5 +1,7 @@
 'use client';
 
+import { CircleX } from 'lucide-react';
+
 import { cn } from '@/lib/utils';
 import { Dialog, DialogClose, DialogContent } from '@/components/ui/dialog';
 
@@ -22,7 +24,7 @@ function Btn({
       disabled={disabled}
       onClick={onClick}
       className={cn(
-        'h-7 min-w-[102px] text-nowrap rounded-full border border-white px-2.5 text-center text-xs font-normal hover:opacity-80 lg:h-10 lg:w-[176px] lg:text-base',
+        'h-10 flex-1 text-nowrap rounded-lg border border-white text-center text-xs hover:opacity-80 lg:text-base',
         className,
       )}
     >
@@ -43,7 +45,9 @@ export default function BaseDialog({
   children,
   className,
   btnsGroupClassName,
-  btnClassName,
+  cancelBtnClassName,
+  okBtnClassName,
+  loading,
 }: {
   open: boolean;
   setOpen: (open: boolean) => void;
@@ -56,35 +60,42 @@ export default function BaseDialog({
   children?: React.ReactNode;
   className?: string;
   btnsGroupClassName?: string;
-  btnClassName?: string;
+  cancelBtnClassName?: string;
+  okBtnClassName?: string;
+  loading?: boolean;
 }) {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent
         closeBtnClassName='hidden'
         className={cn(
-          'flex h-[156px] w-[264px] flex-col justify-between !rounded-[32px] bg-main-gray p-5 lg:h-[268px] lg:w-[528px] lg:px-[68px] lg:py-10',
+          'flex min-h-[210px] w-[351px] flex-col justify-between rounded-xl! border-main-gray bg-card-black p-5 lg:min-h-[213px] lg:w-[420px] lg:p-3',
           className,
         )}
       >
+        <DialogClose asChild>
+          <button type='button' onClick={onClose} className='absolute right-3 top-3'>
+            <CircleX className='size-5 text-white/70' />
+          </button>
+        </DialogClose>
         {title && <div className='text-center text-sm font-bold lg:text-base'>{title}</div>}
         {children}
-        <div className={cn('flex items-center justify-between', btnsGroupClassName)}>
+        <div className={cn('flex items-center justify-between gap-3', btnsGroupClassName)}>
           <DialogClose asChild>
-            <Btn onClick={onClose} className={btnClassName}>
+            <Btn onClick={onClose} className={cancelBtnClassName}>
               {cancelText}
             </Btn>
           </DialogClose>
           <Btn
-            disabled={disabled}
+            disabled={disabled || loading}
             onClick={onOk}
             className={cn(
               'flex-center border-none bg-white font-bold text-black',
-              disabled && 'opacity-70',
-              btnClassName,
+              disabled && 'cursor-not-allowed opacity-70',
+              okBtnClassName,
             )}
           >
-            {disabled ? <Spinning className='size-3.5 lg:size-4 ' /> : okText}
+            {loading ? <Spinning className='size-3.5 lg:size-4 ' /> : okText}
           </Btn>
         </div>
       </DialogContent>

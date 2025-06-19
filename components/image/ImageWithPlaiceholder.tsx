@@ -1,21 +1,31 @@
 'use client';
 
 import { useState } from 'react';
+import { Trash2 } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
+import { Link } from '@/i18n/navigation';
 
 import Loading from '../Loading';
 
 export default function ImageWithPlaiceholder({
+  id,
   src,
   className,
   alt,
   title,
+  onDelete,
+  showDeleteBtn = false,
+  route,
 }: {
+  id: string;
   src: string;
   className?: string;
   alt: string;
   title: string;
+  onDelete: (id: string) => void;
+  showDeleteBtn?: boolean;
+  route: string;
 }) {
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -31,14 +41,27 @@ export default function ImageWithPlaiceholder({
         className,
       )}
     >
-      <img className='w-full transition-all duration-200 group-hover:scale-125' onLoad={onLoad} src={src} alt={alt} />
-      <div
-        className={cn(
-          'absolute inset-0 -z-10 h-auto w-full bg-[#26232D]',
-          // isLoaded ? 'opacity-0' : 'opacity-100',
-          // 'transition-all duration-300 ease-out',
-        )}
-      >
+      {showDeleteBtn && (
+        <button
+          type='button'
+          onClick={() => onDelete(id)}
+          className='absolute right-1 top-1 z-20 hidden size-7 items-center justify-center rounded-lg bg-black/40 backdrop-blur-xs group-hover:flex'
+        >
+          <Trash2 className='size-5 text-white/40' />
+          <span className='sr-only'>delete</span>
+        </button>
+      )}
+      <Link key={id} href={`${route}/${id}`} className='w-full'>
+        <img
+          className='w-full transition-all duration-200 group-hover:scale-125'
+          loading='lazy'
+          decoding='async'
+          onLoad={onLoad}
+          src={src}
+          alt={alt}
+        />
+      </Link>
+      <div className={cn('absolute inset-0 -z-10 h-auto w-full bg-[#26232D]')}>
         <div className='flex-xy-center h-full min-h-[300px] w-full'>
           <Loading className='h-[35px] w-[50px]' />
         </div>

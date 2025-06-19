@@ -5,7 +5,7 @@ import { ArrowLeft } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 import { cn } from '@/lib/utils';
-import { useRouter } from '@/app/navigation';
+import { useRouter } from '@/i18n/navigation';
 
 export default function GobackBtn({
   className,

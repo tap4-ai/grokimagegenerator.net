@@ -8,34 +8,91 @@
     "less": "閉じる",
     "prompt": "プロンプト",
     "model": "モデル",
+    "step": "ステップ",
+    "advantage": "メリット",
     "share": {
       "linkSharing": "またはリンクで共有",
       "plzLogin": "まずログインしてください。",
       "download": "ダウンロード",
-      "twitter": "Twitter",
-      "facebook": "Facebook"
+      "twitter": "Twitterで共有",
+      "facebook": "Facebookで共有"
+    },
+    "copy-right": {
+      "title": "著作権：",
+      "content": "有料ユーザーは生成画像の権利を所有します。"
+    }
+  },
+  "cookie": {
+    "content": "当サイトはユーザー体験向上のためCookieを使用しています。詳細はプライバシーポリシーをご覧ください。",
+    "confirm": "同意する"
+  },
+  "error-page": {
+    "not-found": {
+      "title": "404 ページが見つかりません",
+      "goHome": "ホームに戻る"
+    }
+  },
+  "components": {
+    "form-EnhanceBtn": {
+      "optimizePrompt": "プロンプトを最適化"
+    },
+    "image-form": {
+      "input-label": "画像生成用のプロンプトを入力してください",
+      "high-quality-generation": "高品質生成を試す",
+      "generate": "生成する",
+      "turnstile-error": "人間認証を完了してください",
+      "generate-error": "画像生成に失敗しました。しばらくしてから再度お試しください。",
+      "generate-success": "画像生成リクエストを送信しました",
+      "generate-wait": "生成リクエストを処理中です。数秒お待ちください。"
+    },
+    "image-history": {
+      "free-plan-title": "高品質画像生成の無料トライアル",
+      "free-plan-description": "プロフェッショナルなウェブサイトで、より速く高品質・広告なしの画像生成を体験できます",
+      "try-now": "無料トライアルを始める",
+      "generate-label": "生成：",
+      "tips-label": "ヒント：",
+      "tips-message": "生成された画像はお使いのブラウザのみに保存されます",
+      "estimated-time": "推定時間：20秒",
+      "generate-faster": "5倍速で生成",
+      "image-alt": "生成画像",
+      "no-data": "ここに生成画像が表示されます。",
+      "get-higher-quality": "高品質生成を試す"
+    },
+    "check-in": {
+      "title": "毎日チェックインでクレジット獲得",
+      "go-check-in": "今すぐチェックイン",
+      "finish-check-in": "チェックイン済み"
+    },
+    "confirmDialog": {
+      "title": "本当に実行しますか？",
+      "cancel": "キャンセル",
+      "confirm": "確認"
+    },
+    "compress-dialog": {
+      "title": "画像を圧縮",
+      "content": "画像サイズが10MBを超えているため、AI動画生成には適していません。圧縮しますか？",
+      "reupload": "再アップロード",
+      "compress": "圧縮"
     }
   },
   "Navigation": {
-    "title": "Grok AI画像生成",
-    "tools": "AIツール",
-    "flux-ai-image-generator": "Grok AI画像生成",
-    "flux-ai-image-generator-content": "Grok AI画像生成によるテキストから画像へ",
-    "flux-ai-medal-generator": "AIメダル生成",
-    "flux-ai-medal-generator-content": "Grok AI画像生成によるテキストからメダル画像へ",
-    "flux-ai-sticker-generator": "Grok AI画像生成ステッカー生成",
-    "flux-ai-sticker-generator-content": "Grok AI画像生成によるテキストからステッカーへ",
-    "flux-ai-anime-generator": "Grokアニメ生成",
-    "flux-ai-anime-generator-content": "Grok AI画像生成によるテキストからアニメ画像へ",
-    "dream-ai-video": "写真からビデオへ",
-    "prompt-market": "画像プロンプト",
-    "pricing": "価格",
-    "blog": "ブログ",
-    "freeTry": "無料トライアル",
+    "new": "新規",
+    "title": "Grok 3 AI画像生成器",
+    "flux-ai-image-generator": "Flux AI画像生成器",
+    "dream-ai-video": "写真から動画AI",
+    "prompt-market": "Grokプロンプトマーケット",
+    "videoweb": "写真から動画AI",
+    "pricing": "料金プラン",
+    "blog": "記事",
+    "blog-content": "Grok 3 AI画像生成器に関する記事・ニュース",
+    "privacy": "プライバシーポリシー",
+    "privacy-content": "Grok 3 AI画像生成器のプライバシーポリシー",
+    "resource": "リソース",
+    "freeTry": "無料で始める",
     "menu": "メニュー",
     "close": "閉じる",
     "logout": "ログアウト",
-    "logoutSuccessful": "ログアウト成功",
+    "logoutSuccessful": "ログアウトしました",
     "profile": {
       "credits": "クレジット",
       "top-up": "チャージ",
@@ -43,106 +100,61 @@
       "history": "履歴",
       "order": "注文履歴",
       "logout": "ログアウト"
+    },
+    "language-dialog": {
+      "title": "言語設定",
+      "content": "ブラウザの言語に切り替えますか？",
+      "cancel": "現在のまま",
+      "confirm": "切り替える"
     }
   },
   "Footer": {
-    "title": "Grok AI画像生成",
-    "subTitle": "grokimagegenerator.netで次世代のAI画像生成を体験しましょう！",
+    "title": "無料 Grok 3 AI画像生成器",
+    "subTitle": "Grok 3 AI画像生成器で美しいビジュアルを。100%無料・ログイン不要",
     "support": "サポート",
-    "manageSubscribe": "サブスクリプション管理",
     "privacy": "プライバシーポリシー",
     "termsConditions": "利用規約",
     "contactUs": "お問い合わせ",
-    "feature-link": "機能",
+    "feature-link": "機能一覧",
     "feature": {
-      "flux-ai-image-generator": "Grok AI画像生成",
-      "pricing": "サブスクリプション管理",
-      "blog": "ブログ",
-      "profile": "生成履歴"
-    }
-  },
-  "Faq": {
-    "title": "Grok AI画像生成のFAQ",
-    "1": {
-      "question": "Grok AI画像生成とは何ですか？",
-      "answer": "Grok AI画像生成は、数秒で高品質の画像を生成する、競合他社よりも高速なAI画像生成ツールです。Stable Diffusion 3やMidjourneyなどの競合他社を凌ぐ性能を持っています。"
-    },
-    "2": {
-      "question": "Grok AI画像生成の主な特徴は何ですか？",
-      "answer": "Grok AI画像生成は、高品質の画像、ユーザーフレンドリーなインターフェース、そしてFlux.1 ProやFlux.1 Schnellなどの高度な機能を提供します。"
-    },
-    "3": {
-      "question": "Grok AI画像生成の使い方は？",
-      "answer": "grokimagegenerator.netにアクセスし、プロンプトを入力するだけで、Grok AI画像生成が数秒で美しいビジュアルを作成します。"
-    },
-    "4": {
-      "question": "Grok AI画像生成の価格プランは？",
-      "answer": "Grok AI画像生成は、無料（60クレジット）、ベーシック（5000クレジットで9.99ドル）、コモン（月額9.99ドルで5000クレジット）、ポピュラー（月額14.99ドルで8000クレジット）のプランを提供しています。"
-    },
-    "5": {
-      "question": "Grok AI画像生成には無料プランがありますか？",
-      "answer": "はい、Grok AI画像生成は60クレジット、高品質の画像、そしてFlux.1 Schnell機能へのアクセスを含む無料プランを提供しています。"
-    },
-    "6": {
-      "question": "Grok AI画像生成は他のAI画像生成ツールとどう違いますか？",
-      "answer": "Grok AI画像生成はMidjourneyよりも高速で、ComfyUIよりも使いやすく、高度なFlux.1 Proモデルを使用して多くの競合他社よりも高品質の画像を生成します。"
-    },
-    "7": {
-      "question": "Grok AI画像生成は商用プロジェクトに使用できますか？",
-      "answer": "はい、Grok AI画像生成で生成された画像は商用利用が可能です。"
-    },
-    "8": {
-      "question": "Grok AI画像生成はオープンソースですか？",
-      "answer": "はい、Grok AI画像生成はオープンソースで、GitHubとHugging Faceで利用可能です。"
-    },
-    "9": {
-      "question": "Grok AI画像生成はどのくらいの頻度で更新されますか？",
-      "answer": "Grok AI画像生成の最新の更新については、https://github.com/black-forest-labs/fluxを確認してください。"
-    },
-    "10": {
-      "question": "Grok AI画像生成にモバイルアプリはありますか？",
-      "answer": "現在、Grok AI画像生成はgrokimagegenerator.netでウェブベースです。モバイルオプションは将来のリリースで検討されています。"
-    },
-    "11": {
-      "question": "Grok AI画像生成のサポートはどうすれば受けられますか？",
-      "answer": "サポートについては、contact@grokimagegenerator.netに連絡してください。"
+      "blog": "記事"
     }
   },
   "FooterNavigation": {
     "privacyPolicy": {
       "1-h1": "grokimagegenerator.netのプライバシーポリシー",
-      "1-p": "このプライバシーポリシーは、Grok AI画像生成がgrokimagegenerator.netでサービスを利用する際に、どのように個人情報を収集、使用、保護するかを説明しています。Grok AI画像生成を使用することで、このポリシーに記載された条件に同意したものとみなされます。",
-      "2-h2": "1. 情報の収集と使用",
-      "2-p": "Grok AI画像生成は、サービスの改善のために個人を特定できる情報を収集する場合があります。第三者サービスを使用して、あなたを特定するための情報を収集する場合もあります。",
+      "1-p": "本プライバシーポリシーは、grokimagegenerator.netでサービスをご利用いただく際に、Grok AI画像生成器がどのように個人情報を収集・利用・保護するかを説明します。ご利用いただくことで、本ポリシーに同意したものとみなされます。",
+      "2-h2": "1. 情報の収集と利用",
+      "2-p": "Grok AI画像生成器は、サービス向上のために個人を特定できる情報を収集する場合があります。また、第三者サービスを利用し、識別情報を収集することがあります。",
       "3-h2": "2. ログデータ",
-      "3-p": "エラーが発生した場合、IPアドレス、デバイス情報、アプリの設定、使用統計などのログデータを収集します。",
+      "3-p": "エラー発生時には、IPアドレス・デバイス情報・アプリ設定・利用状況などのログデータを収集する場合があります。",
       "4-h2": "3. クッキー",
-      "4-p": "Grok AI画像生成は、第三者のコードやライブラリを使用してクッキーを使用する場合があります。これらのクッキーを受け入れるか拒否するかを選択できますが、拒否すると一部の機能が制限される場合があります。",
-      "5-h2": "4. サービスプロバイダー",
-      "5-p": "サービスの提供、関連タスクの実行、Grok AI画像生成の使用状況の分析などのために、第三者企業を雇用する場合があります。これらの当事者はあなたの個人情報にアクセスできますが、機密性を維持する義務があります。",
+      "4-p": "Grok AIは、クッキーを利用する第三者コードやライブラリを使用する場合があります。クッキーの受け入れ・拒否は選択できますが、拒否した場合一部機能が制限されることがあります。",
+      "5-h2": "4. サービス提供者",
+      "5-p": "サービスの円滑な提供や分析のため、第三者企業に業務を委託する場合があります。これらの企業は個人情報にアクセスできますが、秘密保持義務があります。",
       "6-h2": "5. セキュリティ",
-      "6-p": "商業的に受け入れられる手段を使用して、あなたの個人情報を保護するよう努めていますが、絶対的なセキュリティを保証することはできません。",
+      "6-p": "個人情報の保護に努めていますが、絶対的な安全性は保証できません。",
       "7-h2": "6. 外部サイトへのリンク",
-      "7-p": "Grok AI画像生成には外部サイトへのリンクが含まれる場合があります。これらのサイトのコンテンツやプライバシー慣行については責任を負いません。",
+      "7-p": "Grok AIには外部サイトへのリンクが含まれる場合がありますが、当社はそれらの内容やプライバシー方針について責任を負いません。",
       "8-h2": "7. プライバシーポリシーの変更",
-      "8-p": "プライバシーポリシーは定期的に更新される場合があります。変更についてはこのページを確認してください。更新は投稿された時点で即時に有効となります。"
+      "8-p": "本プライバシーポリシーは随時更新される場合があります。変更があった際は本ページでお知らせします。更新は掲載と同時に有効となります。"
     },
     "termsConditions": {
       "1-h1": "grokimagegenerator.netの利用規約",
-      "1-p": "grokimagegenerator.netへようこそ！当ウェブサイトはAIを利用した画像生成サービスを提供しています。当ウェブサイトを使用することで、これらの利用規約に同意したものとみなされます。一部に同意できない場合は、ウェブサイトの使用を控えてください。",
-      "2-h2": "1. 使用許諾",
-      "2-p": "Grok AI画像生成を個人および商用目的で使用するための制限付きライセンスが付与されます。このライセンスには、当ウェブサイトのコンテンツを改変または配布する権利は含まれません。事前の書面による同意なしには行えません。",
+      "1-p": "grokimagegenerator.netへようこそ！当サイトはAIによる画像生成サービスを提供しています。本ウェブサイトをご利用いただくことで、利用規約に同意したものとみなされます。ご同意いただけない場合はご利用をお控えください。",
+      "2-h2": "1. 利用ライセンス",
+      "2-p": "Grok AIは、個人・商用利用のための限定的なライセンスを付与します。ただし、当社の書面による事前承諾なしにウェブサイトの内容を改変・配布する権利は含まれません。",
       "3-h2": "2. 所有権",
-      "3-p": "Grok AI画像生成を使用して生成された画像は、それを作成したユーザーに帰属します。Grok AI画像生成はユーザーが生成した画像に対して所有権を主張しません。",
+      "3-p": "Grok AIで生成された画像の所有権は、作成したユーザーに帰属します。Grok AIはユーザー生成画像の権利を主張しません。",
       "4-h2": "3. ユーザーデータの収集",
-      "4-p": "サービスの改善のために個人および非個人データを収集します。データの使用は、grokimagegenerator.net/privacy-policyで利用可能なプライバシーポリシーによって管理されます。",
+      "4-p": "サービス向上のため、個人情報および非個人情報を収集します。データの利用は、grokimagegenerator.net/privacy-policyに記載のプライバシーポリシーに従います。",
       "5-h2": "4. 準拠法",
-      "5-p": "これらの利用規約は、法律の抵触規定を考慮せず、アメリカ合衆国の法律に準拠します。",
-      "6-h2": "5. 利用規約の変更",
-      "6-p": "Grok AI画像生成は、これらの利用規約をいつでも変更する権利を留保します。変更はメールで通知されます。ウェブサイトの継続使用は、変更された利用規約の受諾を意味します。",
-      "7-h2": "6. 連絡先情報",
-      "7-p": "これらの利用規約に関する質問がある場合は、contact@grokimagegenerator.netにお問い合わせください。",
-      "last-p": "grokimagegenerator.netを使用することで、これらの利用規約に同意したものとみなされます。"
+      "5-p": "本規約は、アメリカ合衆国の法律に準拠します（法的抵触の原則を除く）。",
+      "6-h2": "5. 規約の変更",
+      "6-p": "Grok AIは、いつでも本規約を変更する権利を有します。変更時はメールで通知します。継続利用された場合、変更後の規約に同意したものとみなされます。",
+      "7-h2": "6. お問い合わせ",
+      "7-p": "本規約に関するご質問は、contact@grokimagegenerator.netまでご連絡ください。",
+      "last-p": "grokimagegenerator.netをご利用いただくことで、本利用規約に同意したものとみなされます。"
     }
   },
   "NotFound": {
@@ -150,78 +162,240 @@
     "goHome": "ホームに戻る"
   },
   "Error": {
-    "title": "何かがうまくいきませんでした！",
+    "title": "エラーが発生しました！",
     "retry": "再試行"
   },
   "Home": {
-    "vortex": {
-      "title": "Grok AI画像生成",
-      "content": "Grok AI画像生成の次世代の進化を体験し、flux.1 pro、flux.1 dev、flux.1 schnellモデルをサポートします。"
+    "heading": {
+      "title": "Grok 3 AI画像生成器",
+      "description": "100%無料のGrok 3 AI画像生成器。Grok 3 AIで数秒で美しい画像を作成。登録不要・クレジットカード不要",
+      "try-now": "高品質生成を試す",
+      "try-now-2": "画像から動画AIを試す",
+      "tags": {
+        "free": "100%無料",
+        "powered": "Grok 3 AI搭載",
+        "no-login": "登録不要",
+        "unlimited": "無制限生成"
+      }
     },
-    "coreFeatures": {
-      "title": "Grok AI画像生成の高度な機能",
-      "subTitle": "Grok AI画像生成は、テキストを高品質のビジュアルに変換する最先端のAI画像生成ツールです。",
+    "blog": {
+      "title": "Grok 3 AI画像生成器に関する記事・ニュース"
+    },
+    "example": {
+      "title": "Grok 3 AI画像生成器の活用例",
+      "description": "Grok 3 AIは多様な分野で活用でき、クリエイターの無限の可能性を引き出します。",
+      "promptTitle": "プロンプト",
+      "btnText": "今すぐ試す",
+      "texts": {
+        "1": {
+          "title": "プロダクトデザイナー・UX/UI専門家",
+          "description": "Grok AIを活用して、インターフェースのスケッチやビジュアルプロトタイプ、インタラクション図を即座に生成。多様なデザインスタイルを探求し、ワークフローを最適化、プロトタイプの反復を加速します。"
+        },
+        "2": {
+          "title": "EC・ブランド事業者",
+          "description": "撮影コストゼロで高品質な商品画像やシーンビジュアル、広告用クリエイティブを生成。ビジュアルマーケティング効果を高め、ブランド訴求力を向上、マーケティングコストを大幅削減。"
+        },
+        "3": {
+          "title": "教育者・研究者",
+          "description": "授業用デモや教科書イラスト、研究図を素早く生成。視覚的な伝達力を高め、知識や研究成果を効率的かつ明確に伝えます。"
+        },
+        "4": {
+          "title": "ゲーム開発者",
+          "description": "ゲームキャラクターやシーン、コンセプトアートを迅速に制作。Grok AIの強力な生成能力でゲームのビジュアルを充実させ、制作工程を効率化。"
+        }
+      }
+    },
+    "features": {
+      "title": "Grok 3 AI画像生成器の主な特徴",
       "1": {
-        "title": "高速生成",
-        "subTitle": "数秒で高品質の画像を作成し、Stable Diffusion 3やMidjourneyなどの競合他社を凌駕します。"
+        "title": "超高速画像生成",
+        "description": "数秒で高品質な画像を生成。Stable Diffusion 3やMidjourneyを凌駕するスピードと精度を実現。"
       },
       "2": {
-        "title": "無類の画像品質",
-        "subTitle": "高度なFlux.1モデルで生成された画像の詳細と一貫性を体験しましょう。"
+        "title": "圧倒的な画像品質",
+        "description": "先進のFlux.1モデルにより、細部まで美しく一貫性のある画像を生成。業界最高水準のビジュアル体験を提供。"
       },
       "3": {
-        "title": "ユーザーフレンドリーなインターフェース",
-        "subTitle": "ComfyUIよりも使いやすい直感的なプラットフォームで、初心者からプロフェッショナルまで対応します。"
+        "title": "直感的な操作性",
+        "description": "テキストから画像への変換が簡単。プロからクリエイター初心者まで誰でも使いやすいインターフェース。"
       },
       "4": {
-        "title": "簡単なテキストから画像への変換",
-        "subTitle": "grokimagegenerator.netでプロンプトを入力するだけで、Grok AI画像生成が即座に美しいビジュアルを作成します。"
-      },
-      "5": {
-        "title": "高度な制御オプション",
-        "subTitle": "Flux.1 Proで高度な制御を、Flux.1 Schnellで迅速なイテレーションを探索し、多様なクリエイティブニーズに対応します。"
+        "title": "即時クリエイティブ実現",
+        "description": "grokimagegenerator.netでプロンプトを入力するだけで、Grok AIがアイデアを瞬時に美しいビジュアルへ変換。"
       }
     },
-    "tools": {
-      "title": "Grok AI画像生成でクリエイティビティを刺激",
-      "content": "Grok AI画像生成が提供する楽しく使いやすいツールを探索しましょう。アイデアを数秒で美しいビジュアルに変換し、専門知識は必要ありません。AIの魔法を作成する準備はできていますか？",
-      "flux-ai-image-generator": {
-        "title": "Grok AI画像生成",
-        "content": "Grok AI画像生成を発見し、AIを使用してテキストを美しい画像に変換する強力なツールを体験しましょう。Grok AI画像生成で、ユニークなビジュアルを簡単に作成できます。主な機能には、テキストから画像への変換、パーソナライズされたスタイルと色のカスタマイズ、リアルタイム生成による即時結果が含まれます。Grok AI画像生成でビジュアルコンテンツを向上させましょう。"
+    "advantage": {
+      "title": "Grok 3 AI画像生成器のメリット",
+      "description": "Grok 3 AI画像生成器は、先進AI技術と高性能アーキテクチャを融合し、超高速・高品質・多用途な画像生成体験を実現。デザイン・コンテンツ制作・商用ビジュアルにプロレベルのソリューションを提供します。",
+      "try-now": "今すぐ試す",
+      "1": {
+        "title": "最先端AI技術搭載",
+        "description": "最先端の人工知能を活用し、テキストプロンプトを正確に解釈。クリエイティブなビジョンを見事にビジュアル化します。"
       },
-      "flux-ai-anime-generator": {
-        "title": "Grokアニメ生成",
-        "content": "Grokアニメ生成を発見し、AIを使用してテキストと画像をユニークなアニメスタイルのアートワークに変換する最先端のツールを体験しましょう。テキストからアニメへの変換、高品質の出力、ユーザーフレンドリーなインターフェースなどの機能を備えたGrok AI画像生成は、初心者から経験豊富なアーティストまで無限のクリエイティブな可能性を提供します。スタイルを簡単にカスタマイズし、Grok AI画像生成でAIアニメの鮮やかな世界を探索しましょう。"
+      "2": {
+        "title": "プロ品質を超高速で",
+        "description": "高性能なガイド付き蒸留アーキテクチャにより、スピーディーかつ高精度・高美観な画像生成を実現。厳しい納期にも対応。"
       },
-      "flux-ai-medal-generator": {
-        "title": "AIメダル生成",
-        "content": "AIメダル生成を発見し、AIを使用してユニークでパーソナライズされたメダルデザインを作成する革命的なツールを体験しましょう。Grok AI画像生成で、効率的でコスト効果の高いデザインソリューションを享受し、各メダルが一つしかないものになることを保証します。あらゆる場面に合う幅広いスタイルから選択し、高度なデザインスキルは必要ありません。自宅やオフィスから便利に印象的なメダルを作成し、賞を本当に際立たせましょう。Grok AI画像生成のAIメダル生成でイノベーションとクリエイティビティの融合を体験しましょう。"
+      "3": {
+        "title": "多彩なスタイルに対応",
+        "description": "フォトリアルからイラスト、抽象デザインまで、あらゆるビジュアルスタイルに柔軟対応。ブランド訴求から個人表現まで幅広く活用可能。"
+      },
+      "4": {
+        "title": "インストール不要",
+        "description": "Photoshopや専用編集ソフト不要の純粋なWebプラットフォーム。ブラウザを開くだけで、いつでもどこでも画像生成が可能。"
       }
+    },
+    "twitter": {
+      "title": "X（旧Twitter）でのGrok AI画像生成器のレビュー・事例",
+      "description": "Xでのユーザーレビューや事例をチェックして、さらに素晴らしいコンテンツを生み出しましょう"
+    },
+    "models": {
+      "title": "Grok AIの先進AIモデルを紹介",
+      "description": "最適なモデルを選んで生産性と創造力を最大化しましょう。",
+      "1": {
+        "title": "Grok 2.0",
+        "description": "Grok 2.0はFlux.1と独自のAuroraモデルを組み合わせ、高度な言語理解と自由度の高い画像生成を統合したマルチモーダルAI画像生成モデルです。"
+      },
+      "2": {
+        "title": "Grok 3.0",
+        "description": "Grok 3.0はxAIの最新画像生成モデル。10倍の計算能力で「Think/Big Brain」高次推論とAurora画像生成をサポートし、テキストから画像への変換能力が大幅に向上。"
+      }
+    },
+    "manual": {
+      "title": "Grok AI画像生成器の使い方",
+      "content": "簡単なステップで理想のAI画像を手に入れましょう",
+      "1": {
+        "title": "テキストを入力（いつでもプロンプト最適化可能）、または画像をアップロード"
+      },
+      "2": {
+        "title": "画像のアスペクト比を選択"
+      },
+      "3": {
+        "title": "生成ボタンをクリックし、数秒待つだけ"
+      },
+      "4": {
+        "title": "生成結果を確認し、お気に入りの画像を選んでダウンロード。Web・SNS・広告・印刷など様々な用途で活用可能"
+      }
+    },
+    "faq": {
+      "title": "Grok 3 AI画像生成器に関するよくある質問",
+      "1": {
+        "question": "Grok 3 AI画像生成器とは？",
+        "answer": "Grok 3 AI画像生成器は、数秒で高品質な画像を生成できる超高速AI画像生成ツールです。Stable Diffusion 3やMidjourneyを上回る性能を誇ります。"
+      },
+      "2": {
+        "question": "Grok 3 AI画像生成器の主な特徴は？",
+        "answer": "Grok 3 AI画像生成器は、圧倒的な画像品質・使いやすいUI・Flux.1 Proによる高度な制御やFlux.1 Schnellの高速反復など先進機能を備えています。"
+      },
+      "3": {
+        "question": "Grok 3 AI画像生成器の使い方は？",
+        "answer": "grokimagegenerator.netにアクセスし、プロンプトを入力するだけで、Grok 3 AI画像生成器が数秒で美しい画像を生成します。"
+      },
+      "4": {
+        "question": "Grok AI画像生成器の料金プランは？",
+        "answer": "Grok AI画像生成器は、無料（60クレジット）、ベーシック（$9.99/5000クレジット）、スタンダード（$9.99/月・5000クレジット）、プロ（$14.99/月・8000クレジット）プランを提供しています。"
+      },
+      "5": {
+        "question": "Grok AI画像生成器に無料プランはありますか？",
+        "answer": "はい、Grok 3 AI画像生成器は100%無料で高品質な画像生成や主要機能を利用できます。"
+      },
+      "6": {
+        "question": "Grok 3 AI画像生成器は他のAI画像生成ツールと比べてどうですか？",
+        "answer": "Grok 3 AI画像生成器はMidjourneyより高速、ComfyUIより使いやすく、先進のFlux.1 Proモデルでより高品質な画像を生成します。"
+      },
+      "7": {
+        "question": "Grok 3 AI画像生成器は商用利用できますか？",
+        "answer": "はい、Grok 3 AI画像生成器で生成した画像は商用利用可能です。"
+      },
+      "8": {
+        "question": "Grok 3 AI画像生成器はオープンソースですか？",
+        "answer": "はい、Grok 3 AI画像生成器はオープンソースで、GitHubやHugging Faceで公開されています。"
+      },
+      "9": {
+        "question": "Grok AI画像生成器のアップデート頻度は？",
+        "answer": "最新情報は https://x.ai/grok をご覧ください。"
+      },
+      "10": {
+        "question": "Grok AI画像生成器のモバイルアプリはありますか？",
+        "answer": "現在はgrokimagegenerator.netでWeb版のみ提供中です。モバイル版も今後検討中です。"
+      },
+      "11": {
+        "question": "Grok AI画像生成器のサポートはどこで受けられますか？",
+        "answer": "サポートは contact@grokimagegenerator.net までご連絡ください。"
+      }
+    },
+    "start-now": {
+      "title": "今すぐGrok AI画像生成器を無料で体験！",
+      "try-now": "無料でGrok AIを試す"
+    }
+  },
+  "blog": {
+    "heading": {
+      "title": "Grok 3 AI画像生成器に関するおすすめ記事・ニュース",
+      "description": "Grok AI画像生成器の最新記事・ニュース・アップデートをチェック。専門家の解説やチュートリアル、最先端AI技術・プラットフォームの最新動向もご紹介。"
+    },
+    "media-tools": {
+      "title": "Grok AIの高度な画像・動画AIツール",
+      "description": "Grok AIの強力なツールで美しい画像や魅力的な動画を作成。最先端AI技術で創造力を解き放とう。",
+      "image": {
+        "title": "Grok AI画像ツール",
+        "description": "Grok AIのテキストから画像・画像から画像生成技術で、瞬時に美しい画像を作成。",
+        "try-now": "Grok AI画像生成器",
+        "check-more": "詳細を見る"
+      },
+      "video": {
+        "title": "動画AIツール",
+        "description": "Grok AIのテキストから動画・画像から動画生成技術で、魅力的なアニメーション動画を作成。",
+        "try-now": "Grok AI動画生成器",
+        "check-more": "詳細を見る"
+      },
+      "tools": {
+        "title": "無料AIツール",
+        "description": "Grok AIの無料AIツールで創造の旅を始めよう。",
+        "try-now": "画像からプロンプト生成（無料）",
+        "check-more": "詳細を見る"
+      }
+    },
+    "links": {
+      "title": "Grok AI関連のAIツールをもっと探す",
+      "content": "Grok AIの高度なツールでクリエイティブワークフローを強化しましょう。"
+    },
+    "card": {
+      "author": "著者",
+      "time": "日付"
+    },
+    "recommend": {
+      "title": "Grok AIに関するその他の記事",
+      "description": "Grok AIに関する記事・ニュースをもっと見る"
+    },
+    "like": {
+      "success": "ご支援ありがとうございます！",
+      "error": "エラー"
     }
   },
   "Metadata": {
     "common": {
       "siteName": "grokimagegenerator.net",
-      "creator": "grokimagegenerator.net"
+      "creator": "最高のGrok AI画像生成器"
     },
     "home": {
-      "title": "Grok AI画像生成無料オンライン - Grok 2画像生成 by Flux.1 AI",
-      "description": "Flux.1 AIによるテキストから画像への変換、flux.1 pro、flux.1 dev、flux.1 schnellモデルをサポート。",
-      "keywords": "Grok AI画像生成, AIImage生成",
+      "title": "Grok 3 AI画像生成器 - 100%無料・登録不要・クレジットカード不要",
+      "description": "Grok 3 AI画像生成器（Grok 3 AI搭載）。100%無料、登録不要、クレジットカード不要、制限なし。あらゆるクリエイティブニーズに最適な画像を生成。",
+      "keywords": "Grok 3 AI画像生成器, 画像生成器",
       "openGraph": {
-        "title": "grokimagegenerator.net",
-        "description": "Flux.1 AIによるテキストから画像への変換、flux.1 pro、flux.1 dev、flux.1 schnellモデルをサポート。",
+        "title": "Grok 3 AI画像生成器 - 100%無料・登録不要・クレジットカード不要",
+        "description": "Grok 3 AI画像生成器（Grok 3 AI搭載）。100%無料、登録不要、クレジットカード不要、制限なし。あらゆるクリエイティブニーズに最適な画像を生成。",
         "siteName": "grokimagegenerator.net"
       },
       "twitter": {
-        "title": "Grok AI画像生成",
-        "description": "Flux.1 AIによるテキストから画像への変換、flux.1 pro、flux.1 dev、flux.1 schnellモデルをサポート。",
+        "title": "Grok 3 AI画像生成器 - 100%無料・登録不要・クレジットカード不要",
+        "description": "Grok 3 AI画像生成器（Grok 3 AI搭載）。100%無料、登録不要、クレジットカード不要、制限なし。あらゆるクリエイティブニーズに最適な画像を生成。",
         "site": "grokimagegenerator.net",
-        "creator": "Grok AI画像生成"
+        "creator": "Grok 3 AI画像生成器"
       }
     },
     "blog": {
-      "title": "Grok AI画像生成のブログ | grokimagegenerator.net",
+      "title": "Grok 3 AI画像生成器に関する記事・ニュース",
       "titleSuffix": "grokimagegenerator.net"
     }
   }

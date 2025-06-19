@@ -3,7 +3,7 @@ import { BlogModuleDtoList } from '@/network/blog';
 
 import { ALL_TAG } from '@/lib/constants';
 import { cn } from '@/lib/utils';
-import { Link } from '@/app/navigation';
+import { Link } from '@/i18n/navigation';
 
 function LinkTag({ className, title, href }: { className: string; title: string; href: string }) {
   return (

@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 
+import { cn } from '@/lib/utils';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -12,11 +13,12 @@ import {
 type Props = {
   prevList: { name: string; href: string }[];
   currentTitle: string;
+  className?: string;
 };
 
-export default function BreadcrumbNav({ prevList, currentTitle }: Props) {
+export default function BreadcrumbNav({ prevList, currentTitle, className }: Props) {
   return (
-    <Breadcrumb className='flex-center w-full'>
+    <Breadcrumb className={cn('flex w-full items-center justify-center', className)}>
       <BreadcrumbList className='flex flex-nowrap items-center gap-2 overflow-hidden lg:gap-5'>
         {prevList.map((item) => (
           <Fragment key={item.href}>
@@ -25,7 +27,7 @@ export default function BreadcrumbNav({ prevList, currentTitle }: Props) {
                 {item.name}
               </BreadcrumbLink>
             </BreadcrumbItem>
-            <BreadcrumbSeparator iconClassName='text-[#FFFFFF66]' />
+            <BreadcrumbSeparator className='text-[#FFFFFF66]' />
           </Fragment>
         ))}
         <BreadcrumbItem className='overflow-hidden'>

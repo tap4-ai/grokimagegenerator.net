@@ -1,6 +1,6 @@
 import { CircleArrowRight } from 'lucide-react';
 
-import { Link } from '@/app/navigation';
+import { Link } from '@/i18n/navigation';
 
 export default function ToolsItem({
   title,

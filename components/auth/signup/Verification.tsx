@@ -88,7 +88,7 @@ export default function Verification({ className }: { className?: string }) {
                       <InputOTPSlot
                         key={num}
                         index={num}
-                        className='flex-xy-center size-11 !rounded-lg !border-none bg-[#2C2B35] p-5'
+                        className='flex-xy-center size-11 rounded-lg! border-none! bg-[#2C2B35] p-5'
                       />
                     ))}
                   </InputOTPGroup>

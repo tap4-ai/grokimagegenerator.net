@@ -9,3 +9,5 @@ export function generateColumns<T>(data: T[], numColumns: number): T[][] {
 
   return columns;
 }
+
+export const numberList = (num: number) => Array.from({ length: num }, (_, i) => i + 1);

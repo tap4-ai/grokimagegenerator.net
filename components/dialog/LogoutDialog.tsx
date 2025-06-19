@@ -8,7 +8,7 @@ import useUserInfoStore from '@/store/useUserInfoStore';
 import { useTranslations } from 'next-intl';
 import { toast } from 'sonner';
 
-import { useRouter } from '@/app/navigation';
+import { useRouter } from '@/i18n/navigation';
 
 import BaseDialog from './BaseDialog';
 

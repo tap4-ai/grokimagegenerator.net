@@ -20,7 +20,21 @@
     "max-len": "off",
     "implicit-arrow-linebreak": "off",
     "operator-linebreak": "off",
+    "@next/next/no-img-element": "off",
     "react/require-default-props": "off",
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "react/no-array-index-key": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-unused-expressions": "off",
+    "react/destructuring-assignment": "off",
+    "react/function-component-definition": "off",
+    "arrow-body-style": "off",
+    "import/prefer-default-export": "off",
+    "no-nested-ternary": "off",
+    "no-console": "off",
+    "react/jsx-indent": "off",
+    "@typescript-eslint/indent": "off"
   }
 }

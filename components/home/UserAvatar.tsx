@@ -7,7 +7,7 @@ export default function UserAvatar({ className, name, src }: { className?: strin
     return (
       <div
         className={cn(
-          'border-1 flex size-[26px] items-center justify-center rounded-[6px] border-white bg-white text-black',
+          'border flex size-[26px] items-center justify-center rounded-[6px] border-white bg-white text-black',
           className,
         )}
       >
@@ -19,7 +19,7 @@ export default function UserAvatar({ className, name, src }: { className?: strin
   return (
     <BaseImage
       src={src}
-      className={cn('border-1 size-[26px] rounded-[6px] border-white', className)}
+      className={cn('border size-[26px] rounded-[6px] border-white', className)}
       title={name}
       alt={name}
       width={26}

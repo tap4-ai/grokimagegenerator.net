@@ -1,33 +1,27 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
-import { generateLanguagePaths } from '@/i18n';
-import { NextIntlClientProvider, useMessages } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
+import { notFound } from 'next/navigation';
+import { generateLanguagePaths, routing } from '@/i18n/routing';
+import { hasLocale, NextIntlClientProvider } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { Toaster } from '@/components/ui/sonner';
 import Navigation from '@/components/home/Navigation';
 
 import './globals.css';
 
-import { Suspense } from 'react';
-import dynamic from 'next/dynamic';
 // import SeoScript from '@/components/seo/SeoScript';
 import { GoogleAnalytics } from '@next/third-parties/google';
 
-// import GoogleAdScript from '@/components/ad/GoogleAdScript';
+// import { NavigationGuardProvider } from 'next-navigation-guard';
+
+import LazyGlobalUI from './LazyGlobalUI';
+
+import GoogleAdScript from '@/components/ad/GoogleAdScript';
+
 // import ClarityScript from '@/components/scripts/ClarityScript';
 
-import Loading from './loading';
-
 // const LoginDialog = dynamic(() => import('@/components/dialog/LoginDialog'), { ssr: false });
-const GlobalLoginDialog = dynamic(() => import('@/components/auth/GlobalLoginDialog'), { ssr: false });
-const LogoutDialog = dynamic(() => import('@/components/dialog/LogoutDialog'), { ssr: false });
-const LoginExpireDialog = dynamic(() => import('@/components/dialog/LoginExpireDialog'), { ssr: false });
-const PricingImageDialog = dynamic(() => import('@/components/dialog/PricingImageDialog'), { ssr: false });
-const InsufficientCreditsDialog = dynamic(() => import('@/components/dialog/InsufficientCreditsDialog'), {
-  ssr: false,
-});
-
 const din = localFont({
   src: [
     {
@@ -39,7 +33,19 @@ const din = localFont({
   variable: '--font-din',
 });
 
-export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
+// export const dynamic = 'force-static';
+export const revalidate = 7200;
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const params = await props.params;
+
+  const { locale } = params;
+
   const t = await getTranslations({
     locale,
     namespace: 'Metadata.home',
@@ -67,8 +73,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       type: 'website',
       images: [
         {
-          url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/home/home-page.jpg`,
-          secureUrl: `${process.env.NEXT_PUBLIC_SITE_URL}/images/home/home-page.jpg`,
+          url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/home/home-page.webp`,
+          secureUrl: `${process.env.NEXT_PUBLIC_SITE_URL}/images/home/home-page.webp`,
           width: 1200,
           height: 630,
           alt: t('title'),
@@ -82,52 +88,47 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       creator: t('twitter.creator'),
       card: 'summary_large_image',
       images: {
-        url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/home/home-page.jpg`,
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/home/home-page.webp`,
         alt: t('title'),
       },
     },
   };
 }
 
-export default function RootLayout({
-  children,
-  params: { locale },
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
-  const messages = useMessages();
+export default async function RootLayout(props: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
+  const params = await props.params;
+  const { locale } = params;
+
+  // Ensure that the incoming `locale` is valid
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+  // Enable static rendering
+  setRequestLocale(locale);
+  const { children } = props;
 
   return (
     <html lang={locale} suppressHydrationWarning className='dark'>
-      <body className={`${din.variable} relative mx-auto flex min-h-screen flex-col bg-black text-white`}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
+      <body className={`${din.variable} bg-color-bg relative mx-auto flex min-h-screen flex-col text-white`}>
+        {/* <NavigationGuardProvider> */}
+        <NextIntlClientProvider>
           <Toaster
-            icons={{
-              success: <span className='sr-only'>icon</span>,
-              error: <span className='sr-only'>icon</span>,
-            }}
+            duration={2000}
             position='top-center'
             toastOptions={{
-              classNames: {
-                success: 'text-ag-green border-ag-green ag-toast',
-                error: 'text-ag-red border-ag-red ag-toast',
-                info: 'ag-toast',
-                warning: 'ag-toast',
+              style: {
+                backgroundColor: '#202020',
+                color: '#fff',
               },
             }}
           />
-          {/* <LoginDialog /> */}
-          <GlobalLoginDialog />
-          <LoginExpireDialog />
-          <LogoutDialog />
-          <PricingImageDialog />
-          <InsufficientCreditsDialog />
+          <LazyGlobalUI />
           <Navigation />
-          <Suspense fallback={<Loading />}>{children}</Suspense>
+          {children}
         </NextIntlClientProvider>
+        {/* </NavigationGuardProvider> */}
         {/* <SeoScript /> */}
-        {/* <GoogleAdScript /> */}
+        <GoogleAdScript />
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_TRACKING_ID as string} />
         {/* <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID as string} /> */}
         {/* <ClarityScript /> */}

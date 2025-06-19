@@ -11,7 +11,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { NAV_LINKS, UTM_SOURCE } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 
-import RenderIcon from './icon';
+// import RenderIcon from './icon';
 
 export function targetLink(href: string, locale: string): string {
   return `${process.env.NEXT_PUBLIC_TAP4_BLOG_SITE_URL}/${locale}${href}?utm_source=${UTM_SOURCE}`;
@@ -59,13 +59,13 @@ export default function NavigationDrawer({ open, setOpen }: { open: boolean; set
   const NavLinks = NAV_LINKS.map((item) => ({
     ...item,
     label: t(`${item.code}`),
-    children:
-      item.children &&
-      item.children?.map((child) => ({
-        ...child,
-        label: t(`${child.code}`),
-        content: t(`${child.code}-content`),
-      })),
+    // children:
+    //   item.children &&
+    //   item.children?.map((child) => ({
+    //     ...child,
+    //     label: t(`${child.code}`),
+    //     content: t(`${child.code}-content`),
+    //   })),
   }));
 
   const onClose = () => {
@@ -91,7 +91,7 @@ export default function NavigationDrawer({ open, setOpen }: { open: boolean; set
       />
       <div
         className={cn(
-          'fixed right-0 top-16 z-[99999] h-[calc(100%-64px)] w-[276px] transform bg-black shadow-lg transition-transform duration-300',
+          'fixed right-0 top-16 z-99999 h-[calc(100%-64px)] w-[276px] transform bg-black shadow-lg transition-transform duration-300',
           isOpen ? 'translate-x-0' : 'translate-x-full',
         )}
       >
@@ -102,12 +102,12 @@ export default function NavigationDrawer({ open, setOpen }: { open: boolean; set
                 <NavDrawerItem
                   name={item.label}
                   // target={item.target}
-                  hasChild={!!item.children}
+                  // hasChild={!!item.children}
                   isActive={pathname === item.href || (pathname.includes(item.href as string) && item.href !== '/')}
                 />
                 <span className='sr-only'>{item.label}</span>
               </button>
-              {item.children?.map((child) => (
+              {/* {item.children?.map((child) => (
                 <button
                   key={child.code}
                   type='button'
@@ -120,7 +120,7 @@ export default function NavigationDrawer({ open, setOpen }: { open: boolean; set
                     <p className='text-xs text-white/70'>{child.content}</p>
                   </div>
                 </button>
-              ))}
+              ))} */}
             </Fragment>
           ))}
         </div>

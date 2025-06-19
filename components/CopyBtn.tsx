@@ -1,10 +1,9 @@
 'use client';
 
-import { Check } from 'lucide-react';
+import { Check, CopyIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 import useCopyToClipboard from '@/hooks/useCopyToClipboard';
-import BaseImage from '@/components/image/BaseImage';
 
 export default function CopyBtn({
   content,
@@ -25,17 +24,7 @@ export default function CopyBtn({
   return (
     <button type='button' disabled={isCopied} onClick={onCopy} className={className}>
       <span className='sr-only'>{t('Common.copy')}</span>
-      {isCopied ? (
-        <Check className='h-4 w-4' />
-      ) : (
-        <BaseImage
-          src='/icons/copy.svg'
-          alt='copy'
-          width={12}
-          height={12}
-          className='h-4 w-4 rounded-sm hover:scale-110 hover:cursor-pointer'
-        />
-      )}
+      {isCopied ? <Check className='size-4' /> : <CopyIcon className='size-4 hover:scale-105' />}
     </button>
   );
 }

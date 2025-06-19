@@ -12,37 +12,39 @@ function splitArrayIntoColumns<T>(array: T[], numColumns: number): T[][] {
 }
 
 const TweeterList: string[] = [
-  '1824768830629196156',
-  '1825286773200597399',
-  '1823632385172193627',
-  '1825321903189299265',
-  '1819689246795407702',
-  '1824894208836321499',
-  '1820405546450583948',
-  '1824125206987936068',
-  '1826285315721396676',
-  '1824844724597117080',
-  '1826114308985463143',
-  '1825241908433608928',
-  '1824929245388513665',
-  '1826033978954121435',
-  '1826655434394271813',
-  '1824699361835520353',
+  '1837931322356158513',
+  '1929771017452282368',
+  '1916207375029096770',
+  '1875204735311188046',
+  '1886882648829960654',
+  '1865640421378175125',
+  '1856020327869952188',
+  '1867715876960842202',
 ];
 
-export default function TwitterSction() {
+export default function TwitterSction({ title, description }: { title: string; description: string }) {
   const columns = splitArrayIntoColumns(TweeterList, 4);
 
   return (
-    <section className='dark mx-auto grid max-w-pc grid-cols-1 gap-2.5 px-2 lg:grid-cols-4 lg:px-0'>
-      {columns.map((col) => (
-        // <div className={styles['twitter-card']}>
-        <div className='twitter-card-list'>
-          {col.map((twitterId) => (
-            <Tweet id={twitterId} />
-          ))}
-        </div>
-      ))}
-    </section>
+    <div className='container-centered container-py'>
+      <div className='mb-4 md:mb-8'>
+        <h2 className='text-center text-[32px] leading-[36px] font-semibold tracking-[0.06em] text-white capitalize md:text-[48px] md:leading-[54px] md:tracking-[0.04em]'>
+          {title}
+        </h2>
+        <p className='mt-1 text-center text-base leading-6 font-normal tracking-[0.04em] text-[#b8b8b8] capitalize md:text-center md:text-base md:leading-6 md:tracking-[0.04em] md:capitalize'>
+          {description}
+        </p>
+      </div>
+
+      <div className='dark grid grid-cols-1 gap-2.5 px-2 lg:grid-cols-4 lg:px-0'>
+        {columns.map((col, index) => (
+          <div key={index} className='twitter-card-list'>
+            {col.map((twitterId) => (
+              <Tweet key={twitterId} id={twitterId} />
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }

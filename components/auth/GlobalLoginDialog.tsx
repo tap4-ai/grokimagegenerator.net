@@ -18,12 +18,16 @@ export default function GlobalLoginDialog({ className }: { className?: string })
   const setOpen = useGlobalLoginStore((state) => state.setOpen);
   const step = useGlobalLoginStore((state) => state.step);
   const setStep = useGlobalLoginStore((state) => state.setStep);
+  const defaultStep = useGlobalLoginStore((state) => state.defaultStep);
+  const setDefaultStep = useGlobalLoginStore((state) => state.setDefaultStep);
 
   useEffect(() => {
     if (open) {
-      setStep('login');
+      setStep(defaultStep || 'login');
+    } else {
+      setDefaultStep('login');
     }
-  }, [open, setStep]);
+  }, [defaultStep, open, setStep, setDefaultStep]);
 
   const onClose = () => {
     setOpen(false);
@@ -33,17 +37,21 @@ export default function GlobalLoginDialog({ className }: { className?: string })
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent
         closeBtnClassName='hidden'
+        onInteractOutside={(e) => {
+          e.preventDefault();
+        }}
         className={cn(
-          'lg:bg-gradient-price-dialog flex h-[581px] w-[calc(100%-32px)] !rounded-2xl  bg-[#1D1D27] p-3 lg:min-w-[740px]',
+          // 'lg:bg-gradient-price-dialog flex h-[581px] w-[calc(100%-32px)] rounded-2xl!  bg-[#1D1D27] p-3 lg:min-w-[740px]',
+          'flex h-[581px] w-[calc(100%-32px)] rounded-2xl! border-none bg-white/10 p-3 backdrop-blur-3xl lg:w-[351px]',
           className,
         )}
       >
         <div className='relative flex flex-1 gap-4'>
-          <img
+          {/* <img
             className='bg-gradient-character-list-card hidden w-[383px] rounded-xl lg:block'
-            src='/images/auth/auth.jpg'
+            src='/images/auth/auth.webp'
             alt='auth'
-          />
+          /> */}
           <div className='flex w-full flex-1 shrink-0 flex-col'>
             <DialogClose asChild>
               <button type='button' className='absolute right-0 top-0' onClick={onClose}>

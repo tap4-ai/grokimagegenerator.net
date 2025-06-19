@@ -1,12 +1,17 @@
 'use client';
 
+import { defaultLocale, languages } from '@/i18n/routing';
 import { USER_INFO_KEY, type UserInfoState } from '@/store/useUserInfoStore';
 
-import { generateBearerToken, objToQueryStr } from '@/lib/utils/stringUtils';
+import { clientSideGetCookie, generateBearerToken, objToQueryStr } from '@/lib/utils/stringUtils';
 
 export const baseRequestData = {
   site: process.env.SITE_ID,
 };
+
+function getContentLanguage(code?: string): string {
+  return languages.find((item) => item.lang === code)?.backendValue || defaultLocale;
+}
 
 export const clientFetch = async <T = any>(
   urlStr: Parameters<typeof fetch>[0],
@@ -16,13 +21,21 @@ export const clientFetch = async <T = any>(
   const userInfoObj = JSON.parse(userInfoStr!) as { state: UserInfoState };
   const url = `${process.env.NEXT_BASE_API}${urlStr}`;
 
+  const headers = {
+    credentials: 'include',
+    'Content-Type': 'application/json',
+    'Content-Language': getContentLanguage(clientSideGetCookie('NEXT_LOCALE') || defaultLocale),
+    ...options?.headers,
+  } as Record<string, string>;
+
+  try {
+    headers.authorization = generateBearerToken(userInfoObj.state.auth!.access_token);
+  } catch (_) {
+    console.log('userInfoObj', userInfoObj);
+  }
+
   const initOptions = {
-    headers: {
-      authorization: generateBearerToken(userInfoObj.state.auth!.access_token),
-      credentials: 'include',
-      'Content-Type': 'application/json',
-      ...options?.headers,
-    },
+    headers,
     ...options,
   } satisfies Parameters<typeof fetch>[1];
 
@@ -35,6 +48,12 @@ export const clientFetch = async <T = any>(
 
   const res = await fetch(url, initOptions);
 
+  if (!res.ok) {
+    return {
+      code: 500,
+      msg: res.statusText,
+    } as T;
+  }
   return res.json() as T;
 };
 

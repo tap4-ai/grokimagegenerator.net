@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { loginSystem, UserData } from '@/network/auth';
 import useGlobalLoginStore from '@/store/useGlobalLoginStore';
 import useLocalRedirectUrlStore, { localRedirectUrlStoreKey } from '@/store/useLocalRedirectUrlStore';
@@ -9,6 +9,7 @@ import useUserInfoStore from '@/store/useUserInfoStore';
 import { useTranslations } from 'next-intl';
 
 import Loading from '@/components/Loading';
+import { useSafeSearchParams } from '@/hooks/useSafeSearchParams';
 
 export interface OauthCallback {
   grantType: string;
@@ -31,7 +32,7 @@ export interface OauthCallback {
 
 function Page() {
   const t = useTranslations('Login');
-  const result = useSearchParams();
+  const result = useSafeSearchParams();
   // const pathname = usePathname();
   const router = useRouter();
   const [loading, setLoading] = useState(true);

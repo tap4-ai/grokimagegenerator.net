@@ -1,0 +1,72 @@
+import { useCallback, useState } from 'react';
+
+export type ImageType = 'webp' | 'png' | 'jpg';
+
+export const imageTypesList: ImageType[] = ['webp', 'png', 'jpg'];
+
+interface ConvertAndDownloadData {
+  imageUrl: string;
+  type: ImageType;
+  imageName: string;
+}
+
+interface UseImageConverterResult {
+  convertAndDownload: (data: ConvertAndDownloadData) => Promise<void>;
+  isLoading: boolean;
+  error: string | null;
+}
+
+const useImageConverter = (): UseImageConverterResult => {
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const convertAndDownload = useCallback(async ({ imageUrl, type, imageName }: ConvertAndDownloadData) => {
+    setIsLoading(true);
+    setError(null);
+
+    try {
+      // Fetch the image
+      const response = await fetch(imageUrl);
+      const blob = await response.blob();
+
+      // Create an image element
+      const img = new Image();
+      img.src = URL.createObjectURL(blob);
+
+      await new Promise((resolve) => {
+        img.onload = resolve;
+      });
+
+      // Create a canvas and draw the image
+      const canvas = document.createElement('canvas');
+      canvas.width = img.width;
+      canvas.height = img.height;
+      const ctx = canvas.getContext('2d');
+      if (!ctx) {
+        throw new Error('Unable to create canvas context');
+      }
+      ctx.drawImage(img, 0, 0);
+
+      // Convert the image
+      const mimeType = `image/${type === 'jpg' ? 'jpeg' : type}`;
+      const quality = type === 'jpg' ? 0.8 : 1;
+      const dataUrl = canvas.toDataURL(mimeType, quality);
+
+      // Create a download link and trigger the download
+      const link = document.createElement('a');
+      link.href = dataUrl;
+      link.download = `${imageName}.${type}`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'An unknown error occurred');
+    } finally {
+      setIsLoading(false);
+    }
+  }, []);
+
+  return { convertAndDownload, isLoading, error };
+};
+
+export default useImageConverter;

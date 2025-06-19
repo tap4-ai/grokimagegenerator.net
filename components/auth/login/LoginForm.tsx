@@ -17,7 +17,7 @@ import { cn } from '@/lib/utils';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import BaseImage from '@/components/image/BaseImage';
-import { useRouter } from '@/app/navigation';
+import { useRouter } from '@/i18n/navigation';
 
 import Btn from '../Btn';
 

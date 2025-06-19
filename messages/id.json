@@ -1,0 +1,402 @@
+{
+  "Common": {
+    "loading": "memuat...",
+    "style": "gaya",
+    "copy": "salin",
+    "back": "kembali",
+    "more": "lebih",
+    "less": "kurang",
+    "prompt": "prompt",
+    "model": "Model",
+    "step": "Langkah",
+    "advantage": "Keunggulan",
+    "share": {
+      "linkSharing": "atau bagikan dengan tautan",
+      "plzLogin": "Silakan login terlebih dahulu.",
+      "download": "unduh",
+      "twitter": "twitter",
+      "facebook": "facebook"
+    },
+    "copy-right": {
+      "title": "Hak Cipta:",
+      "content": "Pengguna berbayar memiliki hak atas gambar mereka."
+    }
+  },
+  "cookie": {
+    "content": "Kami menggunakan cookie untuk meningkatkan pengalaman Anda. Pelajari lebih lanjut di Kebijakan Privasi kami.",
+    "confirm": "Terima"
+  },
+  "error-page": {
+    "not-found": {
+      "title": "404 Tidak Ditemukan",
+      "goHome": "KEMBALI KE BERANDA"
+    }
+  },
+  "components": {
+    "form-EnhanceBtn": {
+      "optimizePrompt": "Optimalkan Prompt"
+    },
+    "image-form": {
+      "input-label": "Masukkan prompt untuk menghasilkan gambar di sini",
+      "high-quality-generation": "Dapatkan Generasi Gambar Berkualitas Tinggi",
+      "generate": "Hasilkan",
+      "turnstile-error": "Silakan selesaikan verifikasi manusia",
+      "generate-error": "Gagal menghasilkan gambar, silakan coba lagi nanti",
+      "generate-success": "Permintaan pembuatan gambar telah dikirim",
+      "generate-wait": "Permintaan pembuatan sedang diproses. Mohon tunggu beberapa detik."
+    },
+    "image-history": {
+      "free-plan-title": "Coba gratis untuk menghasilkan gambar berkualitas tinggi",
+      "free-plan-description": "Rasakan pembuatan gambar yang lebih cepat, berkualitas tinggi, dan tanpa iklan melalui situs profesional kami",
+      "try-now": "Mulai uji coba gratis",
+      "generate-label": "Hasilkan:",
+      "tips-label": "Tips:",
+      "tips-message": "Gambar yang dihasilkan hanya disimpan di browser Anda",
+      "estimated-time": "Perkiraan waktu: 20 detik",
+      "generate-faster": "Hasilkan 5× lebih cepat",
+      "image-alt": "Gambar yang dihasilkan",
+      "no-data": "Gambar yang dihasilkan akan muncul di sini.",
+      "get-higher-quality": "Dapatkan hasil gambar berkualitas lebih tinggi"
+    },
+    "check-in": {
+      "title": "Check-In Harian untuk Kredit",
+      "go-check-in": "Check-In Sekarang",
+      "finish-check-in": "Sudah Check-In"
+    },
+    "confirmDialog": {
+      "title": "Apakah Anda yakin?",
+      "cancel": "Batal",
+      "confirm": "Konfirmasi"
+    },
+    "compress-dialog": {
+      "title": "Kompres Gambar",
+      "content": "Ukuran gambar melebihi 10MB dan tidak cocok untuk pembuatan video AI. Apakah Anda ingin mengompresnya?",
+      "reupload": "Unggah Ulang",
+      "compress": "Kompres"
+    }
+  },
+  "Navigation": {
+    "new": "Baru",
+    "title": "Grok 3 AI Image Generator",
+    "flux-ai-image-generator": "Flux AI Image Generator",
+    "dream-ai-video": "AI Foto ke Video",
+    "prompt-market": "Pasar Prompt Grok",
+    "videoweb": "AI Foto ke Video",
+    "pricing": "Harga",
+    "blog": "Artikel",
+    "blog-content": "Artikel & Berita tentang Grok 3 AI Image Generator.",
+    "privacy": "Kebijakan Privasi",
+    "privacy-content": "Kebijakan Privasi Grok 3 AI Image Generator.",
+    "resource": "Sumber Daya",
+    "freeTry": "Mulai Gratis",
+    "menu": "menu",
+    "close": "tutup",
+    "logout": "Keluar",
+    "logoutSuccessful": "Berhasil keluar",
+    "profile": {
+      "credits": "Kredit",
+      "top-up": "Isi Ulang",
+      "user-info": "Informasi Pengguna",
+      "history": "Riwayat",
+      "order": "Riwayat Pesanan",
+      "logout": "Keluar"
+    },
+    "language-dialog": {
+      "title": "Preferensi Bahasa",
+      "content": "Beralih ke bahasa browser Anda?",
+      "cancel": "Tetap Gunakan Saat Ini",
+      "confirm": "Beralih"
+    }
+  },
+  "Footer": {
+    "title": "Grok 3 AI Image Generator Gratis",
+    "subTitle": "Grok 3 AI Image Generator untuk visual menakjubkan, 100% gratis, tanpa login",
+    "support": "Dukungan",
+    "privacy": "Kebijakan Privasi",
+    "termsConditions": "Syarat & Ketentuan",
+    "contactUs": "Hubungi Kami",
+    "feature-link": "Fitur",
+    "feature": {
+      "blog": "Artikel"
+    }
+  },
+  "FooterNavigation": {
+    "privacyPolicy": {
+      "1-h1": "Kebijakan Privasi untuk grokimagegenerator.net",
+      "1-p": "Kebijakan Privasi ini menjelaskan bagaimana Grok AI Image Generator mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda saat Anda menggunakan layanan kami di grokimagegenerator.net. Dengan menggunakan Grok AI Image Generator, Anda menyetujui ketentuan yang dijelaskan dalam kebijakan ini.",
+      "2-h2": "1. Pengumpulan dan Penggunaan Informasi",
+      "2-p": "Grok AI Image Generator dapat mengumpulkan informasi identitas pribadi untuk meningkatkan layanan kami. Kami menggunakan layanan pihak ketiga yang mungkin mengumpulkan informasi untuk mengidentifikasi Anda.",
+      "3-h2": "2. Data Log",
+      "3-p": "Jika terjadi kesalahan, kami mengumpulkan Data Log, yang dapat mencakup alamat IP Anda, informasi perangkat, konfigurasi aplikasi, dan statistik penggunaan.",
+      "4-h2": "3. Cookie",
+      "4-p": "Grok AI dapat menggunakan kode dan pustaka pihak ketiga yang menggunakan cookie. Anda dapat memilih untuk menerima atau menolak cookie ini, namun penolakan dapat membatasi penggunaan beberapa fitur.",
+      "5-h2": "4. Penyedia Layanan",
+      "5-p": "Kami dapat mempekerjakan perusahaan pihak ketiga untuk memfasilitasi layanan kami, melakukan tugas terkait, atau menganalisis penggunaan Grok AI. Pihak-pihak ini memiliki akses ke informasi pribadi Anda tetapi wajib menjaga kerahasiaan.",
+      "6-h2": "5. Keamanan",
+      "6-p": "Kami berupaya melindungi informasi pribadi Anda dengan cara yang dapat diterima secara komersial, namun tidak dapat menjamin keamanan mutlak.",
+      "7-h2": "6. Tautan ke Situs Lain",
+      "7-p": "Grok AI dapat berisi tautan ke situs eksternal. Kami tidak bertanggung jawab atas konten atau praktik privasi situs-situs tersebut.",
+      "8-h2": "7. Perubahan pada Kebijakan Privasi Ini",
+      "8-p": "Kami dapat memperbarui Kebijakan Privasi kami secara berkala. Silakan tinjau halaman ini untuk setiap perubahan. Pembaruan berlaku segera setelah diposting."
+    },
+    "termsConditions": {
+      "1-h1": "Syarat Layanan untuk grokimagegenerator.net",
+      "1-p": "Selamat datang di grokimagegenerator.net! Situs web kami menyediakan layanan pembuatan gambar berbasis AI. Dengan menggunakan situs kami, Anda menyetujui Syarat Layanan ini. Jika Anda tidak setuju dengan bagian mana pun, mohon untuk tidak menggunakan situs ini.",
+      "2-h2": "1. Lisensi Penggunaan",
+      "2-p": "Anda diberikan lisensi terbatas untuk menggunakan Grok AI untuk keperluan pribadi dan komersial. Lisensi ini tidak termasuk hak untuk memodifikasi atau mendistribusikan konten situs tanpa izin tertulis dari kami.",
+      "3-h2": "2. Kepemilikan",
+      "3-p": "Gambar yang dihasilkan menggunakan Grok AI menjadi milik pengguna yang membuatnya. Grok AI tidak mengklaim kepemilikan atas gambar yang dihasilkan pengguna.",
+      "4-h2": "3. Pengumpulan Data Pengguna",
+      "4-p": "Kami mengumpulkan data pribadi dan non-pribadi untuk meningkatkan layanan kami. Penggunaan data diatur oleh Kebijakan Privasi kami, yang tersedia di grokimagegenerator.net/privacy-policy.",
+      "5-h2": "4. Hukum yang Berlaku",
+      "5-p": "Syarat ini diatur oleh hukum Amerika Serikat, tanpa memperhatikan pertentangan ketentuan hukum.",
+      "6-h2": "5. Perubahan Syarat",
+      "6-p": "Grok AI berhak mengubah Syarat ini kapan saja. Pengguna akan diberitahu tentang perubahan melalui email. Penggunaan situs yang berkelanjutan dianggap sebagai penerimaan Syarat yang telah diubah.",
+      "7-h2": "6. Informasi Kontak",
+      "7-p": "Untuk pertanyaan tentang Syarat ini, silakan hubungi kami di contact@grokimagegenerator.net.",
+      "last-p": "Dengan menggunakan grokimagegenerator.net, Anda menyatakan menerima Syarat Layanan ini."
+    }
+  },
+  "NotFound": {
+    "title": "404 Tidak Ditemukan",
+    "goHome": "KEMBALI KE BERANDA"
+  },
+  "Error": {
+    "title": "Terjadi kesalahan!",
+    "retry": "Coba lagi"
+  },
+  "Home": {
+    "heading": {
+      "title": "Grok 3 AI Image Generator",
+      "description": "Grok 3 AI Image Generator 100% gratis. Buat gambar menakjubkan dalam hitungan detik dengan Grok 3 AI - tanpa perlu daftar, tanpa kartu kredit",
+      "try-now": "Coba hasilkan gambar berkualitas lebih tinggi",
+      "try-now-2": "Coba AI Gambar ke Video",
+      "tags": {
+        "free": "100% gratis",
+        "powered": "Didukung oleh Grok 3 AI",
+        "no-login": "Tanpa perlu daftar",
+        "unlimited": "Generasi tanpa batas"
+      }
+    },
+    "blog": {
+      "title": "Artikel & Berita Lain tentang Grok 3 AI Image Generator"
+    },
+    "example": {
+      "title": "Contoh: Siapa Saja yang Bisa Memanfaatkan Grok 3 AI Image Generator",
+      "description": "Grok 3 AI dapat diterapkan secara luas di berbagai bidang, menginspirasi potensi tak terbatas para kreator.",
+      "promptTitle": "Prompt",
+      "btnText": "Coba sekarang",
+      "texts": {
+        "1": {
+          "title": "Desainer Produk & Profesional UX/UI",
+          "description": "Manfaatkan Grok AI untuk langsung membuat sketsa antarmuka, prototipe visual, dan diagram interaksi. Jelajahi berbagai gaya desain, optimalkan alur kerja, dan percepat iterasi prototipe dengan kualitas kreatif yang lebih baik."
+        },
+        "2": {
+          "title": "E-commerce & Pemilik Merek",
+          "description": "Tanpa biaya fotografi: Hasilkan gambar produk berkualitas tinggi, visualisasi adegan, dan grafis iklan kreatif. Tingkatkan dampak pemasaran visual, perkuat komunikasi merek, dan kurangi biaya pemasaran secara signifikan."
+        },
+        "3": {
+          "title": "Pendidik & Peneliti",
+          "description": "Buat demonstrasi kelas, ilustrasi buku, dan diagram penelitian dengan cepat. Tingkatkan komunikasi visual, sampaikan pengetahuan dan hasil penelitian dengan lebih jelas dan efisien."
+        },
+        "4": {
+          "title": "Pengembang Game",
+          "description": "Ciptakan karakter, adegan, dan konsep seni game dengan cepat. Perkaya konten visual game Anda dan percepat proses kreatif dengan kemampuan generasi Grok AI yang kuat."
+        }
+      }
+    },
+    "features": {
+      "title": "Fitur Unggulan Grok 3 AI Image Generator",
+      "1": {
+        "title": "Pembuatan Gambar Super Cepat",
+        "description": "Buat gambar berkualitas tinggi dalam hitungan detik, lebih cepat dari Stable Diffusion 3 dan Midjourney dengan kecepatan dan presisi luar biasa."
+      },
+      "2": {
+        "title": "Kualitas Gambar Tak Tertandingi",
+        "description": "Rasakan detail dan konsistensi luar biasa melalui model Flux.1 canggih, memberikan keunggulan visual yang menetapkan standar baru di industri."
+      },
+      "3": {
+        "title": "Antarmuka Ramah Pengguna",
+        "description": "Konversi teks ke gambar yang mudah, membuat pembuatan gambar AI dapat diakses oleh siapa saja, baik profesional maupun penggemar kreatif."
+      },
+      "4": {
+        "title": "Potensi Kreatif Instan",
+        "description": "Cukup masukkan prompt Anda di grokimagegenerator.net dan lihat Grok AI langsung mengubah ide Anda menjadi karya visual menakjubkan."
+      }
+    },
+    "advantage": {
+      "title": "Keunggulan Grok 3 AI Image Generator",
+      "description": "Grok 3 AI Image Generator menggabungkan teknologi AI canggih dengan arsitektur berperforma tinggi, menciptakan pengalaman pembuatan gambar yang sangat cepat, berkualitas tinggi, dan serbaguna untuk solusi profesional di bidang desain, pembuatan konten, dan aplikasi visual komersial.",
+      "try-now": "Coba Sekarang",
+      "1": {
+        "title": "Didukung Teknologi AI Terkini",
+        "description": "Dibangun dengan kecerdasan buatan mutakhir, Grok AI memberikan kualitas pembuatan gambar yang luar biasa, menafsirkan prompt teks secara presisi dan mewujudkan visi kreatif Anda menjadi nyata."
+      },
+      "2": {
+        "title": "Kualitas Profesional dengan Kecepatan Kilat",
+        "description": "Dengan arsitektur distilasi terpandu berperforma tinggi, Grok AI menghasilkan gambar dengan cepat tanpa mengorbankan presisi dan estetika, sangat cocok untuk tenggat waktu kreatif yang ketat."
+      },
+      "3": {
+        "title": "Pembuatan Gambar Multi-Gaya yang Fleksibel",
+        "description": "Dari render fotorealistik hingga ilustrasi artistik dan desain abstrak, Grok AI mampu menangani berbagai gaya visual dengan mudah, mencakup kebutuhan komunikasi merek hingga ekspresi seni pribadi."
+      },
+      "4": {
+        "title": "Tanpa Instalasi",
+        "description": "Platform berbasis web murni yang menghilangkan kebutuhan Photoshop atau perangkat lunak editing khusus. Cukup buka browser Anda untuk membuat gambar kapan saja, di mana saja dengan mudah."
+      }
+    },
+    "twitter": {
+      "title": "Ulasan Pengguna & Studi Kasus Grok AI Image Generator di X",
+      "description": "Lihat ulasan pengguna dan studi kasus di X untuk membantu menghasilkan konten yang lebih mengesankan"
+    },
+    "models": {
+      "title": "Temukan Model AI Canggih di Grok AI",
+      "description": "Pilih model terbaik untuk meningkatkan produktivitas dan kreativitas Anda.",
+      "1": {
+        "title": "Grok 2.0",
+        "description": "Grok 2.0 menggabungkan Flux.1 dan model Aurora eksklusif, menciptakan model AI multimodal yang mengintegrasikan pemahaman bahasa canggih dan pembuatan gambar dengan kebebasan tinggi."
+      },
+      "2": {
+        "title": "Grok 3.0",
+        "description": "Grok 3.0 adalah model pembuatan gambar terbaru dari xAI, didukung kemampuan komputasi 10×, mendukung penalaran tingkat tinggi 'Think/Big Brain' dan pembuatan gambar Aurora dengan kemampuan teks-ke-gambar yang jauh lebih baik."
+      }
+    },
+    "manual": {
+      "title": "Cara Menggunakan Grok AI Image Generator",
+      "content": "Dapatkan gambar AI yang Anda inginkan hanya dalam beberapa langkah mudah",
+      "1": {
+        "title": "Masukkan teks Anda (optimalkan prompt kapan saja untuk hasil lebih baik), atau unggah gambar jika diinginkan."
+      },
+      "2": {
+        "title": "Pilih rasio aspek untuk gambar Anda"
+      },
+      "3": {
+        "title": "Klik tombol hasilkan dan tunggu beberapa detik untuk melihat gambar Anda"
+      },
+      "4": {
+        "title": "Jelajahi hasil yang dihasilkan, pilih gambar favorit Anda, dan unduh untuk digunakan di situs web, media sosial, iklan, cetak, dan berbagai skenario komersial"
+      }
+    },
+    "faq": {
+      "title": "FAQ tentang Grok 3 AI Image Generator",
+      "1": {
+        "question": "Apa itu Grok 3 AI Image Generator?",
+        "answer": "Grok 3 AI Image Generator adalah generator gambar AI super cepat yang mampu membuat gambar berkualitas tinggi dalam hitungan detik, melampaui pesaing seperti Stable Diffusion 3 dan Midjourney."
+      },
+      "2": {
+        "question": "Apa fitur utama dari Grok 3 AI Image Generator?",
+        "answer": "Grok 3 AI Image Generator menawarkan kualitas gambar tak tertandingi, antarmuka ramah pengguna, dan fitur canggih seperti kontrol Flux.1 Pro dan iterasi cepat Flux.1 Schnell."
+      },
+      "3": {
+        "question": "Bagaimana cara menggunakan Grok 3 AI Image Generator?",
+        "answer": "Cukup kunjungi grokimagegenerator.net, masukkan prompt Anda, dan lihat Grok 3 AI Image Generator membuat gambar menakjubkan dalam hitungan detik."
+      },
+      "4": {
+        "question": "Apa saja paket harga yang ditawarkan Grok AI Image Generator?",
+        "answer": "Grok AI Image Generator menawarkan paket gratis (60 kredit), Basic ($9.99 untuk 5000 kredit), Standard ($9.99/bulan untuk 5000 kredit), dan Pro ($14.99/bulan untuk 8000 kredit)."
+      },
+      "5": {
+        "question": "Apakah Grok AI Image Generator memiliki paket gratis?",
+        "answer": "Ya, Grok 3 AI Image Generator menyediakan akses gratis 100% untuk pembuatan gambar berkualitas tinggi dan fitur inti Grok 3 AI."
+      },
+      "6": {
+        "question": "Bagaimana Grok 3 AI Image Generator dibandingkan dengan generator gambar AI lain?",
+        "answer": "Grok 3 AI Image Generator lebih cepat dari Midjourney, lebih mudah digunakan daripada ComfyUI, dan menghasilkan gambar berkualitas lebih tinggi dengan model Flux.1 Pro canggih."
+      },
+      "7": {
+        "question": "Bisakah saya menggunakan Grok 3 AI Image Generator untuk proyek komersial?",
+        "answer": "Ya, gambar yang dihasilkan dengan Grok 3 AI Image Generator dapat digunakan untuk keperluan komersial."
+      },
+      "8": {
+        "question": "Apakah Grok 3 AI Image Generator open-source?",
+        "answer": "Ya, Grok 3 AI Image Generator bersifat open-source dan tersedia di GitHub serta Hugging Face."
+      },
+      "9": {
+        "question": "Seberapa sering Grok AI Image Generator diperbarui?",
+        "answer": "Untuk pembaruan terbaru tentang Grok AI Image Generator, silakan kunjungi https://x.ai/grok."
+      },
+      "10": {
+        "question": "Apakah Grok AI Image Generator memiliki aplikasi seluler?",
+        "answer": "Saat ini, Grok AI Image Generator berbasis web di grokimagegenerator.net. Versi seluler sedang dipertimbangkan untuk rilis mendatang."
+      },
+      "11": {
+        "question": "Bagaimana cara mendapatkan dukungan untuk Grok AI Image Generator?",
+        "answer": "Untuk dukungan, silakan hubungi contact@grokimagegenerator.net."
+      }
+    },
+    "start-now": {
+      "title": "Coba Grok AI Image Generator sekarang - 100% gratis!",
+      "try-now": "Coba Grok AI gratis"
+    }
+  },
+  "blog": {
+    "heading": {
+      "title": "Artikel & Berita Rekomendasi tentang Grok 3 AI Image Generator",
+      "description": "Jelajahi artikel, berita, dan pembaruan terbaru dari Grok AI Image Generator. Dapatkan wawasan ahli, tutorial, dan tetap terinformasi tentang teknologi AI mutakhir serta perkembangan platform kami."
+    },
+    "media-tools": {
+      "title": "Alat AI Gambar & Video Canggih dari Grok AI",
+      "description": "Buat gambar menakjubkan dan video menarik dengan alat canggih dari Grok AI. Bebaskan kreativitas Anda dengan teknologi AI tercanggih kami.",
+      "image": {
+        "title": "Alat Gambar Grok AI",
+        "description": "Hasilkan gambar menakjubkan secara instan dengan teknologi text-to-image dan image-to-image dari Grok AI.",
+        "try-now": "Grok AI Image Generator",
+        "check-more": "Pelajari Lebih Lanjut"
+      },
+      "video": {
+        "title": "Alat Video AI",
+        "description": "Buat video animasi menarik dengan teknologi text-to-video dan image-to-video dari Grok AI.",
+        "try-now": "Grok AI Video Generator",
+        "check-more": "Pelajari Lebih Lanjut"
+      },
+      "tools": {
+        "title": "Alat AI Gratis",
+        "description": "Mulai perjalanan kreatif Anda dengan alat AI gratis dari Grok AI.",
+        "try-now": "Gambar ke Prompt Gratis",
+        "check-more": "Pelajari Lebih Lanjut"
+      }
+    },
+    "links": {
+      "title": "Jelajahi Lebih Banyak Alat AI Terkait Grok AI",
+      "content": "Temukan alat Grok AI canggih untuk meningkatkan alur kerja kreatif Anda."
+    },
+    "card": {
+      "author": "Penulis",
+      "time": "Tanggal"
+    },
+    "recommend": {
+      "title": "Artikel Lain tentang Grok AI",
+      "description": "Temukan lebih banyak artikel & berita tentang Grok AI."
+    },
+    "like": {
+      "success": "Terima kasih atas dukungan Anda!",
+      "error": "Kesalahan"
+    }
+  },
+  "Metadata": {
+    "common": {
+      "siteName": "grokimagegenerator.net",
+      "creator": "Grok AI Image Generator Terbaik"
+    },
+    "home": {
+      "title": "Grok 3 AI Image Generator - 100% gratis, tanpa daftar, tanpa kartu kredit",
+      "description": "Grok 3 AI Image Generator, didukung oleh Grok 3 AI. 100% gratis tanpa perlu daftar, tanpa kartu kredit, dan tanpa batasan. Hasilkan gambar menakjubkan untuk semua kebutuhan kreatif Anda.",
+      "keywords": "Grok 3 AI Image Generator, Generator Gambar",
+      "openGraph": {
+        "title": "Grok 3 AI Image Generator - 100% gratis, tanpa daftar, tanpa kartu kredit",
+        "description": "Grok 3 AI Image Generator, didukung oleh Grok 3 AI. 100% gratis tanpa perlu daftar, tanpa kartu kredit, dan tanpa batasan. Hasilkan gambar menakjubkan untuk semua kebutuhan kreatif Anda.",
+        "siteName": "grokimagegenerator.net"
+      },
+      "twitter": {
+        "title": "Grok 3 AI Image Generator - 100% gratis, tanpa daftar, tanpa kartu kredit",
+        "description": "Grok 3 AI Image Generator, didukung oleh Grok 3 AI. 100% gratis tanpa perlu daftar, tanpa kartu kredit, dan tanpa batasan. Hasilkan gambar menakjubkan untuk semua kebutuhan kreatif Anda.",
+        "site": "grokimagegenerator.net",
+        "creator": "Grok 3 AI Image Generator"
+      }
+    },
+    "blog": {
+      "title": "Artikel & Berita tentang Grok 3 AI Image Generator",
+      "titleSuffix": "grokimagegenerator.net"
+    }
+  }
+}

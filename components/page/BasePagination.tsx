@@ -1,13 +1,13 @@
 'use client';
 
 // import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { Link, useRouter } from '@/i18n/navigation';
+import { ArrowBigRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import Pagination from 'rc-pagination';
 
 import { cn } from '@/lib/utils';
 import { objToQueryStr } from '@/lib/utils/stringUtils';
-import { Link } from '@/app/navigation';
+import { useSafeSearchParams } from '@/hooks/useSafeSearchParams';
 
 type BasePaginationProps = {
   route: string;
@@ -99,7 +99,8 @@ export default function BasePagination({
   searchParamsKeys,
   className,
 }: BasePaginationProps) {
-  const searchParams = useSearchParams();
+  const searchParams = useSafeSearchParams();
+  const router = useRouter();
 
   const getRoute = (nextNum: number): string => {
     let routeStr = `${route}${subRoute}/${nextNum}`;
@@ -116,20 +117,45 @@ export default function BasePagination({
     return objToQueryStr(routeStr, searchParamsObj);
   };
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.target as HTMLFormElement);
+    const page = formData.get('page');
+    router.push(getRoute(Number(page)));
+  };
+
   return (
-    <Pagination
-      className={cn('[&>li]:flex-xy-center flex gap-3 text-xs text-white', className)}
-      pageSize={pageSize}
-      defaultCurrent={currentPage}
-      total={total}
-      showLessItems
-      itemRender={(page, type, element) => itemRender({ page, type, element, route: getRoute(page), currentPage })}
-      locale={{
-        next_page: 'next',
-        prev_page: 'prev',
-      }}
-      prevIcon={<ChevronLeft className='h-4 w-4' />}
-      nextIcon={<ChevronRight className='h-4 w-4' />}
-    />
+    <div className={cn('mx-auto flex items-center justify-center gap-3', className)}>
+      <Pagination
+        className='flex gap-3 text-xs text-white [&>li]:flex [&>li]:items-center [&>li]:justify-center'
+        pageSize={pageSize}
+        defaultCurrent={currentPage}
+        total={total}
+        showLessItems
+        itemRender={(page, type, element) => itemRender({ page, type, element, route: getRoute(page), currentPage })}
+        locale={{
+          next_page: 'next',
+          prev_page: 'prev',
+        }}
+        prevIcon={<ChevronLeft className='h-4 w-4' />}
+        nextIcon={<ChevronRight className='h-4 w-4' />}
+      />
+      <form onSubmit={handleSubmit} className='flex items-center gap-3'>
+        <input
+          type='number'
+          min={1}
+          max={Math.ceil(total / pageSize)}
+          name='page'
+          defaultValue={currentPage}
+          className='hide-number-input flex h-8 max-w-[50px] items-center justify-center rounded border border-white/40 bg-transparent px-2 text-xs'
+        />
+        <button
+          type='submit'
+          className='flex size-8 items-center justify-center rounded border border-transparent bg-transparent text-white/40 hover:cursor-pointer hover:bg-[#2C2D36]'
+        >
+          <ArrowBigRight className='size-6' />
+        </button>
+      </form>
+    </div>
   );
 }

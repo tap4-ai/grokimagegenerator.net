@@ -5,7 +5,7 @@
 import useInsufficientCreditsStore from '@/store/useInsufficientCreditsStore';
 import { useTranslations } from 'next-intl';
 
-import { useRouter } from '@/app/navigation';
+import { useRouter } from '@/i18n/navigation';
 
 import BaseDialog from './BaseDialog';
 
@@ -33,7 +33,7 @@ export default function InsufficientCreditsDialog() {
       onClose={onClose}
       okText={t('pricing')}
       onOk={onOk}
-      className='!h-[203px] !w-[328px] bg-[#1D1D27] !p-3'
+      className='h-[203px]! w-[328px]! bg-[#1D1D27] p-3!'
     >
       <div className='flex size-full items-center justify-center'>
         <div className='absolute left-1/2 top-0 flex h-9 -translate-x-1/2 items-center justify-center whitespace-nowrap rounded-b-full bg-[#1D1D27] px-8 text-sm lg:text-base'>

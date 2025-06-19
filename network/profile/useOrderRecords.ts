@@ -1,7 +1,7 @@
 import useSWR from 'swr';
 
 import { fetcher } from '../clientFetch';
-import type { ResponseRows } from '../serverFetch';
+import type { ResponseRows } from '../type';
 
 export type OrderRequest = {
   pageNum: number;
@@ -11,6 +11,7 @@ export type OrderRequest = {
    */
   earliest?: boolean;
   search?: string;
+  isNeedStatus?: boolean;
 };
 
 export type OrderRow = {
@@ -29,14 +30,27 @@ export type OrderRow = {
   id: string;
   memberCardId: string;
   /**
+   * 0, 待支付
+   * 1, 支付成功
+   * 2, 支付失败
+   * 3, 支付过期
+   * 4, 取消订单
+   * 5, 已退款
+   * 6, 订阅成功后，取消订阅
+   */
+  status: number;
+  /**
    * 支付时间
    */
   time: number;
+  transactionNo: string;
+  paymentSource: 'app' | 'web';
+  memberCardType: 'free' | 'monthly' | 'yearly' | 'one-time';
 };
 
-const useOrderRecords = ({ pageNum, pageSize, earliest, search }: OrderRequest) => {
+const useOrderRecords = (request: OrderRequest) => {
   const { data, error, isLoading, mutate } = useSWR<ResponseRows<OrderRow[]>>(
-    ['/draw/memberCardOrder/mylist', { pageNum, pageSize, earliest, search }],
+    ['/draw/memberCardOrder/mylist', request],
     fetcher,
   );
 
