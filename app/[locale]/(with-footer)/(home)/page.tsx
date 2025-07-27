@@ -11,6 +11,7 @@ import ModelsSection from '@/components/home/newSections/ModelsSection';
 import AdvantageSection from '@/components/home/section2/advantage-section';
 import ExampleSection, { type ExampleSectionProps } from '@/components/home/sections/ExampleSection';
 import ManualSectionNew from '@/components/home/sections/ManualSection';
+import OuterLinks from '@/components/home/sections/OuterLinks';
 import TwitterSction from '@/components/home/sections/TwitterSction';
 
 import ImageHistoryWrapper from './ImageHistoryWrapper';
@@ -198,6 +199,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* <RecommendSectionContainer code='Home' blogData={homeBlogData} /> */}
       <StartNowSection title={t('start-now.title')} href='/' hrefTitle={t('start-now.try-now')} />
+      <OuterLinks />
     </div>
   );
 }
