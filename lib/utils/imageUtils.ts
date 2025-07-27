@@ -58,7 +58,7 @@ export const getMimeTypeByUrl = (url: string) => {
  * @param scaleSize - Scale factor (2 for 2x, 3 for 3x, etc.)
  * @returns Promise<string> - URL of the scaled image
  */
-export const scaleWithPica = async (imageUrl: string, scaleSize: number): Promise<string> => {
+export const scaleWithPica = async (imageUrl: string, scaleSize: number, abortSignal?: AbortSignal): Promise<string> => {
   const pica = new Pica({
     features: ['js', 'wasm', 'ww'],
   });
@@ -67,8 +67,26 @@ export const scaleWithPica = async (imageUrl: string, scaleSize: number): Promis
     const img = new Image();
     img.crossOrigin = 'anonymous';
 
+    // Handle abort signal
+    const handleAbort = () => {
+      reject(new DOMException('Operation was aborted', 'AbortError'));
+    };
+
+    if (abortSignal?.aborted) {
+      handleAbort();
+      return;
+    }
+
+    abortSignal?.addEventListener('abort', handleAbort);
+
     img.onload = async () => {
       try {
+        // Check if aborted before processing
+        if (abortSignal?.aborted) {
+          handleAbort();
+          return;
+        }
+
         // Create source canvas
         const from = document.createElement('canvas');
         from.width = img.width;
@@ -81,6 +99,12 @@ export const scaleWithPica = async (imageUrl: string, scaleSize: number): Promis
         to.width = img.width * scaleSize;
         to.height = img.height * scaleSize;
 
+        // Check if aborted before resize
+        if (abortSignal?.aborted) {
+          handleAbort();
+          return;
+        }
+
         // Resize with Pica
         await pica.resize(from, to, {
           quality: 3,
@@ -89,17 +113,33 @@ export const scaleWithPica = async (imageUrl: string, scaleSize: number): Promis
           unsharpThreshold: 2,
         });
 
+        // Check if aborted before blob conversion
+        if (abortSignal?.aborted) {
+          handleAbort();
+          return;
+        }
+
         // Convert to blob URL for downloading
         const blob = await pica.toBlob(to, getMimeTypeByUrl(imageUrl), 0.9);
         const downloadUrl = URL.createObjectURL(blob);
 
+        // Final abort check
+        if (abortSignal?.aborted) {
+          URL.revokeObjectURL(downloadUrl);
+          handleAbort();
+          return;
+        }
+
         resolve(downloadUrl);
       } catch (error) {
         reject(error);
+      } finally {
+        abortSignal?.removeEventListener('abort', handleAbort);
       }
     };
 
     img.onerror = () => {
+      abortSignal?.removeEventListener('abort', handleAbort);
       reject(new Error('Failed to load image'));
     };
 

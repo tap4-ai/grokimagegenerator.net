@@ -178,8 +178,10 @@ export default function ImagePromptGenerator({
     turnstileTokenRef.current = token;
     setTimeout(() => {
       setShowTurnstile(false);
-      generateBtnRef.current?.click();
     }, 800);
+    setTimeout(() => {
+      generateBtnRef.current?.click();
+    }, 200);
   };
 
   const handleTurnstileError = (error?: string) => {
@@ -207,7 +209,7 @@ export default function ImagePromptGenerator({
 
   return (
     <>
-      <div className={cn('container-centered', className)}>
+      <div className={cn(className)}>
         <div className='space-y-[26px] rounded-xl bg-[#202020] p-[18px]'>
           {/* Prompt Section */}
           <div className='focus-within:ring-ring/50 rounded-lg bg-[#2c2c2c] p-3 shadow-xs transition-[box-shadow] focus-within:ring-[3px]'>

@@ -6,10 +6,21 @@ Grok AI Image Generator is a lightning-fast AI image generator that produces hig
 
 ## Core Features
 
-- [Home](https://grokimagegenerator.net/) - Main landing page with image generation tools and features overview
-- [Blog](https://grokimagegenerator.net/blog) - Articles and news about Grok AI image generation, tutorials, and updates
+- [Home](https://grokimagegenerator.net/) - 100% free Grok AI image generation with no signup required, no credit card needed, and no limitations. Generate amazing images for all your creative needs using advanced Grok AI technology. Our cutting-edge AI models deliver professional-quality results instantly, supporting various art styles from photorealistic portraits to abstract digital art. Experience unlimited creativity with zero cost and maximum convenience.
 
+- [Grok 4 AI Image Generator](https://grokimagegenerator.net/grok4-ai-image-generator/) - Experience the latest Grok 4 AI technology for superior image generation with enhanced quality and faster processing. This revolutionary model delivers unprecedented detail accuracy, improved color reproduction, and lightning-fast generation speeds. Completely free to use with no restrictions, Grok 4 produces studio-quality images that rival expensive commercial tools. Perfect for professional designers, content creators, and artists seeking premium results without any cost.
+
+- [Free Image Upscaler](https://grokimagegenerator.net/free-image-upscaler/) - Professional quality AI image enhancement tool that upscales images 2x-4x while preserving perfect quality, completely free with instant results. Our advanced upscaling algorithm intelligently reconstructs image details, eliminates pixelation, and enhances clarity without artifacts. Process unlimited images at no cost, supporting batch operations and various input formats. Ideal for photographers, graphic designers, and anyone needing high-resolution images for print or digital use.
+
+- [Free Image Format Converter](https://grokimagegenerator.net/free-image-format-converter/) - Convert between popular image formats instantly with zero quality loss and completely free access. Our powerful conversion engine supports unlimited file processing, maintains original image quality, and delivers results in seconds. No file size restrictions, no watermarks, and no hidden fees. Perfect for web developers, content creators, and digital professionals who need reliable format conversion:  - [WebP to JPG](https://grokimagegenerator.net/free-image-format-converter/webp-to-jpg/) - Convert WebP to JPG with perfect quality preservation and optimized file sizes for maximum compatibility
+- [WebP to PNG](https://grokimagegenerator.net/free-image-format-converter/webp-to-png/) - Transform WebP to PNG with superior quality retention and full transparency support for professional use
+- [JPG to WebP](https://grokimagegenerator.net/free-image-format-converter/jpg-to-webp/) - Convert JPG to WebP with perfect results, reducing file sizes by up to 80% while maintaining visual quality
+- [JPG to PNG](https://grokimagegenerator.net/free-image-format-converter/jpg-to-png/) - Transform JPG to PNG with exceptional quality and transparency support for graphic design projects
+- [PNG to WebP](https://grokimagegenerator.net/free-image-format-converter/png-to-webp/) - Convert PNG to WebP with superior results, dramatically reducing file sizes while preserving transparency
+- [PNG to JPG](https://grokimagegenerator.net/free-image-format-converter/png-to-jpg/) - Transform PNG to JPG with perfect quality optimization and customizable compression settings
+
+- [Blog](https://grokimagegenerator.net/blog/) - Comprehensive articles and news about Grok AI image generation, detailed tutorials, latest updates, and industry insights. Our expert-written content covers everything from beginner guides to advanced techniques, helping users maximize their creative potential. Stay updated with the latest AI image generation trends, tips, and best practices. All content is completely free and regularly updated with fresh insights from industry professionals.
 ## Optional
 
-- [Privacy Policy](https://grokimagegenerator.net/privacy-policy) - Our privacy policy and data handling practices
-- [Terms of Service](https://grokimagegenerator.net/terms-of-service) - Terms and conditions for using our service 
+- [Privacy Policy](https://grokimagegenerator.net/privacy-policy/) - Our comprehensive privacy policy and transparent data handling practices, ensuring your complete privacy and security
+- [Terms of Service](https://grokimagegenerator.net/terms-of-service/) - Detailed terms and conditions for using our service, outlining user rights and platform guidelines

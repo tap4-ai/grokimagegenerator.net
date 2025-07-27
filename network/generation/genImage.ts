@@ -93,7 +93,7 @@ export async function generateImage(data: GenerateImageRequest): Promise<Generat
       options: {
         method: 'POST',
         headers,
-        needCookie: false,
+        needCookie: true,
       },
     });
 

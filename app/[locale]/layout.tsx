@@ -13,11 +13,11 @@ import './globals.css';
 // import SeoScript from '@/components/seo/SeoScript';
 import { GoogleAnalytics } from '@next/third-parties/google';
 
+import GoogleAdScript from '@/components/ad/GoogleAdScript';
+
 // import { NavigationGuardProvider } from 'next-navigation-guard';
 
 import LazyGlobalUI from './LazyGlobalUI';
-
-import GoogleAdScript from '@/components/ad/GoogleAdScript';
 
 // import ClarityScript from '@/components/scripts/ClarityScript';
 

@@ -1,12 +1,12 @@
 {
   "Common": {
-    "loading": "Đang tải...",
+    "loading": "đang tải...",
     "style": "phong cách",
     "copy": "sao chép",
     "back": "quay lại",
-    "more": "xem thêm",
-    "less": "thu gọn",
-    "prompt": "gợi ý",
+    "more": "thêm",
+    "less": "ít hơn",
+    "prompt": "lời nhắc",
     "model": "Mô hình",
     "step": "Bước",
     "advantage": "Ưu điểm",
@@ -19,47 +19,65 @@
     },
     "copy-right": {
       "title": "Bản quyền:",
-      "content": "Người dùng trả phí sở hữu bản quyền hình ảnh của mình."
+      "content": "Người dùng trả phí sở hữu quyền sở hữu hình ảnh."
     }
   },
   "cookie": {
-    "content": "Chúng tôi sử dụng cookie để cải thiện trải nghiệm của bạn. Tìm hiểu thêm trong Chính sách quyền riêng tư.",
+    "content": "Chúng tôi sử dụng cookie để cải thiện trải nghiệm của bạn. Tìm hiểu thêm trong Chính sách Bảo mật của chúng tôi.",
     "confirm": "Chấp nhận"
   },
   "error-page": {
     "not-found": {
       "title": "404 Không tìm thấy",
-      "goHome": "QUAY VỀ TRANG CHỦ"
+      "goHome": "VỀ TRANG CHỦ"
     }
   },
   "components": {
+    "image-format-converter": {
+      "webp-to-jpg": "WEBP sang JPG",
+      "jpg-to-webp": "JPG sang WEBP",
+      "webp-to-png": "WEBP sang PNG",
+      "png-to-webp": "PNG sang WEBP",
+      "jpg-to-png": "JPG sang PNG",
+      "png-to-jpg": "PNG sang JPG",
+      "upload-image": "Tải lên hình ảnh",
+      "error": "Lỗi chuyển đổi"
+    },
+    "image-upscaler": {
+      "upload-image": "Tải lên hình ảnh",
+      "download": "Tải xuống",
+      "upscale": "Nâng cấp"
+    },
     "form-EnhanceBtn": {
-      "optimizePrompt": "Tối ưu gợi ý"
+      "optimizePrompt": "Tối ưu hóa lời nhắc"
     },
     "image-form": {
-      "input-label": "Nhập gợi ý để tạo hình ảnh tại đây",
-      "high-quality-generation": "Tạo hình ảnh chất lượng cao hơn",
-      "generate": "Tạo ảnh",
-      "turnstile-error": "Vui lòng xác minh bạn không phải là robot",
+      "input-label": "Nhập lời nhắc để tạo hình ảnh tại đây",
+      "high-quality-generation": "Nhận tạo chất lượng cao hơn",
+      "generate": "Tạo",
+      "turnstile-error": "Vui lòng hoàn thành xác minh con người",
       "generate-error": "Tạo hình ảnh thất bại, vui lòng thử lại sau",
       "generate-success": "Yêu cầu tạo hình ảnh đã được gửi",
-      "generate-wait": "Đang xử lý yêu cầu tạo ảnh. Vui lòng chờ vài giây."
+      "generate-wait": "Một yêu cầu tạo đang được xử lý. Vui lòng đợi vài giây."
     },
     "image-history": {
-      "free-plan-title": "Dùng thử miễn phí tạo ảnh chất lượng cao",
-      "free-plan-description": "Trải nghiệm tạo ảnh nhanh hơn, chất lượng cao hơn, không quảng cáo trên website chuyên nghiệp của chúng tôi",
-      "try-now": "Dùng thử miễn phí",
-      "generate-label": "Tạo ảnh:",
+      "free-plan-title": "Dùng thử miễn phí để tạo hình ảnh chất lượng cao hơn",
+      "free-plan-description": "Trải nghiệm tạo hình ảnh nhanh hơn, chất lượng cao hơn, không quảng cáo thông qua trang web chuyên nghiệp của chúng tôi",
+      "try-now": "Bắt đầu dùng thử miễn phí",
+      "generate-label": "Tạo:",
       "tips-label": "Mẹo:",
-      "tips-message": "Hình ảnh đã tạo chỉ được lưu trên trình duyệt của bạn",
+      "tips-message": "Hình ảnh được tạo chỉ được lưu trữ trong trình duyệt của bạn",
       "estimated-time": "Thời gian ước tính: 20 giây",
-      "generate-faster": "Tạo ảnh nhanh hơn 5 lần",
-      "image-alt": "Hình ảnh đã tạo",
-      "no-data": "Hình ảnh đã tạo sẽ hiển thị tại đây.",
-      "get-higher-quality": "Tạo ảnh chất lượng cao hơn"
+      "generate-faster": "Tạo nhanh hơn 5 lần",
+      "image-alt": "Hình ảnh được tạo",
+      "no-data": "Hình ảnh được tạo sẽ xuất hiện ở đây."
+    },
+    "light-box": {
+      "get-higher-quality": "Nhận tạo chất lượng cao hơn",
+      "image-to-video": "Hình ảnh thành video"
     },
     "check-in": {
-      "title": "Điểm danh hàng ngày nhận credit",
+      "title": "Điểm danh hàng ngày để nhận tín dụng",
       "go-check-in": "Điểm danh ngay",
       "finish-check-in": "Đã điểm danh"
     },
@@ -70,96 +88,121 @@
     },
     "compress-dialog": {
       "title": "Nén hình ảnh",
-      "content": "Kích thước hình ảnh vượt quá 10MB và không phù hợp để tạo video AI. Bạn có muốn nén lại không?",
-      "reupload": "Tải lại",
+      "content": "Kích thước hình ảnh vượt quá 10MB và không phù hợp để tạo video AI. Bạn có muốn nén nó không?",
+      "reupload": "Tải lên lại",
       "compress": "Nén"
     }
   },
   "Navigation": {
     "new": "Mới",
-    "title": "Grok 3 AI Image Generator",
-    "flux-ai-image-generator": "Flux AI Image Generator",
-    "dream-ai-video": "Chuyển ảnh thành video AI",
-    "prompt-market": "Chợ gợi ý Grok",
-    "videoweb": "Chuyển ảnh thành video AI",
+    "title": "Trình tạo hình ảnh Grok 3 AI",
+    "flux-ai-image-generator": "Trình tạo hình ảnh Flux AI",
+    "grok4-ai-image-generator": "Trình tạo hình ảnh Grok 4 AI",
+    "dream-ai-video": "AI chuyển ảnh thành video",
+    "prompt-market": "Thị trường lời nhắc Grok",
+    "videoweb": "AI chuyển ảnh thành video",
+    "webp-to-jpg": "Trình chuyển đổi WebP sang JPG miễn phí",
+    "webp-to-jpg-content": "Công cụ miễn phí để chuyển đổi webp sang jpg",
+    "jpg-to-webp": "Trình chuyển đổi JPG sang WEBP miễn phí",
+    "jpg-to-webp-content": "Công cụ miễn phí để chuyển đổi jpg sang webp",
+    "png-to-webp": "Trình chuyển đổi PNG sang WEBP miễn phí",
+    "png-to-webp-content": "Công cụ miễn phí để chuyển đổi png sang webp",
+    "webp-to-png": "Trình chuyển đổi WEBP sang PNG miễn phí",
+    "webp-to-png-content": "Công cụ miễn phí để chuyển đổi webp sang png",
+    "jpg-to-png": "Trình chuyển đổi JPG sang PNG miễn phí",
+    "jpg-to-png-content": "Công cụ miễn phí để chuyển đổi jpg sang png",
+    "png-to-jpg": "Trình chuyển đổi PNG sang JPG miễn phí",
+    "png-to-jpg-content": "Công cụ miễn phí để chuyển đổi png sang jpg",
+    "free-image-upscaler": "Trình nâng cấp hình ảnh miễn phí",
+    "free-image-upscaler-content": "Công cụ miễn phí để nâng cấp chất lượng hình ảnh",
+    "free-tools": "Công cụ hình ảnh miễn phí",
     "pricing": "Bảng giá",
     "blog": "Bài viết",
-    "blog-content": "Bài viết & Tin tức về Grok 3 AI Image Generator.",
-    "privacy": "Chính sách quyền riêng tư",
-    "privacy-content": "Chính sách quyền riêng tư của Grok 3 AI Image Generator.",
+    "blog-content": "Bài viết & Tin tức về Trình tạo hình ảnh Grok 3 AI.",
+    "privacy": "Chính sách bảo mật",
+    "privacy-content": "Chính sách bảo mật của Trình tạo hình ảnh Grok 3 AI.",
     "resource": "Tài nguyên",
-    "freeTry": "Dùng thử miễn phí",
+    "freeTry": "Bắt đầu miễn phí",
     "menu": "menu",
     "close": "đóng",
     "logout": "Đăng xuất",
     "logoutSuccessful": "Đăng xuất thành công",
     "profile": {
-      "credits": "Credit",
-      "top-up": "Nạp credit",
+      "credits": "Tín dụng",
+      "top-up": "Nạp tiền",
       "user-info": "Thông tin người dùng",
       "history": "Lịch sử",
-      "order": "Lịch sử đơn hàng",
+      "order": "Hồ sơ đơn hàng",
       "logout": "Đăng xuất"
     },
     "language-dialog": {
       "title": "Tùy chọn ngôn ngữ",
-      "content": "Chuyển sang ngôn ngữ trình duyệt của bạn?",
-      "cancel": "Giữ nguyên",
-      "confirm": "Chuyển đổi"
+      "content": "Chuyển sang ngôn ngữ của trình duyệt?",
+      "cancel": "Giữ hiện tại",
+      "confirm": "Chuyển"
     }
   },
   "Footer": {
-    "title": "Grok 3 AI Image Generator miễn phí",
-    "subTitle": "Grok 3 AI Image Generator tạo hình ảnh ấn tượng, 100% miễn phí, không cần đăng nhập",
+    "title": "Trình tạo hình ảnh Grok AI miễn phí",
+    "subTitle": "Trình tạo hình ảnh Grok AI cho hình ảnh tuyệt đẹp, 100% miễn phí, không cần đăng nhập",
     "support": "Hỗ trợ",
-    "privacy": "Chính sách quyền riêng tư",
+    "privacy": "Chính sách bảo mật",
     "termsConditions": "Điều khoản & Điều kiện",
-    "contactUs": "Liên hệ",
+    "contactUs": "Liên hệ chúng tôi",
     "feature-link": "Tính năng",
     "feature": {
+      "flux-ai-image-generator": "Trình tạo hình ảnh Flux AI",
+      "grok4-ai-image-generator": "Trình tạo hình ảnh Grok 4 AI",
+      "free-image-upscaler": "Trình nâng cấp hình ảnh miễn phí",
+      "webp-to-jpg": "Trình chuyển đổi WebP sang JPG miễn phí",
+      "jpg-to-webp": "Trình chuyển đổi JPG sang WEBP miễn phí",
+      "png-to-webp": "Trình chuyển đổi PNG sang WEBP miễn phí",
+      "webp-to-png": "Trình chuyển đổi WEBP sang PNG miễn phí",
+      "jpg-to-png": "Trình chuyển đổi JPG sang PNG miễn phí",
+      "png-to-jpg": "Trình chuyển đổi PNG sang JPG miễn phí",
       "blog": "Bài viết"
     }
   },
   "FooterNavigation": {
     "privacyPolicy": {
-      "1-h1": "Chính sách quyền riêng tư cho grokimagegenerator.net",
-      "1-p": "Chính sách quyền riêng tư này giải thích cách Grok AI Image Generator thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn khi bạn sử dụng dịch vụ tại grokimagegenerator.net. Bằng việc sử dụng Grok AI Image Generator, bạn đồng ý với các điều khoản trong chính sách này.",
+      "1-h1": "Chính sách bảo mật cho grokimagegenerator.net",
+      "1-p": "Chính sách bảo mật này nêu rõ cách Trình tạo hình ảnh Grok AI thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn khi bạn sử dụng dịch vụ của chúng tôi tại grokimagegenerator.net. Bằng cách sử dụng Trình tạo hình ảnh Grok AI, bạn đồng ý với các điều khoản được mô tả trong chính sách này.",
       "2-h2": "1. Thu thập và sử dụng thông tin",
-      "2-p": "Grok AI Image Generator có thể thu thập thông tin nhận dạng cá nhân để cải thiện dịch vụ. Chúng tôi sử dụng các dịch vụ bên thứ ba có thể thu thập thông tin nhận dạng bạn.",
+      "2-p": "Trình tạo hình ảnh Grok AI có thể thu thập thông tin nhận dạng cá nhân để cải thiện dịch vụ của chúng tôi. Chúng tôi sử dụng các dịch vụ bên thứ ba có thể thu thập thông tin được sử dụng để nhận dạng bạn.",
       "3-h2": "2. Dữ liệu nhật ký",
-      "3-p": "Khi có lỗi xảy ra, chúng tôi thu thập dữ liệu nhật ký, bao gồm địa chỉ IP, thông tin thiết bị, cấu hình ứng dụng và thống kê sử dụng.",
+      "3-p": "Trong trường hợp có lỗi, chúng tôi thu thập dữ liệu nhật ký, có thể bao gồm địa chỉ IP của bạn, thông tin thiết bị, cấu hình ứng dụng và thống kê sử dụng.",
       "4-h2": "3. Cookie",
-      "4-p": "Grok AI có thể sử dụng mã và thư viện bên thứ ba sử dụng cookie. Bạn có thể chấp nhận hoặc từ chối cookie, nhưng từ chối có thể giới hạn một số tính năng.",
+      "4-p": "Grok AI có thể sử dụng mã và thư viện bên thứ ba sử dụng cookie. Bạn có thể chọn chấp nhận hoặc từ chối các cookie này, nhưng việc từ chối có thể hạn chế việc sử dụng một số tính năng của bạn.",
       "5-h2": "4. Nhà cung cấp dịch vụ",
-      "5-p": "Chúng tôi có thể thuê các công ty bên ngoài hỗ trợ dịch vụ, thực hiện các tác vụ liên quan hoặc phân tích cách Grok AI được sử dụng. Các bên này có thể truy cập thông tin cá nhân của bạn nhưng phải giữ bí mật.",
+      "5-p": "Chúng tôi có thể thuê các công ty bên thứ ba để hỗ trợ dịch vụ của chúng tôi, thực hiện các nhiệm vụ liên quan hoặc phân tích cách Grok AI được sử dụng. Các bên này có quyền truy cập vào thông tin cá nhân của bạn nhưng có nghĩa vụ duy trì tính bảo mật.",
       "6-h2": "5. Bảo mật",
-      "6-p": "Chúng tôi nỗ lực bảo vệ thông tin cá nhân của bạn bằng các biện pháp thương mại hợp lý, nhưng không thể đảm bảo an toàn tuyệt đối.",
-      "7-h2": "6. Liên kết đến trang khác",
-      "7-p": "Grok AI có thể chứa liên kết đến các trang ngoài. Chúng tôi không chịu trách nhiệm về nội dung hoặc chính sách quyền riêng tư của các trang đó.",
-      "8-h2": "7. Thay đổi chính sách quyền riêng tư",
-      "8-p": "Chúng tôi có thể cập nhật chính sách quyền riêng tư theo định kỳ. Vui lòng kiểm tra lại trang này để biết thay đổi. Các cập nhật có hiệu lực ngay khi được đăng."
+      "6-p": "Chúng tôi cố gắng bảo vệ thông tin cá nhân của bạn bằng các phương tiện có thể chấp nhận về mặt thương mại, nhưng không thể đảm bảo bảo mật tuyệt đối.",
+      "7-h2": "6. Liên kết đến các trang web khác",
+      "7-p": "Grok AI có thể chứa các liên kết đến các trang web bên ngoài. Chúng tôi không chịu trách nhiệm về nội dung hoặc thực tiễn bảo mật của các trang web này.",
+      "8-h2": "7. Thay đổi chính sách bảo mật này",
+      "8-p": "Chúng tôi có thể cập nhật chính sách bảo mật của mình định kỳ. Vui lòng xem lại trang này để biết bất kỳ thay đổi nào. Các cập nhật có hiệu lực ngay lập tức sau khi đăng."
     },
     "termsConditions": {
       "1-h1": "Điều khoản dịch vụ cho grokimagegenerator.net",
-      "1-p": "Chào mừng bạn đến với grokimagegenerator.net! Trang web của chúng tôi cung cấp dịch vụ tạo hình ảnh bằng AI. Khi sử dụng website, bạn đồng ý với các điều khoản dịch vụ này. Nếu không đồng ý, vui lòng không sử dụng website.",
+      "1-p": "Chào mừng bạn đến với grokimagegenerator.net! Trang web của chúng tôi cung cấp dịch vụ tạo hình ảnh được hỗ trợ bởi AI. Bằng cách sử dụng trang web của chúng tôi, bạn đồng ý với các điều khoản dịch vụ này. Nếu bạn không đồng ý với bất kỳ phần nào, vui lòng không sử dụng trang web.",
       "2-h2": "1. Giấy phép sử dụng",
-      "2-p": "Bạn được cấp phép sử dụng Grok AI cho mục đích cá nhân và thương mại. Giấy phép này không cho phép bạn chỉnh sửa hoặc phân phối nội dung website khi chưa có sự đồng ý bằng văn bản của chúng tôi.",
+      "2-p": "Bạn được cấp giấy phép hạn chế để sử dụng Grok AI cho mục đích cá nhân và thương mại. Giấy phép này không bao gồm quyền sửa đổi hoặc phân phối nội dung của trang web mà không có sự đồng ý trước bằng văn bản của chúng tôi.",
       "3-h2": "2. Quyền sở hữu",
-      "3-p": "Hình ảnh tạo ra bằng Grok AI thuộc về người dùng tạo ra chúng. Grok AI không giữ quyền sở hữu đối với hình ảnh do người dùng tạo.",
+      "3-p": "Hình ảnh được tạo bằng Grok AI thuộc về người dùng đã tạo ra chúng. Grok AI không tuyên bố quyền sở hữu đối với hình ảnh do người dùng tạo ra.",
       "4-h2": "3. Thu thập dữ liệu người dùng",
-      "4-p": "Chúng tôi thu thập dữ liệu cá nhân và phi cá nhân để cải thiện dịch vụ. Việc sử dụng dữ liệu tuân theo Chính sách quyền riêng tư tại grokimagegenerator.net/privacy-policy.",
-      "5-h2": "4. Luật áp dụng",
-      "5-p": "Các điều khoản này được điều chỉnh bởi luật pháp Hoa Kỳ, không xét đến xung đột pháp luật.",
+      "4-p": "Chúng tôi thu thập dữ liệu cá nhân và phi cá nhân để cải thiện dịch vụ của mình. Việc sử dụng dữ liệu được điều chỉnh bởi chính sách bảo mật của chúng tôi, có sẵn tại grokimagegenerator.net/privacy-policy.",
+      "5-h2": "4. Luật điều chỉnh",
+      "5-p": "Các điều khoản này sẽ được điều chỉnh bởi luật pháp Hoa Kỳ, không xét đến các quy định xung đột pháp luật.",
       "6-h2": "5. Thay đổi điều khoản",
-      "6-p": "Grok AI có quyền thay đổi các điều khoản này bất cứ lúc nào. Người dùng sẽ được thông báo qua email. Tiếp tục sử dụng website đồng nghĩa với việc chấp nhận các điều khoản đã sửa đổi.",
+      "6-p": "Grok AI có quyền sửa đổi các điều khoản này bất cứ lúc nào. Người dùng sẽ được thông báo về các thay đổi qua email. Việc tiếp tục sử dụng trang web cấu thành sự chấp nhận các điều khoản đã sửa đổi.",
       "7-h2": "6. Thông tin liên hệ",
-      "7-p": "Nếu có thắc mắc về các điều khoản này, vui lòng liên hệ contact@grokimagegenerator.net.",
-      "last-p": "Bằng việc sử dụng grokimagegenerator.net, bạn xác nhận đã chấp nhận các điều khoản dịch vụ này."
+      "7-p": "Đối với các câu hỏi về các điều khoản này, vui lòng liên hệ với chúng tôi tại contact@grokimagegenerator.net.",
+      "last-p": "Bằng cách sử dụng grokimagegenerator.net, bạn biểu thị sự chấp nhận các điều khoản dịch vụ này."
     }
   },
   "NotFound": {
     "title": "404 Không tìm thấy",
-    "goHome": "QUAY VỀ TRANG CHỦ"
+    "goHome": "VỀ TRANG CHỦ"
   },
   "Error": {
     "title": "Đã xảy ra lỗi!",
@@ -167,235 +210,1113 @@
   },
   "Home": {
     "heading": {
-      "title": "Grok 3 AI Image Generator",
-      "description": "Grok 3 AI Image Generator miễn phí 100%. Tạo hình ảnh ấn tượng chỉ trong vài giây với Grok 3 AI - không cần đăng ký, không cần thẻ tín dụng",
-      "try-now": "Thử tạo ảnh chất lượng cao",
-      "try-now-2": "Thử AI chuyển ảnh thành video",
+      "title": "Trình tạo hình ảnh Grok AI",
+      "description": "Trình tạo hình ảnh Grok AI 100% miễn phí. Tạo hình ảnh tuyệt đẹp trong vài giây với Grok AI - không cần đăng ký, không cần thẻ tín dụng",
+      "try-now": "Thử tạo chất lượng cao hơn",
+      "try-now-2": "Thử AI chuyển hình ảnh thành video",
       "tags": {
-        "free": "Miễn phí 100%",
-        "powered": "Vận hành bởi Grok 3 AI",
+        "free": "100% miễn phí",
+        "powered": "Được hỗ trợ bởi Grok AI",
         "no-login": "Không cần đăng ký",
-        "unlimited": "Tạo ảnh không giới hạn"
+        "unlimited": "Tạo không giới hạn"
       }
     },
     "blog": {
-      "title": "Bài viết & Tin tức về Grok 3 AI Image Generator"
+      "title": "Thêm bài viết & tin tức về Trình tạo hình ảnh Grok AI"
     },
     "example": {
-      "title": "Ví dụ: Ai có thể hưởng lợi từ Grok 3 AI Image Generator",
-      "description": "Grok 3 AI có thể ứng dụng rộng rãi trong nhiều lĩnh vực, truyền cảm hứng sáng tạo không giới hạn cho người dùng.",
-      "promptTitle": "Gợi ý",
-      "btnText": "Dùng thử ngay",
+      "title": "Ví dụ: Ai có thể hưởng lợi từ Trình tạo hình ảnh Grok AI",
+      "description": "Grok AI có thể được ứng dụng rộng rãi trong nhiều lĩnh vực, truyền cảm hứng cho tiềm năng vô hạn của các nhà sáng tạo.",
+      "promptTitle": "Lời nhắc",
+      "btnText": "Thử ngay",
       "texts": {
         "1": {
-          "title": "Nhà thiết kế sản phẩm & Chuyên gia UX/UI",
-          "description": "Tận dụng Grok AI để tạo phác thảo giao diện, nguyên mẫu trực quan và sơ đồ tương tác chỉ trong tích tắc. Khám phá nhiều phong cách thiết kế, tối ưu quy trình và tăng tốc độ thử nghiệm ý tưởng với chất lượng sáng tạo vượt trội."
+          "title": "Nhà thiết kế sản phẩm & chuyên gia UX/UI",
+          "description": "Tận dụng Grok AI để tạo ngay lập tức các bản phác thảo giao diện, nguyên mẫu trực quan và sơ đồ tương tác. Khám phá nhiều phong cách thiết kế, tối ưu hóa quy trình làm việc và tăng tốc lặp lại nguyên mẫu với chất lượng sáng tạo nâng cao."
         },
         "2": {
-          "title": "Thương mại điện tử & Chủ thương hiệu",
-          "description": "Không tốn chi phí chụp ảnh: Tạo hình ảnh sản phẩm chất lượng cao, hình ảnh bối cảnh và đồ họa quảng cáo sáng tạo. Tăng hiệu quả marketing, nâng cao nhận diện thương hiệu và giảm đáng kể chi phí quảng cáo."
+          "title": "Thương mại điện tử & thương gia thương hiệu",
+          "description": "Chi phí chụp ảnh bằng không: Tạo hình ảnh sản phẩm chất lượng cao, hình ảnh cảnh và đồ họa quảng cáo sáng tạo. Khuếch đại tác động tiếp thị trực quan, tăng cường giao tiếp thương hiệu và giảm đáng kể chi phí tiếp thị."
         },
         "3": {
-          "title": "Giáo viên & Nhà nghiên cứu",
-          "description": "Tạo nhanh hình minh họa cho lớp học, sách giáo khoa và sơ đồ nghiên cứu. Nâng cao khả năng truyền đạt trực quan, truyền tải kiến thức và kết quả nghiên cứu một cách hiệu quả."
+          "title": "Nhà giáo dục & nhà nghiên cứu",
+          "description": "Nhanh chóng tạo ra các minh họa lớp học, hình minh họa sách giáo khoa và sơ đồ nghiên cứu. Tăng cường giao tiếp trực quan, truyền đạt hiệu quả kiến thức và kết quả nghiên cứu với độ rõ nét chưa từng có."
         },
         "4": {
           "title": "Nhà phát triển game",
-          "description": "Tạo nhân vật, bối cảnh và concept art cho game một cách nhanh chóng. Làm phong phú nội dung hình ảnh và tối ưu quy trình sáng tạo với sức mạnh tạo ảnh của Grok AI."
+          "description": "Nhanh chóng tạo ra nhân vật game, cảnh và nghệ thuật khái niệm. Làm phong phú nội dung hình ảnh của game và hợp lý hóa quy trình sáng tạo với khả năng tạo mạnh mẽ của Grok AI."
         }
       }
     },
     "features": {
-      "title": "Tính năng nổi bật của Grok 3 AI Image Generator",
+      "title": "Tính năng độc đáo của Trình tạo hình ảnh Grok AI",
       "1": {
-        "title": "Tạo ảnh siêu tốc",
-        "description": "Tạo hình ảnh chất lượng cao chỉ trong vài giây, vượt trội về tốc độ và độ chính xác so với Stable Diffusion 3 và Midjourney."
+        "title": "Tạo hình ảnh nhanh như chớp",
+        "description": "Tạo hình ảnh chất lượng cao trong vài giây, vượt trội hơn Stable Diffusion 3 và Midjourney với tốc độ và độ chính xác chưa từng có."
       },
       "2": {
-        "title": "Chất lượng hình ảnh vượt trội",
-        "description": "Trải nghiệm chi tiết sắc nét và nhất quán nhờ mô hình Flux.1 tiên tiến, mang lại chất lượng hình ảnh đẳng cấp mới."
+        "title": "Chất lượng hình ảnh vô song",
+        "description": "Trải nghiệm chi tiết và sự gắn kết đặc biệt thông qua mô hình Flux.1 tiên tiến, mang lại sự xuất sắc về hình ảnh đặt ra tiêu chuẩn mới cho ngành."
       },
       "3": {
-        "title": "Giao diện thân thiện",
-        "description": "Chuyển đổi văn bản thành hình ảnh đơn giản, giúp mọi người dễ dàng tiếp cận AI tạo ảnh, từ chuyên gia đến người yêu sáng tạo."
+        "title": "Giao diện thân thiện với người dùng",
+        "description": "Chuyển đổi văn bản thành hình ảnh đơn giản giúp tạo hình ảnh AI trở nên dễ tiếp cận với mọi người, từ chuyên gia đến những người đam mê sáng tạo."
       },
       "4": {
-        "title": "Khơi nguồn sáng tạo tức thì",
-        "description": "Chỉ cần nhập gợi ý tại grokimagegenerator.net, Grok AI sẽ biến ý tưởng của bạn thành kiệt tác hình ảnh ngay lập tức."
+        "title": "Tiềm năng sáng tạo tức thì",
+        "description": "Chỉ cần nhập lời nhắc của bạn tại grokimagegenerator.net và xem Grok AI ngay lập tức biến ý tưởng của bạn thành những kiệt tác hình ảnh tuyệt đẹp."
       }
     },
     "advantage": {
-      "title": "Ưu điểm của Grok 3 AI Image Generator",
-      "description": "Grok 3 AI Image Generator kết hợp công nghệ AI tiên tiến với kiến trúc hiệu suất cao, mang đến trải nghiệm tạo ảnh siêu nhanh, chất lượng cao và đa năng, đáp ứng nhu cầu chuyên nghiệp cho thiết kế, sáng tạo nội dung và ứng dụng hình ảnh thương mại.",
-      "try-now": "Dùng thử ngay",
+      "title": "Ưu điểm của Trình tạo hình ảnh Grok AI",
+      "description": "Trình tạo hình ảnh Grok 3 AI kết hợp công nghệ AI tiên tiến với kiến trúc hiệu suất cao, tạo ra trải nghiệm tạo hình ảnh siêu nhanh, chất lượng cao và đa năng, cung cấp giải pháp cấp chuyên nghiệp cho thiết kế, tạo nội dung và ứng dụng hình ảnh thương mại.",
+      "try-now": "Thử ngay",
       "1": {
-        "title": "Ứng dụng công nghệ AI tiên tiến",
-        "description": "Dựa trên trí tuệ nhân tạo hiện đại, Grok AI tạo ra hình ảnh chất lượng vượt trội, hiểu chính xác gợi ý văn bản và chuyển hóa ý tưởng sáng tạo thành hình ảnh thực tế."
+        "title": "Được hỗ trợ bởi công nghệ AI tiên tiến",
+        "description": "Được xây dựng trên trí tuệ nhân tạo tiên tiến, Grok AI mang lại chất lượng tạo hình ảnh đặc biệt, diễn giải chính xác lời nhắc văn bản và chuyển đổi tầm nhìn sáng tạo thành thực tế hình ảnh một cách thành thạo."
       },
       "2": {
-        "title": "Chất lượng chuyên nghiệp, tốc độ siêu nhanh",
-        "description": "Nhờ kiến trúc hướng dẫn hiệu suất cao, Grok AI tạo ảnh nhanh mà vẫn đảm bảo độ chính xác và thẩm mỹ, đáp ứng mọi deadline sáng tạo."
+        "title": "Chất lượng chuyên nghiệp với tốc độ nhanh như chớp",
+        "description": "Sử dụng kiến trúc chưng cất có hướng dẫn hiệu suất cao, Grok AI đạt được tạo nhanh chóng trong khi duy trì độ chính xác hình ảnh hoàn hảo và sức hấp dẫn thẩm mỹ, đáp ứng hoàn hảo các thời hạn sáng tạo khắt khe."
       },
       "3": {
-        "title": "Tạo ảnh đa phong cách",
-        "description": "Từ ảnh chân thực đến minh họa nghệ thuật và thiết kế trừu tượng, Grok AI xử lý mọi phong cách hình ảnh, phục vụ đa dạng nhu cầu sáng tạo cá nhân và thương hiệu."
+        "title": "Tạo hình ảnh đa phong cách linh hoạt",
+        "description": "Từ kết xuất chân thực đến minh họa nghệ thuật và thiết kế trừu tượng, Grok AI xử lý mọi phong cách hình ảnh một cách dễ dàng, bao trùm các lĩnh vực sáng tạo từ giao tiếp thương hiệu đến biểu đạt nghệ thuật cá nhân."
       },
       "4": {
-        "title": "Không cần cài đặt phần mềm",
-        "description": "Nền tảng web thuần túy, không cần Photoshop hay phần mềm chỉnh sửa chuyên dụng. Chỉ cần mở trình duyệt để tạo ảnh mọi lúc, mọi nơi."
+        "title": "Không cần cài đặt",
+        "description": "Một nền tảng hoàn toàn dựa trên web loại bỏ nhu cầu về Photoshop hoặc phần mềm chỉnh sửa chuyên dụng. Chỉ cần mở trình duyệt để tạo hình ảnh mọi lúc, mọi nơi với sự tiện lợi chưa từng có."
       }
     },
     "twitter": {
-      "title": "Đánh giá & Case Study về Grok AI Image Generator trên X",
-      "description": "Xem đánh giá và case study của người dùng trên X để tạo nội dung ấn tượng hơn"
+      "title": "Đánh giá của người dùng và nghiên cứu tình huống về Trình tạo hình ảnh Grok AI trên X",
+      "description": "Xem đánh giá của người dùng và nghiên cứu tình huống trên X để giúp tạo ra nội dung ấn tượng hơn nữa"
     },
     "models": {
-      "title": "Khám phá các mô hình AI tiên tiến của Grok AI",
-      "description": "Chọn mô hình phù hợp để tăng hiệu suất và phát huy tối đa sức sáng tạo.",
+      "title": "Khám phá các mô hình AI tiên tiến trong Grok AI",
+      "description": "Chọn mô hình lý tưởng để nâng cao năng suất và giải phóng sự sáng tạo của bạn.",
       "1": {
         "title": "Grok 2.0",
-        "description": "Grok 2.0 kết hợp Flux.1 và mô hình Aurora độc quyền, tạo nên mô hình AI đa phương thức tích hợp hiểu ngôn ngữ nâng cao và tạo ảnh tự do."
+        "description": "Grok 2.0 kết hợp các mô hình Flux.1 và Aurora độc quyền, tạo ra một mô hình tạo hình ảnh AI đa phương thức tích hợp hiểu biết ngôn ngữ tiên tiến và tạo hình ảnh tự do cao."
       },
       "2": {
         "title": "Grok 3.0",
-        "description": "Grok 3.0 là mô hình tạo ảnh mới nhất từ xAI, mạnh mẽ gấp 10 lần, hỗ trợ tư duy cấp cao 'Think/Big Brain' và tạo ảnh Aurora với khả năng chuyển đổi văn bản thành hình ảnh vượt trội."
+        "description": "Grok 3.0 là mô hình tạo hình ảnh mới nhất từ xAI, được hỗ trợ bởi khả năng tính toán gấp 10 lần, hỗ trợ lý luận cấp cao 'Think/Big Brain' và tạo hình ảnh Aurora với khả năng chuyển văn bản thành hình ảnh được nâng cao đáng kể."
+      },
+      "3": {
+        "title": "Grok 4.0",
+        "description": "Grok 4.0 là mô hình hàng đầu mới nhất của xAI với sức mạnh tính toán lớn hơn khoảng 10 lần so với Grok 3.0, hỗ trợ hợp tác đa tác nhân 'Heavy', gọi công cụ gốc và ngữ cảnh lên đến 256k token. Nó tích hợp hiểu biết và tạo hình ảnh (Aurora), tìm kiếm thời gian thực và thực thi mã để thực sự đạt được 'Think+Act+Create', cung cấp hỗ trợ mạnh mẽ cho lý luận phức tạp, nhiệm vụ học thuật và sáng tạo đa phương thức."
       }
     },
     "manual": {
-      "title": "Cách sử dụng Grok AI Image Generator",
-      "content": "Tạo ảnh AI mong muốn chỉ với vài bước đơn giản",
+      "title": "Cách sử dụng Trình tạo hình ảnh Grok AI",
+      "content": "Nhận hình ảnh AI mong muốn chỉ trong vài bước đơn giản",
       "1": {
-        "title": "Nhập văn bản (có thể tối ưu gợi ý bất cứ lúc nào để kết quả tốt hơn), hoặc tải lên hình ảnh nếu muốn."
+        "title": "Nhập văn bản của bạn (tối ưu hóa lời nhắc bất cứ lúc nào để có kết quả tốt hơn), hoặc tải lên hình ảnh nếu bạn muốn."
       },
       "2": {
-        "title": "Chọn tỷ lệ khung hình cho ảnh"
+        "title": "Chọn tỷ lệ khung hình cho hình ảnh của bạn"
       },
       "3": {
-        "title": "Nhấn nút tạo ảnh và chờ vài giây để xem kết quả"
+        "title": "Nhấp vào nút tạo và đợi vài giây để xem hình ảnh của bạn"
       },
       "4": {
-        "title": "Xem các ảnh đã tạo, chọn ảnh bạn thích và tải về để sử dụng cho website, mạng xã hội, quảng cáo, in ấn và nhiều mục đích thương mại khác"
+        "title": "Duyệt kết quả được tạo, chọn hình ảnh yêu thích của bạn và tải xuống để sử dụng trong trang web, mạng xã hội, quảng cáo, in ấn và các tình huống thương mại khác nhau"
       }
     },
     "faq": {
-      "title": "Câu hỏi thường gặp về Grok 3 AI Image Generator",
+      "title": "Câu hỏi thường gặp về Trình tạo hình ảnh Grok AI",
       "1": {
-        "question": "Grok 3 AI Image Generator là gì?",
-        "answer": "Grok 3 AI Image Generator là công cụ tạo ảnh AI siêu tốc, tạo ra hình ảnh chất lượng cao chỉ trong vài giây, vượt trội hơn các đối thủ như Stable Diffusion 3 và Midjourney."
+        "question": "Trình tạo hình ảnh Grok AI là gì?",
+        "answer": "Trình tạo hình ảnh Grok 3 AI là một trình tạo hình ảnh AI nhanh như chớp có khả năng tạo hình ảnh chất lượng cao trong vài giây, vượt trội hơn các đối thủ như Stable Diffusion 3 và Midjourney."
       },
       "2": {
-        "question": "Những tính năng chính của Grok 3 AI Image Generator là gì?",
-        "answer": "Grok 3 AI Image Generator mang đến chất lượng hình ảnh vượt trội, giao diện thân thiện và các tính năng nâng cao như kiểm soát Flux.1 Pro và lặp nhanh Flux.1 Schnell."
+        "question": "Các tính năng chính của Trình tạo hình ảnh Grok 3 AI là gì?",
+        "answer": "Trình tạo hình ảnh Grok 3 AI cung cấp chất lượng hình ảnh vô song, giao diện thân thiện với người dùng và các tính năng tiên tiến như kiểm soát nâng cao Flux.1 Pro và lặp lại nhanh Flux.1 Schnell."
       },
       "3": {
-        "question": "Cách sử dụng Grok 3 AI Image Generator?",
-        "answer": "Chỉ cần truy cập grokimagegenerator.net, nhập gợi ý và Grok 3 AI Image Generator sẽ tạo ra hình ảnh ấn tượng trong vài giây."
+        "question": "Làm thế nào để sử dụng Trình tạo hình ảnh Grok AI?",
+        "answer": "Chỉ cần truy cập grokimagegenerator.net, nhập lời nhắc của bạn và xem Trình tạo hình ảnh Grok AI tạo ra hình ảnh tuyệt đẹp trong vài giây."
       },
       "4": {
-        "question": "Grok AI Image Generator có những gói giá nào?",
-        "answer": "Grok AI Image Generator có các gói: miễn phí (60 credit), Cơ bản ($9.99 cho 5000 credit), Tiêu chuẩn ($9.99/tháng cho 5000 credit), và Pro ($14.99/tháng cho 8000 credit)."
+        "question": "Trình tạo hình ảnh Grok AI cung cấp gói giá nào?",
+        "answer": "Trình tạo hình ảnh Grok AI hoàn toàn miễn phí không cần đăng nhập và không cần thanh toán. Bạn có thể tạo hình ảnh chất lượng cao không giới hạn mà không có bất kỳ hạn chế hoặc chi phí nào."
       },
       "5": {
-        "question": "Grok AI Image Generator có gói miễn phí không?",
-        "answer": "Có, Grok 3 AI Image Generator cung cấp truy cập miễn phí 100% với chất lượng cao và đầy đủ tính năng cốt lõi."
+        "question": "Chất lượng hình ảnh của Trình tạo hình ảnh Grok AI như thế nào?",
+        "answer": "Trình tạo hình ảnh Grok AI dựa trên công nghệ Flux.1 Schnell, cung cấp khả năng hiểu hình ảnh vượt trội và tạo ra hình ảnh chất lượng cao với chi tiết và độ rõ nét đặc biệt."
       },
       "6": {
-        "question": "Grok 3 AI Image Generator so với các công cụ AI khác như thế nào?",
-        "answer": "Grok 3 AI Image Generator nhanh hơn Midjourney, thân thiện hơn ComfyUI và tạo ảnh chất lượng cao hơn nhờ mô hình Flux.1 Pro tiên tiến."
+        "question": "Trình tạo hình ảnh Grok AI so với các trình tạo hình ảnh AI khác như thế nào?",
+        "answer": "Trình tạo hình ảnh Grok AI nhanh hơn Midjourney, thân thiện với người dùng hơn ComfyUI và tạo ra hình ảnh chất lượng cao hơn bằng mô hình Flux.1 Pro tiên tiến."
       },
       "7": {
-        "question": "Tôi có thể dùng Grok 3 AI Image Generator cho dự án thương mại không?",
-        "answer": "Có, bạn có thể sử dụng hình ảnh tạo ra từ Grok 3 AI Image Generator cho mục đích thương mại."
+        "question": "Tôi có thể sử dụng Trình tạo hình ảnh Grok AI cho các dự án thương mại không?",
+        "answer": "Có, hình ảnh được tạo bằng Trình tạo hình ảnh Grok AI có thể được sử dụng cho mục đích thương mại."
       },
       "8": {
-        "question": "Grok 3 AI Image Generator có mã nguồn mở không?",
-        "answer": "Có, Grok 3 AI Image Generator là mã nguồn mở và có trên GitHub cũng như Hugging Face."
+        "question": "Trình tạo hình ảnh Grok AI có mã nguồn mở không?",
+        "answer": "Không, giao diện người dùng và mô hình tạo hình ảnh của Trình tạo hình ảnh Grok AI không phải là mã nguồn mở. Tuy nhiên, khả năng của chúng tôi được xây dựng và phát triển thêm từ cơ sở mã nguồn mở của Flux."
       },
       "9": {
-        "question": "Grok AI Image Generator được cập nhật thường xuyên không?",
-        "answer": "Để cập nhật mới nhất về Grok AI Image Generator, vui lòng truy cập https://x.ai/grok."
+        "question": "Trình tạo hình ảnh Grok AI được cập nhật bao lâu một lần?",
+        "answer": "Để biết các cập nhật mới nhất về Trình tạo hình ảnh Grok AI, vui lòng truy cập https://x.ai/grok."
       },
       "10": {
-        "question": "Grok AI Image Generator có ứng dụng di động không?",
-        "answer": "Hiện tại, Grok AI Image Generator chỉ có trên web tại grokimagegenerator.net. Phiên bản di động đang được xem xét phát triển."
+        "question": "Trình tạo hình ảnh Grok AI có ứng dụng di động không?",
+        "answer": "Hiện tại, Trình tạo hình ảnh Grok AI dựa trên web tại grokimagegenerator.net. Các phiên bản di động đang được khám phá để phát hành trong tương lai."
       },
       "11": {
-        "question": "Làm sao để nhận hỗ trợ về Grok AI Image Generator?",
+        "question": "Làm thế nào tôi có thể nhận hỗ trợ cho Trình tạo hình ảnh Grok AI?",
         "answer": "Để được hỗ trợ, vui lòng liên hệ contact@grokimagegenerator.net."
       }
     },
     "start-now": {
-      "title": "Dùng thử Grok AI Image Generator ngay - 100% miễn phí!",
-      "try-now": "Dùng thử Grok AI miễn phí"
+      "title": "Thử Trình tạo hình ảnh Grok AI ngay bây giờ - 100% miễn phí!",
+      "try-now": "Thử Grok AI miễn phí"
+    }
+  },
+  "grok4-ai-image-generator": {
+    "heading": {
+      "title": "Trình tạo hình ảnh Grok 4 AI",
+      "description": "Tạo hình ảnh AI tuyệt đẹp trong vài giây",
+      "try-now": "Thử tạo chất lượng cao hơn",
+      "try-now-2": "Thử AI chuyển hình ảnh thành video",
+      "tags": {
+        "free": "100% miễn phí",
+        "powered": "Được hỗ trợ bởi Grok 4 AI",
+        "no-login": "Không cần đăng nhập",
+        "unlimited": "Tạo không giới hạn"
+      }
+    },
+    "blog": {
+      "title": "Thêm bài viết & tin tức về Trình tạo hình ảnh Grok 4 AI"
+    },
+    "example": {
+      "title": "Ví dụ: Ai có thể hưởng lợi từ Trình tạo hình ảnh Grok 4 AI",
+      "description": "Grok 4 AI có thể được ứng dụng rộng rãi trong nhiều lĩnh vực, truyền cảm hứng cho tiềm năng vô hạn của các nhà sáng tạo.",
+      "promptTitle": "Lời nhắc",
+      "btnText": "Thử ngay",
+      "texts": {
+        "1": {
+          "title": "Nhà thiết kế sản phẩm & chuyên gia UX/UI",
+          "description": "Tận dụng Flux AI để tạo ngay lập tức các bản phác thảo giao diện, nguyên mẫu trực quan và sơ đồ tương tác. Khám phá nhiều phong cách thiết kế, tối ưu hóa quy trình làm việc và tăng tốc lặp lại nguyên mẫu với chất lượng sáng tạo nâng cao."
+        },
+        "2": {
+          "title": "Thương mại điện tử & thương gia thương hiệu",
+          "description": "Chi phí chụp ảnh bằng không: Tạo hình ảnh sản phẩm chất lượng cao, hình ảnh cảnh và đồ họa quảng cáo sáng tạo. Khuếch đại tác động tiếp thị trực quan, tăng cường giao tiếp thương hiệu và giảm đáng kể chi phí tiếp thị."
+        },
+        "3": {
+          "title": "Nhà giáo dục & nhà nghiên cứu",
+          "description": "Nhanh chóng tạo ra các minh họa lớp học, hình minh họa sách giáo khoa và sơ đồ nghiên cứu. Tăng cường giao tiếp trực quan, truyền đạt hiệu quả kiến thức và kết quả nghiên cứu với độ rõ nét chưa từng có."
+        },
+        "4": {
+          "title": "Nhà phát triển game",
+          "description": "Nhanh chóng tạo ra nhân vật game, cảnh và nghệ thuật khái niệm. Làm phong phú nội dung hình ảnh của game và hợp lý hóa quy trình sáng tạo với khả năng tạo mạnh mẽ của Grok AI."
+        }
+      }
+    },
+    "features": {
+      "title": "Tính năng độc đáo của Trình tạo hình ảnh Grok 4 AI",
+      "1": {
+        "title": "Tạo hình ảnh nhanh như chớp",
+        "description": "Tạo hình ảnh chất lượng cao trong vài giây, vượt trội hơn Stable Diffusion 3 và Midjourney với tốc độ và độ chính xác chưa từng có."
+      },
+      "2": {
+        "title": "Chất lượng hình ảnh vô song",
+        "description": "Trải nghiệm chi tiết và sự gắn kết đặc biệt thông qua mô hình Flux.1 tiên tiến, mang lại sự xuất sắc về hình ảnh đặt ra tiêu chuẩn mới cho ngành."
+      },
+      "3": {
+        "title": "Giao diện thân thiện với người dùng",
+        "description": "Chuyển đổi văn bản thành hình ảnh đơn giản giúp tạo hình ảnh AI trở nên dễ tiếp cận với mọi người, từ chuyên gia đến những người đam mê sáng tạo."
+      },
+      "4": {
+        "title": "Tiềm năng sáng tạo tức thì",
+        "description": "Chỉ cần nhập lời nhắc của bạn tại grokimagegenerator.net và xem Grok AI ngay lập tức biến ý tưởng của bạn thành những kiệt tác hình ảnh tuyệt đẹp."
+      }
+    },
+    "advantage": {
+      "title": "Ưu điểm của Trình tạo hình ảnh Grok 4 AI",
+      "description": "Trình tạo hình ảnh Grok 4 AI kết hợp công nghệ AI tiên tiến với kiến trúc hiệu suất cao, tạo ra trải nghiệm tạo hình ảnh siêu nhanh, chất lượng cao và đa năng, cung cấp giải pháp cấp chuyên nghiệp cho thiết kế, tạo nội dung và ứng dụng hình ảnh thương mại.",
+      "try-now": "Thử ngay",
+      "1": {
+        "title": "Được hỗ trợ bởi công nghệ AI tiên tiến",
+        "description": "Được xây dựng trên trí tuệ nhân tạo tiên tiến, Grok AI mang lại chất lượng tạo hình ảnh đặc biệt, diễn giải chính xác lời nhắc văn bản và chuyển đổi tầm nhìn sáng tạo thành thực tế hình ảnh một cách thành thạo."
+      },
+      "2": {
+        "title": "Chất lượng chuyên nghiệp với tốc độ nhanh như chớp",
+        "description": "Sử dụng kiến trúc chưng cất có hướng dẫn hiệu suất cao, Grok AI đạt được tạo nhanh chóng trong khi duy trì độ chính xác hình ảnh hoàn hảo và sức hấp dẫn thẩm mỹ, đáp ứng hoàn hảo các thời hạn sáng tạo khắt khe."
+      },
+      "3": {
+        "title": "Tạo hình ảnh đa phong cách linh hoạt",
+        "description": "Từ kết xuất chân thực đến minh họa nghệ thuật và thiết kế trừu tượng, Grok AI xử lý mọi phong cách hình ảnh một cách dễ dàng, bao trùm các lĩnh vực sáng tạo từ giao tiếp thương hiệu đến biểu đạt nghệ thuật cá nhân."
+      },
+      "4": {
+        "title": "Không cần cài đặt",
+        "description": "Một nền tảng hoàn toàn dựa trên web loại bỏ nhu cầu về Photoshop hoặc phần mềm chỉnh sửa chuyên dụng. Chỉ cần mở trình duyệt để tạo hình ảnh mọi lúc, mọi nơi với sự tiện lợi chưa từng có."
+      }
+    },
+    "twitter": {
+      "title": "Đánh giá của người dùng và nghiên cứu tình huống về Trình tạo hình ảnh Grok AI trên X",
+      "description": "Xem đánh giá của người dùng và nghiên cứu tình huống trên X để giúp tạo ra nội dung ấn tượng hơn nữa"
+    },
+    "models": {
+      "title": "Khám phá các mô hình AI tiên tiến trong Grok AI",
+      "description": "Chọn mô hình lý tưởng để nâng cao năng suất và giải phóng sự sáng tạo của bạn.",
+      "1": {
+        "title": "Grok 2.0",
+        "description": "Grok 2.0 kết hợp các mô hình Flux.1 và Aurora độc quyền, tạo ra một mô hình tạo hình ảnh AI đa phương thức tích hợp hiểu biết ngôn ngữ tiên tiến và tạo hình ảnh tự do cao."
+      },
+      "2": {
+        "title": "Grok 3.0",
+        "description": "Grok 3.0 là mô hình tạo hình ảnh mới nhất từ xAI, được hỗ trợ bởi khả năng tính toán gấp 10 lần, hỗ trợ lý luận cấp cao 'Think/Big Brain' và tạo hình ảnh Aurora với khả năng chuyển văn bản thành hình ảnh được nâng cao đáng kể."
+      },
+      "3": {
+        "title": "Grok 4.0",
+        "description": "Grok 4.0 là mô hình hàng đầu mới nhất của xAI với sức mạnh tính toán lớn hơn khoảng 10 lần so với Grok 3.0, hỗ trợ hợp tác đa tác nhân 'Heavy', gọi công cụ gốc và ngữ cảnh lên đến 256k token. Nó tích hợp hiểu biết và tạo hình ảnh (Aurora), tìm kiếm thời gian thực và thực thi mã để thực sự đạt được 'Think+Act+Create', cung cấp hỗ trợ mạnh mẽ cho lý luận phức tạp, nhiệm vụ học thuật và sáng tạo đa phương thức."
+      }
+    },
+    "manual": {
+      "title": "Cách sử dụng Trình tạo hình ảnh Grok 4 AI",
+      "content": "Nhận hình ảnh AI mong muốn chỉ trong vài bước đơn giản",
+      "1": {
+        "title": "Nhập mô tả văn bản của bạn (tối ưu hóa lời nhắc bất cứ lúc nào để có kết quả tốt hơn)"
+      },
+      "2": {
+        "title": "Chọn tỷ lệ khung hình mong muốn"
+      },
+      "3": {
+        "title": "Nhấp vào nút tạo và đợi vài giây để xem hình ảnh của bạn"
+      },
+      "4": {
+        "title": "Chọn hình ảnh yêu thích của bạn và tải xuống để sử dụng trong các tình huống khác nhau"
+      }
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về Trình tạo hình ảnh Grok 4 AI",
+      "1": {
+        "question": "Trình tạo hình ảnh Grok 4 AI là gì?",
+        "answer": "Trình tạo hình ảnh Grok 4 AI là một trình tạo hình ảnh AI nhanh như chớp có khả năng tạo hình ảnh chất lượng cao trong vài giây, vượt trội hơn các đối thủ như Stable Diffusion 3 và Midjourney."
+      },
+      "2": {
+        "question": "Các tính năng chính của Trình tạo hình ảnh Grok 4 AI là gì?",
+        "answer": "Trình tạo hình ảnh Grok 4 AI cung cấp chất lượng hình ảnh vô song, giao diện thân thiện với người dùng và các tính năng tiên tiến như kiểm soát nâng cao Flux.1 Pro và lặp lại nhanh Flux.1 Schnell."
+      },
+      "3": {
+        "question": "Làm thế nào để sử dụng Trình tạo hình ảnh Grok 4 AI?",
+        "answer": "Chỉ cần truy cập grokimagegenerator.net, nhập lời nhắc của bạn và xem Trình tạo hình ảnh Grok 4 AI tạo ra hình ảnh tuyệt đẹp trong vài giây."
+      },
+      "4": {
+        "question": "Trình tạo hình ảnh Grok 4 AI cung cấp gói giá nào?",
+        "answer": "Trình tạo hình ảnh Grok 4 AI hoàn toàn miễn phí không cần đăng nhập và không cần thanh toán. Bạn có thể tạo hình ảnh chất lượng cao không giới hạn mà không có bất kỳ hạn chế hoặc chi phí nào."
+      },
+      "5": {
+        "question": "Chất lượng hình ảnh của Trình tạo hình ảnh Grok 4 AI như thế nào?",
+        "answer": "Trình tạo hình ảnh Grok 4 AI dựa trên công nghệ Flux.1 Schnell, cung cấp khả năng hiểu hình ảnh vượt trội và tạo ra hình ảnh chất lượng cao với chi tiết và độ rõ nét đặc biệt."
+      },
+      "6": {
+        "question": "Trình tạo hình ảnh Grok 4 AI so với các trình tạo hình ảnh AI khác như thế nào?",
+        "answer": "Trình tạo hình ảnh Grok 4 AI nhanh hơn Midjourney, thân thiện với người dùng hơn ComfyUI và tạo ra hình ảnh chất lượng cao hơn bằng mô hình Flux.1 Pro tiên tiến."
+      },
+      "7": {
+        "question": "Tôi có thể sử dụng Trình tạo hình ảnh Grok 4 AI cho các dự án thương mại không?",
+        "answer": "Có, hình ảnh được tạo bằng Trình tạo hình ảnh Grok 4 AI có thể được sử dụng cho mục đích thương mại."
+      },
+      "8": {
+        "question": "Trình tạo hình ảnh Grok 4 AI có mã nguồn mở không?",
+        "answer": "Không, giao diện người dùng và mô hình tạo hình ảnh của Trình tạo hình ảnh Grok 4 AI không phải là mã nguồn mở. Tuy nhiên, khả năng của chúng tôi được xây dựng và phát triển thêm từ cơ sở mã nguồn mở của Flux."
+      },
+      "9": {
+        "question": "Trình tạo hình ảnh Grok 4 AI được cập nhật bao lâu một lần?",
+        "answer": "Để biết các cập nhật mới nhất về Trình tạo hình ảnh Grok 4 AI, vui lòng truy cập https://x.ai/grok."
+      },
+      "10": {
+        "question": "Trình tạo hình ảnh Grok 4 AI có ứng dụng di động không?",
+        "answer": "Hiện tại, Trình tạo hình ảnh Grok 4 AI dựa trên web tại grokimagegenerator.net. Các phiên bản di động đang được khám phá để phát hành trong tương lai."
+      },
+      "11": {
+        "question": "Làm thế nào tôi có thể nhận hỗ trợ cho Trình tạo hình ảnh Grok 4 AI?",
+        "answer": "Để được hỗ trợ, vui lòng liên hệ contact@grokimagegenerator.net."
+      }
+    },
+    "start-now": {
+      "title": "Thử Trình tạo hình ảnh Grok AI ngay bây giờ - 100% miễn phí!",
+      "try-now": "Thử Grok AI miễn phí"
+    }
+  },
+  "free-image-format-converter": {
+    "webp-to-jpg": {
+      "heading": {
+        "title": "Trình chuyển đổi định dạng hình ảnh WebP sang JPG miễn phí",
+        "description": "Trình chuyển đổi WebP sang JPG 100% miễn phí với chất lượng vượt trội và bảo mật nâng cao. Chuyển đổi hình ảnh WebP sang định dạng JPG ngay lập tức với công cụ tiên tiến, thân thiện với người dùng.",
+        "tags": {
+          "free": "100% miễn phí",
+          "powered": "Được hỗ trợ bởi trình duyệt",
+          "no-login": "Không cần đăng ký",
+          "unlimited": "An toàn cục bộ"
+        }
+      },
+      "introduction": {
+        "title": "Trình chuyển đổi WebP sang JPG 100% miễn phí & vượt trội",
+        "description": "Trình chuyển đổi WebP sang JPG miễn phí của chúng tôi là công cụ trực tuyến mạnh mẽ nhất và hoàn toàn miễn phí, mang lại chất lượng chuyển đổi vượt trội từ hình ảnh WebP sang định dạng JPG tương thích toàn cầu mà không có bất kỳ hạn chế sử dụng nào. Trong khi WebP cung cấp khả năng nén và chất lượng tuyệt vời, JPG đảm bảo khả năng tương thích tối đa trên tất cả các nền tảng. Trình chuyển đổi miễn phí của chúng tôi đảm bảo chất lượng hình ảnh hoàn hảo đồng thời cung cấp bảo mật nâng cao thông qua xử lý cục bộ. Chỉ cần tải lên tệp WebP của bạn và trải nghiệm chuyển đổi JPG chất lượng cao ngay lập tức hoàn toàn miễn phí."
+      },
+      "features": {
+        "title": "Tính năng vượt trội của Trình chuyển đổi hình ảnh WebP sang JPG miễn phí",
+        "description": "Công nghệ tiên tiến mang lại kết quả tốt hơn với bảo mật nâng cao",
+        "1": {
+          "title": "Khả năng tương thích định dạng toàn diện",
+          "description": "Hỗ trợ xuất ra nhiều định dạng chính bao gồm WebP, JPG và PNG, đáp ứng nhu cầu chuyển đổi hình ảnh đa dạng và cung cấp xử lý đa định dạng một cửa với kết quả chất lượng vượt trội."
+        },
+        "2": {
+          "title": "Công nghệ xử lý cục bộ siêu nhanh",
+          "description": "Sử dụng công nghệ tính toán thời gian thực phía trình duyệt tiên tiến, hiệu quả chuyển đổi được cải thiện lên đến 300%, đạt được phản hồi nhanh như chớp mà không cần tải tệp lên máy chủ để đảm bảo bảo mật tối đa."
+        },
+        "3": {
+          "title": "Bảo vệ quyền riêng tư và bảo mật tối đa",
+          "description": "Tất cả các quy trình chuyển đổi được hoàn thành hoàn toàn cục bộ với việc thu thập dữ liệu bằng không, tự động xóa bộ nhớ đệm sau khi chuyển đổi, đảm bảo bảo mật quyền riêng tư cấp quân sự có thể so sánh với mã hóa đầu cuối."
+        },
+        "4": {
+          "title": "Sử dụng miễn phí ngay lập tức mà không cần đăng ký",
+          "description": "Hoàn toàn miễn phí không cần đăng nhập, không giới hạn chuyển đổi, không hạn chế tính năng - thực sự đạt được 'kéo thả tải lên, chuyển đổi ngay lập tức, tải xuống một cú nhấp chuột' - đơn giản, hiệu quả và hoàn toàn miễn phí."
+        }
+      },
+      "advantage": {
+        "title": "Các tình huống ứng dụng cao cấp của Trình chuyển đổi WebP sang JPG miễn phí",
+        "description": "Dù để hiển thị, chỉnh sửa hay xuất bản, trình chuyển đổi WebP sang JPG miễn phí của chúng tôi với chất lượng vượt trội và bảo mật nâng cao giúp bạn dễ dàng thích ứng với các nền tảng và tình huống khác nhau.",
+        "try-now": "Thử miễn phí ngay",
+        "1": {
+          "title": "Khả năng tương thích thiết bị & nền tảng toàn cầu",
+          "description": "Chuyển đổi WebP sang JPG với công cụ miễn phí của chúng tôi đảm bảo hiển thị hoàn hảo trên các hệ thống Windows cũ, thiết bị iOS cũ, WeChat, ứng dụng email và tất cả môi trường, hoàn toàn loại bỏ lo ngại về tương thích với kết quả vượt trội."
+        },
+        "2": {
+          "title": "Tích hợp tài liệu nâng cao & chất lượng in ấn",
+          "description": "Chuyển đổi JPG miễn phí tạo ra các tệp được tối ưu hóa tải nhanh hơn và hiển thị tốt hơn, hoàn hảo cho tệp đính kèm email, mạng nội bộ doanh nghiệp, tài liệu cơ sở tri thức với chất lượng vượt trội và bảo mật nâng cao."
+        },
+        "3": {
+          "title": "Khả năng chỉnh sửa thứ cấp vượt trội",
+          "description": "Sau khi chuyển đổi miễn phí sang JPG với chất lượng nâng cao, hình ảnh có thể được chỉnh sửa trực tiếp trong Photoshop, Canva, Meitu, Paint, Figma và các nền tảng khác để cắt, lọc, làm đẹp với kết quả tốt hơn."
+        },
+        "4": {
+          "title": "Hiệu suất nền tảng xã hội & thương mại điện tử nâng cao",
+          "description": "Chuyển đổi JPG miễn phí của chúng tôi đảm bảo khả năng tương thích vượt trội và hiệu suất tốt hơn trên mạng xã hội, nền tảng thương mại điện tử. Hoàn hảo cho trang sản phẩm, bài viết WeChat, hệ thống CMS với bảo mật và chất lượng nâng cao."
+        }
+      },
+      "manual": {
+        "title": "Cách chuyển đổi WebP sang JPG miễn phí trong bốn bước đơn giản",
+        "content": "Chuyển đổi WebP sang JPG miễn phí dễ dàng với kết quả vượt trội:",
+        "1": {
+          "title": "Bước 1: Tải lên hình ảnh WebP của bạn để chuyển đổi miễn phí"
+        },
+        "2": {
+          "title": "Bước 2: Chọn JPG làm định dạng đích (hoàn toàn miễn phí)"
+        },
+        "3": {
+          "title": "Bước 3: Nhấp bắt đầu chuyển đổi miễn phí với bảo mật nâng cao"
+        },
+        "4": {
+          "title": "Bước 4: Tải xuống hình ảnh đã chuyển đổi chất lượng vượt trội"
+        }
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp về Trình chuyển đổi hình ảnh WebP sang JPG miễn phí",
+        "1": {
+          "question": "Điều gì làm cho trình chuyển đổi WebP sang JPG miễn phí này tốt hơn?",
+          "answer": "Công cụ miễn phí của chúng tôi hỗ trợ các định dạng WebP, PNG và JPG với chất lượng chuyển đổi vượt trội, bảo mật nâng cao thông qua xử lý cục bộ và sử dụng hoàn toàn miễn phí không có hạn chế."
+        },
+        "2": {
+          "question": "Chuyển đổi WebP sang JPG miễn phí nhanh như thế nào?",
+          "answer": "Hầu hết hình ảnh chuyển đổi trong vài giây với công nghệ miễn phí tiên tiến của chúng tôi, mang lại kết quả vượt trội nhanh hơn đối thủ cạnh tranh trong khi duy trì bảo mật nâng cao."
+        },
+        "3": {
+          "question": "Trình chuyển đổi WebP sang JPG miễn phí này có thực sự an toàn không?",
+          "answer": "Hoàn toàn đúng. Quyền riêng tư của bạn là ưu tiên hàng đầu của chúng tôi. Tất cả xử lý diễn ra cục bộ với bảo mật nâng cao, thu thập dữ liệu bằng không và tự động dọn dẹp - hoàn toàn miễn phí và an toàn."
+        },
+        "4": {
+          "question": "Có thực sự không có phí cho trình chuyển đổi WebP sang JPG vượt trội này không?",
+          "answer": "Hoàn toàn miễn phí mãi mãi, không cần đăng ký, không có chi phí ẩn, với kết quả chất lượng vượt trội và các tính năng bảo mật nâng cao."
+        },
+        "5": {
+          "question": "Trình chuyển đổi miễn phí này có duy trì chất lượng hình ảnh vượt trội không?",
+          "answer": "Có. Trình chuyển đổi WebP sang JPG miễn phí của chúng tôi sử dụng công nghệ nén không mất dữ liệu tiên tiến để bảo tồn chất lượng hình ảnh gốc vượt trội, đảm bảo kết quả chuyển đổi trong trẻo, chất lượng cao với bảo mật nâng cao."
+        }
+      },
+      "blog": {
+        "title": "Thêm bài viết & tin tức về Trình chuyển đổi hình ảnh WebP sang JPG miễn phí"
+      }
+    },
+    "webp-to-png": {
+      "heading": {
+        "title": "Trình chuyển đổi định dạng hình ảnh WebP sang PNG miễn phí",
+        "description": "Trình chuyển đổi WebP sang PNG 100% miễn phí với chất lượng vượt trội và bảo mật nâng cao. Chuyển đổi hình ảnh WebP sang định dạng PNG ngay lập tức với công cụ tiên tiến, thân thiện với người dùng.",
+        "tags": {
+          "free": "100% miễn phí",
+          "powered": "Được hỗ trợ bởi trình duyệt",
+          "no-login": "Không cần đăng ký",
+          "unlimited": "An toàn cục bộ"
+        }
+      },
+      "introduction": {
+        "title": "Trình chuyển đổi WebP sang PNG 100% miễn phí & vượt trội",
+        "description": "Trình chuyển đổi WebP sang PNG miễn phí của chúng tôi là công cụ trực tuyến mạnh mẽ nhất và hoàn toàn miễn phí, mang lại chất lượng chuyển đổi vượt trội từ hình ảnh WebP sang định dạng PNG tương thích toàn cầu mà không có bất kỳ hạn chế sử dụng nào. Trong khi WebP cung cấp khả năng nén và chất lượng tuyệt vời, PNG đảm bảo khả năng tương thích tối đa trên tất cả các nền tảng. Trình chuyển đổi miễn phí của chúng tôi đảm bảo chất lượng hình ảnh hoàn hảo đồng thời cung cấp bảo mật nâng cao thông qua xử lý cục bộ. Chỉ cần tải lên tệp WebP của bạn và trải nghiệm chuyển đổi PNG chất lượng cao ngay lập tức hoàn toàn miễn phí."
+      },
+      "features": {
+        "title": "Tính năng vượt trội của Trình chuyển đổi hình ảnh WebP sang PNG miễn phí",
+        "description": "Công nghệ tiên tiến mang lại kết quả tốt hơn với bảo mật nâng cao",
+        "1": {
+          "title": "Khả năng tương thích định dạng toàn diện",
+          "description": "Hỗ trợ xuất ra nhiều định dạng chính bao gồm WebP, JPG và PNG, đáp ứng nhu cầu chuyển đổi hình ảnh đa dạng và cung cấp xử lý đa định dạng một cửa với kết quả chất lượng vượt trội."
+        },
+        "2": {
+          "title": "Công nghệ xử lý cục bộ siêu nhanh",
+          "description": "Sử dụng công nghệ tính toán thời gian thực phía trình duyệt tiên tiến, hiệu quả chuyển đổi được cải thiện lên đến 300%, đạt được phản hồi nhanh như chớp mà không cần tải tệp lên máy chủ để đảm bảo bảo mật tối đa."
+        },
+        "3": {
+          "title": "Bảo vệ quyền riêng tư và bảo mật tối đa",
+          "description": "Tất cả các quy trình chuyển đổi được hoàn thành hoàn toàn cục bộ với việc thu thập dữ liệu bằng không, tự động xóa bộ nhớ đệm sau khi chuyển đổi, đảm bảo bảo mật quyền riêng tư cấp quân sự có thể so sánh với mã hóa đầu cuối."
+        },
+        "4": {
+          "title": "Sử dụng miễn phí ngay lập tức mà không cần đăng ký",
+          "description": "Hoàn toàn miễn phí không cần đăng nhập, không giới hạn chuyển đổi, không hạn chế tính năng - thực sự đạt được 'kéo thả tải lên, chuyển đổi ngay lập tức, tải xuống một cú nhấp chuột' - đơn giản, hiệu quả và hoàn toàn miễn phí."
+        }
+      },
+      "advantage": {
+        "title": "Các tình huống ứng dụng cao cấp của Trình chuyển đổi WebP sang PNG miễn phí",
+        "description": "Dù để hiển thị, chỉnh sửa hay xuất bản, trình chuyển đổi WebP sang PNG miễn phí của chúng tôi với chất lượng vượt trội và bảo mật nâng cao giúp bạn dễ dàng thích ứng với các nền tảng và tình huống khác nhau.",
+        "try-now": "Thử miễn phí ngay",
+        "1": {
+          "title": "Tạo vật liệu lớp động & khung hình hoạt ảnh",
+          "description": "Chuyển đổi WebP sang PNG với công cụ miễn phí của chúng tôi cho phép trích xuất các lớp trong suốt với chất lượng vượt trội, phù hợp cho thiết kế chuyển động, chỉnh sửa hoạt ảnh từng khung hình, xuất lớp với bảo mật nâng cao."
+        },
+        "2": {
+          "title": "Chỉnh sửa hình ảnh nâng cao & hiệu quả sáng tạo thứ cấp",
+          "description": "Chuyển đổi PNG miễn phí tạo ra hình ảnh chất lượng vượt trội hỗ trợ chỉnh sửa chất lượng cao trong các phần mềm thiết kế khác nhau, lý tưởng cho thiết kế giao diện, hình ảnh thương hiệu và ứng dụng chuyên nghiệp với kết quả tốt hơn."
+        },
+        "3": {
+          "title": "Phát triển vượt trội & khả năng tương thích frontend",
+          "description": "Chuyển đổi WebP sang PNG với trình chuyển đổi miễn phí của chúng tôi cải thiện khả năng tương thích và độ rõ nét hình ảnh trong phát triển web với bảo mật nâng cao, đặc biệt phù hợp cho các dự án frontend yêu cầu chất lượng hình ảnh vượt trội và hỗ trợ trình duyệt cũ."
+        },
+        "4": {
+          "title": "Hiệu suất tài liệu văn phòng nâng cao",
+          "description": "Chuyển đổi PNG miễn phí của chúng tôi đảm bảo tính ổn định vượt trội khi nhúng vào Word, PowerPoint, biểu mẫu và các tài liệu khác, nâng cao hiệu ứng hình ảnh đồng thời cải thiện khả năng tương thích và chất lượng cho đầu ra in ấn với kết quả tốt hơn."
+        }
+      },
+      "manual": {
+        "title": "Cách chuyển đổi WebP sang PNG miễn phí trong bốn bước đơn giản",
+        "content": "Chuyển đổi WebP sang PNG miễn phí dễ dàng với kết quả vượt trội:",
+        "1": {
+          "title": "Bước 1: Tải lên hình ảnh WebP của bạn để chuyển đổi miễn phí"
+        },
+        "2": {
+          "title": "Bước 2: Chọn PNG làm định dạng đích (hoàn toàn miễn phí)"
+        },
+        "3": {
+          "title": "Bước 3: Nhấp bắt đầu chuyển đổi miễn phí với bảo mật nâng cao"
+        },
+        "4": {
+          "title": "Bước 4: Tải xuống hình ảnh đã chuyển đổi chất lượng vượt trội"
+        }
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp về Trình chuyển đổi hình ảnh WebP sang PNG miễn phí",
+        "1": {
+          "question": "Điều gì làm cho trình chuyển đổi WebP sang PNG miễn phí này tốt hơn?",
+          "answer": "Công cụ miễn phí của chúng tôi hỗ trợ các định dạng WebP, PNG và JPG với chất lượng chuyển đổi vượt trội, bảo mật nâng cao thông qua xử lý cục bộ và sử dụng hoàn toàn miễn phí không có hạn chế."
+        },
+        "2": {
+          "question": "Chuyển đổi WebP sang PNG miễn phí nhanh như thế nào?",
+          "answer": "Hầu hết hình ảnh chuyển đổi trong vài giây với công nghệ miễn phí tiên tiến của chúng tôi, mang lại kết quả vượt trội nhanh hơn đối thủ cạnh tranh trong khi duy trì bảo mật nâng cao."
+        },
+        "3": {
+          "question": "Trình chuyển đổi WebP sang PNG miễn phí này có thực sự an toàn không?",
+          "answer": "Hoàn toàn đúng. Quyền riêng tư của bạn là ưu tiên hàng đầu của chúng tôi. Tất cả xử lý diễn ra cục bộ với bảo mật nâng cao, thu thập dữ liệu bằng không và tự động dọn dẹp - hoàn toàn miễn phí và an toàn."
+        },
+        "4": {
+          "question": "Có thực sự không có phí cho trình chuyển đổi WebP sang PNG vượt trội này không?",
+          "answer": "Hoàn toàn miễn phí mãi mãi, không cần đăng ký, không có chi phí ẩn, với kết quả chất lượng vượt trội và các tính năng bảo mật nâng cao."
+        },
+        "5": {
+          "question": "Trình chuyển đổi miễn phí này có duy trì chất lượng hình ảnh vượt trội không?",
+          "answer": "Có. Trình chuyển đổi WebP sang PNG miễn phí của chúng tôi sử dụng công nghệ nén không mất dữ liệu tiên tiến để bảo tồn chất lượng hình ảnh gốc vượt trội, đảm bảo kết quả chuyển đổi trong trẻo, chất lượng cao với bảo mật nâng cao."
+        }
+      },
+      "blog": {
+        "title": "Thêm bài viết & tin tức về Trình chuyển đổi hình ảnh WebP sang PNG miễn phí"
+      }
+    },
+    "jpg-to-webp": {
+      "heading": {
+        "title": "Trình chuyển đổi định dạng hình ảnh JPG sang WebP miễn phí",
+        "description": "Trình chuyển đổi JPG sang WebP 100% miễn phí với chất lượng vượt trội và bảo mật nâng cao. Chuyển đổi hình ảnh JPG sang định dạng WebP ngay lập tức với công cụ tiên tiến, thân thiện với người dùng.",
+        "tags": {
+          "free": "100% miễn phí",
+          "powered": "Được hỗ trợ bởi trình duyệt",
+          "no-login": "Không cần đăng ký",
+          "unlimited": "An toàn cục bộ"
+        }
+      },
+      "introduction": {
+        "title": "Trình chuyển đổi JPG sang WebP 100% miễn phí & vượt trội",
+        "description": "Trình chuyển đổi JPG sang WebP miễn phí của chúng tôi là công cụ trực tuyến mạnh mẽ nhất và hoàn toàn miễn phí, mang lại chất lượng chuyển đổi vượt trội từ hình ảnh JPG sang định dạng WebP hiệu quả cao mà không có bất kỳ hạn chế sử dụng nào. Trong khi định dạng JPG có khả năng tương thích rộng rãi, WebP cung cấp khả năng nén và chất lượng tốt hơn. Trình chuyển đổi miễn phí của chúng tôi đảm bảo chất lượng hình ảnh hoàn hảo đồng thời cung cấp bảo mật nâng cao thông qua xử lý cục bộ. Chỉ cần tải lên tệp JPG của bạn và trải nghiệm chuyển đổi WebP chất lượng cao ngay lập tức hoàn toàn miễn phí."
+      },
+      "features": {
+        "title": "Tính năng vượt trội của Trình chuyển đổi hình ảnh JPG sang WebP miễn phí",
+        "description": "Công nghệ tiên tiến mang lại kết quả tốt hơn với bảo mật nâng cao",
+        "1": {
+          "title": "Khả năng tương thích định dạng toàn diện",
+          "description": "Hỗ trợ xuất ra nhiều định dạng chính bao gồm WebP, JPG và PNG, đáp ứng nhu cầu chuyển đổi hình ảnh đa dạng và cung cấp xử lý đa định dạng một cửa với kết quả chất lượng vượt trội."
+        },
+        "2": {
+          "title": "Công nghệ xử lý cục bộ siêu nhanh",
+          "description": "Sử dụng công nghệ tính toán thời gian thực phía trình duyệt tiên tiến, hiệu quả chuyển đổi được cải thiện lên đến 300%, đạt được phản hồi nhanh như chớp mà không cần tải tệp lên máy chủ để đảm bảo bảo mật tối đa."
+        },
+        "3": {
+          "title": "Bảo vệ quyền riêng tư và bảo mật tối đa",
+          "description": "Tất cả các quy trình chuyển đổi được hoàn thành hoàn toàn cục bộ với việc thu thập dữ liệu bằng không, tự động xóa bộ nhớ đệm sau khi chuyển đổi, đảm bảo bảo mật quyền riêng tư cấp quân sự có thể so sánh với mã hóa đầu cuối."
+        },
+        "4": {
+          "title": "Sử dụng miễn phí ngay lập tức mà không cần đăng ký",
+          "description": "Hoàn toàn miễn phí không cần đăng nhập, không giới hạn chuyển đổi, không hạn chế tính năng - thực sự đạt được 'kéo thả tải lên, chuyển đổi ngay lập tức, tải xuống một cú nhấp chuột' - đơn giản, hiệu quả và hoàn toàn miễn phí."
+        }
+      },
+      "advantage": {
+        "title": "Các tình huống ứng dụng cao cấp của Trình chuyển đổi JPG sang WebP miễn phí",
+        "description": "Dù để hiển thị, chỉnh sửa hay xuất bản, trình chuyển đổi JPG sang WebP miễn phí của chúng tôi với chất lượng vượt trội và bảo mật nâng cao giúp bạn dễ dàng thích ứng với các nền tảng và tình huống khác nhau.",
+        "try-now": "Thử miễn phí ngay",
+        "1": {
+          "title": "Tăng tốc hiệu suất web & tốc độ tải vượt trội",
+          "description": "Chuyển đổi JPG sang WebP với công cụ miễn phí của chúng tôi giảm kích thước tệp lên đến 80% trong khi duy trì chất lượng hình ảnh vượt trội, cải thiện đáng kể tốc độ tải trang web và trải nghiệm người dùng với bảo mật nâng cao."
+        },
+        "2": {
+          "title": "Hiệu quả lưu trữ nâng cao & quản lý không gian tốt hơn",
+          "description": "Chuyển đổi WebP miễn phí mang lại tỷ lệ nén vượt trội, tiết kiệm đáng kể không gian lưu trữ trong khi bảo tồn chất lượng hình ảnh tuyệt vời - hoàn hảo cho quản lý hình ảnh quy mô lớn với kết quả tốt hơn."
+        },
+        "3": {
+          "title": "Tối ưu hóa di động vượt trội & hiệu suất nâng cao",
+          "description": "Trình chuyển đổi JPG sang WebP miễn phí của chúng tôi tạo ra các tệp nhẹ hơn tải nhanh hơn trên thiết bị di động, hiệu quả giảm tiêu thụ dữ liệu trong khi mang lại chất lượng hình ảnh vượt trội với bảo mật nâng cao."
+        },
+        "4": {
+          "title": "Hiệu suất nền tảng thương mại điện tử & xã hội nâng cao",
+          "description": "Chuyển đổi miễn phí sang định dạng WebP cải thiện tốc độ tải hình ảnh sản phẩm trong khi duy trì độ rõ nét vượt trội, tăng cường sự tương tác của người dùng và tỷ lệ chuyển đổi với hiệu ứng hình ảnh tốt hơn và bảo mật nâng cao."
+        }
+      },
+      "manual": {
+        "title": "Cách chuyển đổi JPG sang WebP miễn phí trong bốn bước đơn giản",
+        "content": "Chuyển đổi JPG sang WebP miễn phí dễ dàng với kết quả vượt trội:",
+        "1": {
+          "title": "Bước 1: Tải lên hình ảnh JPG của bạn để chuyển đổi miễn phí"
+        },
+        "2": {
+          "title": "Bước 2: Chọn WebP làm định dạng đích (hoàn toàn miễn phí)"
+        },
+        "3": {
+          "title": "Bước 3: Nhấp bắt đầu chuyển đổi miễn phí với bảo mật nâng cao"
+        },
+        "4": {
+          "title": "Bước 4: Tải xuống hình ảnh đã chuyển đổi chất lượng vượt trội"
+        }
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp về Trình chuyển đổi hình ảnh JPG sang WebP miễn phí",
+        "1": {
+          "question": "Điều gì làm cho trình chuyển đổi JPG sang WebP miễn phí này tốt hơn?",
+          "answer": "Công cụ miễn phí của chúng tôi hỗ trợ các định dạng WebP, PNG và JPG với chất lượng chuyển đổi vượt trội, bảo mật nâng cao thông qua xử lý cục bộ và sử dụng hoàn toàn miễn phí không có hạn chế."
+        },
+        "2": {
+          "question": "Chuyển đổi JPG sang WebP miễn phí nhanh như thế nào?",
+          "answer": "Hầu hết hình ảnh chuyển đổi trong vài giây với công nghệ miễn phí tiên tiến của chúng tôi, mang lại kết quả vượt trội nhanh hơn đối thủ cạnh tranh trong khi duy trì bảo mật nâng cao."
+        },
+        "3": {
+          "question": "Trình chuyển đổi JPG sang WebP miễn phí này có thực sự an toàn không?",
+          "answer": "Hoàn toàn đúng. Quyền riêng tư của bạn là ưu tiên hàng đầu của chúng tôi. Tất cả xử lý diễn ra cục bộ với bảo mật nâng cao, thu thập dữ liệu bằng không và tự động dọn dẹp - hoàn toàn miễn phí và an toàn."
+        },
+        "4": {
+          "question": "Có thực sự không có phí cho trình chuyển đổi JPG sang WebP vượt trội này không?",
+          "answer": "Hoàn toàn miễn phí mãi mãi, không cần đăng ký, không có chi phí ẩn, với kết quả chất lượng vượt trội và các tính năng bảo mật nâng cao."
+        },
+        "5": {
+          "question": "Trình chuyển đổi miễn phí này có duy trì chất lượng hình ảnh vượt trội không?",
+          "answer": "Có. Trình chuyển đổi JPG sang WebP miễn phí của chúng tôi sử dụng công nghệ nén không mất dữ liệu tiên tiến để bảo tồn chất lượng hình ảnh gốc vượt trội, đảm bảo kết quả chuyển đổi trong trẻo, chất lượng cao với bảo mật nâng cao."
+        }
+      },
+      "blog": {
+        "title": "Thêm bài viết & tin tức về Trình chuyển đổi hình ảnh JPG sang WebP miễn phí"
+      }
+    },
+    "jpg-to-png": {
+      "heading": {
+        "title": "Trình chuyển đổi định dạng hình ảnh JPG sang PNG miễn phí",
+        "description": "Trình chuyển đổi JPG sang PNG 100% miễn phí với chất lượng vượt trội và bảo mật nâng cao. Chuyển đổi hình ảnh JPG sang định dạng PNG ngay lập tức với công cụ tiên tiến, thân thiện với người dùng.",
+        "tags": {
+          "free": "100% miễn phí",
+          "powered": "Được hỗ trợ bởi trình duyệt",
+          "no-login": "Không cần đăng ký",
+          "unlimited": "An toàn cục bộ"
+        }
+      },
+      "introduction": {
+        "title": "Trình chuyển đổi JPG sang PNG 100% miễn phí & vượt trội",
+        "description": "Trình chuyển đổi JPG sang PNG miễn phí của chúng tôi là công cụ trực tuyến mạnh mẽ nhất và hoàn toàn miễn phí, mang lại chất lượng chuyển đổi vượt trội từ hình ảnh JPG sang định dạng PNG tương thích toàn cầu mà không có bất kỳ hạn chế sử dụng nào. Trong khi định dạng JPG được sử dụng rộng rãi, định dạng PNG cung cấp khả năng bảo tồn chất lượng tốt hơn và hỗ trợ độ trong suốt. Trình chuyển đổi miễn phí của chúng tôi đảm bảo chất lượng hình ảnh hoàn hảo đồng thời cung cấp bảo mật nâng cao thông qua xử lý cục bộ. Chỉ cần tải lên tệp JPG của bạn và trải nghiệm chuyển đổi PNG chất lượng cao ngay lập tức hoàn toàn miễn phí."
+      },
+      "features": {
+        "title": "Tính năng vượt trội của Trình chuyển đổi hình ảnh JPG sang PNG miễn phí",
+        "description": "Công nghệ tiên tiến mang lại kết quả tốt hơn với bảo mật nâng cao",
+        "1": {
+          "title": "Khả năng tương thích định dạng toàn diện",
+          "description": "Hỗ trợ xuất ra nhiều định dạng chính bao gồm WebP, JPG và PNG, đáp ứng nhu cầu chuyển đổi hình ảnh đa dạng và cung cấp xử lý đa định dạng một cửa với kết quả chất lượng vượt trội."
+        },
+        "2": {
+          "title": "Công nghệ xử lý cục bộ siêu nhanh",
+          "description": "Sử dụng công nghệ tính toán thời gian thực phía trình duyệt tiên tiến, hiệu quả chuyển đổi được cải thiện lên đến 300%, đạt được phản hồi nhanh như chớp mà không cần tải tệp lên máy chủ để đảm bảo bảo mật tối đa."
+        },
+        "3": {
+          "title": "Bảo vệ quyền riêng tư và bảo mật tối đa",
+          "description": "Tất cả các quy trình chuyển đổi được hoàn thành hoàn toàn cục bộ với việc thu thập dữ liệu bằng không, tự động xóa bộ nhớ đệm sau khi chuyển đổi, đảm bảo bảo mật quyền riêng tư cấp quân sự có thể so sánh với mã hóa đầu cuối."
+        },
+        "4": {
+          "title": "Sử dụng miễn phí ngay lập tức mà không cần đăng ký",
+          "description": "Hoàn toàn miễn phí không cần đăng nhập, không giới hạn chuyển đổi, không hạn chế tính năng - thực sự đạt được 'kéo thả tải lên, chuyển đổi ngay lập tức, tải xuống một cú nhấp chuột' - đơn giản, hiệu quả và hoàn toàn miễn phí."
+        }
+      },
+      "advantage": {
+        "title": "Các tình huống ứng dụng cao cấp của Trình chuyển đổi JPG sang PNG miễn phí",
+        "description": "Dù để hiển thị, chỉnh sửa hay xuất bản, trình chuyển đổi JPG sang PNG miễn phí của chúng tôi với chất lượng vượt trội và bảo mật nâng cao giúp bạn dễ dàng thích ứng với các nền tảng và tình huống khác nhau.",
+        "try-now": "Thử miễn phí ngay",
+        "1": {
+          "title": "Chất lượng không mất dữ liệu vượt trội & độ rõ nét hình ảnh nâng cao",
+          "description": "Chuyển đổi JPG sang PNG với công cụ miễn phí của chúng tôi bảo tồn chất lượng hình ảnh vượt trội mà không có hiện tượng nhiễu nén, hoàn hảo cho đồ họa chi tiết cao, logo và hình ảnh chuyên nghiệp yêu cầu kết quả trong trẻo với bảo mật nâng cao."
+        },
+        "2": {
+          "title": "Tính linh hoạt thiết kế nâng cao & hỗ trợ chỉnh sửa tốt hơn",
+          "description": "Chuyển đổi PNG miễn phí cung cấp hỗ trợ độ trong suốt vượt trội và chất lượng không mất dữ liệu, lý tưởng cho thiết kế đồ họa, tạo logo và quy trình chỉnh sửa chuyên nghiệp với kết quả tốt hơn và bảo mật nâng cao."
+        },
+        "3": {
+          "title": "Khả năng tương thích nền tảng vượt trội & hiệu suất nâng cao",
+          "description": "Trình chuyển đổi JPG sang PNG miễn phí của chúng tôi đảm bảo khả năng tương thích tốt hơn với phần mềm thiết kế, dịch vụ in ấn và các nền tảng chuyên nghiệp yêu cầu định dạng PNG với chất lượng vượt trội và bảo mật nâng cao."
+        },
+        "4": {
+          "title": "Ứng dụng chuyên nghiệp nâng cao & kết quả hình ảnh tốt hơn",
+          "description": "Chuyển đổi miễn phí sang định dạng PNG mang lại độ rõ nét vượt trội cho biểu đồ, ảnh chụp màn hình, minh họa và đồ họa kỹ thuật, loại bỏ hiện tượng nhiễu nén với chất lượng hình ảnh tốt hơn và bảo mật nâng cao."
+        }
+      },
+      "manual": {
+        "title": "Cách chuyển đổi JPG sang PNG miễn phí trong bốn bước đơn giản",
+        "content": "Chuyển đổi JPG sang PNG miễn phí dễ dàng với kết quả vượt trội:",
+        "1": {
+          "title": "Bước 1: Tải lên hình ảnh JPG của bạn để chuyển đổi miễn phí"
+        },
+        "2": {
+          "title": "Bước 2: Chọn PNG làm định dạng đích (hoàn toàn miễn phí)"
+        },
+        "3": {
+          "title": "Bước 3: Nhấp bắt đầu chuyển đổi miễn phí với bảo mật nâng cao"
+        },
+        "4": {
+          "title": "Bước 4: Tải xuống hình ảnh đã chuyển đổi chất lượng vượt trội"
+        }
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp về Trình chuyển đổi hình ảnh JPG sang PNG miễn phí",
+        "1": {
+          "question": "Điều gì làm cho trình chuyển đổi JPG sang PNG miễn phí này tốt hơn?",
+          "answer": "Công cụ miễn phí của chúng tôi hỗ trợ các định dạng WebP, PNG và JPG với chất lượng chuyển đổi vượt trội, bảo mật nâng cao thông qua xử lý cục bộ và sử dụng hoàn toàn miễn phí không có hạn chế."
+        },
+        "2": {
+          "question": "Chuyển đổi JPG sang PNG miễn phí nhanh như thế nào?",
+          "answer": "Hầu hết hình ảnh chuyển đổi trong vài giây với công nghệ miễn phí tiên tiến của chúng tôi, mang lại kết quả vượt trội nhanh hơn đối thủ cạnh tranh trong khi duy trì bảo mật nâng cao."
+        },
+        "3": {
+          "question": "Trình chuyển đổi JPG sang PNG miễn phí này có thực sự an toàn không?",
+          "answer": "Hoàn toàn đúng. Quyền riêng tư của bạn là ưu tiên hàng đầu của chúng tôi. Tất cả xử lý diễn ra cục bộ với bảo mật nâng cao, thu thập dữ liệu bằng không và tự động dọn dẹp - hoàn toàn miễn phí và an toàn."
+        },
+        "4": {
+          "question": "Có thực sự không có phí cho trình chuyển đổi JPG sang PNG vượt trội này không?",
+          "answer": "Hoàn toàn miễn phí mãi mãi, không cần đăng ký, không có chi phí ẩn, với kết quả chất lượng vượt trội và các tính năng bảo mật nâng cao."
+        },
+        "5": {
+          "question": "Trình chuyển đổi miễn phí này có duy trì chất lượng hình ảnh vượt trội không?",
+          "answer": "Có. Trình chuyển đổi JPG sang PNG miễn phí của chúng tôi sử dụng công nghệ nén không mất dữ liệu tiên tiến để bảo tồn chất lượng hình ảnh gốc vượt trội, đảm bảo kết quả chuyển đổi trong trẻo, chất lượng cao với bảo mật nâng cao."
+        }
+      },
+      "blog": {
+        "title": "Thêm bài viết & tin tức về Trình chuyển đổi hình ảnh JPG sang PNG miễn phí"
+      }
+    },
+    "png-to-webp": {
+      "heading": {
+        "title": "Trình chuyển đổi định dạng hình ảnh PNG sang WebP miễn phí",
+        "description": "Trình chuyển đổi PNG sang WebP 100% miễn phí với chất lượng vượt trội và bảo mật nâng cao. Chuyển đổi hình ảnh PNG sang định dạng WebP ngay lập tức với công cụ tiên tiến, thân thiện với người dùng.",
+        "tags": {
+          "free": "100% miễn phí",
+          "powered": "Được hỗ trợ bởi trình duyệt",
+          "no-login": "Không cần đăng ký",
+          "unlimited": "An toàn cục bộ"
+        }
+      },
+      "introduction": {
+        "title": "Trình chuyển đổi PNG sang WebP 100% miễn phí & vượt trội",
+        "description": "Trình chuyển đổi PNG sang WebP miễn phí của chúng tôi là công cụ trực tuyến mạnh mẽ nhất và hoàn toàn miễn phí, mang lại chất lượng chuyển đổi vượt trội từ hình ảnh PNG sang định dạng WebP hiệu quả cao mà không có bất kỳ hạn chế sử dụng nào. Trong khi định dạng PNG cung cấp chất lượng tuyệt vời và hỗ trợ độ trong suốt, WebP mang lại khả năng nén tốt hơn và tốc độ tải nhanh hơn. Trình chuyển đổi miễn phí của chúng tôi đảm bảo chất lượng hình ảnh hoàn hảo đồng thời cung cấp bảo mật nâng cao thông qua xử lý cục bộ. Chỉ cần tải lên tệp PNG của bạn và trải nghiệm chuyển đổi WebP chất lượng cao ngay lập tức hoàn toàn miễn phí."
+      },
+      "features": {
+        "title": "Tính năng vượt trội của Trình chuyển đổi hình ảnh PNG sang WebP miễn phí",
+        "description": "Công nghệ tiên tiến mang lại kết quả tốt hơn với bảo mật nâng cao",
+        "1": {
+          "title": "Khả năng tương thích định dạng toàn diện",
+          "description": "Hỗ trợ xuất ra nhiều định dạng chính bao gồm WebP, JPG và PNG, đáp ứng nhu cầu chuyển đổi hình ảnh đa dạng và cung cấp xử lý đa định dạng một cửa với kết quả chất lượng vượt trội."
+        },
+        "2": {
+          "title": "Công nghệ xử lý cục bộ siêu nhanh",
+          "description": "Sử dụng công nghệ tính toán thời gian thực phía trình duyệt tiên tiến, hiệu quả chuyển đổi được cải thiện lên đến 300%, đạt được phản hồi nhanh như chớp mà không cần tải tệp lên máy chủ để đảm bảo bảo mật tối đa."
+        },
+        "3": {
+          "title": "Bảo vệ quyền riêng tư và bảo mật tối đa",
+          "description": "Tất cả các quy trình chuyển đổi được hoàn thành hoàn toàn cục bộ với việc thu thập dữ liệu bằng không, tự động xóa bộ nhớ đệm sau khi chuyển đổi, đảm bảo bảo mật quyền riêng tư cấp quân sự có thể so sánh với mã hóa đầu cuối."
+        },
+        "4": {
+          "title": "Sử dụng miễn phí ngay lập tức mà không cần đăng ký",
+          "description": "Hoàn toàn miễn phí không cần đăng nhập, không giới hạn chuyển đổi, không hạn chế tính năng - thực sự đạt được 'kéo thả tải lên, chuyển đổi ngay lập tức, tải xuống một cú nhấp chuột' - đơn giản, hiệu quả và hoàn toàn miễn phí."
+        }
+      },
+      "advantage": {
+        "title": "Các tình huống ứng dụng cao cấp của Trình chuyển đổi PNG sang WebP miễn phí",
+        "description": "Dù để hiển thị, chỉnh sửa hay xuất bản, trình chuyển đổi PNG sang WebP miễn phí của chúng tôi với chất lượng vượt trội và bảo mật nâng cao giúp bạn dễ dàng thích ứng với các nền tảng và tình huống khác nhau.",
+        "try-now": "Thử miễn phí ngay",
+        "1": {
+          "title": "Tăng tốc hiệu suất web & tốc độ tải vượt trội",
+          "description": "Chuyển đổi PNG sang WebP với công cụ miễn phí của chúng tôi giảm kích thước tệp lên đến 90% trong khi duy trì chất lượng hình ảnh vượt trội, cải thiện đáng kể tốc độ tải trang web và trải nghiệm người dùng với bảo mật nâng cao."
+        },
+        "2": {
+          "title": "Tối ưu hóa di động nâng cao & hiệu suất tốt hơn",
+          "description": "Chuyển đổi WebP miễn phí tạo ra các tệp nhẹ hơn tải nhanh hơn trên thiết bị di động, hiệu quả giảm tiêu thụ dữ liệu trong khi mang lại chất lượng hình ảnh vượt trội với bảo mật nâng cao."
+        },
+        "3": {
+          "title": "Thiết kế giao diện vượt trội & hiệu quả phát triển nâng cao",
+          "description": "Chuyển đổi các biểu tượng giao diện và thành phần giao diện từ PNG sang WebP với trình chuyển đổi miễn phí của chúng tôi giảm đáng kể kích thước gói tài nguyên frontend, cải thiện hiệu suất tải với kết quả tốt hơn và bảo mật nâng cao."
+        },
+        "4": {
+          "title": "Hiệu suất thương mại điện tử & nền tảng nội dung nâng cao",
+          "description": "Chuyển đổi miễn phí hình ảnh sản phẩm và hình ảnh nội dung sang định dạng WebP giảm tải máy chủ trong khi duy trì độ rõ nét vượt trội, tăng tốc độ phản hồi trang với hiệu ứng hình ảnh tốt hơn và bảo mật nâng cao."
+        }
+      },
+      "manual": {
+        "title": "Cách chuyển đổi PNG sang WebP miễn phí trong bốn bước đơn giản",
+        "content": "Chuyển đổi PNG sang WebP miễn phí dễ dàng với kết quả vượt trội:",
+        "1": {
+          "title": "Bước 1: Tải lên hình ảnh PNG của bạn để chuyển đổi miễn phí"
+        },
+        "2": {
+          "title": "Bước 2: Chọn WebP làm định dạng đích (hoàn toàn miễn phí)"
+        },
+        "3": {
+          "title": "Bước 3: Nhấp bắt đầu chuyển đổi miễn phí với bảo mật nâng cao"
+        },
+        "4": {
+          "title": "Bước 4: Tải xuống hình ảnh đã chuyển đổi chất lượng vượt trội"
+        }
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp về Trình chuyển đổi hình ảnh PNG sang WebP miễn phí",
+        "1": {
+          "question": "Điều gì làm cho trình chuyển đổi PNG sang WebP miễn phí này tốt hơn?",
+          "answer": "Công cụ miễn phí của chúng tôi hỗ trợ các định dạng WebP, PNG và JPG với chất lượng chuyển đổi vượt trội, bảo mật nâng cao thông qua xử lý cục bộ và sử dụng hoàn toàn miễn phí không có hạn chế."
+        },
+        "2": {
+          "question": "Chuyển đổi PNG sang WebP miễn phí nhanh như thế nào?",
+          "answer": "Hầu hết hình ảnh chuyển đổi trong vài giây với công nghệ miễn phí tiên tiến của chúng tôi, mang lại kết quả vượt trội nhanh hơn đối thủ cạnh tranh trong khi duy trì bảo mật nâng cao."
+        },
+        "3": {
+          "question": "Trình chuyển đổi PNG sang WebP miễn phí này có thực sự an toàn không?",
+          "answer": "Hoàn toàn đúng. Quyền riêng tư của bạn là ưu tiên hàng đầu của chúng tôi. Tất cả xử lý diễn ra cục bộ với bảo mật nâng cao, thu thập dữ liệu bằng không và tự động dọn dẹp - hoàn toàn miễn phí và an toàn."
+        },
+        "4": {
+          "question": "Có thực sự không có phí cho trình chuyển đổi PNG sang WebP vượt trội này không?",
+          "answer": "Hoàn toàn miễn phí mãi mãi, không cần đăng ký, không có chi phí ẩn, với kết quả chất lượng vượt trội và các tính năng bảo mật nâng cao."
+        },
+        "5": {
+          "question": "Trình chuyển đổi miễn phí này có duy trì chất lượng hình ảnh vượt trội không?",
+          "answer": "Có. Trình chuyển đổi PNG sang WebP miễn phí của chúng tôi sử dụng công nghệ nén không mất dữ liệu tiên tiến để bảo tồn chất lượng hình ảnh gốc vượt trội, đảm bảo kết quả chuyển đổi trong trẻo, chất lượng cao với bảo mật nâng cao."
+        }
+      },
+      "blog": {
+        "title": "Thêm bài viết & tin tức về Trình chuyển đổi hình ảnh PNG sang WebP miễn phí"
+      }
+    },
+    "png-to-jpg": {
+      "heading": {
+        "title": "Trình chuyển đổi định dạng hình ảnh PNG sang JPG miễn phí",
+        "description": "Trình chuyển đổi PNG sang JPG 100% miễn phí với chất lượng vượt trội và bảo mật nâng cao. Chuyển đổi hình ảnh PNG sang định dạng JPG ngay lập tức với công cụ tiên tiến, thân thiện với người dùng.",
+        "tags": {
+          "free": "100% miễn phí",
+          "powered": "Được hỗ trợ bởi trình duyệt",
+          "no-login": "Không cần đăng ký",
+          "unlimited": "An toàn cục bộ"
+        }
+      },
+      "introduction": {
+        "title": "Trình chuyển đổi PNG sang JPG 100% miễn phí & vượt trội",
+        "description": "Trình chuyển đổi PNG sang JPG miễn phí của chúng tôi là công cụ trực tuyến mạnh mẽ nhất và hoàn toàn miễn phí, mang lại chất lượng chuyển đổi vượt trội từ hình ảnh PNG sang định dạng JPG tương thích toàn cầu mà không có bất kỳ hạn chế sử dụng nào. Trong khi định dạng PNG cung cấp chất lượng tuyệt vời và hỗ trợ độ trong suốt, định dạng JPG đảm bảo khả năng tương thích tối đa và kích thước tệp nhỏ hơn. Trình chuyển đổi miễn phí của chúng tôi đảm bảo chất lượng hình ảnh hoàn hảo đồng thời cung cấp bảo mật nâng cao thông qua xử lý cục bộ. Chỉ cần tải lên tệp PNG của bạn và trải nghiệm chuyển đổi JPG chất lượng cao ngay lập tức hoàn toàn miễn phí."
+      },
+      "features": {
+        "title": "Tính năng vượt trội của Trình chuyển đổi hình ảnh PNG sang JPG miễn phí",
+        "description": "Công nghệ tiên tiến mang lại kết quả tốt hơn với bảo mật nâng cao",
+        "1": {
+          "title": "Khả năng tương thích định dạng toàn diện",
+          "description": "Hỗ trợ xuất ra nhiều định dạng chính bao gồm WebP, JPG và PNG, đáp ứng nhu cầu chuyển đổi hình ảnh đa dạng và cung cấp xử lý đa định dạng một cửa với kết quả chất lượng vượt trội."
+        },
+        "2": {
+          "title": "Công nghệ xử lý cục bộ siêu nhanh",
+          "description": "Sử dụng công nghệ tính toán thời gian thực phía trình duyệt tiên tiến, hiệu quả chuyển đổi được cải thiện lên đến 300%, đạt được phản hồi nhanh như chớp mà không cần tải tệp lên máy chủ để đảm bảo bảo mật tối đa."
+        },
+        "3": {
+          "title": "Bảo vệ quyền riêng tư và bảo mật tối đa",
+          "description": "Tất cả các quy trình chuyển đổi được hoàn thành hoàn toàn cục bộ với việc thu thập dữ liệu bằng không, tự động xóa bộ nhớ đệm sau khi chuyển đổi, đảm bảo bảo mật quyền riêng tư cấp quân sự có thể so sánh với mã hóa đầu cuối."
+        },
+        "4": {
+          "title": "Sử dụng miễn phí ngay lập tức mà không cần đăng ký",
+          "description": "Hoàn toàn miễn phí không cần đăng nhập, không giới hạn chuyển đổi, không hạn chế tính năng - thực sự đạt được 'kéo thả tải lên, chuyển đổi ngay lập tức, tải xuống một cú nhấp chuột' - đơn giản, hiệu quả và hoàn toàn miễn phí."
+        }
+      },
+      "advantage": {
+        "title": "Các tình huống ứng dụng cao cấp của Trình chuyển đổi PNG sang JPG miễn phí",
+        "description": "Dù để hiển thị, chỉnh sửa hay xuất bản, trình chuyển đổi PNG sang JPG miễn phí của chúng tôi với chất lượng vượt trội và bảo mật nâng cao giúp bạn dễ dàng thích ứng với các nền tảng và tình huống khác nhau.",
+        "try-now": "Thử miễn phí ngay",
+        "1": {
+          "title": "Tối ưu hóa kích thước tệp vượt trội & tốc độ tải nâng cao",
+          "description": "Chuyển đổi PNG sang JPG với công cụ miễn phí của chúng tôi giảm kích thước tệp lên đến 70% trong khi duy trì chất lượng hình ảnh vượt trội, cải thiện đáng kể tốc độ tải trang web và hiệu suất di động với bảo mật nâng cao."
+        },
+        "2": {
+          "title": "Khả năng tương thích toàn cầu nâng cao & hỗ trợ nền tảng tốt hơn",
+          "description": "Chuyển đổi JPG miễn phí đảm bảo khả năng tương thích vượt trội trên tất cả trình duyệt, ứng dụng email, nền tảng mạng xã hội và hệ thống cũ, loại bỏ vấn đề hiển thị với kết quả tốt hơn và bảo mật nâng cao."
+        },
+        "3": {
+          "title": "Tích hợp tài liệu vượt trội & sử dụng chuyên nghiệp nâng cao",
+          "description": "Trình chuyển đổi PNG sang JPG miễn phí của chúng tôi tạo ra các tệp được tối ưu hóa hoàn hảo cho tài liệu Office, bài thuyết trình và nhúng PDF, giảm kích thước tài liệu trong khi cải thiện chất lượng in ấn với kết quả tốt hơn."
+        },
+        "4": {
+          "title": "Hiệu quả lưu trữ nâng cao & quản lý không gian tốt hơn",
+          "description": "Chuyển đổi miễn phí sang định dạng JPG tiết kiệm đáng kể không gian lưu trữ trong khi bảo tồn chất lượng hình ảnh tuyệt vời, hoàn hảo cho quản lý hình ảnh quy mô lớn và sao lưu với hiệu quả vượt trội và bảo mật nâng cao."
+        }
+      },
+      "manual": {
+        "title": "Cách chuyển đổi PNG sang JPG miễn phí trong bốn bước đơn giản",
+        "content": "Chuyển đổi PNG sang JPG miễn phí dễ dàng với kết quả vượt trội:",
+        "1": {
+          "title": "Bước 1: Tải lên hình ảnh PNG của bạn để chuyển đổi miễn phí"
+        },
+        "2": {
+          "title": "Bước 2: Chọn JPG làm định dạng đích (hoàn toàn miễn phí)"
+        },
+        "3": {
+          "title": "Bước 3: Nhấp bắt đầu chuyển đổi miễn phí với bảo mật nâng cao"
+        },
+        "4": {
+          "title": "Bước 4: Tải xuống hình ảnh đã chuyển đổi chất lượng vượt trội"
+        }
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp về Trình chuyển đổi hình ảnh PNG sang JPG miễn phí",
+        "1": {
+          "question": "Điều gì làm cho trình chuyển đổi PNG sang JPG miễn phí này tốt hơn?",
+          "answer": "Công cụ miễn phí của chúng tôi hỗ trợ các định dạng WebP, PNG và JPG với chất lượng chuyển đổi vượt trội, bảo mật nâng cao thông qua xử lý cục bộ và sử dụng hoàn toàn miễn phí không có hạn chế."
+        },
+        "2": {
+          "question": "Chuyển đổi PNG sang JPG miễn phí nhanh như thế nào?",
+          "answer": "Hầu hết hình ảnh chuyển đổi trong vài giây với công nghệ miễn phí tiên tiến của chúng tôi, mang lại kết quả vượt trội nhanh hơn đối thủ cạnh tranh trong khi duy trì bảo mật nâng cao."
+        },
+        "3": {
+          "question": "Trình chuyển đổi PNG sang JPG miễn phí này có thực sự an toàn không?",
+          "answer": "Hoàn toàn đúng. Quyền riêng tư của bạn là ưu tiên hàng đầu của chúng tôi. Tất cả xử lý diễn ra cục bộ với bảo mật nâng cao, thu thập dữ liệu bằng không và tự động dọn dẹp - hoàn toàn miễn phí và an toàn."
+        },
+        "4": {
+          "question": "Có thực sự không có phí cho trình chuyển đổi PNG sang JPG vượt trội này không?",
+          "answer": "Hoàn toàn miễn phí mãi mãi, không cần đăng ký, không có chi phí ẩn, với kết quả chất lượng vượt trội và các tính năng bảo mật nâng cao."
+        },
+        "5": {
+          "question": "Trình chuyển đổi miễn phí này có duy trì chất lượng hình ảnh vượt trội không?",
+          "answer": "Có. Trình chuyển đổi PNG sang JPG miễn phí của chúng tôi sử dụng công nghệ nén không mất dữ liệu tiên tiến để bảo tồn chất lượng hình ảnh gốc vượt trội, đảm bảo kết quả chuyển đổi trong trẻo, chất lượng cao với bảo mật nâng cao."
+        }
+      },
+      "blog": {
+        "title": "Thêm bài viết & tin tức về Trình chuyển đổi hình ảnh PNG sang JPG miễn phí"
+      }
+    }
+  },
+  "free-image-upscaler": {
+    "heading": {
+      "title": "Trình nâng cấp hình ảnh miễn phí - Công cụ nâng cao hình ảnh được hỗ trợ bởi AI",
+      "description": "Trình nâng cấp hình ảnh 100% miễn phí với công nghệ AI tiên tiến. Nâng cao chất lượng hình ảnh lên đến 4x độ phân giải ngay lập tức. Không cần đăng ký, xử lý cục bộ hoàn toàn an toàn.",
+      "tags": {
+        "free": "100% miễn phí",
+        "powered": "Chất lượng nâng cao bởi AI",
+        "no-login": "Không cần đăng nhập",
+        "unlimited": "Xử lý cục bộ an toàn"
+      }
+    },
+    "introduction": {
+      "title": "Trình nâng cấp hình ảnh 100% miễn phí với khả năng nâng cao AI vượt trội",
+      "description": "Trình nâng cấp hình ảnh miễn phí của chúng tôi là công cụ trực tuyến tiên tiến nhất và hoàn toàn miễn phí, mang lại kết quả nâng cao hình ảnh vượt trội với khả năng tăng độ phân giải lên đến 4x. Sử dụng công nghệ AI tiên tiến, trình nâng cấp hình ảnh miễn phí này biến đổi hình ảnh độ phân giải thấp thành hình ảnh trong trẻo, chất lượng cao trong khi duy trì khả năng bảo tồn chi tiết hoàn hảo. Tất cả xử lý diễn ra an toàn trong trình duyệt của bạn với việc tải tệp lên bằng không, đảm bảo bảo vệ quyền riêng tư tối đa. Trải nghiệm nâng cao hình ảnh cấp chuyên nghiệp hoàn toàn miễn phí - không cần đăng ký, không có chi phí ẩn, chỉ có kết quả vượt trội ngay lập tức với trình nâng cấp hình ảnh miễn phí của chúng tôi."
+    },
+    "comparision": {
+      "original": "GỐC",
+      "tinify": "ĐÃ NÂNG CAO",
+      "title": "Trình nâng cấp hình ảnh miễn phí - Công nghệ nâng cao AI vượt trội",
+      "description": "Trình nâng cấp hình ảnh miễn phí tiên tiến với xử lý cục bộ an toàn mang lại khả năng nâng cao hình ảnh chất lượng chuyên nghiệp mà không ảnh hưởng đến quyền riêng tư của bạn.",
+      "features": {
+        "1": "Xử lý cục bộ 100% an toàn",
+        "2": "Nâng cao độ phân giải vượt trội lên đến 4x",
+        "3": "Bảo vệ quyền riêng tư cấp quân sự",
+        "4": "Sử dụng miễn phí ngay lập tức, không cần đăng ký",
+        "5": "Nâng cao được hỗ trợ bởi AI tiên tiến"
+      },
+      "tryNow": "Thử trình nâng cấp hình ảnh miễn phí"
+    },
+    "advantage": {
+      "title": "Ứng dụng cao cấp của Trình nâng cấp hình ảnh miễn phí",
+      "description": "Trình nâng cấp hình ảnh miễn phí của chúng tôi với công nghệ nâng cao AI vượt trội cung cấp cải thiện chất lượng hình ảnh an toàn, hiệu quả cho trang web, mạng xã hội, thương mại điện tử và các dự án sáng tạo, mang lại kết quả chuyên nghiệp với bảo mật nâng cao.",
+      "try-now": "Thử miễn phí ngay",
+      "1": {
+        "title": "Hiệu suất trang web vượt trội & Trải nghiệm người dùng nâng cao",
+        "description": "Trình nâng cấp hình ảnh miễn phí ngay lập tức nâng cao hình ảnh lên đến 4x độ phân giải với xử lý cục bộ an toàn, cải thiện độ rõ nét hình ảnh trong khi tối ưu hóa thời gian tải trang, tăng sự hài lòng của người dùng và hiệu suất SEO với kết quả tốt hơn."
+      },
+      "2": {
+        "title": "Tác động hình ảnh mạng xã hội nâng cao & Sự tương tác tốt hơn",
+        "description": "Trình nâng cấp hình ảnh miễn phí của chúng tôi hỗ trợ các định dạng WebP, JPG, PNG với chất lượng nâng cao vượt trội, cải thiện đáng kể độ rõ nét và sức hấp dẫn của hình ảnh mạng xã hội, tăng tỷ lệ nhấp chuột và sự tương tác với bảo mật nâng cao."
+      },
+      "3": {
+        "title": "Hiệu quả thương mại điện tử & quản lý nội dung vượt trội",
+        "description": "Trình nâng cấp hình ảnh miễn phí cho phép xử lý hàng loạt với khả năng nâng cao lên đến 4x, tạo ra hình ảnh sản phẩm độ nét cao vượt qua tiêu chuẩn nền tảng, cải thiện chất lượng hiển thị và hiệu quả hoạt động với kết quả hình ảnh tốt hơn và bảo mật nâng cao."
+      },
+      "4": {
+        "title": "Công cụ sáng tạo nâng cao cho nhà thiết kế & người tạo nội dung",
+        "description": "Trình nâng cấp hình ảnh miễn phí hoàn hảo cho các dự án nhiếp ảnh, minh họa và thiết kế, thông minh nâng cao hình ảnh độ phân giải thấp thành hình ảnh chất lượng chuyên nghiệp (2x đến 4x) mà không cần chuyên môn kỹ thuật, mang lại vật liệu sáng tạo vượt trội với bảo mật nâng cao."
+      }
+    },
+    "manual": {
+      "title": "Cách sử dụng Trình nâng cấp hình ảnh miễn phí trong bốn bước đơn giản",
+      "content": "Biến đổi hình ảnh của bạn với khả năng nâng cao AI vượt trội:",
+      "1": {
+        "title": "Bước 1: Tải lên hình ảnh của bạn vào trình nâng cấp hình ảnh miễn phí"
+      },
+      "2": {
+        "title": "Bước 2: Chọn mức độ nâng cao (nâng cấp 2x hoặc 4x)"
+      },
+      "3": {
+        "title": "Bước 3: Nhấp nâng cao để xử lý AI ngay lập tức"
+      },
+      "4": {
+        "title": "Bước 4: Tải xuống hình ảnh đã nâng cao chất lượng vượt trội của bạn"
+      }
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về Trình nâng cấp hình ảnh miễn phí",
+      "1": {
+        "question": "Điều gì làm cho trình nâng cấp hình ảnh miễn phí này vượt trội hơn những công cụ khác?",
+        "answer": "Trình nâng cấp hình ảnh miễn phí của chúng tôi sử dụng công nghệ AI tiên tiến với xử lý cục bộ an toàn, mang lại chất lượng nâng cao vượt trội lên đến 4x. Hoàn toàn miễn phí không cần đăng ký, hỗ trợ các định dạng JPG, PNG, WebP với bảo mật nâng cao và kết quả tốt hơn so với đối thủ cạnh tranh."
+      },
+      "2": {
+        "question": "Trình nâng cấp hình ảnh miễn phí nâng cao chất lượng hình ảnh như thế nào?",
+        "answer": "Trình nâng cấp hình ảnh miễn phí của chúng tôi sử dụng công nghệ siêu phân giải AI tiên tiến với mạng nơ-ron sâu để thông minh nâng cao chi tiết, độ rõ nét và độ sắc nét của hình ảnh trong khi duy trì hiệu ứng hình ảnh tự nhiên, mang lại kết quả nâng cao vượt trội với bảo mật nâng cao."
+      },
+      "3": {
+        "question": "Trình nâng cấp hình ảnh miễn phí này có thực sự an toàn và riêng tư không?",
+        "answer": "Hoàn toàn đúng. Trình nâng cấp hình ảnh miễn phí của chúng tôi xử lý mọi thứ cục bộ trong trình duyệt của bạn với việc tải tệp lên bằng không, đảm bảo bảo vệ quyền riêng tư cấp quân sự. Hoàn toàn miễn phí không cần đăng ký, hình ảnh của bạn không bao giờ rời khỏi thiết bị của bạn để đảm bảo bảo mật tối đa."
+      },
+      "4": {
+        "question": "Tốc độ xử lý của trình nâng cấp hình ảnh miễn phí nhanh như thế nào?",
+        "answer": "Trình nâng cấp hình ảnh miễn phí của chúng tôi mang lại xử lý nhanh như chớp, thường hoàn thành việc nâng cao trong vài giây. Xử lý cục bộ loại bỏ thời gian chờ tải lên/tải xuống, cung cấp kết quả vượt trội ngay lập tức với bảo mật và hiệu quả nâng cao."
+      },
+      "5": {
+        "question": "Kích thước hình ảnh nào hoạt động tốt nhất với trình nâng cấp hình ảnh miễn phí?",
+        "answer": "Trình nâng cấp hình ảnh miễn phí của chúng tôi hỗ trợ nhiều kích thước hình ảnh khác nhau với kết quả tối ưu cho hình ảnh 512×512 pixel trở lên. Công nghệ nâng cao AI mang lại cải thiện chất lượng vượt trội bất kể kích thước gốc, với hiệu quả xử lý nâng cao."
+      },
+      "6": {
+        "question": "Làm thế nào tôi có thể đạt được kết quả tốt nhất với trình nâng cấp hình ảnh miễn phí?",
+        "answer": "Để có khả năng nâng cao vượt trội với trình nâng cấp hình ảnh miễn phí của chúng tôi, hãy sử dụng hình ảnh gốc rõ nét, chọn hệ số nâng cấp phù hợp (2x hoặc 4x), và sử dụng chức năng xem trước để so sánh kết quả. Công nghệ AI tự động tối ưu hóa để có chất lượng tốt nhất với bảo mật nâng cao."
+      }
+    },
+    "blog": {
+      "title": "Thêm bài viết & tin tức về Trình nâng cấp hình ảnh miễn phí"
     }
   },
   "blog": {
     "heading": {
-      "title": "Bài viết & Tin tức nổi bật về Grok 3 AI Image Generator",
-      "description": "Khám phá các bài viết, tin tức và cập nhật mới nhất từ Grok AI Image Generator. Nhận thông tin chuyên sâu, hướng dẫn và cập nhật về công nghệ AI tiên tiến cùng phát triển nền tảng."
-    },
-    "media-tools": {
-      "title": "Công cụ AI tạo ảnh & video tiên tiến của Grok AI",
-      "description": "Tạo hình ảnh và video ấn tượng với các công cụ mạnh mẽ của Grok AI. Khơi nguồn sáng tạo với công nghệ AI hiện đại.",
-      "image": {
-        "title": "Công cụ tạo ảnh Grok AI",
-        "description": "Tạo ảnh ấn tượng ngay lập tức với công nghệ chuyển văn bản thành ảnh và ảnh thành ảnh của Grok AI.",
-        "try-now": "Grok AI Image Generator",
-        "check-more": "Tìm hiểu thêm"
-      },
-      "video": {
-        "title": "Công cụ tạo video AI",
-        "description": "Tạo video hoạt hình hấp dẫn với công nghệ chuyển văn bản thành video và ảnh thành video của Grok AI.",
-        "try-now": "Grok AI Video Generator",
-        "check-more": "Tìm hiểu thêm"
-      },
-      "tools": {
-        "title": "Công cụ AI miễn phí",
-        "description": "Bắt đầu hành trình sáng tạo với các công cụ AI miễn phí của Grok AI.",
-        "try-now": "Chuyển ảnh thành gợi ý miễn phí",
-        "check-more": "Tìm hiểu thêm"
-      }
+      "title": "Bài viết & tin tức được đề xuất về Trình tạo hình ảnh Grok AI",
+      "description": "Khám phá các bài viết, tin tức và cập nhật mới nhất từ Trình tạo hình ảnh Grok AI. Nhận thông tin chuyên sâu từ chuyên gia, hướng dẫn và cập nhật thông tin về công nghệ AI tiên tiến và phát triển nền tảng của chúng tôi."
     },
     "links": {
-      "title": "Khám phá thêm công cụ AI liên quan đến Grok AI",
-      "content": "Khám phá các công cụ Grok AI nâng cao để tối ưu quy trình sáng tạo của bạn."
+      "title": "Khám phá thêm các công cụ AI liên quan đến Grok AI",
+      "content": "Khám phá các công cụ Grok AI tiên tiến để nâng cao quy trình làm việc sáng tạo của bạn."
     },
     "card": {
       "author": "Tác giả",
       "time": "Ngày"
     },
     "recommend": {
-      "title": "Thêm bài viết về Grok AI",
-      "description": "Khám phá thêm bài viết & tin tức về Grok AI."
+      "title": "Thêm bài viết về Trình tạo hình ảnh Grok AI",
+      "description": "Khám phá thêm bài viết & tin tức về Trình tạo hình ảnh Grok AI."
     },
     "like": {
-      "success": "Cảm ơn bạn đã ủng hộ!",
+      "success": "Cảm ơn sự hỗ trợ của bạn!",
       "error": "Lỗi"
     }
   },
   "Metadata": {
     "common": {
       "siteName": "grokimagegenerator.net",
-      "creator": "Grok AI Image Generator tốt nhất"
+      "creator": "Trình tạo hình ảnh Grok AI"
     },
     "home": {
-      "title": "Grok 3 AI Image Generator - 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng",
-      "description": "Grok 3 AI Image Generator, vận hành bởi Grok 3 AI. 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng, không giới hạn. Tạo hình ảnh tuyệt vời cho mọi nhu cầu sáng tạo.",
-      "keywords": "Grok 3 AI Image Generator, Trình tạo ảnh AI",
+      "title": "Trình tạo hình ảnh Grok AI - 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng",
+      "description": "Miễn phí thử Trình tạo hình ảnh Grok AI, được hỗ trợ bởi Grok AI. 100% miễn phí không cần đăng ký, không cần thẻ tín dụng và không có giới hạn. Tạo hình ảnh tuyệt vời cho tất cả nhu cầu sáng tạo của bạn.",
+      "keywords": "Trình tạo hình ảnh Grok 3 AI, Trình tạo hình ảnh",
       "openGraph": {
-        "title": "Grok 3 AI Image Generator - 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng",
-        "description": "Grok 3 AI Image Generator, vận hành bởi Grok 3 AI. 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng, không giới hạn. Tạo hình ảnh tuyệt vời cho mọi nhu cầu sáng tạo.",
+        "title": "Trình tạo hình ảnh Grok AI - 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng",
+        "description": "Miễn phí thử Trình tạo hình ảnh Grok AI, được hỗ trợ bởi Grok AI. 100% miễn phí không cần đăng ký, không cần thẻ tín dụng và không có giới hạn. Tạo hình ảnh tuyệt vời cho tất cả nhu cầu sáng tạo của bạn.",
         "siteName": "grokimagegenerator.net"
       },
       "twitter": {
-        "title": "Grok 3 AI Image Generator - 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng",
-        "description": "Grok 3 AI Image Generator, vận hành bởi Grok 3 AI. 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng, không giới hạn. Tạo hình ảnh tuyệt vời cho mọi nhu cầu sáng tạo.",
+        "title": "Trình tạo hình ảnh Grok AI - 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng",
+        "description": "Miễn phí thử Trình tạo hình ảnh Grok AI, được hỗ trợ bởi Grok AI. 100% miễn phí không cần đăng ký, không cần thẻ tín dụng và không có giới hạn. Tạo hình ảnh tuyệt vời cho tất cả nhu cầu sáng tạo của bạn.",
         "site": "grokimagegenerator.net",
-        "creator": "Grok 3 AI Image Generator"
+        "creator": "Trình tạo hình ảnh Grok 3 AI"
+      }
+    },
+    "grok4-ai-image-generator": {
+      "title": "Trình tạo hình ảnh Grok 4 AI - 100% miễn phí, không cần đăng ký, không cần thẻ tín dụng",
+      "description": "Miễn phí thử Trình tạo hình ảnh Grok 4 AI, được hỗ trợ bởi Grok 4 AI. 100% miễn phí không cần đăng ký, không cần thẻ tín dụng và không có giới hạn. Tạo hình ảnh tuyệt vời cho tất cả nhu cầu sáng tạo của bạn.",
+      "keywords": "Trình tạo hình ảnh Grok 4 AI, Trình tạo hình ảnh"
+    },
+    "free-image-upscaler": {
+      "title": "Trình nâng cấp hình ảnh AI nhanh an toàn 100% miễn phí - Nâng cao hình ảnh chất lượng chuyên nghiệp",
+      "description": "100% miễn phí, nâng cấp và nâng cao hình ảnh của bạn một cách an toàn với công nghệ AI tiên tiến. Nhận khả năng tăng độ phân giải tuyệt đẹp 2x-4x trong khi bảo tồn chất lượng hoàn hảo. Hoàn toàn miễn phí, không cần đăng ký, kết quả ngay lập tức."
+    },
+    "free-image-format-converter": {
+      "webp-to-jpg": {
+        "title": "Trình chuyển đổi định dạng hình ảnh WebP sang JPG nhanh an toàn 100% miễn phí",
+        "description": "100% miễn phí, chuyển đổi WebP sang JPG ngay lập tức với chất lượng hoàn hảo. An toàn, không cần đăng ký và hoàn toàn miễn phí mãi mãi."
+      },
+      "webp-to-png": {
+        "title": "Trình chuyển đổi định dạng hình ảnh WebP sang PNG nhanh an toàn 100% miễn phí",
+        "description": "100% miễn phí, chuyển đổi WebP sang PNG ngay lập tức với chất lượng vượt trội. An toàn, đơn giản sử dụng và hoàn toàn miễn phí."
+      },
+      "jpg-to-webp": {
+        "title": "Trình chuyển đổi định dạng hình ảnh JPG sang WebP nhanh an toàn 100% miễn phí",
+        "description": "100% miễn phí, chuyển đổi JPG sang WebP với kết quả hoàn hảo. An toàn, chuyển đổi ngay lập tức, hoàn toàn miễn phí sử dụng."
+      },
+      "jpg-to-png": {
+        "title": "Trình chuyển đổi định dạng hình ảnh JPG sang PNG nhanh an toàn 100% miễn phí",
+        "description": "100% miễn phí, chuyển đổi JPG sang PNG với chất lượng đặc biệt. An toàn, nhanh chóng và hoàn toàn miễn phí - không cần đăng ký."
+      },
+      "png-to-webp": {
+        "title": "Trình chuyển đổi định dạng hình ảnh PNG sang WebP nhanh an toàn 100% miễn phí",
+        "description": "100% miễn phí, chuyển đổi PNG sang WebP với kết quả vượt trội. An toàn, xử lý ngay lập tức và hoàn toàn miễn phí mãi mãi."
+      },
+      "png-to-jpg": {
+        "title": "Trình chuyển đổi định dạng hình ảnh PNG sang JPG nhanh an toàn 100% miễn phí",
+        "description": "100% miễn phí, chuyển đổi PNG sang JPG với chất lượng hoàn hảo. An toàn, đơn giản và hoàn toàn miễn phí - không cần đăng ký."
       }
     },
     "blog": {
-      "title": "Bài viết & Tin tức về Grok 3 AI Image Generator",
+      "title": "Bài viết & tin tức về Trình tạo hình ảnh Grok AI",
       "titleSuffix": "grokimagegenerator.net"
     }
   }

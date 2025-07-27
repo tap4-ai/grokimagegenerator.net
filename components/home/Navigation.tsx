@@ -8,6 +8,7 @@ import { useLocale, useTranslations } from 'next-intl';
 
 import { NAV_LINKS } from '@/lib/constants';
 import { cn } from '@/lib/utils';
+
 // import useInterval from '@/hooks/useInterval';
 // import useUpdateUserInfo from '@/hooks/useUpdateUserInfo';
 
@@ -15,6 +16,7 @@ import LocaleSwitcher from '../LocaleSwitcher';
 // import Credits from '../svg/Credits';
 import MenuBtn from './MenuBtn';
 import NavigationDrawer from './NavigationDrawer';
+import NavPopover from './NavPopover';
 
 export default function Navigation() {
   const t = useTranslations('Navigation');
@@ -36,15 +38,14 @@ export default function Navigation() {
   const NavLinks = NAV_LINKS.map((item) => ({
     ...item,
     label: t(`${item.code}`),
-    // children:
-    //   item.children &&
-    //   item.children
-    //     ?.filter((el) => el.code !== 'dream-ai-video')
-    //     .map((child) => ({
-    //       ...child,
-    //       label: t(`${child.code}`),
-    //       content: t(`${child.code}-content`),
-    //     })),
+    children:
+      item.children &&
+      item.children
+        .map((child) => ({
+          ...child,
+          label: t(`${child.code}`),
+          content: t(`${child.code}-content`),
+        })),
   }));
 
   return (
@@ -60,24 +61,24 @@ export default function Navigation() {
           <div className='ml-auto hidden h-10 items-center gap-3 lg:flex'>
             {NavLinks.map((item) => (
               <div key={item.code}>
-                {/* {item.children ? (
-                  <NavPopover label={item.label} isHighLight={!!item.isHighLight} navDataList={item.children} />
-                ) : ( */}
-                <Link
-                  key={item.code}
-                  href={item.href as string}
-                  // target={item.target}
-                  rel={item.href.startsWith('http') ? 'nofollow' : undefined}
-                  className={cn(
-                    'flex h-10 items-center justify-center rounded-lg px-3 font-semibold text-white/70 hover:bg-white/15',
-                    pathname === item.href && 'text-color-main',
-                    pathname.startsWith(item.href as string) && item.href !== '/' && 'text-color-main',
-                    pathname.startsWith(`/${locale}${item.href}`) && item.href !== '/' && 'text-color-main',
-                  )}
-                >
-                  {item.label}
-                </Link>
-                {/* )} */}
+                {item.children ? (
+                  <NavPopover label={item.label} navDataList={item.children} />
+                ) : (
+                  <Link
+                    key={item.code}
+                    href={item.href as string}
+                    // target={item.target}
+                    rel={item.href?.startsWith('http') ? 'nofollow' : undefined}
+                    className={cn(
+                      'flex h-10 items-center justify-center rounded-lg px-3 font-semibold text-white/70 hover:bg-white/15',
+                      pathname === item.href && 'text-color-main',
+                      pathname.startsWith(item.href as string) && item.href !== '/' && 'text-color-main',
+                      pathname.startsWith(`/${locale}${item.href}`) && item.href !== '/' && 'text-color-main',
+                    )}
+                  >
+                    {item.label}
+                  </Link>
+                )}
               </div>
             ))}
           </div>

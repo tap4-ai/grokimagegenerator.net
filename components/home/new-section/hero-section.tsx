@@ -18,16 +18,17 @@ export default async function HeroSection({
 }: {
   title: string;
   description: string;
-  href: string;
-  hrefTitle: string;
-  href2: string;
-  hrefTitle2: string;
+  href?: string;
+  hrefTitle?: string;
+  href2?: string;
+  hrefTitle2?: string;
   imgSrc?: string;
   tags: Array<{ variant: 'orange' | 'green' | 'blue' | 'purple'; text: string }>;
   className?: string;
 }) {
+  const hasLink = href || href2;
   return (
-    <div className={cn('container-centered py-[50px] lg:py-[100px]', className)}>
+    <div className={cn(className)}>
       <div className='flex flex-col gap-4 lg:gap-6'>
         {/* Logo and Title Section */}
         <div className='relative w-full'>
@@ -62,24 +63,30 @@ export default async function HeroSection({
         </div>
 
         {/* Buttons Section */}
-        <div className='relative flex w-full justify-center'>
-          <div className='relative flex flex-col items-center justify-center gap-3 p-0 sm:flex-row'>
-            <Link
-              href={href || '#'}
-              rel={typeof href === 'string' && href.indexOf('http') === 0 ? 'nofollow' : undefined}
-              className='w-full rounded-lg border-[#1677ff] bg-[#1677ff] px-6 py-2.5 text-[14px] leading-[21px] font-semibold whitespace-nowrap text-white capitalize backdrop-blur backdrop-filter transition-colors hover:bg-[#1677ff]/90 sm:w-auto sm:px-8 sm:py-3 sm:text-[16px] sm:leading-[24px]'
-            >
-              {hrefTitle}
-            </Link>
-            <Link
-              href={href2 || '#'}
-              rel={typeof href2 === 'string' && href2.indexOf('http') === 0 ? 'nofollow' : undefined}
-              className='w-full rounded-lg border-[#1677ff] bg-[#1677ff] px-6 py-2.5 text-[14px] leading-[21px] font-semibold whitespace-nowrap text-white capitalize backdrop-blur backdrop-filter transition-colors hover:bg-[#1677ff]/90 sm:w-auto sm:px-8 sm:py-3 sm:text-[16px] sm:leading-[24px]'
-            >
-              {hrefTitle2}
-            </Link>
+        {hasLink && (
+          <div className='relative flex w-full justify-center'>
+            <div className='relative flex flex-col items-center justify-center gap-3 p-0 sm:flex-row'>
+              {href && (
+                <Link
+                  href={href || '#'}
+                  rel={typeof href === 'string' && href.indexOf('http') === 0 ? 'nofollow' : undefined}
+                  className='w-full rounded-lg border-[#1677ff] bg-[#1677ff] px-6 py-2.5 text-[14px] leading-[21px] font-semibold whitespace-nowrap text-white capitalize backdrop-blur backdrop-filter transition-colors hover:bg-[#1677ff]/90 sm:w-auto sm:px-8 sm:py-3 sm:text-[16px] sm:leading-[24px]'
+                >
+                  {hrefTitle}
+                </Link>
+              )}
+              {href2 && (
+                <Link
+                  href={href2 || '#'}
+                  rel={typeof href2 === 'string' && href2.indexOf('http') === 0 ? 'nofollow' : undefined}
+                  className='w-full rounded-lg border-[#1677ff] bg-[#1677ff] px-6 py-2.5 text-[14px] leading-[21px] font-semibold whitespace-nowrap text-white capitalize backdrop-blur backdrop-filter transition-colors hover:bg-[#1677ff]/90 sm:w-auto sm:px-8 sm:py-3 sm:text-[16px] sm:leading-[24px]'
+                >
+                  {hrefTitle2}
+                </Link>
+              )}
+            </div>
           </div>
-        </div>
+        )}
       </div>
 
       {imgSrc && (

@@ -3,6 +3,7 @@ import { languages } from '@/i18n/routing';
 import { SquareArrowOutUpRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
+import { FREE_IMAGE_FORMAT_CONVERTER_LINKS } from '@/lib/constants';
 import { SITE_ID } from '@/lib/env';
 
 import FacebookIcon from '../svg/footer/facebook-icon';
@@ -71,6 +72,18 @@ export default function Footer() {
 
   const FEATURE_LINK = [
     {
+      title: t('feature.grok4-ai-image-generator'),
+      href: '/grok4-ai-image-generator',
+    },
+    {
+      title: t('feature.free-image-upscaler'),
+      href: '/free-image-upscaler',
+    },
+    ...FREE_IMAGE_FORMAT_CONVERTER_LINKS.map((item) => ({
+      title: t(`feature.${item.code}`),
+      href: item.href,
+    })),
+    {
       title: t('feature.blog'),
       href: '/blog',
     },
@@ -128,9 +141,7 @@ export default function Footer() {
             loading='lazy'
             decoding='async'
           />
-          <div className='flex flex-col items-center lg:flex-row'>
-            ©️ 2024 {SITE_ID}
-          </div>
+          <div className='flex flex-col items-center lg:flex-row'>©️ 2024 {SITE_ID}</div>
         </div>
         {/* <div className='flex items-center gap-3'>
           {LOGO_LIST.map((item) => (

@@ -17,18 +17,18 @@ import ImageHistoryWrapper from './ImageHistoryWrapper';
 import ImagePromptGeneratorWrapper from './ImagePromptGeneratorWrapper';
 
 const tweetIds: string[] = [
-  '1837931322356158513',
-  '1929771017452282368',
-  '1916207375029096770',
-  '1875204735311188046',
-  '1886882648829960654',
-  '1865640421378175125',
-  '1856020327869952188',
-  '1867715876960842202',
+  '1944879147857391870',
+  '1944160955577119007',
+  '1940753122261193020',
+  '1943261244645097538',
+  '1944545784482914639',
+  '1943289266978582955',
+  '1943859751462613230',
+  '1944153710285701146',
 ];
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations('Metadata.home');
+  const t = await getTranslations('Metadata.grok4-ai-image-generator');
 
   return {
     title: t('title'),
@@ -39,7 +39,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const t = await getTranslations('Home');
+  const t = await getTranslations('grok4-ai-image-generator');
 
   const exampleSections: ExampleSectionProps = {
     promptTitle: t('example.promptTitle'),
@@ -168,7 +168,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       <AdvantageSection
         title={t('advantage.title')}
         description={t('advantage.description')}
-        href='/'
+        href='/grok4-ai-image-generator'
         hrefTitle={t('advantage.try-now')}
         imgSrc='https://cdn.videoweb.ai/grokimagegenerator/home/scene/scene.webp'
         list={numberList(4).map((num) => ({
@@ -194,7 +194,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         }))}
         className='py-[60px] lg:py-[120px]'
       />
-      <BlogRecommend title={t('blog.title')} path='homepage' />
+      <BlogRecommend title={t('blog.title')} path='grok4-ai-image-generator' />
 
       {/* <RecommendSectionContainer code='Home' blogData={homeBlogData} /> */}
       <StartNowSection title={t('start-now.title')} href='/' hrefTitle={t('start-now.try-now')} />

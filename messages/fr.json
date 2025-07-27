@@ -1,24 +1,24 @@
 {
   "Common": {
-    "loading": "Chargement...",
-    "style": "Style",
-    "copy": "Copier",
-    "back": "Retour",
-    "more": "Plus",
-    "less": "Moins",
-    "prompt": "Invite",
+    "loading": "chargement...",
+    "style": "style",
+    "copy": "copier",
+    "back": "retour",
+    "more": "plus",
+    "less": "moins",
+    "prompt": "invite",
     "model": "Modèle",
     "step": "Étape",
     "advantage": "Avantage",
     "share": {
-      "linkSharing": "ou partager via un lien",
+      "linkSharing": "ou partager avec un lien",
       "plzLogin": "Veuillez vous connecter d'abord.",
-      "download": "Télécharger",
-      "twitter": "Twitter",
-      "facebook": "Facebook"
+      "download": "télécharger",
+      "twitter": "twitter",
+      "facebook": "facebook"
     },
     "copy-right": {
-      "title": "Droits d’auteur :",
+      "title": "Droits d'auteur :",
       "content": "Les utilisateurs payants possèdent les droits sur leurs images."
     }
   },
@@ -28,35 +28,53 @@
   },
   "error-page": {
     "not-found": {
-      "title": "404 Introuvable",
-      "goHome": "RETOUR À L’ACCUEIL"
+      "title": "404 Page non trouvée",
+      "goHome": "RETOUR À L'ACCUEIL"
     }
   },
   "components": {
+    "image-format-converter": {
+      "webp-to-jpg": "WEBP vers JPG",
+      "jpg-to-webp": "JPG vers WEBP",
+      "webp-to-png": "WEBP vers PNG",
+      "png-to-webp": "PNG vers WEBP",
+      "jpg-to-png": "JPG vers PNG",
+      "png-to-jpg": "PNG vers JPG",
+      "upload-image": "Télécharger une image",
+      "error": "Erreur de conversion"
+    },
+    "image-upscaler": {
+      "upload-image": "Télécharger une image",
+      "download": "Télécharger",
+      "upscale": "Agrandir"
+    },
     "form-EnhanceBtn": {
-      "optimizePrompt": "Optimiser l’invite"
+      "optimizePrompt": "Optimiser l'invite"
     },
     "image-form": {
-      "input-label": "Saisissez ici l’invite pour générer une image",
-      "high-quality-generation": "Obtenir une génération de meilleure qualité",
+      "input-label": "Saisissez votre description pour générer une image",
+      "high-quality-generation": "Obtenir une génération de qualité supérieure",
       "generate": "Générer",
       "turnstile-error": "Veuillez compléter la vérification humaine",
-      "generate-error": "La génération d’image a échoué, veuillez réessayer plus tard",
-      "generate-success": "Demande de génération d’image soumise",
-      "generate-wait": "Une génération est en cours. Veuillez patienter quelques secondes."
+      "generate-error": "La génération d'image a échoué, veuillez réessayer plus tard",
+      "generate-success": "Demande de génération d'image soumise",
+      "generate-wait": "Une demande de génération est en cours. Veuillez patienter quelques secondes."
     },
     "image-history": {
-      "free-plan-title": "Essai gratuit pour une génération d’images de meilleure qualité",
-      "free-plan-description": "Profitez d’une génération d’images plus rapide, de meilleure qualité et sans publicité via notre site professionnel",
-      "try-now": "Commencer l’essai gratuit",
+      "free-plan-title": "Essai gratuit pour une génération d'images de qualité supérieure",
+      "free-plan-description": "Découvrez une génération d'images plus rapide, de meilleure qualité et sans publicité grâce à notre site web professionnel",
+      "try-now": "Commencer l'essai gratuit",
       "generate-label": "Générer :",
       "tips-label": "Conseils :",
-      "tips-message": "Les images générées sont uniquement stockées dans votre navigateur",
+      "tips-message": "Les images générées ne sont stockées que dans votre navigateur",
       "estimated-time": "Temps estimé : 20s",
-      "generate-faster": "Générez 5× plus vite",
+      "generate-faster": "Générer 5× plus rapidement",
       "image-alt": "Image générée",
-      "no-data": "Les images générées apparaîtront ici.",
-      "get-higher-quality": "Obtenir une génération de meilleure qualité"
+      "no-data": "Les images générées apparaîtront ici."
+    },
+    "light-box": {
+      "get-higher-quality": "Obtenir une génération de qualité supérieure",
+      "image-to-video": "Image vers vidéo"
     },
     "check-in": {
       "title": "Connexion quotidienne pour des crédits",
@@ -69,28 +87,44 @@
       "confirm": "Confirmer"
     },
     "compress-dialog": {
-      "title": "Compresser l’image",
-      "content": "La taille de l’image dépasse 10 Mo et n’est pas adaptée à la génération vidéo par IA. Voulez-vous la compresser ?",
-      "reupload": "Téléverser à nouveau",
+      "title": "Compresser l'image",
+      "content": "La taille de l'image dépasse 10 Mo et n'est pas adaptée à la génération vidéo IA. Souhaitez-vous la compresser ?",
+      "reupload": "Télécharger à nouveau",
       "compress": "Compresser"
     }
   },
   "Navigation": {
     "new": "Nouveau",
-    "title": "Générateur d’images IA Grok 3",
-    "flux-ai-image-generator": "Générateur d’images IA Flux",
-    "dream-ai-video": "Photo en vidéo IA",
-    "prompt-market": "Marché d’invites Grok",
-    "videoweb": "Photo en vidéo IA",
+    "title": "Générateur d'images IA Grok 3",
+    "flux-ai-image-generator": "Générateur d'images IA Flux",
+    "grok4-ai-image-generator": "Générateur d'images IA Grok 4",
+    "dream-ai-video": "IA Photo vers Vidéo",
+    "prompt-market": "Marché des invites Grok",
+    "videoweb": "IA Photo vers Vidéo",
+    "webp-to-jpg": "Convertisseur gratuit WebP vers JPG",
+    "webp-to-jpg-content": "Outil gratuit pour convertir webp en jpg",
+    "jpg-to-webp": "Convertisseur gratuit JPG vers WEBP",
+    "jpg-to-webp-content": "Outil gratuit pour convertir jpg en webp",
+    "png-to-webp": "Convertisseur gratuit PNG vers WEBP",
+    "png-to-webp-content": "Outil gratuit pour convertir png en webp",
+    "webp-to-png": "Convertisseur gratuit WEBP vers PNG",
+    "webp-to-png-content": "Outil gratuit pour convertir webp en png",
+    "jpg-to-png": "Convertisseur gratuit JPG vers PNG",
+    "jpg-to-png-content": "Outil gratuit pour convertir jpg en png",
+    "png-to-jpg": "Convertisseur gratuit PNG vers JPG",
+    "png-to-jpg-content": "Outil gratuit pour convertir png en jpg",
+    "free-image-upscaler": "Agrandisseur d'images gratuit",
+    "free-image-upscaler-content": "Outil gratuit pour améliorer la qualité des images",
+    "free-tools": "Outils d'images gratuits",
     "pricing": "Tarifs",
     "blog": "Articles",
-    "blog-content": "Articles & actualités sur le Générateur d’images IA Grok 3.",
+    "blog-content": "Articles et actualités sur le générateur d'images IA Grok 3.",
     "privacy": "Politique de confidentialité",
-    "privacy-content": "La politique de confidentialité du Générateur d’images IA Grok 3.",
+    "privacy-content": "La politique de confidentialité du générateur d'images IA Grok 3.",
     "resource": "Ressources",
     "freeTry": "Commencer gratuitement",
-    "menu": "Menu",
-    "close": "Fermer",
+    "menu": "menu",
+    "close": "fermer",
     "logout": "Déconnexion",
     "logoutSuccessful": "Déconnexion réussie",
     "profile": {
@@ -98,275 +132,1127 @@
       "top-up": "Recharger",
       "user-info": "Informations utilisateur",
       "history": "Historique",
-      "order": "Commandes",
-      "logout": "Déconnexion"
+      "order": "Historique des commandes",
+      "logout": "Se déconnecter"
     },
     "language-dialog": {
       "title": "Préférence de langue",
-      "content": "Basculer vers la langue de votre navigateur ?",
-      "cancel": "Garder l’actuelle",
+      "content": "Passer à la langue de votre navigateur ?",
+      "cancel": "Garder actuel",
       "confirm": "Changer"
     }
   },
   "Footer": {
-    "title": "Générateur d’images IA Grok 3 gratuit",
-    "subTitle": "Générateur d’images IA Grok 3 pour des visuels époustouflants, 100% gratuit, sans inscription",
+    "title": "Générateur d'images IA Grok gratuit",
+    "subTitle": "Générateur d'images IA Grok pour des visuels époustouflants, 100% gratuit, aucune connexion requise",
     "support": "Support",
     "privacy": "Politique de confidentialité",
     "termsConditions": "Conditions générales",
-    "contactUs": "Contactez-nous",
+    "contactUs": "Nous contacter",
     "feature-link": "Fonctionnalités",
     "feature": {
+      "flux-ai-image-generator": "Générateur d'images IA Flux",
+      "grok4-ai-image-generator": "Générateur d'images IA Grok 4",
+      "free-image-upscaler": "Agrandisseur d'images gratuit",
+      "webp-to-jpg": "Convertisseur gratuit WebP vers JPG",
+      "jpg-to-webp": "Convertisseur gratuit JPG vers WEBP",
+      "png-to-webp": "Convertisseur gratuit PNG vers WEBP",
+      "webp-to-png": "Convertisseur gratuit WEBP vers PNG",
+      "jpg-to-png": "Convertisseur gratuit JPG vers PNG",
+      "png-to-jpg": "Convertisseur gratuit PNG vers JPG",
       "blog": "Articles"
     }
   },
   "FooterNavigation": {
     "privacyPolicy": {
       "1-h1": "Politique de confidentialité pour grokimagegenerator.net",
-      "1-p": "Cette politique de confidentialité explique comment Grok AI Image Generator collecte, utilise et protège vos informations personnelles lorsque vous utilisez notre service sur grokimagegenerator.net. En utilisant Grok AI Image Generator, vous acceptez les conditions décrites dans cette politique.",
+      "1-p": "Cette politique de confidentialité décrit comment le générateur d'images IA Grok collecte, utilise et protège vos informations personnelles lorsque vous utilisez notre service sur grokimagegenerator.net. En utilisant le générateur d'images IA Grok, vous acceptez les conditions décrites dans cette politique.",
       "2-h2": "1. Collecte et utilisation des informations",
-      "2-p": "Grok AI Image Generator peut collecter des informations personnelles identifiables pour améliorer notre service. Nous utilisons des services tiers qui peuvent collecter des informations permettant de vous identifier.",
-      "3-h2": "2. Données de journalisation",
-      "3-p": "En cas d’erreur, nous collectons des données de journalisation, qui peuvent inclure votre adresse IP, des informations sur l’appareil, la configuration de l’application et des statistiques d’utilisation.",
+      "2-p": "Le générateur d'images IA Grok peut collecter des informations personnellement identifiables pour améliorer notre service. Nous utilisons des services tiers qui peuvent collecter des informations utilisées pour vous identifier.",
+      "3-h2": "2. Données de journal",
+      "3-p": "En cas d'erreurs, nous collectons des données de journal, qui peuvent inclure votre adresse IP, les informations de l'appareil, la configuration de l'application et les statistiques d'utilisation.",
       "4-h2": "3. Cookies",
-      "4-p": "Grok AI peut utiliser des codes et bibliothèques tiers qui utilisent des cookies. Vous pouvez choisir d’accepter ou de refuser ces cookies, mais le refus peut limiter l’utilisation de certaines fonctionnalités.",
-      "5-h2": "4. Fournisseurs de services",
-      "5-p": "Nous pouvons employer des sociétés tierces pour faciliter notre service, effectuer des tâches connexes ou analyser l’utilisation de Grok AI. Ces parties ont accès à vos informations personnelles mais sont tenues à la confidentialité.",
+      "4-p": "Grok IA peut utiliser du code et des bibliothèques tiers qui utilisent des cookies. Vous pouvez choisir d'accepter ou de refuser ces cookies, mais le refus peut limiter votre utilisation de certaines fonctionnalités.",
+      "5-h2": "4. Prestataires de services",
+      "5-p": "Nous pouvons employer des entreprises tierces pour faciliter notre service, effectuer des tâches connexes ou analyser comment Grok IA est utilisé. Ces parties ont accès à vos informations personnelles mais sont tenues de maintenir la confidentialité.",
       "6-h2": "5. Sécurité",
-      "6-p": "Nous nous efforçons de protéger vos informations personnelles par des moyens commercialement acceptables, mais nous ne pouvons garantir une sécurité absolue.",
-      "7-h2": "6. Liens vers d’autres sites",
-      "7-p": "Grok AI peut contenir des liens vers des sites externes. Nous ne sommes pas responsables du contenu ou des pratiques de confidentialité de ces sites.",
+      "6-p": "Nous nous efforçons de protéger vos informations personnelles en utilisant des moyens commercialement acceptables, mais ne pouvons garantir une sécurité absolue.",
+      "7-h2": "6. Liens vers d'autres sites",
+      "7-p": "Grok IA peut contenir des liens vers des sites externes. Nous ne sommes pas responsables du contenu ou des pratiques de confidentialité de ces sites.",
       "8-h2": "7. Modifications de cette politique de confidentialité",
-      "8-p": "Nous pouvons mettre à jour notre politique de confidentialité périodiquement. Veuillez consulter cette page pour tout changement. Les mises à jour prennent effet immédiatement après leur publication."
+      "8-p": "Nous pouvons mettre à jour notre politique de confidentialité périodiquement. Veuillez consulter cette page pour tout changement. Les mises à jour sont effectives immédiatement après publication."
     },
     "termsConditions": {
-      "1-h1": "Conditions d’utilisation pour grokimagegenerator.net",
-      "1-p": "Bienvenue sur grokimagegenerator.net ! Notre site propose des services de génération d’images par IA. En utilisant notre site, vous acceptez ces conditions d’utilisation. Si vous n’êtes pas d’accord avec une partie, veuillez ne pas utiliser le site.",
-      "2-h2": "1. Licence d’utilisation",
-      "2-p": "Vous bénéficiez d’une licence limitée pour utiliser Grok AI à des fins personnelles et commerciales. Cette licence n’inclut pas le droit de modifier ou de distribuer le contenu du site sans notre consentement écrit préalable.",
+      "1-h1": "Conditions d'utilisation pour grokimagegenerator.net",
+      "1-p": "Bienvenue sur grokimagegenerator.net ! Notre site web fournit des services de génération d'images alimentés par l'IA. En utilisant notre site web, vous acceptez ces conditions d'utilisation. Si vous n'êtes pas d'accord avec une partie, veuillez vous abstenir d'utiliser le site web.",
+      "2-h2": "1. Licence d'utilisation",
+      "2-p": "Vous bénéficiez d'une licence limitée pour utiliser Grok IA à des fins personnelles et commerciales. Cette licence n'inclut pas les droits de modifier ou distribuer le contenu du site web sans notre consentement écrit préalable.",
       "3-h2": "2. Propriété",
-      "3-p": "Les images générées avec Grok AI appartiennent à l’utilisateur qui les a créées. Grok AI ne revendique aucun droit de propriété sur les images générées par les utilisateurs.",
+      "3-p": "Les images générées à l'aide de Grok IA appartiennent à l'utilisateur qui les a créées. Grok IA ne revendique aucune propriété sur les images générées par les utilisateurs.",
       "4-h2": "3. Collecte de données utilisateur",
-      "4-p": "Nous collectons des données personnelles et non personnelles pour améliorer nos services. L’utilisation des données est régie par notre politique de confidentialité, disponible sur grokimagegenerator.net/privacy-policy.",
+      "4-p": "Nous collectons des données personnelles et non personnelles pour améliorer nos services. L'utilisation des données est régie par notre politique de confidentialité, disponible sur grokimagegenerator.net/privacy-policy.",
       "5-h2": "4. Droit applicable",
-      "5-p": "Ces conditions sont régies par les lois des États-Unis d’Amérique, sans égard aux principes de conflit de lois.",
+      "5-p": "Ces conditions sont régies par les lois des États-Unis d'Amérique, sans égard aux dispositions de conflit de lois.",
       "6-h2": "5. Modifications des conditions",
-      "6-p": "Grok AI se réserve le droit de modifier ces conditions à tout moment. Les utilisateurs seront informés des changements par e-mail. L’utilisation continue du site constitue une acceptation des conditions modifiées.",
-      "7-h2": "6. Contact",
-      "7-p": "Pour toute question concernant ces conditions, veuillez nous contacter à contact@grokimagegenerator.net.",
-      "last-p": "En utilisant grokimagegenerator.net, vous signifiez votre acceptation de ces conditions d’utilisation."
+      "6-p": "Grok IA se réserve le droit de modifier ces conditions à tout moment. Les utilisateurs seront informés des changements par e-mail. L'utilisation continue du site web constitue l'acceptation des conditions modifiées.",
+      "7-h2": "6. Informations de contact",
+      "7-p": "Pour des questions sur ces conditions, veuillez nous contacter à contact@grokimagegenerator.net.",
+      "last-p": "En utilisant grokimagegenerator.net, vous signifiez votre acceptation de ces conditions d'utilisation."
     }
   },
   "NotFound": {
-    "title": "404 Introuvable",
-    "goHome": "RETOUR À L’ACCUEIL"
+    "title": "404 Page non trouvée",
+    "goHome": "RETOUR À L'ACCUEIL"
   },
   "Error": {
-    "title": "Une erreur s’est produite !",
+    "title": "Quelque chose s'est mal passé !",
     "retry": "Réessayer"
   },
   "Home": {
     "heading": {
-      "title": "Générateur d’images IA Grok 3",
-      "description": "Générateur d’images IA Grok 3 100% gratuit. Créez des images époustouflantes en quelques secondes avec Grok 3 IA - sans inscription, sans carte bancaire",
-      "try-now": "Essayez la génération de meilleure qualité",
-      "try-now-2": "Essayez l’IA Image vers Vidéo",
+      "title": "Générateur d'images IA Grok",
+      "description": "Générateur d'images IA Grok 100% gratuit. Créez des images époustouflantes en quelques secondes avec Grok IA - aucune inscription requise, aucune carte de crédit nécessaire",
+      "try-now": "Essayer la génération de qualité supérieure",
+      "try-now-2": "Essayer l'IA Image vers Vidéo",
       "tags": {
         "free": "100% gratuit",
-        "powered": "Propulsé par Grok 3 IA",
-        "no-login": "Sans inscription",
+        "powered": "Alimenté par Grok IA",
+        "no-login": "Aucune inscription requise",
         "unlimited": "Générations illimitées"
       }
     },
     "blog": {
-      "title": "Plus d’articles & actualités sur le Générateur d’images IA Grok 3"
+      "title": "Plus d'articles et d'actualités sur le générateur d'images IA Grok"
     },
     "example": {
-      "title": "Exemples : Qui peut bénéficier du Générateur d’images IA Grok 3",
-      "description": "Grok 3 IA s’applique à de nombreux domaines, inspirant le potentiel créatif illimité des créateurs.",
+      "title": "Exemples : Qui peut bénéficier du générateur d'images IA Grok",
+      "description": "Grok IA peut être largement appliqué dans plusieurs domaines, inspirant le potentiel illimité des créateurs.",
       "promptTitle": "Invite",
       "btnText": "Essayer maintenant",
       "texts": {
         "1": {
-          "title": "Designers produits & professionnels UX/UI",
-          "description": "Utilisez Grok IA pour générer instantanément des croquis d’interface, des prototypes visuels et des schémas d’interaction. Explorez différents styles de design, optimisez vos flux de travail et accélérez l’itération des prototypes avec une qualité créative supérieure."
+          "title": "Concepteurs de produits et professionnels UX/UI",
+          "description": "Exploitez Grok IA pour générer instantanément des esquisses d'interface, des prototypes visuels et des diagrammes d'interaction. Explorez plusieurs styles de design, optimisez les flux de travail et accélérez l'itération de prototypes avec une qualité créative améliorée."
         },
         "2": {
-          "title": "E-commerce & Marques",
-          "description": "Zéro coût photographique : générez des images produits de haute qualité, des visuels de scène et des graphismes publicitaires créatifs. Renforcez l’impact marketing visuel, améliorez la communication de marque et réduisez considérablement les dépenses marketing."
+          "title": "E-commerce et marchands de marque",
+          "description": "Zéro coût de photographie : Générez des images de produits de haute qualité, des visuels de scène et des graphiques publicitaires créatifs. Amplifiez l'impact du marketing visuel, améliorez la communication de marque et réduisez considérablement les dépenses marketing."
         },
         "3": {
-          "title": "Enseignants & Chercheurs",
-          "description": "Générez rapidement des démonstrations pour la classe, des illustrations de manuels et des schémas de recherche. Améliorez la communication visuelle et transmettez efficacement les connaissances et résultats de recherche avec une clarté inégalée."
+          "title": "Éducateurs et chercheurs",
+          "description": "Générez rapidement des démonstrations en classe, des illustrations de manuels et des diagrammes de recherche. Améliorez la communication visuelle, transmettez efficacement les connaissances et les résultats de recherche avec une clarté sans précédent."
         },
         "4": {
           "title": "Développeurs de jeux",
-          "description": "Créez rapidement des personnages, des décors et des concepts artistiques pour vos jeux. Enrichissez le contenu visuel de vos jeux et simplifiez le processus créatif grâce à la puissance de génération de Grok IA."
+          "description": "Produisez rapidement des personnages de jeu, des scènes et des concepts artistiques. Enrichissez le contenu visuel de votre jeu et rationalisez le processus créatif avec les puissantes capacités de génération de Grok IA."
         }
       }
     },
     "features": {
-      "title": "Fonctionnalités uniques du Générateur d’images IA Grok 3",
+      "title": "Fonctionnalités uniques du générateur d'images IA Grok",
       "1": {
-        "title": "Génération d’images ultra-rapide",
-        "description": "Créez des images de haute qualité en quelques secondes, surpassant Stable Diffusion 3 et Midjourney par sa rapidité et sa précision exceptionnelles."
+        "title": "Génération d'images ultra-rapide",
+        "description": "Créez des images de haute qualité en quelques secondes, surpassant Stable Diffusion 3 et Midjourney avec une vitesse et une précision sans précédent."
       },
       "2": {
-        "title": "Qualité d’image inégalée",
-        "description": "Profitez de détails exceptionnels et d’une grande cohérence grâce au modèle avancé Flux.1, établissant un nouveau standard d’excellence visuelle."
+        "title": "Qualité d'image inégalée",
+        "description": "Découvrez des détails exceptionnels et une cohérence grâce au modèle avancé Flux.1, offrant une excellence visuelle qui établit une nouvelle norme industrielle."
       },
       "3": {
         "title": "Interface conviviale",
-        "description": "Une conversion texte-image simple qui rend la génération d’images IA accessible à tous, des professionnels aux passionnés de création."
+        "description": "Conversion simple de texte en image qui rend la génération d'images IA accessible à tous, des professionnels aux passionnés créatifs."
       },
       "4": {
         "title": "Potentiel créatif instantané",
-        "description": "Saisissez simplement votre invite sur grokimagegenerator.net et regardez Grok IA transformer instantanément vos idées en chefs-d’œuvre visuels."
+        "description": "Il suffit de saisir votre invite sur grokimagegenerator.net et regardez Grok IA transformer instantanément vos idées en chefs-d'œuvre visuels époustouflants."
       }
     },
     "advantage": {
-      "title": "Avantages du Générateur d’images IA Grok 3",
-      "description": "Le Générateur d’images IA Grok 3 combine une technologie IA avancée à une architecture haute performance, offrant une expérience de création d’images ultra-rapide, de haute qualité et polyvalente, idéale pour le design, la création de contenu et les applications visuelles professionnelles.",
+      "title": "Avantages du générateur d'images IA Grok",
+      "description": "Le générateur d'images IA Grok 3 combine une technologie IA avancée avec une architecture haute performance, créant une expérience de création d'images ultra-rapide, de haute qualité et polyvalente qui fournit des solutions de niveau professionnel pour le design, la création de contenu et les applications visuelles commerciales.",
       "try-now": "Essayer maintenant",
       "1": {
-        "title": "Propulsé par une IA de pointe",
-        "description": "Basé sur une intelligence artificielle de dernière génération, Grok IA offre une qualité de génération d’images exceptionnelle, interprétant précisément les invites textuelles et traduisant vos idées créatives en réalité visuelle."
+        "title": "Alimenté par une technologie IA avancée",
+        "description": "Construit sur une intelligence artificielle de pointe, Grok IA offre une qualité de génération d'images exceptionnelle, interprétant précisément les invites textuelles et traduisant magistralement les visions créatives en réalité visuelle."
       },
       "2": {
-        "title": "Qualité professionnelle à une vitesse fulgurante",
-        "description": "Grâce à une architecture de distillation guidée haute performance, Grok IA génère rapidement des images tout en maintenant une précision et une esthétique irréprochables, répondant parfaitement aux délais créatifs exigeants."
+        "title": "Qualité professionnelle à vitesse éclair",
+        "description": "Utilisant une architecture de distillation guidée haute performance, Grok IA réalise une génération rapide tout en maintenant une précision d'image impeccable et un attrait esthétique, répondant parfaitement aux délais créatifs exigeants."
       },
       "3": {
-        "title": "Génération multi-styles polyvalente",
-        "description": "Des rendus photoréalistes aux illustrations artistiques et designs abstraits, Grok IA maîtrise tous les styles visuels, couvrant des domaines allant de la communication de marque à l’expression artistique personnelle."
+        "title": "Génération d'images polyvalente multi-styles",
+        "description": "Des rendus photoréalistes aux illustrations artistiques et aux designs abstraits, Grok IA gère chaque style visuel avec facilité, couvrant les domaines créatifs de la communication de marque à l'expression artistique personnelle."
       },
       "4": {
         "title": "Aucune installation requise",
-        "description": "Une plateforme 100% web qui élimine le besoin de Photoshop ou de logiciels spécialisés. Ouvrez simplement votre navigateur pour créer des images à tout moment, où que vous soyez."
+        "description": "Une plateforme purement web qui élimine le besoin de Photoshop ou de logiciels d'édition spécialisés. Il suffit d'ouvrir votre navigateur pour créer des images à tout moment, n'importe où avec une commodité sans précédent."
       }
     },
     "twitter": {
-      "title": "Avis utilisateurs et études de cas sur Grok IA Image Generator sur X",
-      "description": "Consultez les avis et études de cas sur X pour générer un contenu encore plus impressionnant"
+      "title": "Avis d'utilisateurs et études de cas sur le générateur d'images IA Grok sur X",
+      "description": "Consultez les avis d'utilisateurs et les études de cas sur X pour aider à générer un contenu encore plus impressionnant"
     },
     "models": {
-      "title": "Découvrez les modèles IA avancés de Grok IA",
-      "description": "Choisissez le modèle idéal pour booster votre productivité et libérer votre créativité.",
+      "title": "Découvrez les modèles IA avancés dans Grok IA",
+      "description": "Choisissez le modèle idéal pour améliorer votre productivité et libérer votre créativité.",
       "1": {
         "title": "Grok 2.0",
-        "description": "Grok 2.0 combine Flux.1 et les modèles propriétaires Aurora, créant un modèle IA multimodal qui intègre une compréhension linguistique avancée et une génération d’images très flexible."
+        "description": "Grok 2.0 combine les modèles Flux.1 et Aurora propriétaires, créant un modèle de génération d'images IA multimodal qui intègre une compréhension linguistique avancée et une génération d'images à haute liberté."
       },
       "2": {
         "title": "Grok 3.0",
-        "description": "Grok 3.0 est le dernier modèle de génération d’images de xAI, propulsé par une puissance de calcul 10× supérieure, prenant en charge le raisonnement avancé 'Think/Big Brain' et la génération Aurora avec des capacités texte-image nettement améliorées."
+        "description": "Grok 3.0 est le dernier modèle de génération d'images de xAI, alimenté par des capacités de calcul 10× supérieures, supportant le raisonnement de haut niveau 'Think/Big Brain' et la génération d'images Aurora avec des capacités texte-vers-image considérablement améliorées."
+      },
+      "3": {
+        "title": "Grok 4.0",
+        "description": "Grok 4.0 est le dernier modèle phare de xAI avec une puissance de calcul environ 10 fois supérieure à Grok 3.0, supportant la collaboration multi-agents 'Heavy', l'appel d'outils natifs et jusqu'à 256k tokens de contexte. Il intègre la compréhension et la génération d'images (Aurora), la recherche en temps réel et l'exécution de code pour vraiment réaliser 'Think+Act+Create', fournissant un support puissant pour le raisonnement complexe, les tâches académiques et la création multimodale."
       }
     },
     "manual": {
-      "title": "Comment utiliser le Générateur d’images IA Grok",
-      "content": "Obtenez vos images IA en quelques étapes simples",
+      "title": "Comment utiliser le générateur d'images IA Grok",
+      "content": "Obtenez vos images IA désirées en quelques étapes simples",
       "1": {
-        "title": "Saisissez votre texte (optimisez votre invite à tout moment pour de meilleurs résultats), ou téléversez une image si vous le souhaitez."
+        "title": "Saisissez votre texte (optimisez votre invite à tout moment pour de meilleurs résultats), ou téléchargez une image si vous préférez."
       },
       "2": {
-        "title": "Sélectionnez le format d’image souhaité"
+        "title": "Sélectionnez le rapport d'aspect pour votre image"
       },
       "3": {
-        "title": "Cliquez sur le bouton Générer et attendez quelques secondes pour voir votre image"
+        "title": "Cliquez sur le bouton générer et attendez quelques secondes pour voir votre image"
       },
       "4": {
-        "title": "Parcourez les résultats générés, sélectionnez votre image préférée et téléchargez-la pour l’utiliser sur des sites web, réseaux sociaux, publicités, impressions et divers scénarios commerciaux"
+        "title": "Parcourez les résultats générés, sélectionnez votre image favorite et téléchargez-la pour l'utiliser dans des sites web, réseaux sociaux, publicité, impression et divers scénarios commerciaux"
       }
     },
     "faq": {
-      "title": "FAQ sur le Générateur d’images IA Grok 3",
+      "title": "FAQ sur le générateur d'images IA Grok",
       "1": {
-        "question": "Qu’est-ce que le Générateur d’images IA Grok 3 ?",
-        "answer": "Le Générateur d’images IA Grok 3 est un générateur d’images par IA ultra-rapide, capable de créer des images de haute qualité en quelques secondes, surpassant des concurrents comme Stable Diffusion 3 et Midjourney."
+        "question": "Qu'est-ce que le générateur d'images IA Grok ?",
+        "answer": "Le générateur d'images IA Grok 3 est un générateur d'images IA ultra-rapide capable de créer des images de haute qualité en quelques secondes, surpassant les concurrents comme Stable Diffusion 3 et Midjourney."
       },
       "2": {
-        "question": "Quelles sont les principales fonctionnalités du Générateur d’images IA Grok 3 ?",
-        "answer": "Le Générateur d’images IA Grok 3 offre une qualité d’image inégalée, une interface conviviale et des fonctionnalités avancées comme le contrôle amélioré Flux.1 Pro et l’itération rapide Flux.1 Schnell."
+        "question": "Quelles sont les principales fonctionnalités du générateur d'images IA Grok 3 ?",
+        "answer": "Le générateur d'images IA Grok 3 offre une qualité d'image inégalée, une interface conviviale et des fonctionnalités avancées comme le contrôle amélioré Flux.1 Pro et l'itération rapide Flux.1 Schnell."
       },
       "3": {
-        "question": "Comment utiliser le Générateur d’images IA Grok 3 ?",
-        "answer": "Rendez-vous simplement sur grokimagegenerator.net, saisissez votre invite et laissez Grok 3 IA générer des visuels époustouflants en quelques secondes."
+        "question": "Comment utiliser le générateur d'images IA Grok ?",
+        "answer": "Visitez simplement grokimagegenerator.net, saisissez votre invite et regardez le générateur d'images IA Grok créer des visuels époustouflants en quelques secondes."
       },
       "4": {
-        "question": "Quels sont les forfaits proposés par Grok IA Image Generator ?",
-        "answer": "Grok IA Image Generator propose un forfait gratuit (60 crédits), Basic (9,99 $ pour 5000 crédits), Standard (9,99 $/mois pour 5000 crédits) et Pro (14,99 $/mois pour 8000 crédits)."
+        "question": "Quels plans tarifaires propose le générateur d'images IA Grok ?",
+        "answer": "Le générateur d'images IA Grok est complètement gratuit sans connexion requise et sans paiement nécessaire. Vous pouvez générer des images de haute qualité illimitées sans aucune restriction ni coût."
       },
       "5": {
-        "question": "Existe-t-il une offre gratuite pour Grok IA Image Generator ?",
-        "answer": "Oui, Grok 3 IA Image Generator offre un accès 100% gratuit à la génération d’images de haute qualité et aux fonctionnalités principales de Grok 3 IA."
+        "question": "Quelle est la qualité d'image du générateur d'images IA Grok ?",
+        "answer": "Le générateur d'images IA Grok est basé sur la technologie Flux.1 Schnell, fournissant des capacités de compréhension d'image supérieures et générant des images de haute qualité avec des détails exceptionnels et une clarté remarquable."
       },
       "6": {
-        "question": "Comment Grok 3 IA Image Generator se compare-t-il aux autres générateurs d’images IA ?",
-        "answer": "Grok 3 IA Image Generator est plus rapide que Midjourney, plus convivial que ComfyUI et génère des images de meilleure qualité grâce à son modèle avancé Flux.1 Pro."
+        "question": "Comment le générateur d'images IA Grok se compare-t-il aux autres générateurs d'images IA ?",
+        "answer": "Le générateur d'images IA Grok est plus rapide que Midjourney, plus convivial que ComfyUI et génère des images de qualité supérieure en utilisant son modèle avancé Flux.1 Pro."
       },
       "7": {
-        "question": "Puis-je utiliser Grok 3 IA Image Generator pour des projets commerciaux ?",
-        "answer": "Oui, les images générées avec Grok 3 IA Image Generator peuvent être utilisées à des fins commerciales."
+        "question": "Puis-je utiliser le générateur d'images IA Grok pour des projets commerciaux ?",
+        "answer": "Oui, les images générées avec le générateur d'images IA Grok peuvent être utilisées à des fins commerciales."
       },
       "8": {
-        "question": "Grok 3 IA Image Generator est-il open source ?",
-        "answer": "Oui, Grok 3 IA Image Generator est open source et disponible sur GitHub et Hugging Face."
+        "question": "Le générateur d'images IA Grok est-il open-source ?",
+        "answer": "Non, le frontend et les modèles de génération d'images du générateur d'images IA Grok ne sont pas open-source. Cependant, nos capacités sont construites et développées à partir de la base de code open-source de Flux."
       },
       "9": {
-        "question": "À quelle fréquence Grok IA Image Generator est-il mis à jour ?",
-        "answer": "Pour les dernières mises à jour de Grok IA Image Generator, veuillez consulter https://x.ai/grok."
+        "question": "À quelle fréquence le générateur d'images IA Grok est-il mis à jour ?",
+        "answer": "Pour les dernières mises à jour sur le générateur d'images IA Grok, veuillez visiter https://x.ai/grok."
       },
       "10": {
-        "question": "Existe-t-il une application mobile pour Grok IA Image Generator ?",
-        "answer": "Actuellement, Grok IA Image Generator est accessible sur le web à grokimagegenerator.net. Des versions mobiles sont à l’étude pour une sortie future."
+        "question": "Le générateur d'images IA Grok a-t-il une application mobile ?",
+        "answer": "Actuellement, le générateur d'images IA Grok est basé sur le web à grokimagegenerator.net. Les versions mobiles sont explorées pour une future sortie."
       },
       "11": {
-        "question": "Comment obtenir de l’aide pour Grok IA Image Generator ?",
-        "answer": "Pour toute assistance, veuillez contacter contact@grokimagegenerator.net."
+        "question": "Comment puis-je obtenir du support pour le générateur d'images IA Grok ?",
+        "answer": "Pour le support, veuillez contacter contact@grokimagegenerator.net."
       }
     },
     "start-now": {
-      "title": "Essayez Grok IA Image Generator maintenant - 100% gratuit !",
-      "try-now": "Essayez Grok IA gratuitement"
+      "title": "Essayez le générateur d'images IA Grok maintenant - 100% gratuit !",
+      "try-now": "Essayer Grok IA gratuitement"
+    }
+  },
+  "grok4-ai-image-generator": {
+    "heading": {
+      "title": "Générateur d'images IA Grok 4",
+      "description": "Créez des images générées par IA époustouflantes en quelques secondes",
+      "try-now": "Essayer la génération de qualité supérieure",
+      "try-now-2": "Essayer l'IA Image vers Vidéo",
+      "tags": {
+        "free": "100% gratuit",
+        "powered": "Alimenté par Grok 4 AI",
+        "no-login": "Aucune connexion requise",
+        "unlimited": "Générations illimitées"
+      }
+    },
+    "blog": {
+      "title": "Plus d'articles et d'actualités sur le générateur d'images IA Grok 4"
+    },
+    "example": {
+      "title": "Exemples : Qui peut bénéficier du générateur d'images IA Grok 4",
+      "description": "Grok 4 AI peut être largement appliqué dans plusieurs domaines, inspirant le potentiel illimité des créateurs.",
+      "promptTitle": "Invite",
+      "btnText": "Essayer maintenant",
+      "texts": {
+        "1": {
+          "title": "Concepteurs de produits et professionnels UX/UI",
+          "description": "Exploitez Flux AI pour générer instantanément des esquisses d'interface, des prototypes visuels et des diagrammes d'interaction. Explorez plusieurs styles de design, optimisez les flux de travail et accélérez l'itération de prototypes avec une qualité créative améliorée."
+        },
+        "2": {
+          "title": "E-commerce et marchands de marque",
+          "description": "Zéro coût de photographie : Générez des images de produits de haute qualité, des visuels de scène et des graphiques publicitaires créatifs. Amplifiez l'impact du marketing visuel, améliorez la communication de marque et réduisez considérablement les dépenses marketing."
+        },
+        "3": {
+          "title": "Éducateurs et chercheurs",
+          "description": "Générez rapidement des démonstrations en classe, des illustrations de manuels et des diagrammes de recherche. Améliorez la communication visuelle, transmettez efficacement les connaissances et les résultats de recherche avec une clarté sans précédent."
+        },
+        "4": {
+          "title": "Développeurs de jeux",
+          "description": "Produisez rapidement des personnages de jeu, des scènes et des concepts artistiques. Enrichissez le contenu visuel de votre jeu et rationalisez le processus créatif avec les puissantes capacités de génération de Grok IA."
+        }
+      }
+    },
+    "features": {
+      "title": "Fonctionnalités uniques du générateur d'images IA Grok 4",
+      "1": {
+        "title": "Génération d'images ultra-rapide",
+        "description": "Créez des images de haute qualité en quelques secondes, surpassant Stable Diffusion 3 et Midjourney avec une vitesse et une précision sans précédent."
+      },
+      "2": {
+        "title": "Qualité d'image inégalée",
+        "description": "Découvrez des détails exceptionnels et une cohérence grâce au modèle avancé Flux.1, offrant une excellence visuelle qui établit une nouvelle norme industrielle."
+      },
+      "3": {
+        "title": "Interface conviviale",
+        "description": "Conversion simple de texte en image qui rend la génération d'images IA accessible à tous, des professionnels aux passionnés créatifs."
+      },
+      "4": {
+        "title": "Potentiel créatif instantané",
+        "description": "Il suffit de saisir votre invite sur grokimagegenerator.net et regardez Grok IA transformer instantanément vos idées en chefs-d'œuvre visuels époustouflants."
+      }
+    },
+    "advantage": {
+      "title": "Avantages du générateur d'images IA Grok 4",
+      "description": "Le générateur d'images IA Grok 4 combine une technologie IA avancée avec une architecture haute performance, créant une expérience de création d'images ultra-rapide, de haute qualité et polyvalente qui fournit des solutions de niveau professionnel pour le design, la création de contenu et les applications visuelles commerciales.",
+      "try-now": "Essayer maintenant",
+      "1": {
+        "title": "Alimenté par une technologie IA avancée",
+        "description": "Construit sur une intelligence artificielle de pointe, Grok IA offre une qualité de génération d'images exceptionnelle, interprétant précisément les invites textuelles et traduisant magistralement les visions créatives en réalité visuelle."
+      },
+      "2": {
+        "title": "Qualité professionnelle à vitesse éclair",
+        "description": "Utilisant une architecture de distillation guidée haute performance, Grok IA réalise une génération rapide tout en maintenant une précision d'image impeccable et un attrait esthétique, répondant parfaitement aux délais créatifs exigeants."
+      },
+      "3": {
+        "title": "Génération d'images polyvalente multi-styles",
+        "description": "Des rendus photoréalistes aux illustrations artistiques et aux designs abstraits, Grok IA gère chaque style visuel avec facilité, couvrant les domaines créatifs de la communication de marque à l'expression artistique personnelle."
+      },
+      "4": {
+        "title": "Aucune installation requise",
+        "description": "Une plateforme purement web qui élimine le besoin de Photoshop ou de logiciels d'édition spécialisés. Il suffit d'ouvrir votre navigateur pour créer des images à tout moment, n'importe où avec une commodité sans précédent."
+      }
+    },
+    "twitter": {
+      "title": "Avis d'utilisateurs et études de cas sur le générateur d'images IA Grok sur X",
+      "description": "Consultez les avis d'utilisateurs et les études de cas sur X pour aider à générer un contenu encore plus impressionnant"
+    },
+    "models": {
+      "title": "Découvrez les modèles IA avancés dans Grok IA",
+      "description": "Choisissez le modèle idéal pour améliorer votre productivité et libérer votre créativité.",
+      "1": {
+        "title": "Grok 2.0",
+        "description": "Grok 2.0 combine les modèles Flux.1 et Aurora propriétaires, créant un modèle de génération d'images IA multimodal qui intègre une compréhension linguistique avancée et une génération d'images à haute liberté."
+      },
+      "2": {
+        "title": "Grok 3.0",
+        "description": "Grok 3.0 est le dernier modèle de génération d'images de xAI, alimenté par des capacités de calcul 10× supérieures, supportant le raisonnement de haut niveau 'Think/Big Brain' et la génération d'images Aurora avec des capacités texte-vers-image considérablement améliorées."
+      },
+      "3": {
+        "title": "Grok 4.0",
+        "description": "Grok 4.0 est le dernier modèle phare de xAI avec une puissance de calcul environ 10 fois supérieure à Grok 3.0, supportant la collaboration multi-agents 'Heavy', l'appel d'outils natifs et jusqu'à 256k tokens de contexte. Il intègre la compréhension et la génération d'images (Aurora), la recherche en temps réel et l'exécution de code pour vraiment réaliser 'Think+Act+Create', fournissant un support puissant pour le raisonnement complexe, les tâches académiques et la création multimodale."
+      }
+    },
+    "manual": {
+      "title": "Comment utiliser le générateur d'images IA Grok 4",
+      "content": "Obtenez vos images IA désirées en quelques étapes simples",
+      "1": {
+        "title": "Saisissez votre description textuelle (optimisez votre invite à tout moment pour de meilleurs résultats)"
+      },
+      "2": {
+        "title": "Sélectionnez votre rapport d'aspect désiré"
+      },
+      "3": {
+        "title": "Cliquez sur le bouton générer et attendez quelques secondes pour voir votre image"
+      },
+      "4": {
+        "title": "Choisissez votre image favorite et téléchargez-la pour l'utiliser dans divers scénarios"
+      }
+    },
+    "faq": {
+      "title": "FAQ sur le générateur d'images IA Grok 4",
+      "1": {
+        "question": "Qu'est-ce que le générateur d'images IA Grok 4 ?",
+        "answer": "Le générateur d'images IA Grok 4 est un générateur d'images IA ultra-rapide capable de créer des images de haute qualité en quelques secondes, surpassant les concurrents comme Stable Diffusion 3 et Midjourney."
+      },
+      "2": {
+        "question": "Quelles sont les principales fonctionnalités du générateur d'images IA Grok 4 ?",
+        "answer": "Le générateur d'images IA Grok 4 offre une qualité d'image inégalée, une interface conviviale et des fonctionnalités avancées comme le contrôle amélioré Flux.1 Pro et l'itération rapide Flux.1 Schnell."
+      },
+      "3": {
+        "question": "Comment utiliser le générateur d'images IA Grok 4 ?",
+        "answer": "Visitez simplement grokimagegenerator.net, saisissez votre invite et regardez le générateur d'images IA Grok 4 créer des visuels époustouflants en quelques secondes."
+      },
+      "4": {
+        "question": "Quels plans tarifaires propose le générateur d'images IA Grok 4 ?",
+        "answer": "Le générateur d'images IA Grok 4 est complètement gratuit sans connexion requise et sans paiement nécessaire. Vous pouvez générer des images de haute qualité illimitées sans aucune restriction ni coût."
+      },
+      "5": {
+        "question": "Quelle est la qualité d'image du générateur d'images IA Grok 4 ?",
+        "answer": "Le générateur d'images IA Grok 4 est basé sur la technologie Flux.1 Schnell, fournissant des capacités de compréhension d'image supérieures et générant des images de haute qualité avec des détails exceptionnels et une clarté remarquable."
+      },
+      "6": {
+        "question": "Comment le générateur d'images IA Grok 4 se compare-t-il aux autres générateurs d'images IA ?",
+        "answer": "Le générateur d'images IA Grok 4 est plus rapide que Midjourney, plus convivial que ComfyUI et génère des images de qualité supérieure en utilisant son modèle avancé Flux.1 Pro."
+      },
+      "7": {
+        "question": "Puis-je utiliser le générateur d'images IA Grok 4 pour des projets commerciaux ?",
+        "answer": "Oui, les images générées avec le générateur d'images IA Grok 4 peuvent être utilisées à des fins commerciales."
+      },
+      "8": {
+        "question": "Le générateur d'images IA Grok 4 est-il open-source ?",
+        "answer": "Non, le frontend et les modèles de génération d'images du générateur d'images IA Grok 4 ne sont pas open-source. Cependant, nos capacités sont construites et développées à partir de la base de code open-source de Flux."
+      },
+      "9": {
+        "question": "À quelle fréquence le générateur d'images IA Grok 4 est-il mis à jour ?",
+        "answer": "Pour les dernières mises à jour sur le générateur d'images IA Grok 4, veuillez visiter https://x.ai/grok."
+      },
+      "10": {
+        "question": "Le générateur d'images IA Grok 4 a-t-il une application mobile ?",
+        "answer": "Actuellement, le générateur d'images IA Grok 4 est basé sur le web à grokimagegenerator.net. Les versions mobiles sont explorées pour une future sortie."
+      },
+      "11": {
+        "question": "Comment puis-je obtenir du support pour le générateur d'images IA Grok 4 ?",
+        "answer": "Pour le support, veuillez contacter contact@grokimagegenerator.net."
+      }
+    },
+    "start-now": {
+      "title": "Essayez le générateur d'images IA Grok maintenant - 100% gratuit !",
+      "try-now": "Essayer Grok IA gratuitement"
+    }
+  },
+  "free-image-format-converter": {
+    "webp-to-jpg": {
+      "heading": {
+        "title": "Convertisseur gratuit d'images WebP vers JPG",
+        "description": "Convertisseur WebP vers JPG 100% gratuit avec qualité supérieure et sécurité renforcée. Convertissez instantanément vos images WebP au format JPG avec notre outil avancé et convivial.",
+        "tags": {
+          "free": "100% gratuit",
+          "powered": "Alimenté par le navigateur",
+          "no-login": "Aucune inscription requise",
+          "unlimited": "Sécurité locale"
+        }
+      },
+      "introduction": {
+        "title": "Convertisseur WebP vers JPG 100% gratuit et supérieur",
+        "description": "Notre convertisseur gratuit WebP vers JPG est l'outil en ligne le plus puissant et entièrement gratuit qui offre une qualité de conversion supérieure des images WebP vers le format JPG universellement compatible, sans aucune restriction d'utilisation. Bien que WebP offre une excellente compression et qualité, JPG garantit une compatibilité maximale sur toutes les plateformes. Notre convertisseur gratuit garantit une qualité d'image parfaite tout en offrant une sécurité renforcée grâce au traitement local. Il suffit de télécharger votre fichier WebP et de profiter d'une conversion JPG instantanée et de haute qualité, entièrement gratuite."
+      },
+      "features": {
+        "title": "Fonctionnalités supérieures du convertisseur gratuit d'images WebP vers JPG",
+        "description": "Technologie avancée offrant de meilleurs résultats avec sécurité renforcée",
+        "1": {
+          "title": "Compatibilité complète des formats",
+          "description": "Prend en charge la sortie dans plusieurs formats grand public incluant WebP, JPG et PNG, répondant aux divers besoins de conversion d'images et fournissant un traitement multi-format tout-en-un avec des résultats de qualité supérieure."
+        },
+        "2": {
+          "title": "Technologie de traitement local ultra-rapide",
+          "description": "Utilisant une technologie de calcul en temps réel avancée côté navigateur, l'efficacité de conversion est améliorée jusqu'à 300%, atteignant une réponse ultra-rapide sans télécharger de fichiers vers les serveurs pour une sécurité maximale."
+        },
+        "3": {
+          "title": "Protection maximale de la confidentialité et de la sécurité",
+          "description": "Tous les processus de conversion sont entièrement réalisés localement avec zéro collecte de données, nettoyage automatique du cache après conversion, garantissant une sécurité de confidentialité de niveau militaire comparable au chiffrement de bout en bout."
+        },
+        "4": {
+          "title": "Utilisation gratuite instantanée sans inscription",
+          "description": "Entièrement gratuit sans connexion requise, aucune limite de conversion, aucune restriction de fonctionnalités - réalisant véritablement 'glisser-déposer, conversion instantanée, téléchargement en un clic' - simple, efficace et absolument gratuit."
+        }
+      },
+      "advantage": {
+        "title": "Scénarios d'application premium du convertisseur gratuit WebP vers JPG",
+        "description": "Que ce soit pour l'affichage, l'édition ou la publication, notre convertisseur gratuit WebP vers JPG avec qualité supérieure et sécurité renforcée vous aide à vous adapter facilement à diverses plateformes et scénarios.",
+        "try-now": "Essayer gratuitement maintenant",
+        "1": {
+          "title": "Compatibilité universelle des appareils et plateformes",
+          "description": "Convertir WebP vers JPG avec notre outil gratuit garantit un affichage parfait sur les anciens systèmes Windows, les appareils iOS obsolètes, WeChat, les clients de messagerie et tous les environnements, éliminant complètement les problèmes de compatibilité avec des résultats supérieurs."
+        },
+        "2": {
+          "title": "Intégration documentaire améliorée et qualité d'impression",
+          "description": "La conversion JPG gratuite produit des fichiers optimisés qui se chargent plus rapidement et s'affichent mieux, parfaits pour les pièces jointes d'e-mails, les intranets d'entreprise, les documents de base de connaissances avec qualité supérieure et sécurité renforcée."
+        },
+        "3": {
+          "title": "Capacités d'édition secondaire supérieures",
+          "description": "Après conversion gratuite vers JPG avec qualité améliorée, les images peuvent être directement éditées dans Photoshop, Canva, Meitu, Paint, Figma et autres plateformes pour le recadrage, les filtres, l'embellissement avec de meilleurs résultats."
+        },
+        "4": {
+          "title": "Performance améliorée des plateformes sociales et e-commerce",
+          "description": "Notre conversion JPG gratuite garantit une compatibilité supérieure et de meilleures performances sur les réseaux sociaux, les plateformes e-commerce. Parfait pour les pages produits, les articles WeChat, les systèmes CMS avec sécurité renforcée et qualité."
+        }
+      },
+      "manual": {
+        "title": "Comment convertir WebP vers JPG gratuitement en quatre étapes simples",
+        "content": "Conversion gratuite WebP vers JPG facile avec résultats supérieurs :",
+        "1": {
+          "title": "Étape 1 : Téléchargez votre image WebP pour conversion gratuite"
+        },
+        "2": {
+          "title": "Étape 2 : Sélectionnez JPG comme format cible (entièrement gratuit)"
+        },
+        "3": {
+          "title": "Étape 3 : Cliquez pour démarrer la conversion gratuite avec sécurité renforcée"
+        },
+        "4": {
+          "title": "Étape 4 : Téléchargez votre image convertie de qualité supérieure"
+        }
+      },
+      "faq": {
+        "title": "FAQ sur le convertisseur gratuit d'images WebP vers JPG",
+        "1": {
+          "question": "Qu'est-ce qui rend ce convertisseur gratuit WebP vers JPG meilleur ?",
+          "answer": "Notre outil gratuit prend en charge les formats WebP, PNG et JPG avec qualité de conversion supérieure, sécurité renforcée grâce au traitement local, et utilisation entièrement gratuite sans restrictions."
+        },
+        "2": {
+          "question": "À quelle vitesse s'effectue la conversion gratuite WebP vers JPG ?",
+          "answer": "La plupart des images se convertissent en quelques secondes avec notre technologie gratuite avancée, offrant des résultats supérieurs plus rapidement que les concurrents tout en maintenant une sécurité renforcée."
+        },
+        "3": {
+          "question": "Ce convertisseur gratuit WebP vers JPG est-il vraiment sécurisé ?",
+          "answer": "Absolument. Votre confidentialité est notre priorité. Tout le traitement s'effectue localement avec sécurité renforcée, zéro collecte de données, et nettoyage automatique - entièrement gratuit et sécurisé."
+        },
+        "4": {
+          "question": "N'y a-t-il vraiment aucun frais pour ce convertisseur WebP vers JPG supérieur ?",
+          "answer": "Entièrement gratuit pour toujours, aucune inscription requise, aucun coût caché, avec résultats de qualité supérieure et fonctionnalités de sécurité renforcée."
+        },
+        "5": {
+          "question": "Ce convertisseur gratuit maintient-il une qualité d'image supérieure ?",
+          "answer": "Oui. Notre convertisseur gratuit WebP vers JPG utilise une technologie de compression sans perte avancée pour préserver la qualité d'image originale supérieure, garantissant des résultats de conversion cristallins et de haute qualité avec sécurité renforcée."
+        }
+      },
+      "blog": {
+        "title": "Plus d'articles et d'actualités sur le convertisseur gratuit WebP vers JPG"
+      }
+    },
+    "webp-to-png": {
+      "heading": {
+        "title": "Convertisseur gratuit d'images WebP vers PNG",
+        "description": "Convertisseur WebP vers PNG 100% gratuit avec qualité supérieure et sécurité renforcée. Convertissez instantanément vos images WebP au format PNG avec notre outil avancé et convivial.",
+        "tags": {
+          "free": "100% gratuit",
+          "powered": "Alimenté par le navigateur",
+          "no-login": "Aucune inscription requise",
+          "unlimited": "Sécurité locale"
+        }
+      },
+      "introduction": {
+        "title": "Convertisseur WebP vers PNG 100% gratuit et supérieur",
+        "description": "Notre convertisseur gratuit WebP vers PNG est l'outil en ligne le plus puissant et entièrement gratuit qui offre une qualité de conversion supérieure des images WebP vers le format PNG universellement compatible, sans aucune restriction d'utilisation. Bien que WebP offre une excellente compression et qualité, PNG garantit une compatibilité maximale sur toutes les plateformes. Notre convertisseur gratuit garantit une qualité d'image parfaite tout en offrant une sécurité renforcée grâce au traitement local. Il suffit de télécharger votre fichier WebP et de profiter d'une conversion PNG instantanée et de haute qualité, entièrement gratuite."
+      },
+      "features": {
+        "title": "Fonctionnalités supérieures du convertisseur gratuit d'images WebP vers PNG",
+        "description": "Technologie avancée offrant de meilleurs résultats avec sécurité renforcée",
+        "1": {
+          "title": "Compatibilité complète des formats",
+          "description": "Prend en charge la sortie dans plusieurs formats grand public incluant WebP, JPG et PNG, répondant aux divers besoins de conversion d'images et fournissant un traitement multi-format tout-en-un avec des résultats de qualité supérieure."
+        },
+        "2": {
+          "title": "Technologie de traitement local ultra-rapide",
+          "description": "Utilisant une technologie de calcul en temps réel avancée côté navigateur, l'efficacité de conversion est améliorée jusqu'à 300%, atteignant une réponse ultra-rapide sans télécharger de fichiers vers les serveurs pour une sécurité maximale."
+        },
+        "3": {
+          "title": "Protection maximale de la confidentialité et de la sécurité",
+          "description": "Tous les processus de conversion sont entièrement réalisés localement avec zéro collecte de données, nettoyage automatique du cache après conversion, garantissant une sécurité de confidentialité de niveau militaire comparable au chiffrement de bout en bout."
+        },
+        "4": {
+          "title": "Utilisation gratuite instantanée sans inscription",
+          "description": "Entièrement gratuit sans connexion requise, aucune limite de conversion, aucune restriction de fonctionnalités - réalisant véritablement 'glisser-déposer, conversion instantanée, téléchargement en un clic' - simple, efficace et absolument gratuit."
+        }
+      },
+      "advantage": {
+        "title": "Scénarios d'application premium du convertisseur gratuit WebP vers PNG",
+        "description": "Que ce soit pour l'affichage, l'édition ou la publication, notre convertisseur gratuit WebP vers PNG avec qualité supérieure et sécurité renforcée vous aide à vous adapter facilement à diverses plateformes et scénarios.",
+        "try-now": "Essayer gratuitement maintenant",
+        "1": {
+          "title": "Créer des matériaux de calques dynamiques et d'images d'animation",
+          "description": "Convertir WebP vers PNG avec notre outil gratuit permet l'extraction de calques transparents avec qualité supérieure, adapté au design de mouvement, à l'édition d'animation image par image, à la sortie en couches avec sécurité renforcée."
+        },
+        "2": {
+          "title": "Efficacité améliorée de l'édition d'images et de la création secondaire",
+          "description": "La conversion PNG gratuite produit des images de qualité supérieure qui prennent en charge l'édition de haute qualité dans divers logiciels de design, idéal pour la conception d'interface, les visuels de marque et les applications professionnelles avec de meilleurs résultats."
+        },
+        "3": {
+          "title": "Compatibilité supérieure pour le développement et le frontend",
+          "description": "Convertir WebP vers PNG avec notre convertisseur gratuit améliore la compatibilité et la clarté des images dans le développement web avec sécurité renforcée, particulièrement adapté aux projets frontend nécessitant une qualité d'image supérieure et un support des navigateurs anciens."
+        },
+        "4": {
+          "title": "Performance améliorée des documents bureautiques",
+          "description": "Notre conversion PNG gratuite garantit une stabilité supérieure lors de l'intégration dans Word, PowerPoint, formulaires et autres documents, améliorant les effets visuels tout en améliorant la compatibilité et la qualité pour la sortie d'impression avec de meilleurs résultats."
+        }
+      },
+      "manual": {
+        "title": "Comment convertir WebP vers PNG gratuitement en quatre étapes simples",
+        "content": "Conversion gratuite WebP vers PNG facile avec résultats supérieurs :",
+        "1": {
+          "title": "Étape 1 : Téléchargez votre image WebP pour conversion gratuite"
+        },
+        "2": {
+          "title": "Étape 2 : Sélectionnez PNG comme format cible (entièrement gratuit)"
+        },
+        "3": {
+          "title": "Étape 3 : Cliquez pour démarrer la conversion gratuite avec sécurité renforcée"
+        },
+        "4": {
+          "title": "Étape 4 : Téléchargez votre image convertie de qualité supérieure"
+        }
+      },
+      "faq": {
+        "title": "FAQ sur le convertisseur gratuit d'images WebP vers PNG",
+        "1": {
+          "question": "Qu'est-ce qui rend ce convertisseur gratuit WebP vers PNG meilleur ?",
+          "answer": "Notre outil gratuit prend en charge les formats WebP, PNG et JPG avec qualité de conversion supérieure, sécurité renforcée grâce au traitement local, et utilisation entièrement gratuite sans restrictions."
+        },
+        "2": {
+          "question": "À quelle vitesse s'effectue la conversion gratuite WebP vers PNG ?",
+          "answer": "La plupart des images se convertissent en quelques secondes avec notre technologie gratuite avancée, offrant des résultats supérieurs plus rapidement que les concurrents tout en maintenant une sécurité renforcée."
+        },
+        "3": {
+          "question": "Ce convertisseur gratuit WebP vers PNG est-il vraiment sécurisé ?",
+          "answer": "Absolument. Votre confidentialité est notre priorité. Tout le traitement s'effectue localement avec sécurité renforcée, zéro collecte de données, et nettoyage automatique - entièrement gratuit et sécurisé."
+        },
+        "4": {
+          "question": "N'y a-t-il vraiment aucun frais pour ce convertisseur WebP vers PNG supérieur ?",
+          "answer": "Entièrement gratuit pour toujours, aucune inscription requise, aucun coût caché, avec résultats de qualité supérieure et fonctionnalités de sécurité renforcée."
+        },
+        "5": {
+          "question": "Ce convertisseur gratuit maintient-il une qualité d'image supérieure ?",
+          "answer": "Oui. Notre convertisseur gratuit WebP vers PNG utilise une technologie de compression sans perte avancée pour préserver la qualité d'image originale supérieure, garantissant des résultats de conversion cristallins et de haute qualité avec sécurité renforcée."
+        }
+      },
+      "blog": {
+        "title": "Plus d'articles et d'actualités sur le convertisseur gratuit WebP vers PNG"
+      }
+    },
+    "jpg-to-webp": {
+      "heading": {
+        "title": "Convertisseur gratuit d'images JPG vers WebP",
+        "description": "Convertisseur JPG vers WebP 100% gratuit avec qualité supérieure et sécurité renforcée. Convertissez instantanément vos images JPG au format WebP avec notre outil avancé et convivial.",
+        "tags": {
+          "free": "100% gratuit",
+          "powered": "Alimenté par le navigateur",
+          "no-login": "Aucune inscription requise",
+          "unlimited": "Sécurité locale"
+        }
+      },
+      "introduction": {
+        "title": "Convertisseur JPG vers WebP 100% gratuit et supérieur",
+        "description": "Notre convertisseur gratuit JPG vers WebP est l'outil en ligne le plus puissant et entièrement gratuit qui offre une qualité de conversion supérieure des images JPG vers le format WebP hautement efficace, sans aucune restriction d'utilisation. Bien que le format JPG soit largement compatible, WebP offre une meilleure compression et qualité. Notre convertisseur gratuit garantit une qualité d'image parfaite tout en offrant une sécurité renforcée grâce au traitement local. Il suffit de télécharger votre fichier JPG et de profiter d'une conversion WebP instantanée et de haute qualité, entièrement gratuite."
+      },
+      "features": {
+        "title": "Fonctionnalités supérieures du convertisseur gratuit d'images JPG vers WebP",
+        "description": "Technologie avancée offrant de meilleurs résultats avec sécurité renforcée",
+        "1": {
+          "title": "Compatibilité complète des formats",
+          "description": "Prend en charge la sortie dans plusieurs formats grand public incluant WebP, JPG et PNG, répondant aux divers besoins de conversion d'images et fournissant un traitement multi-format tout-en-un avec des résultats de qualité supérieure."
+        },
+        "2": {
+          "title": "Technologie de traitement local ultra-rapide",
+          "description": "Utilisant une technologie de calcul en temps réel avancée côté navigateur, l'efficacité de conversion est améliorée jusqu'à 300%, atteignant une réponse ultra-rapide sans télécharger de fichiers vers les serveurs pour une sécurité maximale."
+        },
+        "3": {
+          "title": "Protection maximale de la confidentialité et de la sécurité",
+          "description": "Tous les processus de conversion sont entièrement réalisés localement avec zéro collecte de données, nettoyage automatique du cache après conversion, garantissant une sécurité de confidentialité de niveau militaire comparable au chiffrement de bout en bout."
+        },
+        "4": {
+          "title": "Utilisation gratuite instantanée sans inscription",
+          "description": "Entièrement gratuit sans connexion requise, aucune limite de conversion, aucune restriction de fonctionnalités - réalisant véritablement 'glisser-déposer, conversion instantanée, téléchargement en un clic' - simple, efficace et absolument gratuit."
+        }
+      },
+      "advantage": {
+        "title": "Scénarios d'application premium du convertisseur gratuit JPG vers WebP",
+        "description": "Que ce soit pour l'affichage, l'édition ou la publication, notre convertisseur gratuit JPG vers WebP avec qualité supérieure et sécurité renforcée vous aide à vous adapter facilement à diverses plateformes et scénarios.",
+        "try-now": "Essayer gratuitement maintenant",
+        "1": {
+          "title": "Accélérer les performances web et vitesse de chargement supérieure",
+          "description": "Convertir JPG vers WebP avec notre outil gratuit réduit la taille des fichiers jusqu'à 80% tout en maintenant une qualité d'image supérieure, améliorant considérablement la vitesse de chargement des sites web et l'expérience utilisateur avec sécurité renforcée."
+        },
+        "2": {
+          "title": "Efficacité de stockage améliorée et meilleure gestion de l'espace",
+          "description": "La conversion WebP gratuite offre des taux de compression supérieurs, économisant un espace de stockage considérable tout en préservant une excellente qualité d'image - parfait pour la gestion d'images à grande échelle avec de meilleurs résultats."
+        },
+        "3": {
+          "title": "Optimisation mobile supérieure et performance améliorée",
+          "description": "Notre convertisseur gratuit JPG vers WebP crée des fichiers plus légers qui se chargent plus rapidement sur les appareils mobiles, réduisant efficacement la consommation de données tout en offrant une qualité visuelle supérieure avec sécurité renforcée."
+        },
+        "4": {
+          "title": "Performance améliorée des plateformes e-commerce et sociales",
+          "description": "La conversion gratuite au format WebP améliore la vitesse de chargement des images produits tout en maintenant une clarté supérieure, stimulant l'engagement utilisateur et les taux de conversion avec de meilleurs effets visuels et sécurité renforcée."
+        }
+      },
+      "manual": {
+        "title": "Comment convertir JPG vers WebP gratuitement en quatre étapes simples",
+        "content": "Conversion gratuite JPG vers WebP facile avec résultats supérieurs :",
+        "1": {
+          "title": "Étape 1 : Téléchargez votre image JPG pour conversion gratuite"
+        },
+        "2": {
+          "title": "Étape 2 : Sélectionnez WebP comme format cible (entièrement gratuit)"
+        },
+        "3": {
+          "title": "Étape 3 : Cliquez pour démarrer la conversion gratuite avec sécurité renforcée"
+        },
+        "4": {
+          "title": "Étape 4 : Téléchargez votre image convertie de qualité supérieure"
+        }
+      },
+      "faq": {
+        "title": "FAQ sur le convertisseur gratuit d'images JPG vers WebP",
+        "1": {
+          "question": "Qu'est-ce qui rend ce convertisseur gratuit JPG vers WebP meilleur ?",
+          "answer": "Notre outil gratuit prend en charge les formats WebP, PNG et JPG avec qualité de conversion supérieure, sécurité renforcée grâce au traitement local, et utilisation entièrement gratuite sans restrictions."
+        },
+        "2": {
+          "question": "À quelle vitesse s'effectue la conversion gratuite JPG vers WebP ?",
+          "answer": "La plupart des images se convertissent en quelques secondes avec notre technologie gratuite avancée, offrant des résultats supérieurs plus rapidement que les concurrents tout en maintenant une sécurité renforcée."
+        },
+        "3": {
+          "question": "Ce convertisseur gratuit JPG vers WebP est-il vraiment sécurisé ?",
+          "answer": "Absolument. Votre confidentialité est notre priorité. Tout le traitement s'effectue localement avec sécurité renforcée, zéro collecte de données, et nettoyage automatique - entièrement gratuit et sécurisé."
+        },
+        "4": {
+          "question": "N'y a-t-il vraiment aucun frais pour ce convertisseur JPG vers WebP supérieur ?",
+          "answer": "Entièrement gratuit pour toujours, aucune inscription requise, aucun coût caché, avec résultats de qualité supérieure et fonctionnalités de sécurité renforcée."
+        },
+        "5": {
+          "question": "Ce convertisseur gratuit maintient-il une qualité d'image supérieure ?",
+          "answer": "Oui. Notre convertisseur gratuit JPG vers WebP utilise une technologie de compression sans perte avancée pour préserver la qualité d'image originale supérieure, garantissant des résultats de conversion cristallins et de haute qualité avec sécurité renforcée."
+        }
+      },
+      "blog": {
+        "title": "Plus d'articles et d'actualités sur le convertisseur gratuit JPG vers WebP"
+      }
+    },
+    "jpg-to-png": {
+      "heading": {
+        "title": "Convertisseur gratuit d'images JPG vers PNG",
+        "description": "Convertisseur JPG vers PNG 100% gratuit avec qualité supérieure et sécurité renforcée. Convertissez instantanément vos images JPG au format PNG avec notre outil avancé et convivial.",
+        "tags": {
+          "free": "100% gratuit",
+          "powered": "Alimenté par le navigateur",
+          "no-login": "Aucune inscription requise",
+          "unlimited": "Sécurité locale"
+        }
+      },
+      "introduction": {
+        "title": "Convertisseur JPG vers PNG 100% gratuit et supérieur",
+        "description": "Notre convertisseur gratuit JPG vers PNG est l'outil en ligne le plus puissant et entièrement gratuit qui offre une qualité de conversion supérieure des images JPG vers le format PNG universellement compatible, sans aucune restriction d'utilisation. Bien que le format JPG soit largement utilisé, le format PNG offre une meilleure préservation de la qualité et un support de transparence. Notre convertisseur gratuit garantit une qualité d'image parfaite tout en offrant une sécurité renforcée grâce au traitement local. Il suffit de télécharger votre fichier JPG et de profiter d'une conversion PNG instantanée et de haute qualité, entièrement gratuite."
+      },
+      "features": {
+        "title": "Fonctionnalités supérieures du convertisseur gratuit d'images JPG vers PNG",
+        "description": "Technologie avancée offrant de meilleurs résultats avec sécurité renforcée",
+        "1": {
+          "title": "Compatibilité complète des formats",
+          "description": "Prend en charge la sortie dans plusieurs formats grand public incluant WebP, JPG et PNG, répondant aux divers besoins de conversion d'images et fournissant un traitement multi-format tout-en-un avec des résultats de qualité supérieure."
+        },
+        "2": {
+          "title": "Technologie de traitement local ultra-rapide",
+          "description": "Utilisant une technologie de calcul en temps réel avancée côté navigateur, l'efficacité de conversion est améliorée jusqu'à 300%, atteignant une réponse ultra-rapide sans télécharger de fichiers vers les serveurs pour une sécurité maximale."
+        },
+        "3": {
+          "title": "Protection maximale de la confidentialité et de la sécurité",
+          "description": "Tous les processus de conversion sont entièrement réalisés localement avec zéro collecte de données, nettoyage automatique du cache après conversion, garantissant une sécurité de confidentialité de niveau militaire comparable au chiffrement de bout en bout."
+        },
+        "4": {
+          "title": "Utilisation gratuite instantanée sans inscription",
+          "description": "Entièrement gratuit sans connexion requise, aucune limite de conversion, aucune restriction de fonctionnalités - réalisant véritablement 'glisser-déposer, conversion instantanée, téléchargement en un clic' - simple, efficace et absolument gratuit."
+        }
+      },
+      "advantage": {
+        "title": "Scénarios d'application premium du convertisseur gratuit JPG vers PNG",
+        "description": "Que ce soit pour l'affichage, l'édition ou la publication, notre convertisseur gratuit JPG vers PNG avec qualité supérieure et sécurité renforcée vous aide à vous adapter facilement à diverses plateformes et scénarios.",
+        "try-now": "Essayer gratuitement maintenant",
+        "1": {
+          "title": "Qualité sans perte supérieure et clarté d'image améliorée",
+          "description": "Convertir JPG vers PNG avec notre outil gratuit préserve une qualité d'image supérieure sans artefacts de compression, parfait pour les graphiques haute définition, logos et images professionnelles nécessitant des résultats cristallins avec sécurité renforcée."
+        },
+        "2": {
+          "title": "Flexibilité de design améliorée et meilleur support d'édition",
+          "description": "La conversion PNG gratuite fournit un support de transparence supérieur et une qualité sans perte, idéal pour le design graphique, la création de logos et les flux de travail d'édition professionnelle avec de meilleurs résultats et sécurité renforcée."
+        },
+        "3": {
+          "title": "Compatibilité de plateforme supérieure et performance améliorée",
+          "description": "Notre convertisseur gratuit JPG vers PNG garantit une meilleure compatibilité avec les logiciels de design, services d'impression et plateformes professionnelles qui nécessitent le format PNG avec qualité supérieure et sécurité renforcée."
+        },
+        "4": {
+          "title": "Applications professionnelles améliorées et meilleurs résultats visuels",
+          "description": "La conversion gratuite au format PNG offre une clarté supérieure pour les graphiques, captures d'écran, illustrations et graphiques techniques, éliminant les artefacts de compression avec une meilleure qualité visuelle et sécurité renforcée."
+        }
+      },
+      "manual": {
+        "title": "Comment convertir JPG vers PNG gratuitement en quatre étapes simples",
+        "content": "Conversion gratuite JPG vers PNG facile avec résultats supérieurs :",
+        "1": {
+          "title": "Étape 1 : Téléchargez votre image JPG pour conversion gratuite"
+        },
+        "2": {
+          "title": "Étape 2 : Sélectionnez PNG comme format cible (entièrement gratuit)"
+        },
+        "3": {
+          "title": "Étape 3 : Cliquez pour démarrer la conversion gratuite avec sécurité renforcée"
+        },
+        "4": {
+          "title": "Étape 4 : Téléchargez votre image convertie de qualité supérieure"
+        }
+      },
+      "faq": {
+        "title": "FAQ sur le convertisseur gratuit d'images JPG vers PNG",
+        "1": {
+          "question": "Qu'est-ce qui rend ce convertisseur gratuit JPG vers PNG meilleur ?",
+          "answer": "Notre outil gratuit prend en charge les formats WebP, PNG et JPG avec qualité de conversion supérieure, sécurité renforcée grâce au traitement local, et utilisation entièrement gratuite sans restrictions."
+        },
+        "2": {
+          "question": "À quelle vitesse s'effectue la conversion gratuite JPG vers PNG ?",
+          "answer": "La plupart des images se convertissent en quelques secondes avec notre technologie gratuite avancée, offrant des résultats supérieurs plus rapidement que les concurrents tout en maintenant une sécurité renforcée."
+        },
+        "3": {
+          "question": "Ce convertisseur gratuit JPG vers PNG est-il vraiment sécurisé ?",
+          "answer": "Absolument. Votre confidentialité est notre priorité. Tout le traitement s'effectue localement avec sécurité renforcée, zéro collecte de données, et nettoyage automatique - entièrement gratuit et sécurisé."
+        },
+        "4": {
+          "question": "N'y a-t-il vraiment aucun frais pour ce convertisseur JPG vers PNG supérieur ?",
+          "answer": "Entièrement gratuit pour toujours, aucune inscription requise, aucun coût caché, avec résultats de qualité supérieure et fonctionnalités de sécurité renforcée."
+        },
+        "5": {
+          "question": "Ce convertisseur gratuit maintient-il une qualité d'image supérieure ?",
+          "answer": "Oui. Notre convertisseur gratuit JPG vers PNG utilise une technologie de compression sans perte avancée pour préserver la qualité d'image originale supérieure, garantissant des résultats de conversion cristallins et de haute qualité avec sécurité renforcée."
+        }
+      },
+      "blog": {
+        "title": "Plus d'articles et d'actualités sur le convertisseur gratuit JPG vers PNG"
+      }
+    },
+    "png-to-webp": {
+      "heading": {
+        "title": "Convertisseur gratuit d'images PNG vers WebP",
+        "description": "Convertisseur PNG vers WebP 100% gratuit avec qualité supérieure et sécurité renforcée. Convertissez instantanément vos images PNG au format WebP avec notre outil avancé et convivial.",
+        "tags": {
+          "free": "100% gratuit",
+          "powered": "Alimenté par le navigateur",
+          "no-login": "Aucune inscription requise",
+          "unlimited": "Sécurité locale"
+        }
+      },
+      "introduction": {
+        "title": "Convertisseur PNG vers WebP 100% gratuit et supérieur",
+        "description": "Notre convertisseur gratuit PNG vers WebP est l'outil en ligne le plus puissant et entièrement gratuit qui offre une qualité de conversion supérieure des images PNG vers le format WebP hautement efficace, sans aucune restriction d'utilisation. Bien que le format PNG offre une excellente qualité et un support de transparence, WebP fournit une meilleure compression et des vitesses de chargement plus rapides. Notre convertisseur gratuit garantit une qualité d'image parfaite tout en offrant une sécurité renforcée grâce au traitement local. Il suffit de télécharger votre fichier PNG et de profiter d'une conversion WebP instantanée et de haute qualité, entièrement gratuite."
+      },
+      "features": {
+        "title": "Fonctionnalités supérieures du convertisseur gratuit d'images PNG vers WebP",
+        "description": "Technologie avancée offrant de meilleurs résultats avec sécurité renforcée",
+        "1": {
+          "title": "Compatibilité complète des formats",
+          "description": "Prend en charge la sortie dans plusieurs formats grand public incluant WebP, JPG et PNG, répondant aux divers besoins de conversion d'images et fournissant un traitement multi-format tout-en-un avec des résultats de qualité supérieure."
+        },
+        "2": {
+          "title": "Technologie de traitement local ultra-rapide",
+          "description": "Utilisant une technologie de calcul en temps réel avancée côté navigateur, l'efficacité de conversion est améliorée jusqu'à 300%, atteignant une réponse ultra-rapide sans télécharger de fichiers vers les serveurs pour une sécurité maximale."
+        },
+        "3": {
+          "title": "Protection maximale de la confidentialité et de la sécurité",
+          "description": "Tous les processus de conversion sont entièrement réalisés localement avec zéro collecte de données, nettoyage automatique du cache après conversion, garantissant une sécurité de confidentialité de niveau militaire comparable au chiffrement de bout en bout."
+        },
+        "4": {
+          "title": "Utilisation gratuite instantanée sans inscription",
+          "description": "Entièrement gratuit sans connexion requise, aucune limite de conversion, aucune restriction de fonctionnalités - réalisant véritablement 'glisser-déposer, conversion instantanée, téléchargement en un clic' - simple, efficace et absolument gratuit."
+        }
+      },
+      "advantage": {
+        "title": "Scénarios d'application premium du convertisseur gratuit PNG vers WebP",
+        "description": "Que ce soit pour l'affichage, l'édition ou la publication, notre convertisseur gratuit PNG vers WebP avec qualité supérieure et sécurité renforcée vous aide à vous adapter facilement à diverses plateformes et scénarios.",
+        "try-now": "Essayer gratuitement maintenant",
+        "1": {
+          "title": "Accélérer les performances web et vitesse de chargement supérieure",
+          "description": "Convertir PNG vers WebP avec notre outil gratuit réduit la taille des fichiers jusqu'à 90% tout en maintenant une qualité d'image supérieure, améliorant considérablement la vitesse de chargement des sites web et l'expérience utilisateur avec sécurité renforcée."
+        },
+        "2": {
+          "title": "Optimisation mobile améliorée et meilleure performance",
+          "description": "La conversion WebP gratuite crée des fichiers plus légers qui se chargent plus rapidement sur les appareils mobiles, réduisant efficacement la consommation de données tout en offrant une qualité visuelle supérieure avec sécurité renforcée."
+        },
+        "3": {
+          "title": "Design d'interface utilisateur supérieur et efficacité de développement améliorée",
+          "description": "Convertir les icônes d'interface et éléments d'interface de PNG vers WebP avec notre convertisseur gratuit réduit considérablement la taille du bundle de ressources frontend, améliorant les performances de chargement avec de meilleurs résultats et sécurité renforcée."
+        },
+        "4": {
+          "title": "Performance améliorée des plateformes e-commerce et de contenu",
+          "description": "La conversion gratuite des images produits et visuels de contenu au format WebP réduit la charge serveur tout en maintenant une clarté supérieure, accélérant la vitesse de réponse des pages avec de meilleurs effets visuels et sécurité renforcée."
+        }
+      },
+      "manual": {
+        "title": "Comment convertir PNG vers WebP gratuitement en quatre étapes simples",
+        "content": "Conversion gratuite PNG vers WebP facile avec résultats supérieurs :",
+        "1": {
+          "title": "Étape 1 : Téléchargez votre image PNG pour conversion gratuite"
+        },
+        "2": {
+          "title": "Étape 2 : Sélectionnez WebP comme format cible (entièrement gratuit)"
+        },
+        "3": {
+          "title": "Étape 3 : Cliquez pour démarrer la conversion gratuite avec sécurité renforcée"
+        },
+        "4": {
+          "title": "Étape 4 : Téléchargez votre image convertie de qualité supérieure"
+        }
+      },
+      "faq": {
+        "title": "FAQ sur le convertisseur gratuit d'images PNG vers WebP",
+        "1": {
+          "question": "Qu'est-ce qui rend ce convertisseur gratuit PNG vers WebP meilleur ?",
+          "answer": "Notre outil gratuit prend en charge les formats WebP, PNG et JPG avec qualité de conversion supérieure, sécurité renforcée grâce au traitement local, et utilisation entièrement gratuite sans restrictions."
+        },
+        "2": {
+          "question": "À quelle vitesse s'effectue la conversion gratuite PNG vers WebP ?",
+          "answer": "La plupart des images se convertissent en quelques secondes avec notre technologie gratuite avancée, offrant des résultats supérieurs plus rapidement que les concurrents tout en maintenant une sécurité renforcée."
+        },
+        "3": {
+          "question": "Ce convertisseur gratuit PNG vers WebP est-il vraiment sécurisé ?",
+          "answer": "Absolument. Votre confidentialité est notre priorité. Tout le traitement s'effectue localement avec sécurité renforcée, zéro collecte de données, et nettoyage automatique - entièrement gratuit et sécurisé."
+        },
+        "4": {
+          "question": "N'y a-t-il vraiment aucun frais pour ce convertisseur PNG vers WebP supérieur ?",
+          "answer": "Entièrement gratuit pour toujours, aucune inscription requise, aucun coût caché, avec résultats de qualité supérieure et fonctionnalités de sécurité renforcée."
+        },
+        "5": {
+          "question": "Ce convertisseur gratuit maintient-il une qualité d'image supérieure ?",
+          "answer": "Oui. Notre convertisseur gratuit PNG vers WebP utilise une technologie de compression sans perte avancée pour préserver la qualité d'image originale supérieure, garantissant des résultats de conversion cristallins et de haute qualité avec sécurité renforcée."
+        }
+      },
+      "blog": {
+        "title": "Plus d'articles et d'actualités sur le convertisseur gratuit PNG vers WebP"
+      }
+    },
+    "png-to-jpg": {
+      "heading": {
+        "title": "Convertisseur gratuit d'images PNG vers JPG",
+        "description": "Convertisseur PNG vers JPG 100% gratuit avec qualité supérieure et sécurité renforcée. Convertissez instantanément vos images PNG au format JPG avec notre outil avancé et convivial.",
+        "tags": {
+          "free": "100% gratuit",
+          "powered": "Alimenté par le navigateur",
+          "no-login": "Aucune inscription requise",
+          "unlimited": "Sécurité locale"
+        }
+      },
+      "introduction": {
+        "title": "Convertisseur PNG vers JPG 100% gratuit et supérieur",
+        "description": "Notre convertisseur gratuit PNG vers JPG est l'outil en ligne le plus puissant et entièrement gratuit qui offre une qualité de conversion supérieure des images PNG vers le format JPG universellement compatible, sans aucune restriction d'utilisation. Bien que le format PNG offre une excellente qualité et un support de transparence, le format JPG garantit une compatibilité maximale et des tailles de fichiers plus petites. Notre convertisseur gratuit garantit une qualité d'image parfaite tout en offrant une sécurité renforcée grâce au traitement local. Il suffit de télécharger votre fichier PNG et de profiter d'une conversion JPG instantanée et de haute qualité, entièrement gratuite."
+      },
+      "features": {
+        "title": "Fonctionnalités supérieures du convertisseur gratuit d'images PNG vers JPG",
+        "description": "Technologie avancée offrant de meilleurs résultats avec sécurité renforcée",
+        "1": {
+          "title": "Compatibilité complète des formats",
+          "description": "Prend en charge la sortie dans plusieurs formats grand public incluant WebP, JPG et PNG, répondant aux divers besoins de conversion d'images et fournissant un traitement multi-format tout-en-un avec des résultats de qualité supérieure."
+        },
+        "2": {
+          "title": "Technologie de traitement local ultra-rapide",
+          "description": "Utilisant une technologie de calcul en temps réel avancée côté navigateur, l'efficacité de conversion est améliorée jusqu'à 300%, atteignant une réponse ultra-rapide sans télécharger de fichiers vers les serveurs pour une sécurité maximale."
+        },
+        "3": {
+          "title": "Protection maximale de la confidentialité et de la sécurité",
+          "description": "Tous les processus de conversion sont entièrement réalisés localement avec zéro collecte de données, nettoyage automatique du cache après conversion, garantissant une sécurité de confidentialité de niveau militaire comparable au chiffrement de bout en bout."
+        },
+        "4": {
+          "title": "Utilisation gratuite instantanée sans inscription",
+          "description": "Entièrement gratuit sans connexion requise, aucune limite de conversion, aucune restriction de fonctionnalités - réalisant véritablement 'glisser-déposer, conversion instantanée, téléchargement en un clic' - simple, efficace et absolument gratuit."
+        }
+      },
+      "advantage": {
+        "title": "Scénarios d'application premium du convertisseur gratuit PNG vers JPG",
+        "description": "Que ce soit pour l'affichage, l'édition ou la publication, notre convertisseur gratuit PNG vers JPG avec qualité supérieure et sécurité renforcée vous aide à vous adapter facilement à diverses plateformes et scénarios.",
+        "try-now": "Essayer gratuitement maintenant",
+        "1": {
+          "title": "Optimisation supérieure de la taille des fichiers et vitesse de chargement améliorée",
+          "description": "Convertir PNG vers JPG avec notre outil gratuit réduit la taille des fichiers jusqu'à 70% tout en maintenant une qualité d'image supérieure, améliorant considérablement la vitesse de chargement des sites web et les performances mobiles avec sécurité renforcée."
+        },
+        "2": {
+          "title": "Compatibilité universelle améliorée et meilleur support de plateforme",
+          "description": "La conversion JPG gratuite garantit une compatibilité supérieure sur tous les navigateurs, clients de messagerie, plateformes de médias sociaux et systèmes anciens, éliminant les problèmes d'affichage avec de meilleurs résultats et sécurité renforcée."
+        },
+        "3": {
+          "title": "Intégration documentaire supérieure et utilisation professionnelle améliorée",
+          "description": "Notre convertisseur gratuit PNG vers JPG crée des fichiers optimisés parfaits pour les documents Office, présentations et intégration PDF, réduisant la taille des documents tout en améliorant la qualité d'impression avec de meilleurs résultats."
+        },
+        "4": {
+          "title": "Efficacité de stockage améliorée et meilleure gestion de l'espace",
+          "description": "La conversion gratuite au format JPG économise un espace de stockage considérable tout en préservant une excellente qualité visuelle, parfaite pour la gestion d'images à grande échelle et la sauvegarde avec efficacité supérieure et sécurité renforcée."
+        }
+      },
+      "manual": {
+        "title": "Comment convertir PNG vers JPG gratuitement en quatre étapes simples",
+        "content": "Conversion gratuite PNG vers JPG facile avec résultats supérieurs :",
+        "1": {
+          "title": "Étape 1 : Téléchargez votre image PNG pour conversion gratuite"
+        },
+        "2": {
+          "title": "Étape 2 : Sélectionnez JPG comme format cible (entièrement gratuit)"
+        },
+        "3": {
+          "title": "Étape 3 : Cliquez pour démarrer la conversion gratuite avec sécurité renforcée"
+        },
+        "4": {
+          "title": "Étape 4 : Téléchargez votre image convertie de qualité supérieure"
+        }
+      },
+      "faq": {
+        "title": "FAQ sur le convertisseur gratuit d'images PNG vers JPG",
+        "1": {
+          "question": "Qu'est-ce qui rend ce convertisseur gratuit PNG vers JPG meilleur ?",
+          "answer": "Notre outil gratuit prend en charge les formats WebP, PNG et JPG avec qualité de conversion supérieure, sécurité renforcée grâce au traitement local, et utilisation entièrement gratuite sans restrictions."
+        },
+        "2": {
+          "question": "À quelle vitesse s'effectue la conversion gratuite PNG vers JPG ?",
+          "answer": "La plupart des images se convertissent en quelques secondes avec notre technologie gratuite avancée, offrant des résultats supérieurs plus rapidement que les concurrents tout en maintenant une sécurité renforcée."
+        },
+        "3": {
+          "question": "Ce convertisseur gratuit PNG vers JPG est-il vraiment sécurisé ?",
+          "answer": "Absolument. Votre confidentialité est notre priorité. Tout le traitement s'effectue localement avec sécurité renforcée, zéro collecte de données, et nettoyage automatique - entièrement gratuit et sécurisé."
+        },
+        "4": {
+          "question": "N'y a-t-il vraiment aucun frais pour ce convertisseur PNG vers JPG supérieur ?",
+          "answer": "Entièrement gratuit pour toujours, aucune inscription requise, aucun coût caché, avec résultats de qualité supérieure et fonctionnalités de sécurité renforcée."
+        },
+        "5": {
+          "question": "Ce convertisseur gratuit maintient-il une qualité d'image supérieure ?",
+          "answer": "Oui. Notre convertisseur gratuit PNG vers JPG utilise une technologie de compression sans perte avancée pour préserver la qualité d'image originale supérieure, garantissant des résultats de conversion cristallins et de haute qualité avec sécurité renforcée."
+        }
+      },
+      "blog": {
+        "title": "Plus d'articles et d'actualités sur le convertisseur gratuit PNG vers JPG"
+      }
+    }
+  },
+  "free-image-upscaler": {
+    "heading": {
+      "title": "Agrandisseur d'images gratuit - Outil d'amélioration d'images alimenté par l'IA",
+      "description": "Agrandisseur d'images 100% gratuit avec technologie IA avancée. Améliorez la qualité d'image jusqu'à 4x de résolution instantanément. Aucune inscription requise, traitement local complètement sécurisé.",
+      "tags": {
+        "free": "100% gratuit",
+        "powered": "Qualité améliorée par IA",
+        "no-login": "Aucune connexion requise",
+        "unlimited": "Traitement local sécurisé"
+      }
+    },
+    "introduction": {
+      "title": "Agrandisseur d'images 100% gratuit avec amélioration IA supérieure",
+      "description": "Notre agrandisseur d'images gratuit est l'outil en ligne le plus avancé et entièrement gratuit qui offre des résultats d'amélioration d'images supérieurs avec un boost de résolution jusqu'à 4x. Utilisant une technologie IA de pointe, cet agrandisseur d'images gratuit transforme les images basse résolution en visuels cristallins et de haute qualité tout en maintenant une préservation parfaite des détails. Tout le traitement s'effectue de manière sécurisée dans votre navigateur sans aucun téléchargement de fichiers, garantissant une protection maximale de la confidentialité. Découvrez l'amélioration d'images de qualité professionnelle entièrement gratuite - aucune inscription, aucun coût caché, juste des résultats supérieurs instantanés avec notre agrandisseur d'images gratuit."
+    },
+    "comparision": {
+      "original": "ORIGINAL",
+      "tinify": "AMÉLIORÉ",
+      "title": "Agrandisseur d'images gratuit - Technologie d'amélioration IA supérieure",
+      "description": "Agrandisseur d'images gratuit avancé avec traitement local sécurisé qui offre une amélioration d'images de qualité professionnelle sans compromettre votre confidentialité.",
+      "features": {
+        "1": "Traitement local 100% sécurisé",
+        "2": "Amélioration de résolution supérieure jusqu'à 4x",
+        "3": "Protection de confidentialité de niveau militaire",
+        "4": "Utilisation gratuite instantanée, zéro inscription",
+        "5": "Amélioration avancée alimentée par l'IA"
+      },
+      "tryNow": "Essayer l'agrandisseur d'images gratuit"
+    },
+    "advantage": {
+      "title": "Applications premium de l'agrandisseur d'images gratuit",
+      "description": "Notre agrandisseur d'images gratuit avec technologie d'amélioration IA supérieure fournit une amélioration de qualité d'image sécurisée et efficace pour les sites web, réseaux sociaux, e-commerce et projets créatifs, offrant des résultats professionnels avec sécurité renforcée.",
+      "try-now": "Essayer gratuitement maintenant",
+      "1": {
+        "title": "Performance web supérieure et expérience utilisateur améliorée",
+        "description": "L'agrandisseur d'images gratuit améliore instantanément les images jusqu'à 4x de résolution avec traitement local sécurisé, améliorant la clarté visuelle tout en optimisant les temps de chargement des pages, stimulant la satisfaction utilisateur et les performances SEO avec de meilleurs résultats."
+      },
+      "2": {
+        "title": "Impact visuel amélioré sur les réseaux sociaux et meilleur engagement",
+        "description": "Notre agrandisseur d'images gratuit prend en charge les formats WebP, JPG, PNG avec qualité d'amélioration supérieure, améliorant considérablement la clarté et l'attractivité des images sur les réseaux sociaux, augmentant les taux de clic et l'engagement avec sécurité renforcée."
+      },
+      "3": {
+        "title": "Efficacité supérieure pour l'e-commerce et la gestion de contenu",
+        "description": "L'agrandisseur d'images gratuit permet le traitement par lots avec amélioration jusqu'à 4x, générant des images produits haute définition qui dépassent les standards des plateformes, améliorant la qualité d'affichage et l'efficacité opérationnelle avec de meilleurs résultats visuels et sécurité renforcée."
+      },
+      "4": {
+        "title": "Outils créatifs améliorés pour designers et créateurs de contenu",
+        "description": "Agrandisseur d'images gratuit parfait pour la photographie, l'illustration et les projets de design, améliorant intelligemment les images basse résolution en visuels de qualité professionnelle (2x à 4x) sans expertise technique, offrant des matériaux créatifs supérieurs avec sécurité renforcée."
+      }
+    },
+    "manual": {
+      "title": "Comment utiliser l'agrandisseur d'images gratuit en quatre étapes simples",
+      "content": "Transformez vos images avec amélioration IA supérieure :",
+      "1": {
+        "title": "Étape 1 : Téléchargez votre image vers l'agrandisseur d'images gratuit"
+      },
+      "2": {
+        "title": "Étape 2 : Choisissez le niveau d'amélioration (agrandissement 2x ou 4x)"
+      },
+      "3": {
+        "title": "Étape 3 : Cliquez sur améliorer pour un traitement IA instantané"
+      },
+      "4": {
+        "title": "Étape 4 : Téléchargez votre image améliorée de qualité supérieure"
+      }
+    },
+    "faq": {
+      "title": "FAQ sur l'agrandisseur d'images gratuit",
+      "1": {
+        "question": "Qu'est-ce qui rend cet agrandisseur d'images gratuit supérieur aux autres ?",
+        "answer": "Notre agrandisseur d'images gratuit utilise une technologie IA avancée avec traitement local sécurisé, offrant une qualité d'amélioration supérieure jusqu'à 4x. Entièrement gratuit sans inscription requise, prenant en charge les formats JPG, PNG, WebP avec sécurité renforcée et de meilleurs résultats que les concurrents."
+      },
+      "2": {
+        "question": "Comment l'agrandisseur d'images gratuit améliore-t-il la qualité d'image ?",
+        "answer": "Notre agrandisseur d'images gratuit utilise une technologie IA de super-résolution de pointe avec réseaux de neurones profonds pour améliorer intelligemment les détails, la clarté et la netteté des images tout en maintenant des effets visuels naturels, offrant des résultats d'amélioration supérieurs avec sécurité renforcée."
+      },
+      "3": {
+        "question": "Cet agrandisseur d'images gratuit est-il vraiment sécurisé et privé ?",
+        "answer": "Absolument. Notre agrandisseur d'images gratuit traite tout localement dans votre navigateur sans aucun téléchargement de fichiers, garantissant une protection de confidentialité de niveau militaire. Entièrement gratuit sans inscription requise, vos images ne quittent jamais votre appareil pour une sécurité maximale."
+      },
+      "4": {
+        "question": "À quelle vitesse s'effectue le traitement de l'agrandisseur d'images gratuit ?",
+        "answer": "Notre agrandisseur d'images gratuit offre un traitement ultra-rapide, complétant généralement l'amélioration en quelques secondes. Le traitement local élimine les temps d'attente de téléchargement/téléversement, fournissant des résultats supérieurs instantanés avec sécurité et efficacité renforcées."
+      },
+      "5": {
+        "question": "Quelles tailles d'images fonctionnent le mieux avec l'agrandisseur d'images gratuit ?",
+        "answer": "Notre agrandisseur d'images gratuit prend en charge diverses tailles d'images avec des résultats optimaux pour les images de 512×512 pixels ou plus. La technologie d'amélioration IA offre des améliorations de qualité supérieures quelle que soit la taille originale, avec efficacité de traitement renforcée."
+      },
+      "6": {
+        "question": "Comment puis-je obtenir les meilleurs résultats avec l'agrandisseur d'images gratuit ?",
+        "answer": "Pour une amélioration supérieure avec notre agrandisseur d'images gratuit, utilisez des images originales claires, sélectionnez des facteurs d'agrandissement appropriés (2x ou 4x), et utilisez la fonction d'aperçu pour comparer les résultats. La technologie IA optimise automatiquement pour la meilleure qualité avec sécurité renforcée."
+      }
+    },
+    "blog": {
+      "title": "Plus d'articles et d'actualités sur l'agrandisseur d'images gratuit"
     }
   },
   "blog": {
     "heading": {
-      "title": "Articles & actualités recommandés sur le Générateur d’images IA Grok 3",
-      "description": "Découvrez les derniers articles, actualités et mises à jour du Générateur d’images IA Grok. Profitez de conseils d’experts, de tutoriels et restez informé sur nos technologies IA de pointe et les évolutions de la plateforme."
-    },
-    "media-tools": {
-      "title": "Outils IA avancés pour l’image & la vidéo par Grok IA",
-      "description": "Créez des images époustouflantes et des vidéos captivantes avec les outils puissants de Grok IA. Libérez votre créativité grâce à notre technologie IA de pointe.",
-      "image": {
-        "title": "Outils d’images IA Grok",
-        "description": "Générez instantanément des images impressionnantes grâce à la génération texte-image et image-image de Grok IA.",
-        "try-now": "Générateur d’images IA Grok",
-        "check-more": "En savoir plus"
-      },
-      "video": {
-        "title": "Outils vidéo IA",
-        "description": "Créez des vidéos animées captivantes avec la technologie texte-vidéo et image-vidéo de Grok IA.",
-        "try-now": "Générateur vidéo IA Grok",
-        "check-more": "En savoir plus"
-      },
-      "tools": {
-        "title": "Outils IA gratuits",
-        "description": "Commencez votre aventure créative avec les outils IA gratuits de Grok.",
-        "try-now": "Image vers invite gratuit",
-        "check-more": "En savoir plus"
-      }
+      "title": "Articles et actualités recommandés sur le générateur d'images IA Grok",
+      "description": "Explorez les derniers articles, actualités et mises à jour du générateur d'images IA Grok. Obtenez des insights d'experts, des tutoriels et restez informé sur notre technologie IA de pointe et les développements de la plateforme."
     },
     "links": {
-      "title": "Découvrez plus d’outils IA liés à Grok",
-      "content": "Découvrez des outils Grok IA avancés pour améliorer votre flux créatif."
+      "title": "Explorez plus d'outils IA liés à Grok IA",
+      "content": "Découvrez les outils Grok IA avancés pour améliorer votre flux de travail créatif."
     },
     "card": {
       "author": "Auteur",
       "time": "Date"
     },
     "recommend": {
-      "title": "Plus d’articles sur Grok IA",
-      "description": "Découvrez d’autres articles & actualités sur Grok IA."
+      "title": "Plus d'articles sur le générateur d'images IA Grok",
+      "description": "Découvrez plus d'articles et d'actualités sur le générateur d'images IA Grok."
     },
     "like": {
       "success": "Merci pour votre soutien !",
@@ -376,26 +1262,61 @@
   "Metadata": {
     "common": {
       "siteName": "grokimagegenerator.net",
-      "creator": "Meilleur Générateur d’images IA Grok"
+      "creator": "Générateur d'images IA Grok"
     },
     "home": {
-      "title": "Générateur d’images IA Grok 3 - 100% gratuit, sans inscription, sans carte bancaire",
-      "description": "Générateur d’images IA Grok 3, propulsé par Grok 3 IA. 100% gratuit, sans inscription, sans carte bancaire, sans aucune limitation. Générez des images incroyables pour tous vos besoins créatifs.",
-      "keywords": "Générateur d’images IA Grok 3, Générateur d’images",
+      "title": "Générateur d'images IA Grok - 100% gratuit, aucune inscription requise, aucune carte de crédit nécessaire",
+      "description": "Essayez gratuitement le générateur d'images IA Grok, alimenté par Grok IA. 100% gratuit sans inscription requise, aucune carte de crédit nécessaire, et aucune limitation. Générez des images incroyables pour tous vos besoins créatifs.",
+      "keywords": "Générateur d'images IA Grok 3, Générateur d'images",
       "openGraph": {
-        "title": "Générateur d’images IA Grok 3 - 100% gratuit, sans inscription, sans carte bancaire",
-        "description": "Générateur d’images IA Grok 3, propulsé par Grok 3 IA. 100% gratuit, sans inscription, sans carte bancaire, sans aucune limitation. Générez des images incroyables pour tous vos besoins créatifs.",
+        "title": "Générateur d'images IA Grok - 100% gratuit, aucune inscription requise, aucune carte de crédit nécessaire",
+        "description": "Essayez gratuitement le générateur d'images IA Grok, alimenté par Grok IA. 100% gratuit sans inscription requise, aucune carte de crédit nécessaire, et aucune limitation. Générez des images incroyables pour tous vos besoins créatifs.",
         "siteName": "grokimagegenerator.net"
       },
       "twitter": {
-        "title": "Générateur d’images IA Grok 3 - 100% gratuit, sans inscription, sans carte bancaire",
-        "description": "Générateur d’images IA Grok 3, propulsé par Grok 3 IA. 100% gratuit, sans inscription, sans carte bancaire, sans aucune limitation. Générez des images incroyables pour tous vos besoins créatifs.",
+        "title": "Générateur d'images IA Grok - 100% gratuit, aucune inscription requise, aucune carte de crédit nécessaire",
+        "description": "Essayez gratuitement le générateur d'images IA Grok, alimenté par Grok IA. 100% gratuit sans inscription requise, aucune carte de crédit nécessaire, et aucune limitation. Générez des images incroyables pour tous vos besoins créatifs.",
         "site": "grokimagegenerator.net",
-        "creator": "Générateur d’images IA Grok 3"
+        "creator": "Générateur d'images IA Grok 3"
+      }
+    },
+    "grok4-ai-image-generator": {
+      "title": "Générateur d'images IA Grok 4 - 100% gratuit, aucune inscription requise, aucune carte de crédit nécessaire",
+      "description": "Essayez gratuitement le générateur d'images IA Grok 4, alimenté par Grok 4 AI. 100% gratuit sans inscription requise, aucune carte de crédit nécessaire, et aucune limitation. Générez des images incroyables pour tous vos besoins créatifs.",
+      "keywords": "Générateur d'images IA Grok 4, Générateur d'images"
+    },
+    "free-image-upscaler": {
+      "title": "Agrandisseur d'images IA 100% gratuit, rapide et sécurisé - Amélioration d'images de qualité professionnelle",
+      "description": "100% gratuit, agrandissez et améliorez vos images en toute sécurité avec une technologie IA avancée. Obtenez un boost de résolution époustouflant de 2x à 4x tout en préservant une qualité parfaite. Entièrement gratuit, aucune inscription nécessaire, résultats instantanés."
+    },
+    "free-image-format-converter": {
+      "webp-to-jpg": {
+        "title": "Convertisseur de format d'images WebP vers JPG 100% gratuit, rapide et sécurisé",
+        "description": "100% gratuit, convertissez instantanément WebP vers JPG avec une qualité parfaite. Sécurisé, aucune inscription requise, et entièrement gratuit pour toujours."
+      },
+      "webp-to-png": {
+        "title": "Convertisseur de format d'images WebP vers PNG 100% gratuit, rapide et sécurisé",
+        "description": "100% gratuit, convertissez WebP vers PNG instantanément avec une qualité supérieure. Sûr, simple à utiliser, et absolument gratuit."
+      },
+      "jpg-to-webp": {
+        "title": "Convertisseur de format d'images JPG vers WebP 100% gratuit, rapide et sécurisé",
+        "description": "100% gratuit, transformez JPG vers WebP avec des résultats parfaits. Sécurisé, conversion instantanée, entièrement gratuit à utiliser."
+      },
+      "jpg-to-png": {
+        "title": "Convertisseur de format d'images JPG vers PNG 100% gratuit, rapide et sécurisé",
+        "description": "100% gratuit, convertissez JPG vers PNG avec une qualité exceptionnelle. Sûr, rapide et absolument gratuit - aucune inscription nécessaire."
+      },
+      "png-to-webp": {
+        "title": "Convertisseur de format d'images PNG vers WebP 100% gratuit, rapide et sécurisé",
+        "description": "100% gratuit, convertissez PNG vers WebP avec des résultats supérieurs. Sécurisé, traitement instantané, et entièrement gratuit pour toujours."
+      },
+      "png-to-jpg": {
+        "title": "Convertisseur de format d'images PNG vers JPG 100% gratuit, rapide et sécurisé",
+        "description": "100% gratuit, transformez PNG vers JPG avec une qualité parfaite. Sûr, simple et absolument gratuit - aucune inscription requise."
       }
     },
     "blog": {
-      "title": "Articles & actualités sur le Générateur d’images IA Grok 3",
+      "title": "Articles et actualités sur le générateur d'images IA Grok",
       "titleSuffix": "grokimagegenerator.net"
     }
   }

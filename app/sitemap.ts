@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
 
 import { BASE_URL } from '@/lib/env';
+import { FREE_IMAGE_FORMAT_CONVERTER_LINKS } from '@/lib/constants';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const sitemapRoutes = [
@@ -11,6 +12,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 1,
     },
+    {
+      url: 'free-image-upscaler',
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 1,
+    },
+    ...FREE_IMAGE_FORMAT_CONVERTER_LINKS.map(
+      (link) =>
+        ({
+          url: link.href.slice(1),
+          lastModified: new Date(),
+          changeFrequency: 'daily',
+          priority: 1,
+        }) as const,
+    ),
     {
       url: 'privacy-policy',
       lastModified: new Date(),

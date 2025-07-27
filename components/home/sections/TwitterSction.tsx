@@ -11,19 +11,16 @@ function splitArrayIntoColumns<T>(array: T[], numColumns: number): T[][] {
   return columns;
 }
 
-const TweeterList: string[] = [
-  '1837931322356158513',
-  '1929771017452282368',
-  '1916207375029096770',
-  '1875204735311188046',
-  '1886882648829960654',
-  '1865640421378175125',
-  '1856020327869952188',
-  '1867715876960842202',
-];
-
-export default function TwitterSction({ title, description }: { title: string; description: string }) {
-  const columns = splitArrayIntoColumns(TweeterList, 4);
+export default function TwitterSction({
+  title,
+  description,
+  tweetIds,
+}: {
+  title: string;
+  description: string;
+  tweetIds: string[];
+}) {
+  const columns = splitArrayIntoColumns(tweetIds, 4);
 
   return (
     <div className='container-centered container-py'>

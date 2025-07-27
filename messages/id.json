@@ -4,15 +4,15 @@
     "style": "gaya",
     "copy": "salin",
     "back": "kembali",
-    "more": "lebih",
-    "less": "kurang",
+    "more": "lebih banyak",
+    "less": "lebih sedikit",
     "prompt": "prompt",
     "model": "Model",
     "step": "Langkah",
     "advantage": "Keunggulan",
     "share": {
       "linkSharing": "atau bagikan dengan tautan",
-      "plzLogin": "Silakan login terlebih dahulu.",
+      "plzLogin": "Silakan masuk terlebih dahulu.",
       "download": "unduh",
       "twitter": "twitter",
       "facebook": "facebook"
@@ -33,30 +33,48 @@
     }
   },
   "components": {
+    "image-format-converter": {
+      "webp-to-jpg": "WEBP ke JPG",
+      "jpg-to-webp": "JPG ke WEBP",
+      "webp-to-png": "WEBP ke PNG",
+      "png-to-webp": "PNG ke WEBP",
+      "jpg-to-png": "JPG ke PNG",
+      "png-to-jpg": "PNG ke JPG",
+      "upload-image": "Unggah Gambar",
+      "error": "Kesalahan Konversi"
+    },
+    "image-upscaler": {
+      "upload-image": "Unggah Gambar",
+      "download": "Unduh",
+      "upscale": "Perbesar"
+    },
     "form-EnhanceBtn": {
       "optimizePrompt": "Optimalkan Prompt"
     },
     "image-form": {
-      "input-label": "Masukkan prompt untuk menghasilkan gambar di sini",
-      "high-quality-generation": "Dapatkan Generasi Gambar Berkualitas Tinggi",
-      "generate": "Hasilkan",
+      "input-label": "Masukkan prompt untuk pembuatan gambar di sini",
+      "high-quality-generation": "Dapatkan Generasi Berkualitas Tinggi",
+      "generate": "Buat",
       "turnstile-error": "Silakan selesaikan verifikasi manusia",
-      "generate-error": "Gagal menghasilkan gambar, silakan coba lagi nanti",
-      "generate-success": "Permintaan pembuatan gambar telah dikirim",
-      "generate-wait": "Permintaan pembuatan sedang diproses. Mohon tunggu beberapa detik."
+      "generate-error": "Pembuatan gambar gagal, silakan coba lagi nanti",
+      "generate-success": "Permintaan pembuatan gambar berhasil dikirim",
+      "generate-wait": "Permintaan pembuatan sedang berlangsung. Silakan tunggu beberapa detik."
     },
     "image-history": {
-      "free-plan-title": "Coba gratis untuk menghasilkan gambar berkualitas tinggi",
-      "free-plan-description": "Rasakan pembuatan gambar yang lebih cepat, berkualitas tinggi, dan tanpa iklan melalui situs profesional kami",
+      "free-plan-title": "Uji coba gratis untuk pembuatan gambar berkualitas tinggi",
+      "free-plan-description": "Rasakan pembuatan gambar yang lebih cepat, berkualitas tinggi, dan bebas iklan melalui situs web profesional kami",
       "try-now": "Mulai uji coba gratis",
-      "generate-label": "Hasilkan:",
+      "generate-label": "Buat:",
       "tips-label": "Tips:",
-      "tips-message": "Gambar yang dihasilkan hanya disimpan di browser Anda",
+      "tips-message": "Gambar yang dibuat hanya disimpan di browser Anda",
       "estimated-time": "Perkiraan waktu: 20 detik",
-      "generate-faster": "Hasilkan 5× lebih cepat",
-      "image-alt": "Gambar yang dihasilkan",
-      "no-data": "Gambar yang dihasilkan akan muncul di sini.",
-      "get-higher-quality": "Dapatkan hasil gambar berkualitas lebih tinggi"
+      "generate-faster": "Buat 5× lebih cepat",
+      "image-alt": "Gambar yang dibuat",
+      "no-data": "Gambar yang dibuat akan muncul di sini."
+    },
+    "light-box": {
+      "get-higher-quality": "Dapatkan generasi berkualitas tinggi",
+      "image-to-video": "Gambar ke video"
     },
     "check-in": {
       "title": "Check-In Harian untuk Kredit",
@@ -71,22 +89,38 @@
     "compress-dialog": {
       "title": "Kompres Gambar",
       "content": "Ukuran gambar melebihi 10MB dan tidak cocok untuk pembuatan video AI. Apakah Anda ingin mengompresnya?",
-      "reupload": "Unggah Ulang",
+      "reupload": "Unggah ulang",
       "compress": "Kompres"
     }
   },
   "Navigation": {
     "new": "Baru",
-    "title": "Grok 3 AI Image Generator",
-    "flux-ai-image-generator": "Flux AI Image Generator",
+    "title": "Generator Gambar AI Grok 3",
+    "flux-ai-image-generator": "Generator Gambar AI Flux",
+    "grok4-ai-image-generator": "Generator Gambar AI Grok 4",
     "dream-ai-video": "AI Foto ke Video",
     "prompt-market": "Pasar Prompt Grok",
     "videoweb": "AI Foto ke Video",
+    "webp-to-jpg": "Konverter WebP ke JPG Gratis",
+    "webp-to-jpg-content": "Alat gratis untuk mengonversi webp ke jpg",
+    "jpg-to-webp": "Konverter JPG ke WEBP Gratis",
+    "jpg-to-webp-content": "Alat gratis untuk mengonversi jpg ke webp",
+    "png-to-webp": "Konverter PNG ke WEBP Gratis",
+    "png-to-webp-content": "Alat gratis untuk mengonversi png ke webp",
+    "webp-to-png": "Konverter WEBP ke PNG Gratis",
+    "webp-to-png-content": "Alat gratis untuk mengonversi webp ke png",
+    "jpg-to-png": "Konverter JPG ke PNG Gratis",
+    "jpg-to-png-content": "Alat gratis untuk mengonversi jpg ke png",
+    "png-to-jpg": "Konverter PNG ke JPG Gratis",
+    "png-to-jpg-content": "Alat gratis untuk mengonversi png ke jpg",
+    "free-image-upscaler": "Perbesar Gambar Gratis",
+    "free-image-upscaler-content": "Alat gratis untuk meningkatkan kualitas gambar",
+    "free-tools": "Alat Gambar Gratis",
     "pricing": "Harga",
     "blog": "Artikel",
-    "blog-content": "Artikel & Berita tentang Grok 3 AI Image Generator.",
+    "blog-content": "Artikel & Berita tentang Generator Gambar AI Grok 3.",
     "privacy": "Kebijakan Privasi",
-    "privacy-content": "Kebijakan Privasi Grok 3 AI Image Generator.",
+    "privacy-content": "Kebijakan Privasi Generator Gambar AI Grok 3.",
     "resource": "Sumber Daya",
     "freeTry": "Mulai Gratis",
     "menu": "menu",
@@ -98,63 +132,72 @@
       "top-up": "Isi Ulang",
       "user-info": "Informasi Pengguna",
       "history": "Riwayat",
-      "order": "Riwayat Pesanan",
+      "order": "Catatan Pesanan",
       "logout": "Keluar"
     },
     "language-dialog": {
       "title": "Preferensi Bahasa",
       "content": "Beralih ke bahasa browser Anda?",
-      "cancel": "Tetap Gunakan Saat Ini",
+      "cancel": "Tetap Saat Ini",
       "confirm": "Beralih"
     }
   },
   "Footer": {
-    "title": "Grok 3 AI Image Generator Gratis",
-    "subTitle": "Grok 3 AI Image Generator untuk visual menakjubkan, 100% gratis, tanpa login",
+    "title": "Generator Gambar AI Grok Gratis",
+    "subTitle": "Generator Gambar AI Grok untuk visual menakjubkan, 100% gratis, tanpa perlu login",
     "support": "Dukungan",
     "privacy": "Kebijakan Privasi",
     "termsConditions": "Syarat & Ketentuan",
     "contactUs": "Hubungi Kami",
     "feature-link": "Fitur",
     "feature": {
+      "flux-ai-image-generator": "Generator Gambar AI Flux",
+      "grok4-ai-image-generator": "Generator Gambar AI Grok 4",
+      "free-image-upscaler": "Perbesar Gambar Gratis",
+      "webp-to-jpg": "Konverter WebP ke JPG Gratis",
+      "jpg-to-webp": "Konverter JPG ke WEBP Gratis",
+      "png-to-webp": "Konverter PNG ke WEBP Gratis",
+      "webp-to-png": "Konverter WEBP ke PNG Gratis",
+      "jpg-to-png": "Konverter JPG ke PNG Gratis",
+      "png-to-jpg": "Konverter PNG ke JPG Gratis",
       "blog": "Artikel"
     }
   },
   "FooterNavigation": {
     "privacyPolicy": {
       "1-h1": "Kebijakan Privasi untuk grokimagegenerator.net",
-      "1-p": "Kebijakan Privasi ini menjelaskan bagaimana Grok AI Image Generator mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda saat Anda menggunakan layanan kami di grokimagegenerator.net. Dengan menggunakan Grok AI Image Generator, Anda menyetujui ketentuan yang dijelaskan dalam kebijakan ini.",
+      "1-p": "Kebijakan Privasi ini menjelaskan bagaimana Generator Gambar AI Grok mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda saat menggunakan layanan kami di grokimagegenerator.net. Dengan menggunakan Generator Gambar AI Grok, Anda menyetujui ketentuan yang dijelaskan dalam kebijakan ini.",
       "2-h2": "1. Pengumpulan dan Penggunaan Informasi",
-      "2-p": "Grok AI Image Generator dapat mengumpulkan informasi identitas pribadi untuk meningkatkan layanan kami. Kami menggunakan layanan pihak ketiga yang mungkin mengumpulkan informasi untuk mengidentifikasi Anda.",
+      "2-p": "Generator Gambar AI Grok dapat mengumpulkan informasi yang dapat diidentifikasi secara pribadi untuk meningkatkan layanan kami. Kami menggunakan layanan pihak ketiga yang dapat mengumpulkan informasi yang digunakan untuk mengidentifikasi Anda.",
       "3-h2": "2. Data Log",
       "3-p": "Jika terjadi kesalahan, kami mengumpulkan Data Log, yang dapat mencakup alamat IP Anda, informasi perangkat, konfigurasi aplikasi, dan statistik penggunaan.",
       "4-h2": "3. Cookie",
-      "4-p": "Grok AI dapat menggunakan kode dan pustaka pihak ketiga yang menggunakan cookie. Anda dapat memilih untuk menerima atau menolak cookie ini, namun penolakan dapat membatasi penggunaan beberapa fitur.",
+      "4-p": "Grok AI dapat menggunakan kode dan pustaka pihak ketiga yang menggunakan cookie. Anda dapat memilih untuk menerima atau menolak cookie ini, tetapi menolak dapat membatasi penggunaan beberapa fitur.",
       "5-h2": "4. Penyedia Layanan",
-      "5-p": "Kami dapat mempekerjakan perusahaan pihak ketiga untuk memfasilitasi layanan kami, melakukan tugas terkait, atau menganalisis penggunaan Grok AI. Pihak-pihak ini memiliki akses ke informasi pribadi Anda tetapi wajib menjaga kerahasiaan.",
+      "5-p": "Kami dapat mempekerjakan perusahaan pihak ketiga untuk memfasilitasi layanan kami, melakukan tugas terkait, atau menganalisis bagaimana Grok AI digunakan. Pihak-pihak ini memiliki akses ke informasi pribadi Anda tetapi berkewajiban menjaga kerahasiaan.",
       "6-h2": "5. Keamanan",
-      "6-p": "Kami berupaya melindungi informasi pribadi Anda dengan cara yang dapat diterima secara komersial, namun tidak dapat menjamin keamanan mutlak.",
+      "6-p": "Kami berusaha melindungi informasi pribadi Anda menggunakan cara yang dapat diterima secara komersial, tetapi tidak dapat menjamin keamanan absolut.",
       "7-h2": "6. Tautan ke Situs Lain",
       "7-p": "Grok AI dapat berisi tautan ke situs eksternal. Kami tidak bertanggung jawab atas konten atau praktik privasi situs-situs tersebut.",
       "8-h2": "7. Perubahan pada Kebijakan Privasi Ini",
-      "8-p": "Kami dapat memperbarui Kebijakan Privasi kami secara berkala. Silakan tinjau halaman ini untuk setiap perubahan. Pembaruan berlaku segera setelah diposting."
+      "8-p": "Kami dapat memperbarui Kebijakan Privasi kami secara berkala. Silakan tinjau halaman ini untuk perubahan apa pun. Pembaruan berlaku efektif segera setelah diposting."
     },
     "termsConditions": {
       "1-h1": "Syarat Layanan untuk grokimagegenerator.net",
-      "1-p": "Selamat datang di grokimagegenerator.net! Situs web kami menyediakan layanan pembuatan gambar berbasis AI. Dengan menggunakan situs kami, Anda menyetujui Syarat Layanan ini. Jika Anda tidak setuju dengan bagian mana pun, mohon untuk tidak menggunakan situs ini.",
+      "1-p": "Selamat datang di grokimagegenerator.net! Situs web kami menyediakan layanan pembuatan gambar bertenaga AI. Dengan menggunakan Situs Web kami, Anda menyetujui Syarat Layanan ini. Jika Anda tidak setuju dengan bagian mana pun, silakan hindari menggunakan Situs Web.",
       "2-h2": "1. Lisensi Penggunaan",
-      "2-p": "Anda diberikan lisensi terbatas untuk menggunakan Grok AI untuk keperluan pribadi dan komersial. Lisensi ini tidak termasuk hak untuk memodifikasi atau mendistribusikan konten situs tanpa izin tertulis dari kami.",
+      "2-p": "Anda diberikan lisensi terbatas untuk menggunakan Grok AI untuk tujuan pribadi dan komersial. Lisensi ini tidak termasuk hak untuk memodifikasi atau mendistribusikan konten Situs Web tanpa persetujuan tertulis sebelumnya dari kami.",
       "3-h2": "2. Kepemilikan",
-      "3-p": "Gambar yang dihasilkan menggunakan Grok AI menjadi milik pengguna yang membuatnya. Grok AI tidak mengklaim kepemilikan atas gambar yang dihasilkan pengguna.",
+      "3-p": "Gambar yang dibuat menggunakan Grok AI menjadi milik pengguna yang membuatnya. Grok AI tidak mengklaim kepemilikan atas gambar yang dibuat pengguna.",
       "4-h2": "3. Pengumpulan Data Pengguna",
-      "4-p": "Kami mengumpulkan data pribadi dan non-pribadi untuk meningkatkan layanan kami. Penggunaan data diatur oleh Kebijakan Privasi kami, yang tersedia di grokimagegenerator.net/privacy-policy.",
+      "4-p": "Kami mengumpulkan data pribadi dan non-pribadi untuk meningkatkan layanan kami. Penggunaan data diatur oleh Kebijakan Privasi kami, tersedia di grokimagegenerator.net/privacy-policy.",
       "5-h2": "4. Hukum yang Berlaku",
-      "5-p": "Syarat ini diatur oleh hukum Amerika Serikat, tanpa memperhatikan pertentangan ketentuan hukum.",
+      "5-p": "Syarat ini akan diatur oleh hukum Amerika Serikat, tanpa memperhatikan ketentuan konflik hukum.",
       "6-h2": "5. Perubahan Syarat",
-      "6-p": "Grok AI berhak mengubah Syarat ini kapan saja. Pengguna akan diberitahu tentang perubahan melalui email. Penggunaan situs yang berkelanjutan dianggap sebagai penerimaan Syarat yang telah diubah.",
+      "6-p": "Grok AI berhak mengubah Syarat ini kapan saja. Pengguna akan diberitahu tentang perubahan melalui email. Penggunaan Situs Web yang berkelanjutan merupakan penerimaan atas Syarat yang dimodifikasi.",
       "7-h2": "6. Informasi Kontak",
       "7-p": "Untuk pertanyaan tentang Syarat ini, silakan hubungi kami di contact@grokimagegenerator.net.",
-      "last-p": "Dengan menggunakan grokimagegenerator.net, Anda menyatakan menerima Syarat Layanan ini."
+      "last-p": "Dengan menggunakan grokimagegenerator.net, Anda menandakan penerimaan Anda terhadap Syarat Layanan ini."
     }
   },
   "NotFound": {
@@ -167,194 +210,1037 @@
   },
   "Home": {
     "heading": {
-      "title": "Grok 3 AI Image Generator",
-      "description": "Grok 3 AI Image Generator 100% gratis. Buat gambar menakjubkan dalam hitungan detik dengan Grok 3 AI - tanpa perlu daftar, tanpa kartu kredit",
-      "try-now": "Coba hasilkan gambar berkualitas lebih tinggi",
+      "title": "Generator Gambar AI Grok",
+      "description": "Generator gambar AI Grok 100% gratis. Buat gambar menakjubkan dalam hitungan detik dengan Grok AI - tanpa perlu daftar, tanpa kartu kredit",
+      "try-now": "Coba generasi berkualitas tinggi",
       "try-now-2": "Coba AI Gambar ke Video",
       "tags": {
         "free": "100% gratis",
-        "powered": "Didukung oleh Grok 3 AI",
+        "powered": "Didukung oleh Grok AI",
         "no-login": "Tanpa perlu daftar",
-        "unlimited": "Generasi tanpa batas"
+        "unlimited": "Generasi tak terbatas"
       }
     },
     "blog": {
-      "title": "Artikel & Berita Lain tentang Grok 3 AI Image Generator"
+      "title": "Lebih Banyak Artikel & Berita tentang Generator Gambar AI Grok"
     },
     "example": {
-      "title": "Contoh: Siapa Saja yang Bisa Memanfaatkan Grok 3 AI Image Generator",
-      "description": "Grok 3 AI dapat diterapkan secara luas di berbagai bidang, menginspirasi potensi tak terbatas para kreator.",
+      "title": "Contoh: Siapa yang Dapat Memanfaatkan Generator Gambar AI Grok",
+      "description": "Grok AI dapat diterapkan secara luas di berbagai domain, menginspirasi potensi tak terbatas para kreator.",
       "promptTitle": "Prompt",
       "btnText": "Coba sekarang",
       "texts": {
         "1": {
           "title": "Desainer Produk & Profesional UX/UI",
-          "description": "Manfaatkan Grok AI untuk langsung membuat sketsa antarmuka, prototipe visual, dan diagram interaksi. Jelajahi berbagai gaya desain, optimalkan alur kerja, dan percepat iterasi prototipe dengan kualitas kreatif yang lebih baik."
+          "description": "Manfaatkan Grok AI untuk langsung membuat sketsa antarmuka, prototipe visual, dan diagram interaksi. Jelajahi berbagai gaya desain, optimalkan alur kerja, dan percepat iterasi prototipe dengan kualitas kreatif yang ditingkatkan."
         },
         "2": {
-          "title": "E-commerce & Pemilik Merek",
-          "description": "Tanpa biaya fotografi: Hasilkan gambar produk berkualitas tinggi, visualisasi adegan, dan grafis iklan kreatif. Tingkatkan dampak pemasaran visual, perkuat komunikasi merek, dan kurangi biaya pemasaran secara signifikan."
+          "title": "E-commerce & Pedagang Merek",
+          "description": "Tanpa biaya fotografi: Buat gambar produk berkualitas tinggi, visual adegan, dan grafik iklan kreatif. Perkuat dampak pemasaran visual, tingkatkan komunikasi merek, dan kurangi biaya pemasaran secara signifikan."
         },
         "3": {
           "title": "Pendidik & Peneliti",
-          "description": "Buat demonstrasi kelas, ilustrasi buku, dan diagram penelitian dengan cepat. Tingkatkan komunikasi visual, sampaikan pengetahuan dan hasil penelitian dengan lebih jelas dan efisien."
+          "description": "Dengan cepat buat demonstrasi kelas, ilustrasi buku teks, dan diagram penelitian. Tingkatkan komunikasi visual, sampaikan pengetahuan dan hasil penelitian secara efisien dengan kejelasan yang belum pernah ada sebelumnya."
         },
         "4": {
           "title": "Pengembang Game",
-          "description": "Ciptakan karakter, adegan, dan konsep seni game dengan cepat. Perkaya konten visual game Anda dan percepat proses kreatif dengan kemampuan generasi Grok AI yang kuat."
+          "description": "Dengan cepat produksi karakter game, adegan, dan seni konsep. Perkaya konten visual game Anda dan sederhanakan proses kreatif dengan kemampuan generasi yang kuat dari Grok AI."
         }
       }
     },
     "features": {
-      "title": "Fitur Unggulan Grok 3 AI Image Generator",
+      "title": "Fitur Unik Generator Gambar AI Grok",
       "1": {
-        "title": "Pembuatan Gambar Super Cepat",
-        "description": "Buat gambar berkualitas tinggi dalam hitungan detik, lebih cepat dari Stable Diffusion 3 dan Midjourney dengan kecepatan dan presisi luar biasa."
+        "title": "Pembuatan Gambar Secepat Kilat",
+        "description": "Buat gambar berkualitas tinggi dalam hitungan detik, mengungguli Stable Diffusion 3 dan Midjourney dengan kecepatan dan presisi yang belum pernah ada sebelumnya."
       },
       "2": {
         "title": "Kualitas Gambar Tak Tertandingi",
-        "description": "Rasakan detail dan konsistensi luar biasa melalui model Flux.1 canggih, memberikan keunggulan visual yang menetapkan standar baru di industri."
+        "description": "Rasakan detail dan koherensi yang luar biasa melalui model Flux.1 yang canggih, memberikan keunggulan visual yang menetapkan standar industri baru."
       },
       "3": {
         "title": "Antarmuka Ramah Pengguna",
-        "description": "Konversi teks ke gambar yang mudah, membuat pembuatan gambar AI dapat diakses oleh siapa saja, baik profesional maupun penggemar kreatif."
+        "description": "Konversi teks-ke-gambar yang sederhana membuat pembuatan gambar AI dapat diakses oleh semua orang, dari profesional hingga penggemar kreatif."
       },
       "4": {
         "title": "Potensi Kreatif Instan",
-        "description": "Cukup masukkan prompt Anda di grokimagegenerator.net dan lihat Grok AI langsung mengubah ide Anda menjadi karya visual menakjubkan."
+        "description": "Cukup masukkan prompt Anda di grokimagegenerator.net dan saksikan bagaimana Grok AI langsung mengubah ide Anda menjadi karya visual yang menakjubkan."
       }
     },
     "advantage": {
-      "title": "Keunggulan Grok 3 AI Image Generator",
-      "description": "Grok 3 AI Image Generator menggabungkan teknologi AI canggih dengan arsitektur berperforma tinggi, menciptakan pengalaman pembuatan gambar yang sangat cepat, berkualitas tinggi, dan serbaguna untuk solusi profesional di bidang desain, pembuatan konten, dan aplikasi visual komersial.",
+      "title": "Keunggulan Generator Gambar AI Grok",
+      "description": "Generator Gambar AI Grok 3 menggabungkan teknologi AI canggih dengan arsitektur performa tinggi, menciptakan pengalaman pembuatan gambar yang ultra-cepat, berkualitas tinggi, dan serbaguna yang menyediakan solusi tingkat profesional untuk desain, pembuatan konten, dan aplikasi visual komersial.",
       "try-now": "Coba Sekarang",
       "1": {
-        "title": "Didukung Teknologi AI Terkini",
-        "description": "Dibangun dengan kecerdasan buatan mutakhir, Grok AI memberikan kualitas pembuatan gambar yang luar biasa, menafsirkan prompt teks secara presisi dan mewujudkan visi kreatif Anda menjadi nyata."
+        "title": "Didukung oleh Teknologi AI Canggih",
+        "description": "Dibangun dengan kecerdasan buatan terdepan, Grok AI memberikan kualitas pembuatan gambar yang luar biasa, menafsirkan prompt teks dengan tepat dan menerjemahkan visi kreatif menjadi realitas visual dengan mahir."
       },
       "2": {
         "title": "Kualitas Profesional dengan Kecepatan Kilat",
-        "description": "Dengan arsitektur distilasi terpandu berperforma tinggi, Grok AI menghasilkan gambar dengan cepat tanpa mengorbankan presisi dan estetika, sangat cocok untuk tenggat waktu kreatif yang ketat."
+        "description": "Memanfaatkan arsitektur distilasi terpandu berperforma tinggi, Grok AI mencapai generasi cepat sambil mempertahankan presisi gambar dan daya tarik estetika yang sempurna, memenuhi tenggat waktu kreatif yang menuntut dengan sempurna."
       },
       "3": {
-        "title": "Pembuatan Gambar Multi-Gaya yang Fleksibel",
-        "description": "Dari render fotorealistik hingga ilustrasi artistik dan desain abstrak, Grok AI mampu menangani berbagai gaya visual dengan mudah, mencakup kebutuhan komunikasi merek hingga ekspresi seni pribadi."
+        "title": "Pembuatan Gambar Multi-Gaya yang Serbaguna",
+        "description": "Dari rendering fotorealistik hingga ilustrasi artistik dan desain abstrak, Grok AI menangani setiap gaya visual dengan mudah, mencakup domain kreatif dari komunikasi merek hingga ekspresi artistik pribadi."
       },
       "4": {
-        "title": "Tanpa Instalasi",
-        "description": "Platform berbasis web murni yang menghilangkan kebutuhan Photoshop atau perangkat lunak editing khusus. Cukup buka browser Anda untuk membuat gambar kapan saja, di mana saja dengan mudah."
+        "title": "Tanpa Perlu Instalasi",
+        "description": "Platform berbasis web murni yang menghilangkan kebutuhan akan Photoshop atau perangkat lunak editing khusus. Cukup buka browser Anda untuk membuat gambar kapan saja, di mana saja dengan kemudahan yang belum pernah ada sebelumnya."
       }
     },
     "twitter": {
-      "title": "Ulasan Pengguna & Studi Kasus Grok AI Image Generator di X",
+      "title": "Ulasan Pengguna dan Studi Kasus tentang Generator Gambar AI Grok di X",
       "description": "Lihat ulasan pengguna dan studi kasus di X untuk membantu menghasilkan konten yang lebih mengesankan"
     },
     "models": {
-      "title": "Temukan Model AI Canggih di Grok AI",
-      "description": "Pilih model terbaik untuk meningkatkan produktivitas dan kreativitas Anda.",
+      "title": "Temukan Model AI Canggih dalam Grok AI",
+      "description": "Pilih model ideal untuk meningkatkan produktivitas dan melepaskan kreativitas Anda.",
       "1": {
         "title": "Grok 2.0",
-        "description": "Grok 2.0 menggabungkan Flux.1 dan model Aurora eksklusif, menciptakan model AI multimodal yang mengintegrasikan pemahaman bahasa canggih dan pembuatan gambar dengan kebebasan tinggi."
+        "description": "Grok 2.0 menggabungkan model Flux.1 dan Aurora proprietary, menciptakan model pembuatan gambar AI multimodal yang mengintegrasikan pemahaman bahasa canggih dan pembuatan gambar kebebasan tinggi."
       },
       "2": {
         "title": "Grok 3.0",
-        "description": "Grok 3.0 adalah model pembuatan gambar terbaru dari xAI, didukung kemampuan komputasi 10×, mendukung penalaran tingkat tinggi 'Think/Big Brain' dan pembuatan gambar Aurora dengan kemampuan teks-ke-gambar yang jauh lebih baik."
+        "description": "Grok 3.0 adalah model pembuatan gambar terbaru dari xAI, didukung oleh kemampuan komputasi 10× lipat, mendukung penalaran tingkat tinggi 'Think/Big Brain' dan pembuatan gambar Aurora dengan kemampuan teks-ke-gambar yang ditingkatkan secara signifikan."
+      },
+      "3": {
+        "title": "Grok 4.0",
+        "description": "Grok 4.0 adalah model unggulan terbaru xAI dengan daya komputasi sekitar 10 kali lebih besar dari Grok 3.0, mendukung kolaborasi multi-agen 'Heavy', pemanggilan alat asli, dan konteks hingga 256k token. Ini mengintegrasikan pemahaman dan pembuatan gambar (Aurora), pencarian real-time, dan eksekusi kode untuk benar-benar mencapai 'Think+Act+Create', memberikan dukungan kuat untuk penalaran kompleks, tugas akademik, dan kreasi multimodal."
       }
     },
     "manual": {
-      "title": "Cara Menggunakan Grok AI Image Generator",
-      "content": "Dapatkan gambar AI yang Anda inginkan hanya dalam beberapa langkah mudah",
+      "title": "Cara Menggunakan Generator Gambar AI Grok",
+      "content": "Dapatkan gambar AI yang Anda inginkan hanya dalam beberapa langkah sederhana",
       "1": {
-        "title": "Masukkan teks Anda (optimalkan prompt kapan saja untuk hasil lebih baik), atau unggah gambar jika diinginkan."
+        "title": "Masukkan teks Anda (optimalkan prompt Anda kapan saja untuk hasil yang lebih baik), atau unggah gambar jika Anda lebih suka."
       },
       "2": {
         "title": "Pilih rasio aspek untuk gambar Anda"
       },
       "3": {
-        "title": "Klik tombol hasilkan dan tunggu beberapa detik untuk melihat gambar Anda"
+        "title": "Klik tombol buat dan tunggu beberapa detik untuk melihat gambar Anda"
       },
       "4": {
-        "title": "Jelajahi hasil yang dihasilkan, pilih gambar favorit Anda, dan unduh untuk digunakan di situs web, media sosial, iklan, cetak, dan berbagai skenario komersial"
+        "title": "Jelajahi hasil yang dibuat, pilih gambar favorit Anda, dan unduh untuk digunakan di situs web, media sosial, iklan, pencetakan, dan berbagai skenario komersial"
       }
     },
     "faq": {
-      "title": "FAQ tentang Grok 3 AI Image Generator",
+      "title": "FAQ tentang Generator Gambar AI Grok",
       "1": {
-        "question": "Apa itu Grok 3 AI Image Generator?",
-        "answer": "Grok 3 AI Image Generator adalah generator gambar AI super cepat yang mampu membuat gambar berkualitas tinggi dalam hitungan detik, melampaui pesaing seperti Stable Diffusion 3 dan Midjourney."
+        "question": "Apa itu Generator Gambar AI Grok?",
+        "answer": "Generator Gambar AI Grok 3 adalah generator gambar AI secepat kilat yang mampu membuat gambar berkualitas tinggi dalam hitungan detik, mengungguli pesaing seperti Stable Diffusion 3 dan Midjourney."
       },
       "2": {
-        "question": "Apa fitur utama dari Grok 3 AI Image Generator?",
-        "answer": "Grok 3 AI Image Generator menawarkan kualitas gambar tak tertandingi, antarmuka ramah pengguna, dan fitur canggih seperti kontrol Flux.1 Pro dan iterasi cepat Flux.1 Schnell."
+        "question": "Apa fitur utama Generator Gambar AI Grok 3?",
+        "answer": "Generator Gambar AI Grok 3 menawarkan kualitas gambar yang tak tertandingi, antarmuka ramah pengguna, dan fitur canggih seperti kontrol yang ditingkatkan Flux.1 Pro dan iterasi cepat Flux.1 Schnell."
       },
       "3": {
-        "question": "Bagaimana cara menggunakan Grok 3 AI Image Generator?",
-        "answer": "Cukup kunjungi grokimagegenerator.net, masukkan prompt Anda, dan lihat Grok 3 AI Image Generator membuat gambar menakjubkan dalam hitungan detik."
+        "question": "Bagaimana cara menggunakan Generator Gambar AI Grok?",
+        "answer": "Cukup kunjungi grokimagegenerator.net, masukkan prompt Anda, dan saksikan Generator Gambar AI Grok membuat visual menakjubkan dalam hitungan detik."
       },
       "4": {
-        "question": "Apa saja paket harga yang ditawarkan Grok AI Image Generator?",
-        "answer": "Grok AI Image Generator menawarkan paket gratis (60 kredit), Basic ($9.99 untuk 5000 kredit), Standard ($9.99/bulan untuk 5000 kredit), dan Pro ($14.99/bulan untuk 8000 kredit)."
+        "question": "Paket harga apa yang ditawarkan Generator Gambar AI Grok?",
+        "answer": "Generator Gambar AI Grok sepenuhnya gratis tanpa perlu login dan tanpa pembayaran. Anda dapat menghasilkan gambar berkualitas tinggi tanpa batas tanpa batasan atau biaya apa pun."
       },
       "5": {
-        "question": "Apakah Grok AI Image Generator memiliki paket gratis?",
-        "answer": "Ya, Grok 3 AI Image Generator menyediakan akses gratis 100% untuk pembuatan gambar berkualitas tinggi dan fitur inti Grok 3 AI."
+        "question": "Bagaimana kualitas gambar Generator Gambar AI Grok?",
+        "answer": "Generator Gambar AI Grok didasarkan pada teknologi Flux.1 Schnell, memberikan kemampuan pemahaman gambar yang superior dan menghasilkan gambar berkualitas tinggi dengan detail dan kejelasan yang luar biasa."
       },
       "6": {
-        "question": "Bagaimana Grok 3 AI Image Generator dibandingkan dengan generator gambar AI lain?",
-        "answer": "Grok 3 AI Image Generator lebih cepat dari Midjourney, lebih mudah digunakan daripada ComfyUI, dan menghasilkan gambar berkualitas lebih tinggi dengan model Flux.1 Pro canggih."
+        "question": "Bagaimana perbandingan Generator Gambar AI Grok dengan generator gambar AI lainnya?",
+        "answer": "Generator Gambar AI Grok lebih cepat dari Midjourney, lebih ramah pengguna dari ComfyUI, dan menghasilkan gambar berkualitas lebih tinggi menggunakan model Flux.1 Pro yang canggih."
       },
       "7": {
-        "question": "Bisakah saya menggunakan Grok 3 AI Image Generator untuk proyek komersial?",
-        "answer": "Ya, gambar yang dihasilkan dengan Grok 3 AI Image Generator dapat digunakan untuk keperluan komersial."
+        "question": "Bisakah saya menggunakan Generator Gambar AI Grok untuk proyek komersial?",
+        "answer": "Ya, gambar yang dibuat dengan Generator Gambar AI Grok dapat digunakan untuk tujuan komersial."
       },
       "8": {
-        "question": "Apakah Grok 3 AI Image Generator open-source?",
-        "answer": "Ya, Grok 3 AI Image Generator bersifat open-source dan tersedia di GitHub serta Hugging Face."
+        "question": "Apakah Generator Gambar AI Grok open-source?",
+        "answer": "Tidak, frontend dan model pembuatan gambar Generator Gambar AI Grok tidak open-source. Namun, kemampuan kami dibangun dan dikembangkan lebih lanjut dari basis kode open-source Flux."
       },
       "9": {
-        "question": "Seberapa sering Grok AI Image Generator diperbarui?",
-        "answer": "Untuk pembaruan terbaru tentang Grok AI Image Generator, silakan kunjungi https://x.ai/grok."
+        "question": "Seberapa sering Generator Gambar AI Grok diperbarui?",
+        "answer": "Untuk pembaruan terbaru tentang Generator Gambar AI Grok, silakan kunjungi https://x.ai/grok."
       },
       "10": {
-        "question": "Apakah Grok AI Image Generator memiliki aplikasi seluler?",
-        "answer": "Saat ini, Grok AI Image Generator berbasis web di grokimagegenerator.net. Versi seluler sedang dipertimbangkan untuk rilis mendatang."
+        "question": "Apakah Generator Gambar AI Grok memiliki aplikasi mobile?",
+        "answer": "Saat ini, Generator Gambar AI Grok berbasis web di grokimagegenerator.net. Versi mobile sedang dijelajahi untuk rilis masa depan."
       },
       "11": {
-        "question": "Bagaimana cara mendapatkan dukungan untuk Grok AI Image Generator?",
+        "question": "Bagaimana cara mendapatkan dukungan untuk Generator Gambar AI Grok?",
         "answer": "Untuk dukungan, silakan hubungi contact@grokimagegenerator.net."
       }
     },
     "start-now": {
-      "title": "Coba Grok AI Image Generator sekarang - 100% gratis!",
+      "title": "Coba Generator Gambar AI Grok sekarang - 100% gratis!",
       "try-now": "Coba Grok AI gratis"
+    }
+  },
+  "grok4-ai-image-generator": {
+    "heading": {
+      "title": "Generator Gambar AI Grok 4",
+      "description": "Buat gambar AI yang menakjubkan dalam hitungan detik",
+      "try-now": "Coba generasi berkualitas tinggi",
+      "try-now-2": "Coba AI Gambar ke Video",
+      "tags": {
+        "free": "100% gratis",
+        "powered": "Didukung oleh Grok 4 AI",
+        "no-login": "Tanpa Perlu Login",
+        "unlimited": "Generasi Tak Terbatas"
+      }
+    },
+    "blog": {
+      "title": "Lebih Banyak Artikel & Berita tentang Generator Gambar AI Grok 4"
+    },
+    "example": {
+      "title": "Contoh: Siapa yang Dapat Memanfaatkan Generator Gambar AI Grok 4",
+      "description": "Grok 4 AI dapat diterapkan secara luas di berbagai domain, menginspirasi potensi tak terbatas para kreator.",
+      "promptTitle": "Prompt",
+      "btnText": "Coba sekarang",
+      "texts": {
+        "1": {
+          "title": "Desainer Produk & Profesional UX/UI",
+          "description": "Manfaatkan Flux AI untuk langsung membuat sketsa antarmuka, prototipe visual, dan diagram interaksi. Jelajahi berbagai gaya desain, optimalkan alur kerja, dan percepat iterasi prototipe dengan kualitas kreatif yang ditingkatkan."
+        },
+        "2": {
+          "title": "E-commerce & Pedagang Merek",
+          "description": "Tanpa biaya fotografi: Buat gambar produk berkualitas tinggi, visual adegan, dan grafik iklan kreatif. Perkuat dampak pemasaran visual, tingkatkan komunikasi merek, dan kurangi biaya pemasaran secara signifikan."
+        },
+        "3": {
+          "title": "Pendidik & Peneliti",
+          "description": "Dengan cepat buat demonstrasi kelas, ilustrasi buku teks, dan diagram penelitian. Tingkatkan komunikasi visual, sampaikan pengetahuan dan hasil penelitian secara efisien dengan kejelasan yang belum pernah ada sebelumnya."
+        },
+        "4": {
+          "title": "Pengembang Game",
+          "description": "Dengan cepat produksi karakter game, adegan, dan seni konsep. Perkaya konten visual game Anda dan sederhanakan proses kreatif dengan kemampuan generasi yang kuat dari Grok AI."
+        }
+      }
+    },
+    "features": {
+      "title": "Fitur Unik Generator Gambar AI Grok 4",
+      "1": {
+        "title": "Pembuatan Gambar Secepat Kilat",
+        "description": "Buat gambar berkualitas tinggi dalam hitungan detik, mengungguli Stable Diffusion 3 dan Midjourney dengan kecepatan dan presisi yang belum pernah ada sebelumnya."
+      },
+      "2": {
+        "title": "Kualitas Gambar Tak Tertandingi",
+        "description": "Rasakan detail dan koherensi yang luar biasa melalui model Flux.1 yang canggih, memberikan keunggulan visual yang menetapkan standar industri baru."
+      },
+      "3": {
+        "title": "Antarmuka Ramah Pengguna",
+        "description": "Konversi teks-ke-gambar yang sederhana membuat pembuatan gambar AI dapat diakses oleh semua orang, dari profesional hingga penggemar kreatif."
+      },
+      "4": {
+        "title": "Potensi Kreatif Instan",
+        "description": "Cukup masukkan prompt Anda di grokimagegenerator.net dan saksikan bagaimana Grok AI langsung mengubah ide Anda menjadi karya visual yang menakjubkan."
+      }
+    },
+    "advantage": {
+      "title": "Keunggulan Generator Gambar AI Grok 4",
+      "description": "Generator Gambar AI Grok 4 menggabungkan teknologi AI canggih dengan arsitektur performa tinggi, menciptakan pengalaman pembuatan gambar yang ultra-cepat, berkualitas tinggi, dan serbaguna yang menyediakan solusi tingkat profesional untuk desain, pembuatan konten, dan aplikasi visual komersial.",
+      "try-now": "Coba Sekarang",
+      "1": {
+        "title": "Didukung oleh Teknologi AI Canggih",
+        "description": "Dibangun dengan kecerdasan buatan terdepan, Grok AI memberikan kualitas pembuatan gambar yang luar biasa, menafsirkan prompt teks dengan tepat dan menerjemahkan visi kreatif menjadi realitas visual dengan mahir."
+      },
+      "2": {
+        "title": "Kualitas Profesional dengan Kecepatan Kilat",
+        "description": "Memanfaatkan arsitektur distilasi terpandu berperforma tinggi, Grok AI mencapai generasi cepat sambil mempertahankan presisi gambar dan daya tarik estetika yang sempurna, memenuhi tenggat waktu kreatif yang menuntut dengan sempurna."
+      },
+      "3": {
+        "title": "Pembuatan Gambar Multi-Gaya yang Serbaguna",
+        "description": "Dari rendering fotorealistik hingga ilustrasi artistik dan desain abstrak, Grok AI menangani setiap gaya visual dengan mudah, mencakup domain kreatif dari komunikasi merek hingga ekspresi artistik pribadi."
+      },
+      "4": {
+        "title": "Tanpa Perlu Instalasi",
+        "description": "Platform berbasis web murni yang menghilangkan kebutuhan akan Photoshop atau perangkat lunak editing khusus. Cukup buka browser Anda untuk membuat gambar kapan saja, di mana saja dengan kemudahan yang belum pernah ada sebelumnya."
+      }
+    },
+    "twitter": {
+      "title": "Ulasan Pengguna dan Studi Kasus tentang Generator Gambar AI Grok di X",
+      "description": "Lihat ulasan pengguna dan studi kasus di X untuk membantu menghasilkan konten yang lebih mengesankan"
+    },
+    "models": {
+      "title": "Temukan Model AI Canggih dalam Grok AI",
+      "description": "Pilih model ideal untuk meningkatkan produktivitas dan melepaskan kreativitas Anda.",
+      "1": {
+        "title": "Grok 2.0",
+        "description": "Grok 2.0 menggabungkan model Flux.1 dan Aurora proprietary, menciptakan model pembuatan gambar AI multimodal yang mengintegrasikan pemahaman bahasa canggih dan pembuatan gambar kebebasan tinggi."
+      },
+      "2": {
+        "title": "Grok 3.0",
+        "description": "Grok 3.0 adalah model pembuatan gambar terbaru dari xAI, didukung oleh kemampuan komputasi 10× lipat, mendukung penalaran tingkat tinggi 'Think/Big Brain' dan pembuatan gambar Aurora dengan kemampuan teks-ke-gambar yang ditingkatkan secara signifikan."
+      },
+      "3": {
+        "title": "Grok 4.0",
+        "description": "Grok 4.0 adalah model unggulan terbaru xAI dengan daya komputasi sekitar 10 kali lebih besar dari Grok 3.0, mendukung kolaborasi multi-agen 'Heavy', pemanggilan alat asli, dan konteks hingga 256k token. Ini mengintegrasikan pemahaman dan pembuatan gambar (Aurora), pencarian real-time, dan eksekusi kode untuk benar-benar mencapai 'Think+Act+Create', memberikan dukungan kuat untuk penalaran kompleks, tugas akademik, dan kreasi multimodal."
+      }
+    },
+    "manual": {
+      "title": "Cara Menggunakan Generator Gambar AI Grok 4",
+      "content": "Dapatkan gambar AI yang Anda inginkan hanya dalam beberapa langkah sederhana",
+      "1": {
+        "title": "Masukkan deskripsi teks Anda (optimalkan prompt Anda kapan saja untuk hasil yang lebih baik)"
+      },
+      "2": {
+        "title": "Pilih rasio aspek yang Anda inginkan"
+      },
+      "3": {
+        "title": "Klik tombol buat dan tunggu beberapa detik untuk melihat gambar Anda"
+      },
+      "4": {
+        "title": "Pilih gambar favorit Anda dan unduh untuk digunakan dalam berbagai skenario"
+      }
+    },
+    "faq": {
+      "title": "FAQ tentang Generator Gambar AI Grok 4",
+      "1": {
+        "question": "Apa itu Generator Gambar AI Grok 4?",
+        "answer": "Generator Gambar AI Grok 4 adalah generator gambar AI secepat kilat yang mampu membuat gambar berkualitas tinggi dalam hitungan detik, mengungguli pesaing seperti Stable Diffusion 3 dan Midjourney."
+      },
+      "2": {
+        "question": "Apa fitur utama Generator Gambar AI Grok 4?",
+        "answer": "Generator Gambar AI Grok 4 menawarkan kualitas gambar yang tak tertandingi, antarmuka ramah pengguna, dan fitur canggih seperti kontrol yang ditingkatkan Flux.1 Pro dan iterasi cepat Flux.1 Schnell."
+      },
+      "3": {
+        "question": "Bagaimana cara menggunakan Generator Gambar AI Grok 4?",
+        "answer": "Cukup kunjungi grokimagegenerator.net, masukkan prompt Anda, dan saksikan Generator Gambar AI Grok 4 membuat visual menakjubkan dalam hitungan detik."
+      },
+      "4": {
+        "question": "Paket harga apa yang ditawarkan Generator Gambar AI Grok 4?",
+        "answer": "Generator Gambar AI Grok 4 sepenuhnya gratis tanpa perlu login dan tanpa pembayaran. Anda dapat menghasilkan gambar berkualitas tinggi tanpa batas tanpa batasan atau biaya apa pun."
+      },
+      "5": {
+        "question": "Bagaimana kualitas gambar Generator Gambar AI Grok 4?",
+        "answer": "Generator Gambar AI Grok 4 didasarkan pada teknologi Flux.1 Schnell, memberikan kemampuan pemahaman gambar yang superior dan menghasilkan gambar berkualitas tinggi dengan detail dan kejelasan yang luar biasa."
+      },
+      "6": {
+        "question": "Bagaimana perbandingan Generator Gambar AI Grok 4 dengan generator gambar AI lainnya?",
+        "answer": "Generator Gambar AI Grok 4 lebih cepat dari Midjourney, lebih ramah pengguna dari ComfyUI, dan menghasilkan gambar berkualitas lebih tinggi menggunakan model Flux.1 Pro yang canggih."
+      },
+      "7": {
+        "question": "Bisakah saya menggunakan Generator Gambar AI Grok 4 untuk proyek komersial?",
+        "answer": "Ya, gambar yang dibuat dengan Generator Gambar AI Grok 4 dapat digunakan untuk tujuan komersial."
+      },
+      "8": {
+        "question": "Apakah Generator Gambar AI Grok 4 open-source?",
+        "answer": "Tidak, frontend dan model pembuatan gambar Generator Gambar AI Grok 4 tidak open-source. Namun, kemampuan kami dibangun dan dikembangkan lebih lanjut dari basis kode open-source Flux."
+      },
+      "9": {
+        "question": "Seberapa sering Generator Gambar AI Grok 4 diperbarui?",
+        "answer": "Untuk pembaruan terbaru tentang Generator Gambar AI Grok 4, silakan kunjungi https://x.ai/grok."
+      },
+      "10": {
+        "question": "Apakah Generator Gambar AI Grok 4 memiliki aplikasi mobile?",
+        "answer": "Saat ini, Generator Gambar AI Grok 4 berbasis web di grokimagegenerator.net. Versi mobile sedang dijelajahi untuk rilis masa depan."
+      },
+      "11": {
+        "question": "Bagaimana cara mendapatkan dukungan untuk Generator Gambar AI Grok 4?",
+        "answer": "Untuk dukungan, silakan hubungi contact@grokimagegenerator.net."
+      }
+    },
+    "start-now": {
+      "title": "Coba Generator Gambar AI Grok sekarang - 100% gratis!",
+      "try-now": "Coba Grok AI gratis"
+    }
+  },
+  "free-image-format-converter": {
+    "webp-to-jpg": {
+      "heading": {
+        "title": "Konverter Format Gambar WebP ke JPG Gratis",
+        "description": "Konverter WebP ke JPG 100% gratis dengan kualitas superior dan keamanan yang ditingkatkan. Konversi gambar WebP ke format JPG secara instan dengan alat canggih dan ramah pengguna kami.",
+        "tags": {
+          "free": "100% gratis",
+          "powered": "Didukung oleh Browser",
+          "no-login": "Tanpa Perlu Daftar",
+          "unlimited": "Keamanan lokal"
+        }
+      },
+      "introduction": {
+        "title": "Konverter WebP ke JPG 100% Gratis & Superior",
+        "description": "Konverter WebP ke JPG gratis kami adalah alat online paling canggih dan sepenuhnya gratis yang memberikan kualitas konversi superior dari gambar WebP ke format JPG yang kompatibel universal tanpa batasan penggunaan. Meskipun WebP menawarkan kompresi dan kualitas yang sangat baik, JPG memastikan kompatibilitas maksimum di semua platform. Konverter gratis kami menjamin kualitas gambar yang sempurna sambil memberikan keamanan yang ditingkatkan melalui pemrosesan lokal. Cukup unggah file WebP Anda dan rasakan konversi JPG berkualitas tinggi secara instan dan sepenuhnya gratis."
+      },
+      "features": {
+        "title": "Fitur Superior Konverter Gambar WebP ke JPG Gratis",
+        "description": "Teknologi canggih memberikan hasil yang lebih baik dengan keamanan yang ditingkatkan",
+        "1": {
+          "title": "Kompatibilitas Format Komprehensif",
+          "description": "Mendukung output dalam berbagai format mainstream termasuk WebP, JPG, dan PNG, memenuhi kebutuhan konversi gambar yang beragam dan menyediakan pemrosesan multi-format satu atap dengan hasil kualitas superior."
+        },
+        "2": {
+          "title": "Teknologi Pemrosesan Lokal Ultra-Cepat",
+          "description": "Memanfaatkan teknologi komputasi real-time sisi browser yang canggih, efisiensi konversi ditingkatkan hingga 300%, mencapai respons secepat kilat tanpa mengunggah file ke server untuk keamanan maksimum."
+        },
+        "3": {
+          "title": "Perlindungan Privasi dan Keamanan Maksimum",
+          "description": "Semua proses konversi diselesaikan sepenuhnya secara lokal dengan nol pengumpulan data, pembersihan cache otomatis setelah konversi, memastikan keamanan privasi tingkat militer yang sebanding dengan enkripsi end-to-end."
+        },
+        "4": {
+          "title": "Penggunaan Gratis Instan Tanpa Registrasi",
+          "description": "Sepenuhnya gratis tanpa perlu login, tanpa batas konversi, tanpa pembatasan fitur - benar-benar mencapai 'seret dan jatuhkan unggah, konversi instan, unduh satu klik' - sederhana, efisien, dan benar-benar gratis."
+        }
+      },
+      "advantage": {
+        "title": "Skenario Aplikasi Premium Konverter WebP ke JPG Gratis",
+        "description": "Baik untuk tampilan, pengeditan, atau penerbitan, konverter WebP ke JPG gratis kami dengan kualitas superior dan keamanan yang ditingkatkan membantu Anda dengan mudah beradaptasi dengan berbagai platform dan skenario.",
+        "try-now": "Coba Gratis Sekarang",
+        "1": {
+          "title": "Kompatibilitas Perangkat & Platform Universal",
+          "description": "Mengonversi WebP ke JPG dengan alat gratis kami memastikan tampilan yang sempurna di sistem Windows lama, perangkat iOS lawas, WeChat, klien email, dan semua lingkungan, sepenuhnya menghilangkan masalah kompatibilitas dengan hasil superior."
+        },
+        "2": {
+          "title": "Integrasi Dokumen yang Ditingkatkan & Kualitas Cetak",
+          "description": "Konversi JPG gratis menghasilkan file yang dioptimalkan yang memuat lebih cepat dan menampilkan lebih baik, sempurna untuk lampiran email, intranet perusahaan, dokumen basis pengetahuan dengan kualitas superior dan keamanan yang ditingkatkan."
+        },
+        "3": {
+          "title": "Kemampuan Pengeditan Sekunder Superior",
+          "description": "Setelah konversi gratis ke JPG dengan kualitas yang ditingkatkan, gambar dapat langsung diedit di Photoshop, Canva, Meitu, Paint, Figma, dan platform lainnya untuk pemotongan, filter, dan kecantikan dengan hasil yang lebih baik."
+        },
+        "4": {
+          "title": "Performa Platform Sosial & E-commerce yang Ditingkatkan",
+          "description": "Konversi JPG gratis kami memastikan kompatibilitas superior dan performa yang lebih baik di media sosial, platform e-commerce. Sempurna untuk halaman produk, artikel WeChat, sistem CMS dengan keamanan dan kualitas yang ditingkatkan."
+        }
+      },
+      "manual": {
+        "title": "Cara Mengonversi WebP ke JPG Gratis dalam Empat Langkah Sederhana",
+        "content": "Konversi WebP ke JPG gratis yang mudah dengan hasil superior:",
+        "1": {
+          "title": "Langkah 1: Unggah gambar WebP Anda untuk konversi gratis"
+        },
+        "2": {
+          "title": "Langkah 2: Pilih JPG sebagai format target (sepenuhnya gratis)"
+        },
+        "3": {
+          "title": "Langkah 3: Klik mulai konversi gratis dengan keamanan yang ditingkatkan"
+        },
+        "4": {
+          "title": "Langkah 4: Unduh gambar yang telah dikonversi dengan kualitas superior"
+        }
+      },
+      "faq": {
+        "title": "FAQ tentang Konverter Gambar WebP ke JPG Gratis",
+        "1": {
+          "question": "Apa yang membuat konverter WebP ke JPG gratis ini lebih baik?",
+          "answer": "Alat gratis kami mendukung format WebP, PNG, dan JPG dengan kualitas konversi superior, keamanan yang ditingkatkan melalui pemrosesan lokal, dan penggunaan sepenuhnya gratis tanpa batasan."
+        },
+        "2": {
+          "question": "Seberapa cepat konversi WebP ke JPG gratis ini?",
+          "answer": "Sebagian besar gambar dikonversi dalam hitungan detik dengan teknologi gratis canggih kami, memberikan hasil superior lebih cepat dari pesaing sambil mempertahankan keamanan yang ditingkatkan."
+        },
+        "3": {
+          "question": "Apakah konverter WebP ke JPG gratis ini benar-benar aman?",
+          "answer": "Tentu saja. Privasi Anda adalah prioritas kami. Semua pemrosesan terjadi secara lokal dengan keamanan yang ditingkatkan, nol pengumpulan data, dan pembersihan otomatis - sepenuhnya gratis dan aman."
+        },
+        "4": {
+          "question": "Apakah benar-benar tidak ada biaya untuk konverter WebP ke JPG superior ini?",
+          "answer": "Sepenuhnya gratis selamanya, tidak perlu registrasi, tidak ada biaya tersembunyi, dengan hasil kualitas superior dan fitur keamanan yang ditingkatkan."
+        },
+        "5": {
+          "question": "Apakah konverter gratis ini mempertahankan kualitas gambar superior?",
+          "answer": "Ya. Konverter WebP ke JPG gratis kami menggunakan teknologi kompresi lossless canggih untuk mempertahankan kualitas gambar asli yang superior, memastikan hasil konversi berkualitas tinggi yang jernih dengan keamanan yang ditingkatkan."
+        }
+      },
+      "blog": {
+        "title": "Lebih Banyak Artikel & Berita tentang Konverter WebP ke JPG Gratis"
+      }
+    },
+    "webp-to-png": {
+      "heading": {
+        "title": "Konverter Format Gambar WebP ke PNG Gratis",
+        "description": "Konverter WebP ke PNG 100% gratis dengan kualitas superior dan keamanan yang ditingkatkan. Konversi gambar WebP ke format PNG secara instan dengan alat canggih dan ramah pengguna kami.",
+        "tags": {
+          "free": "100% gratis",
+          "powered": "Didukung oleh Browser",
+          "no-login": "Tanpa Perlu Daftar",
+          "unlimited": "Keamanan lokal"
+        }
+      },
+      "introduction": {
+        "title": "Konverter WebP ke PNG 100% Gratis & Superior",
+        "description": "Konverter WebP ke PNG gratis kami adalah alat online paling canggih dan sepenuhnya gratis yang memberikan kualitas konversi superior dari gambar WebP ke format PNG yang kompatibel universal tanpa batasan penggunaan. Meskipun WebP menawarkan kompresi dan kualitas yang sangat baik, PNG memastikan kompatibilitas maksimum di semua platform. Konverter gratis kami menjamin kualitas gambar yang sempurna sambil memberikan keamanan yang ditingkatkan melalui pemrosesan lokal. Cukup unggah file WebP Anda dan rasakan konversi PNG berkualitas tinggi secara instan dan sepenuhnya gratis."
+      },
+      "features": {
+        "title": "Fitur Superior Konverter Gambar WebP ke PNG Gratis",
+        "description": "Teknologi canggih memberikan hasil yang lebih baik dengan keamanan yang ditingkatkan",
+        "1": {
+          "title": "Kompatibilitas Format Komprehensif",
+          "description": "Mendukung output dalam berbagai format mainstream termasuk WebP, JPG, dan PNG, memenuhi kebutuhan konversi gambar yang beragam dan menyediakan pemrosesan multi-format satu atap dengan hasil kualitas superior."
+        },
+        "2": {
+          "title": "Teknologi Pemrosesan Lokal Ultra-Cepat",
+          "description": "Memanfaatkan teknologi komputasi real-time sisi browser yang canggih, efisiensi konversi ditingkatkan hingga 300%, mencapai respons secepat kilat tanpa mengunggah file ke server untuk keamanan maksimum."
+        },
+        "3": {
+          "title": "Perlindungan Privasi dan Keamanan Maksimum",
+          "description": "Semua proses konversi diselesaikan sepenuhnya secara lokal dengan nol pengumpulan data, pembersihan cache otomatis setelah konversi, memastikan keamanan privasi tingkat militer yang sebanding dengan enkripsi end-to-end."
+        },
+        "4": {
+          "title": "Penggunaan Gratis Instan Tanpa Registrasi",
+          "description": "Sepenuhnya gratis tanpa perlu login, tanpa batas konversi, tanpa pembatasan fitur - benar-benar mencapai 'seret dan jatuhkan unggah, konversi instan, unduh satu klik' - sederhana, efisien, dan benar-benar gratis."
+        }
+      },
+      "advantage": {
+        "title": "Skenario Aplikasi Premium Konverter WebP ke PNG Gratis",
+        "description": "Baik untuk tampilan, pengeditan, atau penerbitan, konverter WebP ke PNG gratis kami dengan kualitas superior dan keamanan yang ditingkatkan membantu Anda dengan mudah beradaptasi dengan berbagai platform dan skenario.",
+        "try-now": "Coba Gratis Sekarang",
+        "1": {
+          "title": "Buat Materi Layer Dinamis & Frame Animasi",
+          "description": "Mengonversi WebP ke PNG dengan alat gratis kami memungkinkan ekstraksi layer transparan dengan kualitas superior, cocok untuk desain gerak, pengeditan animasi frame-by-frame, output berlapis dengan keamanan yang ditingkatkan."
+        },
+        "2": {
+          "title": "Pengeditan Gambar yang Ditingkatkan & Efisiensi Kreasi Sekunder",
+          "description": "Konversi PNG gratis menghasilkan gambar kualitas superior yang mendukung pengeditan berkualitas tinggi di berbagai perangkat lunak desain, ideal untuk desain antarmuka, visual merek, dan aplikasi profesional dengan hasil yang lebih baik."
+        },
+        "3": {
+          "title": "Pengembangan Superior & Kompatibilitas Frontend",
+          "description": "Mengonversi WebP ke PNG dengan konverter gratis kami meningkatkan kompatibilitas dan kejelasan gambar dalam pengembangan web dengan keamanan yang ditingkatkan, terutama cocok untuk proyek frontend yang memerlukan kualitas gambar superior dan dukungan browser lama."
+        },
+        "4": {
+          "title": "Performa Dokumen Office yang Ditingkatkan",
+          "description": "Konversi PNG gratis kami memastikan stabilitas superior saat disematkan dalam Word, PowerPoint, formulir, dan dokumen lainnya, meningkatkan efek visual sambil meningkatkan kompatibilitas dan kualitas untuk output cetak dengan hasil yang lebih baik."
+        }
+      },
+      "manual": {
+        "title": "Cara Mengonversi WebP ke PNG Gratis dalam Empat Langkah Sederhana",
+        "content": "Konversi WebP ke PNG gratis yang mudah dengan hasil superior:",
+        "1": {
+          "title": "Langkah 1: Unggah gambar WebP Anda untuk konversi gratis"
+        },
+        "2": {
+          "title": "Langkah 2: Pilih PNG sebagai format target (sepenuhnya gratis)"
+        },
+        "3": {
+          "title": "Langkah 3: Klik mulai konversi gratis dengan keamanan yang ditingkatkan"
+        },
+        "4": {
+          "title": "Langkah 4: Unduh gambar yang telah dikonversi dengan kualitas superior"
+        }
+      },
+      "faq": {
+        "title": "FAQ tentang Konverter Gambar WebP ke PNG Gratis",
+        "1": {
+          "question": "Apa yang membuat konverter WebP ke PNG gratis ini lebih baik?",
+          "answer": "Alat gratis kami mendukung format WebP, PNG, dan JPG dengan kualitas konversi superior, keamanan yang ditingkatkan melalui pemrosesan lokal, dan penggunaan sepenuhnya gratis tanpa batasan."
+        },
+        "2": {
+          "question": "Seberapa cepat konversi WebP ke PNG gratis ini?",
+          "answer": "Sebagian besar gambar dikonversi dalam hitungan detik dengan teknologi gratis canggih kami, memberikan hasil superior lebih cepat dari pesaing sambil mempertahankan keamanan yang ditingkatkan."
+        },
+        "3": {
+          "question": "Apakah konverter WebP ke PNG gratis ini benar-benar aman?",
+          "answer": "Tentu saja. Privasi Anda adalah prioritas kami. Semua pemrosesan terjadi secara lokal dengan keamanan yang ditingkatkan, nol pengumpulan data, dan pembersihan otomatis - sepenuhnya gratis dan aman."
+        },
+        "4": {
+          "question": "Apakah benar-benar tidak ada biaya untuk konverter WebP ke PNG superior ini?",
+          "answer": "Sepenuhnya gratis selamanya, tidak perlu registrasi, tidak ada biaya tersembunyi, dengan hasil kualitas superior dan fitur keamanan yang ditingkatkan."
+        },
+        "5": {
+          "question": "Apakah konverter gratis ini mempertahankan kualitas gambar superior?",
+          "answer": "Ya. Konverter WebP ke PNG gratis kami menggunakan teknologi kompresi lossless canggih untuk mempertahankan kualitas gambar asli yang superior, memastikan hasil konversi berkualitas tinggi yang jernih dengan keamanan yang ditingkatkan."
+        }
+      },
+      "blog": {
+        "title": "Lebih Banyak Artikel & Berita tentang Konverter WebP ke PNG Gratis"
+      }
+    },
+    "jpg-to-webp": {
+      "heading": {
+        "title": "Konverter Format Gambar JPG ke WebP Gratis",
+        "description": "Konverter JPG ke WebP 100% gratis dengan kualitas superior dan keamanan yang ditingkatkan. Konversi gambar JPG ke format WebP secara instan dengan alat canggih dan ramah pengguna kami.",
+        "tags": {
+          "free": "100% gratis",
+          "powered": "Didukung oleh Browser",
+          "no-login": "Tanpa Perlu Daftar",
+          "unlimited": "Keamanan lokal"
+        }
+      },
+      "introduction": {
+        "title": "Konverter JPG ke WebP 100% Gratis & Superior",
+        "description": "Konverter JPG ke WebP gratis kami adalah alat online paling canggih dan sepenuhnya gratis yang memberikan kualitas konversi superior dari gambar JPG ke format WebP yang sangat efisien tanpa batasan penggunaan. Meskipun format JPG kompatibel secara luas, WebP menawarkan kompresi dan kualitas yang lebih baik. Konverter gratis kami menjamin kualitas gambar yang sempurna sambil memberikan keamanan yang ditingkatkan melalui pemrosesan lokal. Cukup unggah file JPG Anda dan rasakan konversi WebP berkualitas tinggi secara instan dan sepenuhnya gratis."
+      },
+      "features": {
+        "title": "Fitur Superior Konverter Gambar JPG ke WebP Gratis",
+        "description": "Teknologi canggih memberikan hasil yang lebih baik dengan keamanan yang ditingkatkan",
+        "1": {
+          "title": "Kompatibilitas Format Komprehensif",
+          "description": "Mendukung output dalam berbagai format mainstream termasuk WebP, JPG, dan PNG, memenuhi kebutuhan konversi gambar yang beragam dan menyediakan pemrosesan multi-format satu atap dengan hasil kualitas superior."
+        },
+        "2": {
+          "title": "Teknologi Pemrosesan Lokal Ultra-Cepat",
+          "description": "Memanfaatkan teknologi komputasi real-time sisi browser yang canggih, efisiensi konversi ditingkatkan hingga 300%, mencapai respons secepat kilat tanpa mengunggah file ke server untuk keamanan maksimum."
+        },
+        "3": {
+          "title": "Perlindungan Privasi dan Keamanan Maksimum",
+          "description": "Semua proses konversi diselesaikan sepenuhnya secara lokal dengan nol pengumpulan data, pembersihan cache otomatis setelah konversi, memastikan keamanan privasi tingkat militer yang sebanding dengan enkripsi end-to-end."
+        },
+        "4": {
+          "title": "Penggunaan Gratis Instan Tanpa Registrasi",
+          "description": "Sepenuhnya gratis tanpa perlu login, tanpa batas konversi, tanpa pembatasan fitur - benar-benar mencapai 'seret dan jatuhkan unggah, konversi instan, unduh satu klik' - sederhana, efisien, dan benar-benar gratis."
+        }
+      },
+      "advantage": {
+        "title": "Skenario Aplikasi Premium Konverter JPG ke WebP Gratis",
+        "description": "Baik untuk tampilan, pengeditan, atau penerbitan, konverter JPG ke WebP gratis kami dengan kualitas superior dan keamanan yang ditingkatkan membantu Anda dengan mudah beradaptasi dengan berbagai platform dan skenario.",
+        "try-now": "Coba Gratis Sekarang",
+        "1": {
+          "title": "Percepat Performa Web & Kecepatan Loading Superior",
+          "description": "Mengonversi JPG ke WebP dengan alat gratis kami mengurangi ukuran file hingga 80% sambil mempertahankan kualitas gambar superior, secara dramatis meningkatkan kecepatan loading website dan pengalaman pengguna dengan keamanan yang ditingkatkan."
+        },
+        "2": {
+          "title": "Efisiensi Penyimpanan yang Ditingkatkan & Manajemen Ruang yang Lebih Baik",
+          "description": "Konversi WebP gratis memberikan rasio kompresi superior, menghemat ruang penyimpanan yang signifikan sambil mempertahankan kualitas gambar yang sangat baik - sempurna untuk manajemen gambar skala besar dengan hasil yang lebih baik."
+        },
+        "3": {
+          "title": "Optimasi Mobile Superior & Performa yang Ditingkatkan",
+          "description": "Konverter JPG ke WebP gratis kami menciptakan file yang lebih ringan yang memuat lebih cepat di perangkat mobile, secara efektif mengurangi konsumsi data sambil memberikan kualitas visual superior dengan keamanan yang ditingkatkan."
+        },
+        "4": {
+          "title": "Performa Platform E-commerce & Sosial yang Ditingkatkan",
+          "description": "Konversi gratis ke format WebP meningkatkan kecepatan loading gambar produk sambil mempertahankan kejelasan superior, meningkatkan keterlibatan pengguna dan tingkat konversi dengan efek visual yang lebih baik dan keamanan yang ditingkatkan."
+        }
+      },
+      "manual": {
+        "title": "Cara Mengonversi JPG ke WebP Gratis dalam Empat Langkah Sederhana",
+        "content": "Konversi JPG ke WebP gratis yang mudah dengan hasil superior:",
+        "1": {
+          "title": "Langkah 1: Unggah gambar JPG Anda untuk konversi gratis"
+        },
+        "2": {
+          "title": "Langkah 2: Pilih WebP sebagai format target (sepenuhnya gratis)"
+        },
+        "3": {
+          "title": "Langkah 3: Klik mulai konversi gratis dengan keamanan yang ditingkatkan"
+        },
+        "4": {
+          "title": "Langkah 4: Unduh gambar yang telah dikonversi dengan kualitas superior"
+        }
+      },
+      "faq": {
+        "title": "FAQ tentang Konverter Gambar JPG ke WebP Gratis",
+        "1": {
+          "question": "Apa yang membuat konverter JPG ke WebP gratis ini lebih baik?",
+          "answer": "Alat gratis kami mendukung format WebP, PNG, dan JPG dengan kualitas konversi superior, keamanan yang ditingkatkan melalui pemrosesan lokal, dan penggunaan sepenuhnya gratis tanpa batasan."
+        },
+        "2": {
+          "question": "Seberapa cepat konversi JPG ke WebP gratis ini?",
+          "answer": "Sebagian besar gambar dikonversi dalam hitungan detik dengan teknologi gratis canggih kami, memberikan hasil superior lebih cepat dari pesaing sambil mempertahankan keamanan yang ditingkatkan."
+        },
+        "3": {
+          "question": "Apakah konverter JPG ke WebP gratis ini benar-benar aman?",
+          "answer": "Tentu saja. Privasi Anda adalah prioritas kami. Semua pemrosesan terjadi secara lokal dengan keamanan yang ditingkatkan, nol pengumpulan data, dan pembersihan otomatis - sepenuhnya gratis dan aman."
+        },
+        "4": {
+          "question": "Apakah benar-benar tidak ada biaya untuk konverter JPG ke WebP superior ini?",
+          "answer": "Sepenuhnya gratis selamanya, tidak perlu registrasi, tidak ada biaya tersembunyi, dengan hasil kualitas superior dan fitur keamanan yang ditingkatkan."
+        },
+        "5": {
+          "question": "Apakah konverter gratis ini mempertahankan kualitas gambar superior?",
+          "answer": "Ya. Konverter JPG ke WebP gratis kami menggunakan teknologi kompresi lossless canggih untuk mempertahankan kualitas gambar asli yang superior, memastikan hasil konversi berkualitas tinggi yang jernih dengan keamanan yang ditingkatkan."
+        }
+      },
+      "blog": {
+        "title": "Lebih Banyak Artikel & Berita tentang Konverter JPG ke WebP Gratis"
+      }
+    },
+    "jpg-to-png": {
+      "heading": {
+        "title": "Konverter Format Gambar JPG ke PNG Gratis",
+        "description": "Konverter JPG ke PNG 100% gratis dengan kualitas superior dan keamanan yang ditingkatkan. Konversi gambar JPG ke format PNG secara instan dengan alat canggih dan ramah pengguna kami.",
+        "tags": {
+          "free": "100% gratis",
+          "powered": "Didukung oleh Browser",
+          "no-login": "Tanpa Perlu Daftar",
+          "unlimited": "Keamanan lokal"
+        }
+      },
+      "introduction": {
+        "title": "Konverter JPG ke PNG 100% Gratis & Superior",
+        "description": "Konverter JPG ke PNG gratis kami adalah alat online paling canggih dan sepenuhnya gratis yang memberikan kualitas konversi superior dari gambar JPG ke format PNG yang kompatibel universal tanpa batasan penggunaan. Meskipun format JPG banyak digunakan, format PNG menawarkan preservasi kualitas yang lebih baik dan dukungan transparansi. Konverter gratis kami menjamin kualitas gambar yang sempurna sambil memberikan keamanan yang ditingkatkan melalui pemrosesan lokal. Cukup unggah file JPG Anda dan rasakan konversi PNG berkualitas tinggi secara instan dan sepenuhnya gratis."
+      },
+      "features": {
+        "title": "Fitur Superior Konverter Gambar JPG ke PNG Gratis",
+        "description": "Teknologi canggih memberikan hasil yang lebih baik dengan keamanan yang ditingkatkan",
+        "1": {
+          "title": "Kompatibilitas Format Komprehensif",
+          "description": "Mendukung output dalam berbagai format mainstream termasuk WebP, JPG, dan PNG, memenuhi kebutuhan konversi gambar yang beragam dan menyediakan pemrosesan multi-format satu atap dengan hasil kualitas superior."
+        },
+        "2": {
+          "title": "Teknologi Pemrosesan Lokal Ultra-Cepat",
+          "description": "Memanfaatkan teknologi komputasi real-time sisi browser yang canggih, efisiensi konversi ditingkatkan hingga 300%, mencapai respons secepat kilat tanpa mengunggah file ke server untuk keamanan maksimum."
+        },
+        "3": {
+          "title": "Perlindungan Privasi dan Keamanan Maksimum",
+          "description": "Semua proses konversi diselesaikan sepenuhnya secara lokal dengan nol pengumpulan data, pembersihan cache otomatis setelah konversi, memastikan keamanan privasi tingkat militer yang sebanding dengan enkripsi end-to-end."
+        },
+        "4": {
+          "title": "Penggunaan Gratis Instan Tanpa Registrasi",
+          "description": "Sepenuhnya gratis tanpa perlu login, tanpa batas konversi, tanpa pembatasan fitur - benar-benar mencapai 'seret dan jatuhkan unggah, konversi instan, unduh satu klik' - sederhana, efisien, dan benar-benar gratis."
+        }
+      },
+      "advantage": {
+        "title": "Skenario Aplikasi Premium Konverter JPG ke PNG Gratis",
+        "description": "Baik untuk tampilan, pengeditan, atau penerbitan, konverter JPG ke PNG gratis kami dengan kualitas superior dan keamanan yang ditingkatkan membantu Anda dengan mudah beradaptasi dengan berbagai platform dan skenario.",
+        "try-now": "Coba Gratis Sekarang",
+        "1": {
+          "title": "Kualitas Lossless Superior & Kejelasan Gambar yang Ditingkatkan",
+          "description": "Mengonversi JPG ke PNG dengan alat gratis kami mempertahankan kualitas gambar superior tanpa artefak kompresi, sempurna untuk grafik detail tinggi, logo, dan gambar profesional yang memerlukan hasil jernih dengan keamanan yang ditingkatkan."
+        },
+        "2": {
+          "title": "Fleksibilitas Desain yang Ditingkatkan & Dukungan Editing yang Lebih Baik",
+          "description": "Konversi PNG gratis memberikan dukungan transparansi superior dan kualitas lossless, ideal untuk desain grafis, pembuatan logo, dan alur kerja editing profesional dengan hasil yang lebih baik dan keamanan yang ditingkatkan."
+        },
+        "3": {
+          "title": "Kompatibilitas Platform Superior & Performa yang Ditingkatkan",
+          "description": "Konverter JPG ke PNG gratis kami memastikan kompatibilitas yang lebih baik dengan perangkat lunak desain, layanan pencetakan, dan platform profesional yang memerlukan format PNG dengan kualitas superior dan keamanan yang ditingkatkan."
+        },
+        "4": {
+          "title": "Aplikasi Profesional yang Ditingkatkan & Hasil Visual yang Lebih Baik",
+          "description": "Konversi gratis ke format PNG memberikan kejelasan superior untuk grafik, screenshot, ilustrasi, dan grafik teknis, menghilangkan artefak kompresi dengan kualitas visual yang lebih baik dan keamanan yang ditingkatkan."
+        }
+      },
+      "manual": {
+        "title": "Cara Mengonversi JPG ke PNG Gratis dalam Empat Langkah Sederhana",
+        "content": "Konversi JPG ke PNG gratis yang mudah dengan hasil superior:",
+        "1": {
+          "title": "Langkah 1: Unggah gambar JPG Anda untuk konversi gratis"
+        },
+        "2": {
+          "title": "Langkah 2: Pilih PNG sebagai format target (sepenuhnya gratis)"
+        },
+        "3": {
+          "title": "Langkah 3: Klik mulai konversi gratis dengan keamanan yang ditingkatkan"
+        },
+        "4": {
+          "title": "Langkah 4: Unduh gambar yang telah dikonversi dengan kualitas superior"
+        }
+      },
+      "faq": {
+        "title": "FAQ tentang Konverter Gambar JPG ke PNG Gratis",
+        "1": {
+          "question": "Apa yang membuat konverter JPG ke PNG gratis ini lebih baik?",
+          "answer": "Alat gratis kami mendukung format WebP, PNG, dan JPG dengan kualitas konversi superior, keamanan yang ditingkatkan melalui pemrosesan lokal, dan penggunaan sepenuhnya gratis tanpa batasan."
+        },
+        "2": {
+          "question": "Seberapa cepat konversi JPG ke PNG gratis ini?",
+          "answer": "Sebagian besar gambar dikonversi dalam hitungan detik dengan teknologi gratis canggih kami, memberikan hasil superior lebih cepat dari pesaing sambil mempertahankan keamanan yang ditingkatkan."
+        },
+        "3": {
+          "question": "Apakah konverter JPG ke PNG gratis ini benar-benar aman?",
+          "answer": "Tentu saja. Privasi Anda adalah prioritas kami. Semua pemrosesan terjadi secara lokal dengan keamanan yang ditingkatkan, nol pengumpulan data, dan pembersihan otomatis - sepenuhnya gratis dan aman."
+        },
+        "4": {
+          "question": "Apakah benar-benar tidak ada biaya untuk konverter JPG ke PNG superior ini?",
+          "answer": "Sepenuhnya gratis selamanya, tidak perlu registrasi, tidak ada biaya tersembunyi, dengan hasil kualitas superior dan fitur keamanan yang ditingkatkan."
+        },
+        "5": {
+          "question": "Apakah konverter gratis ini mempertahankan kualitas gambar superior?",
+          "answer": "Ya. Konverter JPG ke PNG gratis kami menggunakan teknologi kompresi lossless canggih untuk mempertahankan kualitas gambar asli yang superior, memastikan hasil konversi berkualitas tinggi yang jernih dengan keamanan yang ditingkatkan."
+        }
+      },
+      "blog": {
+        "title": "Lebih Banyak Artikel & Berita tentang Konverter JPG ke PNG Gratis"
+      }
+    },
+    "png-to-webp": {
+      "heading": {
+        "title": "Konverter Format Gambar PNG ke WebP Gratis",
+        "description": "Konverter PNG ke WebP 100% gratis dengan kualitas superior dan keamanan yang ditingkatkan. Konversi gambar PNG ke format WebP secara instan dengan alat canggih dan ramah pengguna kami.",
+        "tags": {
+          "free": "100% gratis",
+          "powered": "Didukung oleh Browser",
+          "no-login": "Tanpa Perlu Daftar",
+          "unlimited": "Keamanan lokal"
+        }
+      },
+      "introduction": {
+        "title": "Konverter PNG ke WebP 100% Gratis & Superior",
+        "description": "Konverter PNG ke WebP gratis kami adalah alat online paling canggih dan sepenuhnya gratis yang memberikan kualitas konversi superior dari gambar PNG ke format WebP yang sangat efisien tanpa batasan penggunaan. Meskipun format PNG menawarkan kualitas yang sangat baik dan dukungan transparansi, WebP memberikan kompresi yang lebih baik dan kecepatan loading yang lebih cepat. Konverter gratis kami menjamin kualitas gambar yang sempurna sambil memberikan keamanan yang ditingkatkan melalui pemrosesan lokal. Cukup unggah file PNG Anda dan rasakan konversi WebP berkualitas tinggi secara instan dan sepenuhnya gratis."
+      },
+      "features": {
+        "title": "Fitur Superior Konverter Gambar PNG ke WebP Gratis",
+        "description": "Teknologi canggih memberikan hasil yang lebih baik dengan keamanan yang ditingkatkan",
+        "1": {
+          "title": "Kompatibilitas Format Komprehensif",
+          "description": "Mendukung output dalam berbagai format mainstream termasuk WebP, JPG, dan PNG, memenuhi kebutuhan konversi gambar yang beragam dan menyediakan pemrosesan multi-format satu atap dengan hasil kualitas superior."
+        },
+        "2": {
+          "title": "Teknologi Pemrosesan Lokal Ultra-Cepat",
+          "description": "Memanfaatkan teknologi komputasi real-time sisi browser yang canggih, efisiensi konversi ditingkatkan hingga 300%, mencapai respons secepat kilat tanpa mengunggah file ke server untuk keamanan maksimum."
+        },
+        "3": {
+          "title": "Perlindungan Privasi dan Keamanan Maksimum",
+          "description": "Semua proses konversi diselesaikan sepenuhnya secara lokal dengan nol pengumpulan data, pembersihan cache otomatis setelah konversi, memastikan keamanan privasi tingkat militer yang sebanding dengan enkripsi end-to-end."
+        },
+        "4": {
+          "title": "Penggunaan Gratis Instan Tanpa Registrasi",
+          "description": "Sepenuhnya gratis tanpa perlu login, tanpa batas konversi, tanpa pembatasan fitur - benar-benar mencapai 'seret dan jatuhkan unggah, konversi instan, unduh satu klik' - sederhana, efisien, dan benar-benar gratis."
+        }
+      },
+      "advantage": {
+        "title": "Skenario Aplikasi Premium Konverter PNG ke WebP Gratis",
+        "description": "Baik untuk tampilan, pengeditan, atau penerbitan, konverter PNG ke WebP gratis kami dengan kualitas superior dan keamanan yang ditingkatkan membantu Anda dengan mudah beradaptasi dengan berbagai platform dan skenario.",
+        "try-now": "Coba Gratis Sekarang",
+        "1": {
+          "title": "Percepat Performa Web & Kecepatan Loading Superior",
+          "description": "Mengonversi PNG ke WebP dengan alat gratis kami mengurangi ukuran file hingga 90% sambil mempertahankan kualitas gambar superior, secara dramatis meningkatkan kecepatan loading website dan pengalaman pengguna dengan keamanan yang ditingkatkan."
+        },
+        "2": {
+          "title": "Optimasi Mobile yang Ditingkatkan & Performa yang Lebih Baik",
+          "description": "Konversi WebP gratis menciptakan file yang lebih ringan yang memuat lebih cepat di perangkat mobile, secara efektif mengurangi konsumsi data sambil memberikan kualitas visual superior dengan keamanan yang ditingkatkan."
+        },
+        "3": {
+          "title": "Desain UI Superior & Efisiensi Pengembangan yang Ditingkatkan",
+          "description": "Mengonversi ikon UI dan elemen antarmuka dari PNG ke WebP dengan konverter gratis kami secara signifikan mengurangi ukuran bundle resource frontend, meningkatkan performa loading dengan hasil yang lebih baik dan keamanan yang ditingkatkan."
+        },
+        "4": {
+          "title": "Performa E-commerce & Platform Konten yang Ditingkatkan",
+          "description": "Konversi gratis gambar produk dan visual konten ke format WebP mengurangi beban server sambil mempertahankan kejelasan superior, mempercepat kecepatan respons halaman dengan efek visual yang lebih baik dan keamanan yang ditingkatkan."
+        }
+      },
+      "manual": {
+        "title": "Cara Mengonversi PNG ke WebP Gratis dalam Empat Langkah Sederhana",
+        "content": "Konversi PNG ke WebP gratis yang mudah dengan hasil superior:",
+        "1": {
+          "title": "Langkah 1: Unggah gambar PNG Anda untuk konversi gratis"
+        },
+        "2": {
+          "title": "Langkah 2: Pilih WebP sebagai format target (sepenuhnya gratis)"
+        },
+        "3": {
+          "title": "Langkah 3: Klik mulai konversi gratis dengan keamanan yang ditingkatkan"
+        },
+        "4": {
+          "title": "Langkah 4: Unduh gambar yang telah dikonversi dengan kualitas superior"
+        }
+      },
+      "faq": {
+        "title": "FAQ tentang Konverter Gambar PNG ke WebP Gratis",
+        "1": {
+          "question": "Apa yang membuat konverter PNG ke WebP gratis ini lebih baik?",
+          "answer": "Alat gratis kami mendukung format WebP, PNG, dan JPG dengan kualitas konversi superior, keamanan yang ditingkatkan melalui pemrosesan lokal, dan penggunaan sepenuhnya gratis tanpa batasan."
+        },
+        "2": {
+          "question": "Seberapa cepat konversi PNG ke WebP gratis ini?",
+          "answer": "Sebagian besar gambar dikonversi dalam hitungan detik dengan teknologi gratis canggih kami, memberikan hasil superior lebih cepat dari pesaing sambil mempertahankan keamanan yang ditingkatkan."
+        },
+        "3": {
+          "question": "Apakah konverter PNG ke WebP gratis ini benar-benar aman?",
+          "answer": "Tentu saja. Privasi Anda adalah prioritas kami. Semua pemrosesan terjadi secara lokal dengan keamanan yang ditingkatkan, nol pengumpulan data, dan pembersihan otomatis - sepenuhnya gratis dan aman."
+        },
+        "4": {
+          "question": "Apakah benar-benar tidak ada biaya untuk konverter PNG ke WebP superior ini?",
+          "answer": "Sepenuhnya gratis selamanya, tidak perlu registrasi, tidak ada biaya tersembunyi, dengan hasil kualitas superior dan fitur keamanan yang ditingkatkan."
+        },
+        "5": {
+          "question": "Apakah konverter gratis ini mempertahankan kualitas gambar superior?",
+          "answer": "Ya. Konverter PNG ke WebP gratis kami menggunakan teknologi kompresi lossless canggih untuk mempertahankan kualitas gambar asli yang superior, memastikan hasil konversi berkualitas tinggi yang jernih dengan keamanan yang ditingkatkan."
+        }
+      },
+      "blog": {
+        "title": "Lebih Banyak Artikel & Berita tentang Konverter PNG ke WebP Gratis"
+      }
+    },
+    "png-to-jpg": {
+      "heading": {
+        "title": "Konverter Format Gambar PNG ke JPG Gratis",
+        "description": "Konverter PNG ke JPG 100% gratis dengan kualitas superior dan keamanan yang ditingkatkan. Konversi gambar PNG ke format JPG secara instan dengan alat canggih dan ramah pengguna kami.",
+        "tags": {
+          "free": "100% gratis",
+          "powered": "Didukung oleh Browser",
+          "no-login": "Tanpa Perlu Daftar",
+          "unlimited": "Keamanan lokal"
+        }
+      },
+      "introduction": {
+        "title": "Konverter PNG ke JPG 100% Gratis & Superior",
+        "description": "Konverter PNG ke JPG gratis kami adalah alat online paling canggih dan sepenuhnya gratis yang memberikan kualitas konversi superior dari gambar PNG ke format JPG yang kompatibel universal tanpa batasan penggunaan. Meskipun format PNG menawarkan kualitas yang sangat baik dan dukungan transparansi, format JPG memastikan kompatibilitas maksimum dan ukuran file yang lebih kecil. Konverter gratis kami menjamin kualitas gambar yang sempurna sambil memberikan keamanan yang ditingkatkan melalui pemrosesan lokal. Cukup unggah file PNG Anda dan rasakan konversi JPG berkualitas tinggi secara instan dan sepenuhnya gratis."
+      },
+      "features": {
+        "title": "Fitur Superior Konverter Gambar PNG ke JPG Gratis",
+        "description": "Teknologi canggih memberikan hasil yang lebih baik dengan keamanan yang ditingkatkan",
+        "1": {
+          "title": "Kompatibilitas Format Komprehensif",
+          "description": "Mendukung output dalam berbagai format mainstream termasuk WebP, JPG, dan PNG, memenuhi kebutuhan konversi gambar yang beragam dan menyediakan pemrosesan multi-format satu atap dengan hasil kualitas superior."
+        },
+        "2": {
+          "title": "Teknologi Pemrosesan Lokal Ultra-Cepat",
+          "description": "Memanfaatkan teknologi komputasi real-time sisi browser yang canggih, efisiensi konversi ditingkatkan hingga 300%, mencapai respons secepat kilat tanpa mengunggah file ke server untuk keamanan maksimum."
+        },
+        "3": {
+          "title": "Perlindungan Privasi dan Keamanan Maksimum",
+          "description": "Semua proses konversi diselesaikan sepenuhnya secara lokal dengan nol pengumpulan data, pembersihan cache otomatis setelah konversi, memastikan keamanan privasi tingkat militer yang sebanding dengan enkripsi end-to-end."
+        },
+        "4": {
+          "title": "Penggunaan Gratis Instan Tanpa Registrasi",
+          "description": "Sepenuhnya gratis tanpa perlu login, tanpa batas konversi, tanpa pembatasan fitur - benar-benar mencapai 'seret dan jatuhkan unggah, konversi instan, unduh satu klik' - sederhana, efisien, dan benar-benar gratis."
+        }
+      },
+      "advantage": {
+        "title": "Skenario Aplikasi Premium Konverter PNG ke JPG Gratis",
+        "description": "Baik untuk tampilan, pengeditan, atau penerbitan, konverter PNG ke JPG gratis kami dengan kualitas superior dan keamanan yang ditingkatkan membantu Anda dengan mudah beradaptasi dengan berbagai platform dan skenario.",
+        "try-now": "Coba Gratis Sekarang",
+        "1": {
+          "title": "Optimasi Ukuran File Superior & Kecepatan Loading yang Ditingkatkan",
+          "description": "Mengonversi PNG ke JPG dengan alat gratis kami mengurangi ukuran file hingga 70% sambil mempertahankan kualitas gambar superior, secara dramatis meningkatkan kecepatan loading website dan performa mobile dengan keamanan yang ditingkatkan."
+        },
+        "2": {
+          "title": "Kompatibilitas Universal yang Ditingkatkan & Dukungan Platform yang Lebih Baik",
+          "description": "Konversi JPG gratis memastikan kompatibilitas superior di semua browser, klien email, platform media sosial, dan sistem lama, menghilangkan masalah tampilan dengan hasil yang lebih baik dan keamanan yang ditingkatkan."
+        },
+        "3": {
+          "title": "Integrasi Dokumen Superior & Penggunaan Profesional yang Ditingkatkan",
+          "description": "Konverter PNG ke JPG gratis kami menciptakan file yang dioptimalkan sempurna untuk dokumen Office, presentasi, dan embedding PDF, mengurangi ukuran dokumen sambil meningkatkan kualitas cetak dengan hasil yang lebih baik."
+        },
+        "4": {
+          "title": "Efisiensi Penyimpanan yang Ditingkatkan & Manajemen Ruang yang Lebih Baik",
+          "description": "Konversi gratis ke format JPG menghemat ruang penyimpanan yang signifikan sambil mempertahankan kualitas visual yang sangat baik, sempurna untuk manajemen gambar skala besar dan backup dengan efisiensi superior dan keamanan yang ditingkatkan."
+        }
+      },
+      "manual": {
+        "title": "Cara Mengonversi PNG ke JPG Gratis dalam Empat Langkah Sederhana",
+        "content": "Konversi PNG ke JPG gratis yang mudah dengan hasil superior:",
+        "1": {
+          "title": "Langkah 1: Unggah gambar PNG Anda untuk konversi gratis"
+        },
+        "2": {
+          "title": "Langkah 2: Pilih JPG sebagai format target (sepenuhnya gratis)"
+        },
+        "3": {
+          "title": "Langkah 3: Klik mulai konversi gratis dengan keamanan yang ditingkatkan"
+        },
+        "4": {
+          "title": "Langkah 4: Unduh gambar yang telah dikonversi dengan kualitas superior"
+        }
+      },
+      "faq": {
+        "title": "FAQ tentang Konverter Gambar PNG ke JPG Gratis",
+        "1": {
+          "question": "Apa yang membuat konverter PNG ke JPG gratis ini lebih baik?",
+          "answer": "Alat gratis kami mendukung format WebP, PNG, dan JPG dengan kualitas konversi superior, keamanan yang ditingkatkan melalui pemrosesan lokal, dan penggunaan sepenuhnya gratis tanpa batasan."
+        },
+        "2": {
+          "question": "Seberapa cepat konversi PNG ke JPG gratis ini?",
+          "answer": "Sebagian besar gambar dikonversi dalam hitungan detik dengan teknologi gratis canggih kami, memberikan hasil superior lebih cepat dari pesaing sambil mempertahankan keamanan yang ditingkatkan."
+        },
+        "3": {
+          "question": "Apakah konverter PNG ke JPG gratis ini benar-benar aman?",
+          "answer": "Tentu saja. Privasi Anda adalah prioritas kami. Semua pemrosesan terjadi secara lokal dengan keamanan yang ditingkatkan, nol pengumpulan data, dan pembersihan otomatis - sepenuhnya gratis dan aman."
+        },
+        "4": {
+          "question": "Apakah benar-benar tidak ada biaya untuk konverter PNG ke JPG superior ini?",
+          "answer": "Sepenuhnya gratis selamanya, tidak perlu registrasi, tidak ada biaya tersembunyi, dengan hasil kualitas superior dan fitur keamanan yang ditingkatkan."
+        },
+        "5": {
+          "question": "Apakah konverter gratis ini mempertahankan kualitas gambar superior?",
+          "answer": "Ya. Konverter PNG ke JPG gratis kami menggunakan teknologi kompresi lossless canggih untuk mempertahankan kualitas gambar asli yang superior, memastikan hasil konversi berkualitas tinggi yang jernih dengan keamanan yang ditingkatkan."
+        }
+      },
+      "blog": {
+        "title": "Lebih Banyak Artikel & Berita tentang Konverter PNG ke JPG Gratis"
+      }
+    }
+  },
+  "free-image-upscaler": {
+    "heading": {
+      "title": "Perbesar Gambar Gratis - Alat Peningkatan Gambar Bertenaga AI",
+      "description": "Perbesar gambar 100% gratis dengan teknologi AI canggih. Tingkatkan kualitas gambar hingga resolusi 4x secara instan. Tanpa perlu daftar, pemrosesan lokal yang sepenuhnya aman.",
+      "tags": {
+        "free": "100% gratis",
+        "powered": "Kualitas Ditingkatkan AI",
+        "no-login": "Tanpa Perlu Login",
+        "unlimited": "Pemrosesan Lokal Aman"
+      }
+    },
+    "introduction": {
+      "title": "Perbesar Gambar 100% Gratis dengan Peningkatan AI Superior",
+      "description": "Perbesar gambar gratis kami adalah alat online paling canggih dan sepenuhnya gratis yang memberikan hasil peningkatan gambar superior dengan peningkatan resolusi hingga 4x. Menggunakan teknologi AI terdepan, perbesar gambar gratis ini mengubah gambar resolusi rendah menjadi visual berkualitas tinggi yang jernih sambil mempertahankan preservasi detail yang sempurna. Semua pemrosesan terjadi dengan aman di browser Anda tanpa mengunggah file, memastikan perlindungan privasi maksimum. Rasakan peningkatan gambar tingkat profesional sepenuhnya gratis - tanpa registrasi, tanpa biaya tersembunyi, hanya hasil superior instan dengan perbesar gambar gratis kami."
+    },
+    "comparision": {
+      "original": "ASLI",
+      "tinify": "DITINGKATKAN",
+      "title": "Perbesar Gambar Gratis - Teknologi Peningkatan AI Superior",
+      "description": "Perbesar gambar gratis canggih dengan pemrosesan lokal aman yang memberikan peningkatan gambar kualitas profesional tanpa mengorbankan privasi Anda.",
+      "features": {
+        "1": "Pemrosesan lokal 100% aman",
+        "2": "Peningkatan resolusi superior hingga 4x",
+        "3": "Perlindungan privasi tingkat militer",
+        "4": "Penggunaan gratis instan, tanpa registrasi",
+        "5": "Peningkatan bertenaga AI canggih"
+      },
+      "tryNow": "Coba Perbesar Gambar Gratis"
+    },
+    "advantage": {
+      "title": "Aplikasi Premium Perbesar Gambar Gratis",
+      "description": "Perbesar gambar gratis kami dengan teknologi peningkatan AI superior menyediakan peningkatan kualitas gambar yang aman dan efisien untuk website, media sosial, e-commerce, dan proyek kreatif, memberikan hasil profesional dengan keamanan yang ditingkatkan.",
+      "try-now": "Coba Gratis Sekarang",
+      "1": {
+        "title": "Performa Website Superior & Pengalaman Pengguna yang Ditingkatkan",
+        "description": "Perbesar gambar gratis secara instan meningkatkan gambar hingga resolusi 4x dengan pemrosesan lokal aman, meningkatkan kejelasan visual sambil mengoptimalkan waktu loading halaman, meningkatkan kepuasan pengguna dan performa SEO dengan hasil yang lebih baik."
+      },
+      "2": {
+        "title": "Dampak Visual Media Sosial yang Ditingkatkan & Keterlibatan yang Lebih Baik",
+        "description": "Perbesar gambar gratis kami mendukung format WebP, JPG, PNG dengan kualitas peningkatan superior, secara dramatis meningkatkan kejelasan dan daya tarik gambar media sosial, meningkatkan tingkat klik dan keterlibatan dengan keamanan yang ditingkatkan."
+      },
+      "3": {
+        "title": "E-commerce Superior & Efisiensi Manajemen Konten",
+        "description": "Perbesar gambar gratis memungkinkan pemrosesan batch dengan peningkatan hingga 4x, menghasilkan gambar produk definisi tinggi yang melebihi standar platform, meningkatkan kualitas tampilan dan efisiensi operasional dengan hasil visual yang lebih baik dan keamanan yang ditingkatkan."
+      },
+      "4": {
+        "title": "Alat Kreatif yang Ditingkatkan untuk Desainer & Kreator Konten",
+        "description": "Perbesar gambar gratis yang sempurna untuk fotografi, ilustrasi, dan proyek desain, secara cerdas meningkatkan gambar resolusi rendah menjadi visual kualitas profesional (2x hingga 4x) tanpa keahlian teknis, memberikan materi kreatif superior dengan keamanan yang ditingkatkan."
+      }
+    },
+    "manual": {
+      "title": "Cara Menggunakan Perbesar Gambar Gratis dalam Empat Langkah Sederhana",
+      "content": "Ubah gambar Anda dengan peningkatan AI superior:",
+      "1": {
+        "title": "Langkah 1: Unggah gambar Anda ke perbesar gambar gratis"
+      },
+      "2": {
+        "title": "Langkah 2: Pilih tingkat peningkatan (pembesaran 2x atau 4x)"
+      },
+      "3": {
+        "title": "Langkah 3: Klik tingkatkan untuk pemrosesan AI instan"
+      },
+      "4": {
+        "title": "Langkah 4: Unduh gambar yang telah ditingkatkan dengan kualitas superior"
+      }
+    },
+    "faq": {
+      "title": "FAQ tentang Perbesar Gambar Gratis",
+      "1": {
+        "question": "Apa yang membuat perbesar gambar gratis ini lebih unggul dari yang lain?",
+        "answer": "Perbesar gambar gratis kami menggunakan teknologi AI canggih dengan pemrosesan lokal aman, memberikan kualitas peningkatan superior hingga 4x. Sepenuhnya gratis tanpa perlu registrasi, mendukung format JPG, PNG, WebP dengan keamanan yang ditingkatkan dan hasil yang lebih baik dari pesaing."
+      },
+      "2": {
+        "question": "Bagaimana perbesar gambar gratis meningkatkan kualitas gambar?",
+        "answer": "Perbesar gambar gratis kami memanfaatkan teknologi super-resolusi AI terdepan dengan jaringan neural dalam untuk secara cerdas meningkatkan detail gambar, kejelasan, dan ketajaman sambil mempertahankan efek visual alami, memberikan hasil peningkatan superior dengan keamanan yang ditingkatkan."
+      },
+      "3": {
+        "question": "Apakah perbesar gambar gratis ini benar-benar aman dan privat?",
+        "answer": "Tentu saja. Perbesar gambar gratis kami memproses semuanya secara lokal di browser Anda tanpa mengunggah file, memastikan perlindungan privasi tingkat militer. Sepenuhnya gratis tanpa perlu registrasi, gambar Anda tidak pernah meninggalkan perangkat untuk keamanan maksimum."
+      },
+      "4": {
+        "question": "Seberapa cepat pemrosesan perbesar gambar gratis?",
+        "answer": "Perbesar gambar gratis kami memberikan pemrosesan secepat kilat, biasanya menyelesaikan peningkatan dalam hitungan detik. Pemrosesan lokal menghilangkan waktu tunggu unggah/unduh, memberikan hasil superior instan dengan keamanan dan efisiensi yang ditingkatkan."
+      },
+      "5": {
+        "question": "Ukuran gambar apa yang bekerja terbaik dengan perbesar gambar gratis?",
+        "answer": "Perbesar gambar gratis kami mendukung berbagai ukuran gambar dengan hasil optimal untuk gambar 512×512 piksel atau lebih besar. Teknologi peningkatan AI memberikan peningkatan kualitas superior terlepas dari ukuran asli, dengan efisiensi pemrosesan yang ditingkatkan."
+      },
+      "6": {
+        "question": "Bagaimana cara mencapai hasil terbaik dengan perbesar gambar gratis?",
+        "answer": "Untuk peningkatan superior dengan perbesar gambar gratis kami, gunakan gambar asli yang jelas, pilih faktor pembesaran yang sesuai (2x atau 4x), dan manfaatkan fungsi pratinjau untuk membandingkan hasil. Teknologi AI secara otomatis mengoptimalkan untuk kualitas terbaik dengan keamanan yang ditingkatkan."
+      }
+    },
+    "blog": {
+      "title": "Lebih Banyak Artikel & Berita tentang Perbesar Gambar Gratis"
     }
   },
   "blog": {
     "heading": {
-      "title": "Artikel & Berita Rekomendasi tentang Grok 3 AI Image Generator",
-      "description": "Jelajahi artikel, berita, dan pembaruan terbaru dari Grok AI Image Generator. Dapatkan wawasan ahli, tutorial, dan tetap terinformasi tentang teknologi AI mutakhir serta perkembangan platform kami."
-    },
-    "media-tools": {
-      "title": "Alat AI Gambar & Video Canggih dari Grok AI",
-      "description": "Buat gambar menakjubkan dan video menarik dengan alat canggih dari Grok AI. Bebaskan kreativitas Anda dengan teknologi AI tercanggih kami.",
-      "image": {
-        "title": "Alat Gambar Grok AI",
-        "description": "Hasilkan gambar menakjubkan secara instan dengan teknologi text-to-image dan image-to-image dari Grok AI.",
-        "try-now": "Grok AI Image Generator",
-        "check-more": "Pelajari Lebih Lanjut"
-      },
-      "video": {
-        "title": "Alat Video AI",
-        "description": "Buat video animasi menarik dengan teknologi text-to-video dan image-to-video dari Grok AI.",
-        "try-now": "Grok AI Video Generator",
-        "check-more": "Pelajari Lebih Lanjut"
-      },
-      "tools": {
-        "title": "Alat AI Gratis",
-        "description": "Mulai perjalanan kreatif Anda dengan alat AI gratis dari Grok AI.",
-        "try-now": "Gambar ke Prompt Gratis",
-        "check-more": "Pelajari Lebih Lanjut"
-      }
+      "title": "Artikel & Berita yang Direkomendasikan tentang Generator Gambar AI Grok",
+      "description": "Jelajahi artikel, berita, dan pembaruan terbaru dari Generator Gambar AI Grok. Dapatkan wawasan ahli, tutorial, dan tetap terinformasi tentang teknologi AI terdepan dan perkembangan platform kami."
     },
     "links": {
       "title": "Jelajahi Lebih Banyak Alat AI Terkait Grok AI",
@@ -365,8 +1251,8 @@
       "time": "Tanggal"
     },
     "recommend": {
-      "title": "Artikel Lain tentang Grok AI",
-      "description": "Temukan lebih banyak artikel & berita tentang Grok AI."
+      "title": "Lebih Banyak Artikel Tentang Generator Gambar AI Grok",
+      "description": "Temukan lebih banyak artikel & berita tentang Generator Gambar AI Grok."
     },
     "like": {
       "success": "Terima kasih atas dukungan Anda!",
@@ -376,26 +1262,61 @@
   "Metadata": {
     "common": {
       "siteName": "grokimagegenerator.net",
-      "creator": "Grok AI Image Generator Terbaik"
+      "creator": "Generator Gambar AI Grok"
     },
     "home": {
-      "title": "Grok 3 AI Image Generator - 100% gratis, tanpa daftar, tanpa kartu kredit",
-      "description": "Grok 3 AI Image Generator, didukung oleh Grok 3 AI. 100% gratis tanpa perlu daftar, tanpa kartu kredit, dan tanpa batasan. Hasilkan gambar menakjubkan untuk semua kebutuhan kreatif Anda.",
-      "keywords": "Grok 3 AI Image Generator, Generator Gambar",
+      "title": "Generator Gambar AI Grok - 100% gratis, tanpa perlu daftar, tanpa kartu kredit",
+      "description": "Gratis mencoba Generator Gambar AI Grok, didukung oleh Grok AI. 100% gratis tanpa perlu daftar, tanpa kartu kredit, dan tanpa batasan. Buat gambar menakjubkan untuk semua kebutuhan kreatif Anda.",
+      "keywords": "Generator Gambar AI Grok 3, Generator Gambar",
       "openGraph": {
-        "title": "Grok 3 AI Image Generator - 100% gratis, tanpa daftar, tanpa kartu kredit",
-        "description": "Grok 3 AI Image Generator, didukung oleh Grok 3 AI. 100% gratis tanpa perlu daftar, tanpa kartu kredit, dan tanpa batasan. Hasilkan gambar menakjubkan untuk semua kebutuhan kreatif Anda.",
+        "title": "Generator Gambar AI Grok - 100% gratis, tanpa perlu daftar, tanpa kartu kredit",
+        "description": "Gratis mencoba Generator Gambar AI Grok, didukung oleh Grok AI. 100% gratis tanpa perlu daftar, tanpa kartu kredit, dan tanpa batasan. Buat gambar menakjubkan untuk semua kebutuhan kreatif Anda.",
         "siteName": "grokimagegenerator.net"
       },
       "twitter": {
-        "title": "Grok 3 AI Image Generator - 100% gratis, tanpa daftar, tanpa kartu kredit",
-        "description": "Grok 3 AI Image Generator, didukung oleh Grok 3 AI. 100% gratis tanpa perlu daftar, tanpa kartu kredit, dan tanpa batasan. Hasilkan gambar menakjubkan untuk semua kebutuhan kreatif Anda.",
+        "title": "Generator Gambar AI Grok - 100% gratis, tanpa perlu daftar, tanpa kartu kredit",
+        "description": "Gratis mencoba Generator Gambar AI Grok, didukung oleh Grok AI. 100% gratis tanpa perlu daftar, tanpa kartu kredit, dan tanpa batasan. Buat gambar menakjubkan untuk semua kebutuhan kreatif Anda.",
         "site": "grokimagegenerator.net",
-        "creator": "Grok 3 AI Image Generator"
+        "creator": "Generator Gambar AI Grok 3"
+      }
+    },
+    "grok4-ai-image-generator": {
+      "title": "Generator Gambar AI Grok 4 - 100% gratis, tanpa perlu daftar, tanpa kartu kredit",
+      "description": "Gratis mencoba Generator Gambar AI Grok 4, didukung oleh Grok 4 AI. 100% gratis tanpa perlu daftar, tanpa kartu kredit, dan tanpa batasan. Buat gambar menakjubkan untuk semua kebutuhan kreatif Anda.",
+      "keywords": "Generator Gambar AI Grok 4, Generator Gambar"
+    },
+    "free-image-upscaler": {
+      "title": "Perbesar Gambar AI Cepat Aman 100% Gratis - Peningkatan Gambar Kualitas Profesional",
+      "description": "100% gratis, perbesar dan tingkatkan gambar Anda dengan aman menggunakan teknologi AI canggih. Dapatkan peningkatan resolusi menakjubkan 2x-4x sambil mempertahankan kualitas sempurna. Sepenuhnya gratis, tanpa perlu registrasi, hasil instan."
+    },
+    "free-image-format-converter": {
+      "webp-to-jpg": {
+        "title": "Konverter Format Gambar WebP ke JPG Cepat Aman 100% Gratis",
+        "description": "100% gratis, konversi WebP ke JPG secara instan dengan kualitas sempurna. Aman, tanpa perlu daftar, dan sepenuhnya gratis selamanya."
+      },
+      "webp-to-png": {
+        "title": "Konverter Format Gambar WebP ke PNG Cepat Aman 100% Gratis",
+        "description": "100% gratis, konversi WebP ke PNG secara instan dengan kualitas superior. Aman, mudah digunakan, dan benar-benar gratis."
+      },
+      "jpg-to-webp": {
+        "title": "Konverter Format Gambar JPG ke WebP Cepat Aman 100% Gratis",
+        "description": "100% gratis, ubah JPG ke WebP dengan hasil sempurna. Aman, konversi instan, sepenuhnya gratis untuk digunakan."
+      },
+      "jpg-to-png": {
+        "title": "Konverter Format Gambar JPG ke PNG Cepat Aman 100% Gratis",
+        "description": "100% gratis, konversi JPG ke PNG dengan kualitas luar biasa. Aman, cepat dan benar-benar gratis - tanpa perlu registrasi."
+      },
+      "png-to-webp": {
+        "title": "Konverter Format Gambar PNG ke WebP Cepat Aman 100% Gratis",
+        "description": "100% gratis, konversi PNG ke WebP dengan hasil superior. Aman, pemrosesan instan, dan sepenuhnya gratis selamanya."
+      },
+      "png-to-jpg": {
+        "title": "Konverter Format Gambar PNG ke JPG Cepat Aman 100% Gratis",
+        "description": "100% gratis, ubah PNG ke JPG dengan kualitas sempurna. Aman, sederhana dan benar-benar gratis - tanpa perlu daftar."
       }
     },
     "blog": {
-      "title": "Artikel & Berita tentang Grok 3 AI Image Generator",
+      "title": "Artikel & Berita tentang Generator Gambar AI Grok",
       "titleSuffix": "grokimagegenerator.net"
     }
   }

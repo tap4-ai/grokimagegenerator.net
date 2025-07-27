@@ -1,6 +1,6 @@
 export const UTM_SOURCE = 'grokimagegenerator.net';
 
-export const STORE_FREFIX = 'freeimgen';
+export const STORE_FREFIX = 'grokimagegenerator';
 
 export * from './auth';
 export * from './blog-page';

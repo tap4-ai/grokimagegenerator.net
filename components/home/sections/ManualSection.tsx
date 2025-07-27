@@ -20,7 +20,7 @@ export default function ManualSection({
         <h2 className='text-4xl font-semibold'>{title}</h2>
         <p className='text-balance text-white/70'>{content}</p>
       </div>
-      <div className='flex w-full flex-col items-center gap-3 rounded-xl py-10'>
+      <div className='flex w-full flex-col items-center gap-3 rounded-xl py-10 bg-[#202020]'>
         {subTitle && (
           <div className='text-center text-lg leading-7 font-semibold tracking-[0.06em] text-white capitalize lg:text-xl lg:leading-9'>
             {subTitle}
