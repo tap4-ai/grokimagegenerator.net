@@ -26,9 +26,9 @@ export const NAV_LINKS = [
     code: 'blog',
     href: '/blog',
   },
-  {
-    code: 'dream-ai-video',
-    href: 'https://videoweb.ai/image-to-video/',
-    target: '_blank',
-  },
+  // {
+  //   code: 'dream-ai-video',
+  //   href: 'https://videoweb.ai/image-to-video/',
+  //   target: '_blank',
+  // },
 ];
